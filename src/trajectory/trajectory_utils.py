@@ -124,7 +124,7 @@ def root_by_stem_marker(adata: AnnData, embedding: str = MAIN_EMBEDDING) -> str:
         missing = sorted(set(STEM_MARKERS) - set(genes))
         print(f"stem markers absent from the dataset: {', '.join(missing)}")
     sc.tl.score_genes(adata, gene_list = genes, score_name = "stem_score", 
-                        random_state = SEED )
+                        random_state = SEED, use_raw = False)
     scores = adata.obs["stem_score"].to_numpy()
     positions = np.flatnonzero(adata.obs[CELL_TYPE_KEY].to_numpy() == ROOT_CELL_TYPE)
     if positions.size == 0:

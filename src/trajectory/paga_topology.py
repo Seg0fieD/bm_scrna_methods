@@ -82,7 +82,7 @@ def main() -> None:
     for embedding in EMBEDDINGS:
         compute_paga(adata, embedding)
         full = connectivity_frame(adata, "connectivities")
-        tree = connectivity_frame(adata, "connectivities_tree ")
+        tree = connectivity_frame(adata, "connectivities_tree")
         save_table(full, f"paga_topology_{embedding}_connectivities")
         save_table(tree, f"paga_topology_{embedding}_tree")
         save_table(edge_table(full), f"paga_topology_{embedding}_edges", index = False)

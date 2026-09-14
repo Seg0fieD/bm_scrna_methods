@@ -15,7 +15,7 @@ from anndata import AnnData
 PROJECT_ROOT   = Path(__file__).resolve().parents[2]
 ANNOTATED_H5AD = PROJECT_ROOT / "data" / "processed" / "bm_annotated.h5ad"
 EMBEDDING_DIR  = PROJECT_ROOT / "results" / "benchmark" / "embeddings"
-RESULT_DIR    = PROJECT_ROOT / "results" / "trajectory"
+RESULT_DIR     = PROJECT_ROOT / "results" / "trajectory"
 FIGURE_DIR     = PROJECT_ROOT / "figures" / "trajectory"
 
 SEED                 = 7

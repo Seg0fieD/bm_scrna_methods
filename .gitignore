@@ -25,4 +25,5 @@ __pycache__/
 .DS_Store
 
 notebooks/dimensionality_reduction_benchmark.ipynb
-doks_info
+docs/*
+!docs/.gitkeep

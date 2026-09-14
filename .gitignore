@@ -1,0 +1,28 @@
+# data and large binaries
+data/*
+!data/.gitkeep
+*.h5ad
+*.h5
+*.loom
+*.mtx
+*.npz
+*.pt
+
+# outputs
+figures/*
+!figures/.gitkeep
+results/*
+!results/.gitkeep
+
+# environments
+envs/*.tar.gz
+
+# python, editor, os
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+notebooks/dimensionality_reduction_benchmark.ipynb
+doks_info

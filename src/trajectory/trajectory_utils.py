@@ -1,4 +1,4 @@
-"""Shared paths, settings and helper funtions for bone marrow Trajectory analysis."""
+"""Shared paths, settings and helper functions for bone marrow Trajectory analysis."""
 
 from __future__ import annotations
 import random
@@ -55,9 +55,8 @@ def embedding_key(name: str) -> str:
 
 
 def run_tag(embedding: str, root_method: str) -> str:
-   
-   """Return the output prefix for one embedding and root-method pair."""
-   return f"{embedding}_{root_method}"
+    """Return the output prefix for one embedding and root-method pair."""
+    return f"{embedding}_{root_method}"
 
 def run_grid() -> list[tuple[str, str]]:
     """Return every embedding and root-method pair, primary combination first."""
@@ -149,7 +148,7 @@ def save_table(frame: pd.DataFrame, name: str, index: bool = True) -> Path:
     """Write a table as CSV to the trajectroy results directory."""
     path = RESULT_DIR / f"{name}.csv"
     frame.to_csv(path, index = index)
-    print(f"wrote {path} ({len(frame)} rows")
+    print(f"wrote {path} ({len(frame)} rows)")
     return path
 
 def save_matrix(matrix: np.ndarray, name:str, features: list[str]) -> Path:

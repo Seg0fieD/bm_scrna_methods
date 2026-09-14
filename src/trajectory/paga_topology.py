@@ -35,6 +35,7 @@ def compute_paga(adata: AnnData, embedding: str) -> None:
                     random_state = SEED,
                     )
     sc.tl.paga(adata, groups = CELL_TYPE_KEY)
+    adata.uns["paga"].pop("pos", None)
     print(f"PAGA computed on {embedding}")
 
 def connectivity_frame(adata: AnnData, key: str) -> pd.DataFrame:

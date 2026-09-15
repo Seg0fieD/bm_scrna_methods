@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import palantir 
 import pandas as pd
+from typing import Any
 from anndata import AnnData
 from scipy.stats import spearmanr
 
@@ -52,7 +53,7 @@ def run_palantir_once(adata: AnnData, embedding: str, root_method: str, space_ke
     """Run Palantir for one embedding and root selection, returing its result object and root barcode. """
     root = select_root(adata, root_method, embedding)
     tag  = run_tag(embedding, root_method)
-    result = palantir.core.run_palantir(
+    result: Any = palantir.core.run_palantir(
         adata, 
         early_cell      = root,
         knn             = PALANTIR_KNN, 
@@ -70,7 +71,7 @@ def run_palantir_once(adata: AnnData, embedding: str, root_method: str, space_ke
 def run_correlation(frame: pd.DataFrame) -> pd.DataFrame:
     """Return the Spearman correlation of pseudotime between every pair of runs."""
     matrix, _ = spearmanr(frame.to_numpy())
-    return pd.DataFrame(matrix, index = frame.columns, columns = frame.columns)
+    return pd.DataFrame(matrix, index = frame.columns, columns = frame.columns) # type: ignore
 
 def plot_umap_grid(adata: AnnData, frame: pd.DataFrame) -> None:
     """Draw pseudotime on the UMAP for every run, on one shared zero to one scale."""
@@ -133,7 +134,7 @@ def main() -> None:
             adata, embedding, root_method, spaces[embedding]
         )
 
-        pseudotime[tag] = result.pseudotime.reindex(adata.obs_names)
+        pseudotime[tag] = result.pseudotime.reindex(adata.obs_names) # type: ignore
         entropy[tag] = result.entropy.reindex(adata.obs_names)
         roots.append({"run": tag, "root": root, "cell_type": labels.loc[root]})
 

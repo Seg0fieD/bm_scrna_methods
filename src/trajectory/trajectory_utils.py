@@ -67,7 +67,7 @@ def run_grid() -> list[tuple[str, str]]:
     """Return every embedding and root-method pair, primary combination first."""
     pairs = list(product(EMBEDDINGS, ROOT_METHODS))
     pairs.sort(key = _grid_order) 
-    return pairs
+    return pairs # pyright: ignore[reportReturnType]
 
 def _grid_order(pair: tuple[str, str]) -> tuple[int, int]:
     """

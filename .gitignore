@@ -1,12 +1,15 @@
 # data and large binaries
 data/*
 !data/.gitkeep
+!data/processed/
+data/processed/*
 *.h5ad
 *.h5
 *.loom
 *.mtx
 *.npz
 *.pt
+!data/processed/bm_annotated.h5ad
 
 # outputs
 figures/*

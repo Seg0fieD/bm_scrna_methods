@@ -5,8 +5,11 @@ import random
 from itertools import product
 from pathlib import Path
 
-from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
+from matplotlib.axes import Axes
+from matplotlib.figure import Figure
+from matplotlib.colorbar import Colorbar
+
 import numpy as np
 import pandas as pd
 import scanpy as sc 
@@ -23,6 +26,8 @@ N_NEIGHBORS          = 15
 DPI                  = 300
 FIGSIZE              = (15, 8)
 UMAP_LEGEND_FONTSIZE = 6
+BACKGROUND           = "#12141a"
+FOREGROUND           = "#e6e6e6"
 
 CELL_TYPE_KEY        = "cell_type" 
 DONOR_KEY            =  "donor"
@@ -172,4 +177,18 @@ def save_figure(figure: Figure, name: str) -> Path:
     plt.close(figure)
     print(f"wrote {path}")
     return path
+
+def style_dark(figure: Figure, axis: Axes) -> None:
+    """Apply a dark canvas with ligt text, ticks and spines"""
+    figure.patch.set_facecolor(BACKGROUND)
+    axis.set_facecolor(BACKGROUND)
+    axis.title.set_color(FOREGROUND)
+    axis.tick_params(colors=FOREGROUND)
+    for spine in axis.spines.values():
+        spine.set_color(FOREGROUND)
+
+def style_bar(bar: Colorbar) -> None:
+    """Apply light text and ticks to a color bar."""
+    bar.ax.yaxis.label.set_color(FOREGROUND)
+    bar.ax.tick_params(colors = FOREGROUND)
 

@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import matplotlib.pyplot as plt
 from matplotlib.axes import Axes
-from matplotlib.figure import Figure
 from matplotlib.collections import LineCollection
 from matplotlib.colors import Normalize
 
@@ -15,15 +14,14 @@ from anndata import AnnData
 
 from trajectory_utils import (
     CELL_TYPE_KEY, EMBEDDINGS, N_NEIGHBORS, FIGSIZE, SEED,
-    attach_embeddings, embedding_key, load_annotated, save_figure, save_table, set_seed
+    attach_embeddings, embedding_key, load_annotated, save_figure, save_table, set_seed, style_dark,
 )
 
 PLOT_THRESHOLD  = 0.10
 EDGE_CMAP       = "cividis"
 HEATMAP_CMAP    = "magma"
 HEATMAP_FIGSIZE = (11, 9)
-BACKGROUND      = "#12141a"
-FOREGROUND      = "#e6e6e6"
+
 
 def ensure_categorical(adata: AnnData) -> None:
     """Cast the cell type column to categorical dtype, as required for PAGA grouping"""
@@ -81,14 +79,6 @@ def recolor_edges(axis: Axes) -> None:
         norm = Normalize(vmin = widths.min(), vmax = widths.max())
         collection.set_color(palette(0.30 + 0.70 * norm(widths)))
 
-def style_dark(figure: Figure, axis: Axes) -> None:
-    """Apply a dark canvas with ligt text, ticks and spines"""
-    figure.patch.set_facecolor(BACKGROUND)
-    axis.set_facecolor(BACKGROUND)
-    axis.title.set_color(FOREGROUND)
-    axis.tick_params(colors = FOREGROUND)
-    for spine in axis.spines.values():
-        spine.set_color(FOREGROUND)
 
 def plot_graph(adata: AnnData, embedding: str) -> None:
     """Draw the PAGA graph colored by cell type and write it to the figure directory."""
@@ -112,10 +102,7 @@ def plot_heatmap(frame: pd.DataFrame, embedding: str) -> None:
     axis.set_xticks(range(len(labels)), labels, rotation = 90, fontsize = 8)    
     axis.set_yticks(range(len(labels)), labels, fontsize = 8)        
     axis.set_title(f"PAGA connectivity on {embedding}")
-    bar = figure.colorbar(image, ax = axis, shrink = 0.8, label = "connectivity")
-    # bar.ax.yaxis.label.set_color(FOREGROUND)
-    # bar.ax.tick_params(colors = FOREGROUND)
-    # style_dark(figure, axis)
+    figure.colorbar(image, ax = axis, shrink = 0.8, label = "connectivity")
     save_figure(figure, f"paga_topology_{embedding}_heatmap")
 
 def main() -> None:

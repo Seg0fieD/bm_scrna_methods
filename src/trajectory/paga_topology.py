@@ -77,7 +77,7 @@ def recolor_edges(axis: Axes) -> None:
         if widths.size == 0:
             continue
         norm = Normalize(vmin = widths.min(), vmax = widths.max())
-        collection.set_color(palette(0.30 + 0.70 * norm(widths)))
+        collection.set_color(palette(0.30 + 0.70 * norm(widths))) # pyright: ignore[reportArgumentType]
 
 
 def plot_graph(adata: AnnData, embedding: str) -> None:

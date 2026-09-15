@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import matplotlib.pyplot as plt
 from matplotlib.axes import Axes
+from matplotlib.figure import Figure
 from matplotlib.collections import LineCollection
 from matplotlib.colors import Normalize
 
@@ -17,11 +18,12 @@ from trajectory_utils import (
     attach_embeddings, embedding_key, load_annotated, save_figure, save_table, set_seed
 )
 
-
 PLOT_THRESHOLD  = 0.10
-EDGE_CMAP       = "Blues"
-HEATMAP_CMAP    = "Blues"
+EDGE_CMAP       = "cividis"
+HEATMAP_CMAP    = "magma"
 HEATMAP_FIGSIZE = (11, 9)
+BACKGROUND      = "#12141a"
+FOREGROUND      = "#e6e6e6"
 
 def ensure_categorical(adata: AnnData) -> None:
     """Cast the cell type column to categorical dtype, as required for PAGA grouping"""
@@ -77,19 +79,29 @@ def recolor_edges(axis: Axes) -> None:
         if widths.size == 0:
             continue
         norm = Normalize(vmin = widths.min(), vmax = widths.max())
-        collection.set_color(palette(0.35 + 0.65 * norm(widths)))
+        collection.set_color(palette(0.30 + 0.70 * norm(widths)))
+
+def style_dark(figure: Figure, axis: Axes) -> None:
+    """Apply a dark canvas with ligt text, ticks and spines"""
+    figure.patch.set_facecolor(BACKGROUND)
+    axis.set_facecolor(BACKGROUND)
+    axis.title.set_color(FOREGROUND)
+    axis.tick_params(colors = FOREGROUND)
+    for spine in axis.spines.values():
+        spine.set_color(FOREGROUND)
 
 def plot_graph(adata: AnnData, embedding: str) -> None:
     """Draw the PAGA graph colored by cell type and write it to the figure directory."""
     figure, axis = plt.subplots(figsize = FIGSIZE)
     sc.pl.paga( adata, color = CELL_TYPE_KEY, 
                 threshold = PLOT_THRESHOLD,  layout = "fr",
-                random_state = SEED, fontsize = 9, fontoutline = 3, 
+                random_state = SEED, fontsize = 9, fontoutline = 1, 
                 ax = axis, node_size_scale = 1.5, edge_width_scale = 0.7,
                 min_edge_width = 0.3, max_edge_width = 6.0, frameon = False,
                 show = False )
     recolor_edges(axis)
     axis.set_title(f"PAGA topology on {embedding}")
+    style_dark(figure, axis)
     save_figure(figure, f"paga_topology_{embedding}")
 
 def plot_heatmap(frame: pd.DataFrame, embedding: str) -> None: 
@@ -100,7 +112,10 @@ def plot_heatmap(frame: pd.DataFrame, embedding: str) -> None:
     axis.set_xticks(range(len(labels)), labels, rotation = 90, fontsize = 8)    
     axis.set_yticks(range(len(labels)), labels, fontsize = 8)        
     axis.set_title(f"PAGA connectivity on {embedding}")
-    figure.colorbar(image, ax = axis, shrink = 0.8, label = "connectivity")
+    bar = figure.colorbar(image, ax = axis, shrink = 0.8, label = "connectivity")
+    # bar.ax.yaxis.label.set_color(FOREGROUND)
+    # bar.ax.tick_params(colors = FOREGROUND)
+    # style_dark(figure, axis)
     save_figure(figure, f"paga_topology_{embedding}_heatmap")
 
 def main() -> None:

@@ -36,7 +36,7 @@ EMBEDDINGS           = ("diffmap_pca", "diffmap_scvi")
 MAIN_EMBEDDING       = "diffmap_pca"
 
 ROOT_METHODS         =  ("diffusion", "marker")
-MAIN_ROOT_METHODS    =  "diffusion"
+MAIN_ROOT_METHODS    =  "marker" #"diffusion"
 ROOT_CELL_TYPE       =  "HSPC"
 STEM_MARKERS         = ("CD34", "AVP", "CRHBP", "SPINK2")
 

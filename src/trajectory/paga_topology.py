@@ -26,7 +26,7 @@ HEATMAP_FIGSIZE = (11, 9)
 def ensure_categorical(adata: AnnData) -> None:
     """Cast the cell type column to categorical dtype, as required for PAGA grouping"""
     if not isinstance(adata.obs[CELL_TYPE_KEY].dtype, pd.CategoricalDtype):
-        adata.obs[CELL_TYPE_KEY] = adata.obs[CELL_TYPE_KEY].astype("category")
+        adata.obs[CELL_TYPE_KEY] = adata.obs[CELL_TYPE_KEY].astype("category") # type: ignore
 
 def cell_counts(adata :AnnData) -> pd.DataFrame:
     """Return the number of cells per cel type, in category order."""

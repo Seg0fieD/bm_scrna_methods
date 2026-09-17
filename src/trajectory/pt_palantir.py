@@ -28,7 +28,7 @@ CELLTYPE_FIGSIZE = (9, 11)
 def multiscale_space(adata: AnnData, embedding: str) -> str:
     """ 
         Build the Palantir diffusion map of the matching base embedding and
-        return its ``obsm`` key.
+        return its "obsm" key.
     """
     suffix = f"_{embedding}"
     palantir.utils.run_diffusion_maps(
@@ -147,7 +147,7 @@ def main() -> None:
         )
 
     frame = pd.DataFrame(pseudotime)
-    means = frame.groupby(labels, observed=True).mean()
+    means = frame.groupby(labels, observed=True).mean() # type: ignore
 
     save_table(frame, "pt_palantir_pseudotime")
     save_table(pd.DataFrame(entropy), "pt_palantir_entropy")

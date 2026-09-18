@@ -1,4 +1,4 @@
-# data and large binaries
+
 data/*
 !data/.gitkeep
 !data/processed/
@@ -11,16 +11,16 @@ data/processed/*
 *.pt
 !data/processed/bm_annotated.h5ad
 
-# outputs
+
 figures/*
 !figures/.gitkeep
 results/*
 !results/.gitkeep
 
-# environments
+
 envs/*.tar.gz
 
-# python, editor, os
+
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
@@ -30,3 +30,5 @@ __pycache__/
 notebooks/dimensionality_reduction_benchmark.ipynb
 docs/*
 !docs/.gitkeep
+
+src/cell_cell_communication/_.py

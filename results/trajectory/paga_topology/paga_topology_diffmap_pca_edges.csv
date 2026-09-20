@@ -1,0 +1,58 @@
+source,target,connectivity
+T activated,CD8 T memory,1.0
+CD4 T memory,T proliferating,0.913551821019363
+NK,T proliferating,0.8663434124576296
+CD4 T naive,T activated,0.7156457860466747
+HSPC,Platelet,0.7069863873117872
+HSPC,Pre-B large,0.6984118543488562
+Monocyte classical,Monocyte non-classical,0.4647783802181362
+CD4 T memory,T activated,0.3955746749182356
+Granulocyte precursor,Dendritic cell,0.3783639336016097
+CD8 T cytotoxic,NK,0.3186639176069278
+HSPC,Granulocyte precursor,0.30389260020554987
+CD4 T naive,CD4 T memory,0.3013219281541507
+Dendritic cell,Plasmacytoid DC,0.28556395189317724
+Monocyte non-classical,Dendritic cell,0.2494082837759074
+CD4 T memory,CD8 T memory,0.24593253244774627
+Pre-B large,Pre-B small,0.22800907331678108
+Erythroid early,Erythroid late,0.2027297288644206
+CD8 T memory,CD8 T cytotoxic,0.19024426396332292
+Erythroid late,Platelet,0.15623831129758828
+Plasmacytoid DC,T activated,0.13732489994282449
+Granulocyte precursor,Monocyte classical,0.1250465954274354
+Platelet,CD4 T memory,0.07735610455233521
+T activated,CD8 T cytotoxic,0.07500189593756343
+Monocyte classical,Dendritic cell,0.07013544987619555
+Platelet,CD4 T naive,0.061735177602712854
+CD8 T memory,T proliferating,0.060080073113730086
+HSPC,Erythroid early,0.05468788367593129
+HSPC,Dendritic cell,0.04966722224405012
+Pre-B small,B naive,0.037824186586824016
+HSPC,Plasmacytoid DC,0.03740092341711047
+HSPC,Pre-B small,0.03732794600556489
+Granulocyte precursor,Platelet,0.025182038834951456
+CD8 T memory,NK,0.015738579301506628
+HSPC,Monocyte non-classical,0.015068296559834738
+CD4 T naive,CD8 T memory,0.009068419502296676
+Granulocyte precursor,Erythroid late,0.0086892797319933
+Monocyte non-classical,CD4 T naive,0.0074288489901038895
+Monocyte non-classical,T activated,0.006858624303470701
+Erythroid late,CD4 T naive,0.005605856733738362
+HSPC,NK,0.004012825503647245
+Monocyte non-classical,CD4 T memory,0.003930289194174634
+Plasmacytoid DC,CD4 T naive,0.0037185516333797805
+Monocyte non-classical,B naive,0.0034530034273950075
+Monocyte classical,Erythroid late,0.0031993133327339147
+Granulocyte precursor,CD4 T naive,0.003132257315373897
+CD4 T memory,NK,0.0030839444065995226
+Plasmacytoid DC,B naive,0.002900844837373335
+HSPC,CD8 T memory,0.002072943353652411
+HSPC,Erythroid late,0.0020673877265739455
+B naive,T activated,0.0016419876437962272
+CD4 T naive,CD8 T cytotoxic,0.001547381693994187
+Monocyte non-classical,CD8 T memory,0.0008954379059284332
+B naive,CD4 T naive,0.0006891695932728568
+HSPC,CD4 T naive,0.00045860862898825655
+HSPC,CD4 T memory,0.00045493198406363635
+CD4 T memory,CD8 T cytotoxic,0.00038374410099169324
+B naive,CD4 T memory,0.000264636600534427

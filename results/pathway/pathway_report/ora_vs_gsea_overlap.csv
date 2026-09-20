@@ -1,0 +1,58 @@
+cell_type,library,both,ora_only,gsea_only
+B naive,GO_BP,2,96,0
+B naive,KEGG,22,17,0
+B naive,Reactome,5,33,3
+CD4 T memory,GO_BP,0,129,0
+CD4 T memory,KEGG,4,70,0
+CD4 T memory,Reactome,1,137,0
+CD4 T naive,GO_BP,0,38,0
+CD4 T naive,KEGG,0,14,0
+CD4 T naive,Reactome,0,55,0
+CD8 T cytotoxic,GO_BP,2,210,0
+CD8 T cytotoxic,KEGG,3,51,0
+CD8 T cytotoxic,Reactome,2,237,0
+CD8 T memory,GO_BP,12,188,0
+CD8 T memory,KEGG,11,56,0
+CD8 T memory,Reactome,5,234,0
+Dendritic cell,GO_BP,6,279,0
+Dendritic cell,KEGG,26,49,6
+Dendritic cell,Reactome,20,151,76
+Erythroid early,GO_BP,0,150,0
+Erythroid early,KEGG,4,20,7
+Erythroid early,Reactome,56,144,91
+Erythroid late,GO_BP,24,163,15
+Erythroid late,KEGG,17,20,13
+Erythroid late,Reactome,155,229,25
+Granulocyte precursor,GO_BP,16,162,0
+Granulocyte precursor,KEGG,15,14,0
+Granulocyte precursor,Reactome,11,233,0
+HSPC,GO_BP,3,130,2
+HSPC,KEGG,16,20,16
+HSPC,Reactome,81,142,60
+Monocyte classical,GO_BP,53,365,8
+Monocyte classical,KEGG,21,64,1
+Monocyte classical,Reactome,20,136,5
+Monocyte non-classical,GO_BP,22,444,1
+Monocyte non-classical,KEGG,53,31,23
+Monocyte non-classical,Reactome,14,169,2
+NK,GO_BP,2,202,0
+NK,KEGG,13,54,0
+NK,Reactome,9,129,0
+Plasmacytoid DC,GO_BP,1,175,0
+Plasmacytoid DC,KEGG,8,50,2
+Plasmacytoid DC,Reactome,1,104,0
+Platelet,GO_BP,11,162,1
+Platelet,KEGG,13,36,0
+Platelet,Reactome,28,180,6
+Pre-B large,GO_BP,0,194,0
+Pre-B large,KEGG,18,18,12
+Pre-B large,Reactome,171,243,29
+Pre-B small,GO_BP,0,125,0
+Pre-B small,KEGG,9,39,0
+Pre-B small,Reactome,4,70,1
+T activated,GO_BP,1,135,0
+T activated,KEGG,0,24,0
+T activated,Reactome,0,144,0
+T proliferating,GO_BP,6,87,3
+T proliferating,KEGG,23,36,12
+T proliferating,Reactome,150,305,25

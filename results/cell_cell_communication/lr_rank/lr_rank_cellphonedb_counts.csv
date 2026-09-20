@@ -1,0 +1,20 @@
+source,HSPC,Granulocyte precursor,Monocyte classical,Monocyte non-classical,Dendritic cell,Plasmacytoid DC,Erythroid early,Erythroid late,Platelet,Pre-B large,Pre-B small,B naive,CD4 T naive,CD4 T memory,T activated,CD8 T memory,CD8 T cytotoxic,NK,T proliferating
+HSPC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Granulocyte precursor,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Monocyte classical,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Monocyte non-classical,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dendritic cell,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Plasmacytoid DC,1,0,0,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,1
+Erythroid early,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Erythroid late,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Platelet,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1
+Pre-B large,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pre-B small,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+B naive,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CD4 T naive,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CD4 T memory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+T activated,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CD8 T memory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CD8 T cytotoxic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+T proliferating,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0

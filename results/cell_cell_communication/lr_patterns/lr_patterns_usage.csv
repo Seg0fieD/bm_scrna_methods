@@ -1,0 +1,141 @@
+direction,cell_type,pattern,usage,total_usage
+outgoing,B naive,pattern 1,1.0,0.3963129873126192
+outgoing,CD4 T memory,pattern 1,0.20515528107469191,0.86705190537074
+outgoing,CD4 T naive,pattern 1,0.5493807463077857,0.6741701608330523
+outgoing,CD8 T cytotoxic,pattern 1,0.0,0.623801947179107
+outgoing,CD8 T memory,pattern 1,0.035746132686781666,0.6039387953368591
+outgoing,Dendritic cell,pattern 1,0.8084370516396976,0.6298066565124307
+outgoing,Erythroid early,pattern 1,0.0,2.2888748918012412e-38
+outgoing,Granulocyte precursor,pattern 1,0.0,0.722436544713383
+outgoing,Monocyte classical,pattern 1,0.17368425264072213,1.6887855471555302
+outgoing,Monocyte non-classical,pattern 1,0.6432393439665103,0.7323544894907419
+outgoing,NK,pattern 1,0.0,0.6074375558452586
+outgoing,Plasmacytoid DC,pattern 1,0.5395022577428086,0.7097899871005097
+outgoing,Platelet,pattern 1,0.0,1.2516702227790897
+outgoing,Pre-B large,pattern 1,1.0,0.3924188011486726
+outgoing,Pre-B small,pattern 1,0.9528516630260483,0.46436927417368273
+outgoing,T activated,pattern 1,0.6491597068049011,0.6393670099118265
+outgoing,T proliferating,pattern 1,0.09971115570905587,0.6534308739057435
+outgoing,B naive,pattern 2,0.0,0.3963129873126192
+outgoing,CD4 T memory,pattern 2,0.0,0.86705190537074
+outgoing,CD4 T naive,pattern 2,0.0,0.6741701608330523
+outgoing,CD8 T cytotoxic,pattern 2,0.0,0.623801947179107
+outgoing,CD8 T memory,pattern 2,0.0,0.6039387953368591
+outgoing,Dendritic cell,pattern 2,0.19156294836030255,0.6298066565124307
+outgoing,Erythroid early,pattern 2,0.0,2.2888748918012412e-38
+outgoing,Granulocyte precursor,pattern 2,1.0,0.722436544713383
+outgoing,Monocyte classical,pattern 2,0.7132648737404582,1.6887855471555302
+outgoing,Monocyte non-classical,pattern 2,0.12899576304331112,0.7323544894907419
+outgoing,NK,pattern 2,0.0,0.6074375558452586
+outgoing,Plasmacytoid DC,pattern 2,0.0,0.7097899871005097
+outgoing,Platelet,pattern 2,0.0,1.2516702227790897
+outgoing,Pre-B large,pattern 2,0.0,0.3924188011486726
+outgoing,Pre-B small,pattern 2,0.0,0.46436927417368273
+outgoing,T activated,pattern 2,0.0,0.6393670099118265
+outgoing,T proliferating,pattern 2,0.0,0.6534308739057435
+outgoing,B naive,pattern 3,0.0,0.3963129873126192
+outgoing,CD4 T memory,pattern 3,0.19832723488245715,0.86705190537074
+outgoing,CD4 T naive,pattern 3,0.0,0.6741701608330523
+outgoing,CD8 T cytotoxic,pattern 3,1.0,0.623801947179107
+outgoing,CD8 T memory,pattern 3,0.9617271659455838,0.6039387953368591
+outgoing,Dendritic cell,pattern 3,0.0,0.6298066565124307
+outgoing,Erythroid early,pattern 3,0.0,2.2888748918012412e-38
+outgoing,Granulocyte precursor,pattern 3,0.0,0.722436544713383
+outgoing,Monocyte classical,pattern 3,0.0,1.6887855471555302
+outgoing,Monocyte non-classical,pattern 3,0.06509385790123984,0.7323544894907419
+outgoing,NK,pattern 3,1.0,0.6074375558452586
+outgoing,Plasmacytoid DC,pattern 3,0.0,0.7097899871005097
+outgoing,Platelet,pattern 3,0.0,1.2516702227790897
+outgoing,Pre-B large,pattern 3,0.0,0.3924188011486726
+outgoing,Pre-B small,pattern 3,0.047148336973951745,0.46436927417368273
+outgoing,T activated,pattern 3,0.09928306978472387,0.6393670099118265
+outgoing,T proliferating,pattern 3,0.7743025082200724,0.6534308739057435
+outgoing,B naive,pattern 4,0.0,0.3963129873126192
+outgoing,CD4 T memory,pattern 4,0.596517484042851,0.86705190537074
+outgoing,CD4 T naive,pattern 4,0.45061925369221434,0.6741701608330523
+outgoing,CD8 T cytotoxic,pattern 4,0.0,0.623801947179107
+outgoing,CD8 T memory,pattern 4,0.0025267013676343675,0.6039387953368591
+outgoing,Dendritic cell,pattern 4,0.0,0.6298066565124307
+outgoing,Erythroid early,pattern 4,1.0,2.2888748918012412e-38
+outgoing,Granulocyte precursor,pattern 4,0.0,0.722436544713383
+outgoing,Monocyte classical,pattern 4,0.11305087361881966,1.6887855471555302
+outgoing,Monocyte non-classical,pattern 4,0.16267103508893876,0.7323544894907419
+outgoing,NK,pattern 4,0.0,0.6074375558452586
+outgoing,Plasmacytoid DC,pattern 4,0.46049774225719137,0.7097899871005097
+outgoing,Platelet,pattern 4,1.0,1.2516702227790897
+outgoing,Pre-B large,pattern 4,0.0,0.3924188011486726
+outgoing,Pre-B small,pattern 4,0.0,0.46436927417368273
+outgoing,T activated,pattern 4,0.25155722341037506,0.6393670099118265
+outgoing,T proliferating,pattern 4,0.1259863360708718,0.6534308739057435
+incoming,B naive,pattern 1,0.10538535361426662,0.8392693582804815
+incoming,CD4 T memory,pattern 1,0.0,0.3310457540383044
+incoming,CD4 T naive,pattern 1,0.0,0.1655228770191522
+incoming,CD8 T cytotoxic,pattern 1,0.01251932517000654,0.4620989097978735
+incoming,CD8 T memory,pattern 1,0.0,0.9303803279735265
+incoming,Dendritic cell,pattern 1,0.39530427385942074,1.0991103827709203
+incoming,Erythroid early,pattern 1,0.0,0.9152949436508492
+incoming,Erythroid late,pattern 1,0.0,0.6142873671227419
+incoming,HSPC,pattern 1,0.5343784094320209,0.3296487720582898
+incoming,Monocyte classical,pattern 1,0.35057168214440404,1.531591697377928
+incoming,Monocyte non-classical,pattern 1,0.8008687415608726,1.0582345232111532
+incoming,NK,pattern 1,0.0,0.7445228582572533
+incoming,Plasmacytoid DC,pattern 1,0.7646043642231205,1.0265684954961434
+incoming,Platelet,pattern 1,0.4967116646210535,0.708793083093548
+incoming,Pre-B large,pattern 1,0.18851986561936449,0.643021459243129
+incoming,Pre-B small,pattern 1,0.08450480443240665,0.9004647323357658
+incoming,T activated,pattern 1,0.0,0.7632980993045549
+incoming,T proliferating,pattern 1,0.06921271000869597,1.242747246135494
+incoming,B naive,pattern 2,0.0,0.8392693582804815
+incoming,CD4 T memory,pattern 2,0.1850265566686607,0.3310457540383044
+incoming,CD4 T naive,pattern 2,0.1850265566686607,0.1655228770191522
+incoming,CD8 T cytotoxic,pattern 2,0.9874806748299935,0.4620989097978735
+incoming,CD8 T memory,pattern 2,0.2831927235045282,0.9303803279735265
+incoming,Dendritic cell,pattern 2,0.3330094305827831,1.0991103827709203
+incoming,Erythroid early,pattern 2,0.0,0.9152949436508492
+incoming,Erythroid late,pattern 2,0.0,0.6142873671227419
+incoming,HSPC,pattern 2,0.0,0.3296487720582898
+incoming,Monocyte classical,pattern 2,0.05287343853680595,1.531591697377928
+incoming,Monocyte non-classical,pattern 2,0.1991312584391275,1.0582345232111532
+incoming,NK,pattern 2,1.0,0.7445228582572533
+incoming,Plasmacytoid DC,pattern 2,0.0,1.0265684954961434
+incoming,Platelet,pattern 2,0.0,0.708793083093548
+incoming,Pre-B large,pattern 2,0.0,0.643021459243129
+incoming,Pre-B small,pattern 2,0.0,0.9004647323357658
+incoming,T activated,pattern 2,0.0,0.7632980993045549
+incoming,T proliferating,pattern 2,0.7271193332285385,1.242747246135494
+incoming,B naive,pattern 3,0.8946146463857334,0.8392693582804815
+incoming,CD4 T memory,pattern 3,0.8149734433313393,0.3310457540383044
+incoming,CD4 T naive,pattern 3,0.8149734433313393,0.1655228770191522
+incoming,CD8 T cytotoxic,pattern 3,0.0,0.4620989097978735
+incoming,CD8 T memory,pattern 3,0.7168072764954718,0.9303803279735265
+incoming,Dendritic cell,pattern 3,0.0,1.0991103827709203
+incoming,Erythroid early,pattern 3,0.0,0.9152949436508492
+incoming,Erythroid late,pattern 3,0.0,0.6142873671227419
+incoming,HSPC,pattern 3,0.4656215905679791,0.3296487720582898
+incoming,Monocyte classical,pattern 3,0.01228160398352205,1.531591697377928
+incoming,Monocyte non-classical,pattern 3,0.0,1.0582345232111532
+incoming,NK,pattern 3,0.0,0.7445228582572533
+incoming,Plasmacytoid DC,pattern 3,0.0,1.0265684954961434
+incoming,Platelet,pattern 3,0.0,0.708793083093548
+incoming,Pre-B large,pattern 3,0.8114801343806356,0.643021459243129
+incoming,Pre-B small,pattern 3,0.9154951955675933,0.9004647323357658
+incoming,T activated,pattern 3,1.0,0.7632980993045549
+incoming,T proliferating,pattern 3,0.20366795676276556,1.242747246135494
+incoming,B naive,pattern 4,0.0,0.8392693582804815
+incoming,CD4 T memory,pattern 4,0.0,0.3310457540383044
+incoming,CD4 T naive,pattern 4,0.0,0.1655228770191522
+incoming,CD8 T cytotoxic,pattern 4,0.0,0.4620989097978735
+incoming,CD8 T memory,pattern 4,0.0,0.9303803279735265
+incoming,Dendritic cell,pattern 4,0.27168629555779616,1.0991103827709203
+incoming,Erythroid early,pattern 4,1.0,0.9152949436508492
+incoming,Erythroid late,pattern 4,1.0,0.6142873671227419
+incoming,HSPC,pattern 4,0.0,0.3296487720582898
+incoming,Monocyte classical,pattern 4,0.5842732753352681,1.531591697377928
+incoming,Monocyte non-classical,pattern 4,0.0,1.0582345232111532
+incoming,NK,pattern 4,0.0,0.7445228582572533
+incoming,Plasmacytoid DC,pattern 4,0.2353956357768796,1.0265684954961434
+incoming,Platelet,pattern 4,0.5032883353789466,0.708793083093548
+incoming,Pre-B large,pattern 4,0.0,0.643021459243129
+incoming,Pre-B small,pattern 4,0.0,0.9004647323357658
+incoming,T activated,pattern 4,0.0,0.7632980993045549
+incoming,T proliferating,pattern 4,0.0,1.242747246135494

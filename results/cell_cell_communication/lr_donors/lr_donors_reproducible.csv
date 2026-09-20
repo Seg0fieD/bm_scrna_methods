@@ -1,0 +1,1010 @@
+resource,source,target,ligand_complex,receptor_complex,donor_significant,significant_full
+consensus,Pre-B small,NK,HLA-B,KLRD1,8,True
+consensus,B naive,NK,HLA-B,KLRD1,8,True
+consensus,B naive,NK,B2M,KLRD1,8,True
+consensus,Plasmacytoid DC,Pre-B small,APP,CD74,8,True
+consensus,Plasmacytoid DC,NK,HLA-B,KLRD1,8,True
+consensus,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,8,True
+consensus,Plasmacytoid DC,NK,B2M,KLRD1,8,True
+consensus,Plasmacytoid DC,Monocyte non-classical,APP,CD74,8,True
+consensus,NK,CD8 T memory,HLA-B,CD8A,8,False
+consensus,Plasmacytoid DC,Dendritic cell,APP,CD74,8,True
+consensus,Plasmacytoid DC,B naive,APP,CD74,8,True
+consensus,NK,NK,HLA-B,KLRD1,8,True
+consensus,NK,NK,B2M,KLRC1,8,True
+consensus,NK,NK,B2M,KLRD1,8,True
+consensus,CD4 T memory,CD8 T memory,HLA-B,CD8A,8,False
+consensus,NK,CD8 T memory,HLA-C,CD8A,8,True
+consensus,NK,CD4 T memory,HLA-B,CD3D,8,False
+consensus,Monocyte non-classical,NK,HLA-B,KLRD1,8,True
+consensus,Monocyte non-classical,CD8 T memory,HLA-B,CD8A,8,False
+consensus,Monocyte non-classical,NK,B2M,KLRD1,8,True
+consensus,NK,CD8 T cytotoxic,HLA-B,KLRD1,8,False
+consensus,NK,CD8 T cytotoxic,B2M,KLRD1,8,False
+consensus,NK,CD8 T memory,HLA-A,CD8A,8,False
+consensus,Monocyte classical,Monocyte classical,S100A8,CD36,8,True
+consensus,Monocyte classical,Monocyte non-classical,S100A9,CD68,8,True
+consensus,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,8,True
+consensus,Monocyte classical,Monocyte non-classical,S100A8,CD68,8,True
+consensus,Monocyte classical,Monocyte classical,S100A9,ITGB2,8,True
+consensus,Monocyte classical,Monocyte classical,S100A9,CD68,8,True
+consensus,Monocyte classical,Monocyte classical,S100A9,CD36,8,True
+consensus,CD4 T memory,NK,HLA-B,KLRD1,8,True
+consensus,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,8,True
+consensus,Monocyte classical,NK,B2M,KLRD1,8,True
+consensus,Monocyte classical,NK,HLA-B,KLRD1,8,True
+consensus,CD4 T memory,NK,B2M,KLRD1,8,True
+consensus,Monocyte classical,NK,S100A8,ITGB2,8,True
+consensus,Monocyte classical,Plasmacytoid DC,S100A8,CD68,8,True
+consensus,Monocyte classical,NK,S100A9,ITGB2,8,True
+consensus,Monocyte classical,Plasmacytoid DC,S100A9,CD68,8,True
+consensus,Monocyte classical,Pre-B small,S100A8,CD69,8,True
+consensus,CD8 T memory,NK,HLA-B,KLRD1,8,True
+consensus,CD8 T memory,NK,B2M,KLRD1,8,True
+consensus,Dendritic cell,CD8 T cytotoxic,LGALS1,PTPRC,8,False
+consensus,CD8 T memory,CD8 T memory,HLA-B,CD8A,8,False
+consensus,CD8 T memory,CD8 T memory,HLA-A,CD8A,8,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-B,KLRD1,8,False
+consensus,Dendritic cell,CD8 T memory,LGALS1,CD69,8,False
+consensus,Dendritic cell,CD8 T memory,HLA-B,CD8A,8,False
+consensus,Dendritic cell,NK,B2M,KLRD1,8,True
+consensus,CD8 T memory,CD8 T cytotoxic,B2M,KLRD1,8,False
+consensus,CD8 T memory,CD4 T memory,HLA-B,CD3D,8,False
+consensus,Dendritic cell,CD8 T memory,LGALS1,PTPRC,8,False
+consensus,Dendritic cell,NK,HLA-B,KLRD1,8,True
+consensus,Granulocyte precursor,CD4 T memory,LGALS1,PTPRC,8,False
+consensus,Granulocyte precursor,CD8 T cytotoxic,LGALS1,PTPRC,8,False
+consensus,Granulocyte precursor,CD8 T cytotoxic,S100A8,ITGB2,8,True
+consensus,Granulocyte precursor,CD8 T cytotoxic,S100A9,ITGB2,8,True
+consensus,Monocyte classical,Granulocyte precursor,S100A9,ITGB2,8,False
+consensus,Monocyte classical,Granulocyte precursor,S100A8,ITGB2,8,False
+consensus,Monocyte classical,Erythroid late,S100A9,CD36,8,True
+consensus,Monocyte classical,Erythroid late,S100A8,CD36,8,True
+consensus,Monocyte classical,Erythroid early,S100A9,CD36,8,True
+consensus,Monocyte classical,Monocyte classical,S100A8,ITGB2,8,True
+consensus,Monocyte classical,Monocyte classical,S100A8,CD68,8,True
+consensus,Monocyte classical,Erythroid early,S100A8,CD36,8,True
+consensus,Monocyte classical,Erythroid early,S100A12,CD36,8,True
+consensus,Monocyte classical,CD8 T memory,LGALS1,CD69,8,True
+consensus,CD8 T cytotoxic,CD4 T memory,HLA-B,CD3D,8,False
+consensus,Monocyte classical,Dendritic cell,S100A8,ITGB2,8,True
+consensus,Monocyte classical,CD8 T memory,S100A9,ITGB2,8,True
+consensus,Monocyte classical,CD8 T memory,S100A8,ITGB2,8,True
+consensus,Monocyte classical,Dendritic cell,S100A9,ITGB2,8,True
+consensus,Granulocyte precursor,Pre-B small,LGALS1,CD69,8,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,B2M,KLRD1,8,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-B,KLRD1,8,False
+consensus,Monocyte classical,B naive,S100A8,CD69,8,True
+consensus,Monocyte classical,CD4 T memory,LGALS1,PTPRC,8,False
+consensus,Monocyte classical,CD4 T memory,S100A8,CD69,8,True
+consensus,Monocyte classical,CD8 T memory,LGALS1,PTPRC,8,False
+consensus,Monocyte classical,CD8 T memory,S100A8,CD69,8,True
+consensus,CD4 T naive,NK,HLA-B,KLRD1,8,True
+consensus,CD4 T naive,NK,B2M,KLRD1,8,True
+consensus,Monocyte classical,CD8 T cytotoxic,S100A9,ITGB2,8,True
+consensus,Monocyte classical,CD8 T cytotoxic,S100A8,ITGB2,8,True
+consensus,Monocyte classical,CD4 T memory,S100A8,ITGB2,8,False
+consensus,Monocyte classical,CD8 T cytotoxic,LGALS1,PTPRC,8,False
+consensus,Monocyte classical,CD4 T memory,S100A9,ITGB2,8,False
+consensus,CD8 T cytotoxic,NK,B2M,KLRD1,8,True
+consensus,CD8 T cytotoxic,CD8 T memory,HLA-A,CD8A,8,False
+consensus,Granulocyte precursor,Erythroid early,S100A9,CD36,8,True
+consensus,Granulocyte precursor,Erythroid early,S100A8,CD36,8,True
+consensus,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,8,True
+consensus,Granulocyte precursor,Dendritic cell,S100A8,ITGB2,8,True
+consensus,Granulocyte precursor,Dendritic cell,S100A9,ITGB2,8,True
+consensus,Granulocyte precursor,CD8 T memory,LGALS1,CD69,8,True
+consensus,CD8 T cytotoxic,CD8 T memory,HLA-B,CD8A,8,False
+consensus,Granulocyte precursor,Monocyte non-classical,S100A8,CD68,8,True
+consensus,Granulocyte precursor,Monocyte non-classical,S100A8,ITGB2,8,True
+consensus,Granulocyte precursor,Monocyte non-classical,S100A9,CD68,8,True
+consensus,Granulocyte precursor,Monocyte non-classical,S100A9,ITGB2,8,True
+consensus,Granulocyte precursor,NK,S100A8,ITGB2,8,True
+consensus,Granulocyte precursor,NK,S100A9,ITGB2,8,True
+consensus,Granulocyte precursor,Plasmacytoid DC,S100A8,CD68,8,True
+consensus,Granulocyte precursor,Plasmacytoid DC,S100A9,CD68,8,True
+consensus,CD8 T cytotoxic,NK,HLA-B,KLRD1,8,True
+consensus,Monocyte non-classical,CD8 T cytotoxic,LGALS1,PTPRC,7,False
+consensus,Monocyte non-classical,Dendritic cell,B2M,CD1C,7,False
+consensus,CD4 T memory,Dendritic cell,B2M,CD1C,7,True
+consensus,Monocyte non-classical,NK,B2M,KLRC1,7,True
+consensus,NK,CD8 T cytotoxic,HLA-C,CD8A,7,False
+consensus,NK,CD8 T cytotoxic,HLA-A,CD8A,7,False
+consensus,NK,CD8 T cytotoxic,HLA-B,CD3D,7,False
+consensus,NK,CD8 T cytotoxic,HLA-B,CD8A,7,False
+consensus,Plasmacytoid DC,HSPC,APP,CD74,7,True
+consensus,NK,Monocyte non-classical,HLA-C,LILRB2,7,True
+consensus,NK,Monocyte non-classical,HLA-B,LILRB2,7,True
+consensus,NK,Dendritic cell,B2M,CD1C,7,True
+consensus,NK,Monocyte non-classical,HLA-A,LILRB2,7,True
+consensus,CD4 T memory,CD8 T memory,HLA-A,CD8A,7,False
+consensus,NK,CD8 T memory,HLA-B,CD3D,7,False
+consensus,Pre-B small,NK,B2M,KLRD1,7,True
+consensus,Monocyte non-classical,CD8 T memory,LGALS1,PTPRC,7,False
+consensus,CD4 T memory,NK,B2M,KLRC1,7,True
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-B,CD8A,7,False
+consensus,Monocyte classical,CD8 T cytotoxic,LGALS1,ITGB1,7,False
+consensus,Monocyte classical,CD8 T cytotoxic,S100A8,CD69,7,True
+consensus,Monocyte classical,CD4 T memory,LGALS1,CD69,7,False
+consensus,Monocyte classical,Dendritic cell,S100A9,CD36,7,True
+consensus,Monocyte classical,Dendritic cell,S100A8,CD36,7,True
+consensus,Monocyte classical,Erythroid early,LGALS1,ITGB1,7,False
+consensus,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,7,True
+consensus,Monocyte classical,NK,S100A8,CD69,7,True
+consensus,Monocyte classical,Plasmacytoid DC,S100A9,CD36,7,True
+consensus,Monocyte classical,Pre-B small,LGALS1,CD69,7,False
+consensus,Monocyte classical,NK,LGALS1,CD69,7,False
+consensus,Monocyte classical,Plasmacytoid DC,S100A8,CD36,7,True
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-B,CD3D,7,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-A,CD8A,7,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-C,CD8A,7,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,HLA-C,LILRB2,7,True
+consensus,CD8 T cytotoxic,CD8 T memory,HLA-B,CD3D,7,False
+consensus,CD8 T cytotoxic,NK,B2M,KLRC1,7,True
+consensus,Granulocyte precursor,CD8 T memory,LGALS1,PTPRC,7,False
+consensus,Granulocyte precursor,CD8 T memory,S100A8,CD69,7,True
+consensus,Granulocyte precursor,Monocyte classical,S100A8,CD36,7,True
+consensus,Granulocyte precursor,Monocyte classical,S100A9,CD68,7,True
+consensus,Granulocyte precursor,Monocyte classical,S100A8,CD68,7,True
+consensus,Granulocyte precursor,Monocyte classical,S100A8,ITGB2,7,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,HLA-A,LILRB2,7,True
+consensus,Granulocyte precursor,Erythroid early,LGALS1,ITGB1,7,False
+consensus,CD8 T cytotoxic,Dendritic cell,B2M,CD1C,7,True
+consensus,CD8 T cytotoxic,CD8 T memory,HLA-C,CD8A,7,True
+consensus,Dendritic cell,Dendritic cell,TNFSF13B,HLA-DPB1,7,True
+consensus,Dendritic cell,Erythroid early,LGALS1,ITGB1,7,False
+consensus,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,7,True
+consensus,Dendritic cell,NK,LGALS1,CD69,7,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,HLA-B,LILRB2,7,True
+consensus,Dendritic cell,Pre-B small,LGALS1,CD69,7,False
+consensus,Dendritic cell,CD4 T memory,LGALS1,CD69,7,False
+consensus,Dendritic cell,CD4 T memory,LGALS1,PTPRC,7,False
+consensus,CD8 T memory,Monocyte non-classical,HLA-A,LILRB2,7,True
+consensus,CD8 T memory,Monocyte non-classical,HLA-B,LILRB2,7,True
+consensus,CD8 T memory,NK,B2M,KLRC1,7,True
+consensus,CD8 T memory,Dendritic cell,B2M,CD1C,7,True
+consensus,CD8 T memory,CD8 T memory,HLA-B,CD3D,7,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-B,CD8A,7,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-B,CD3D,7,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-A,CD8A,7,False
+consensus,Pre-B small,Monocyte non-classical,RPS19,C5AR1,6,False
+consensus,Pre-B small,CD8 T cytotoxic,HLA-B,KLRD1,6,False
+consensus,B naive,Monocyte non-classical,RPS19,C5AR1,6,False
+consensus,Pre-B small,CD8 T memory,HLA-B,CD8A,6,False
+consensus,Plasmacytoid DC,Dendritic cell,B2M,CD1C,6,False
+consensus,CD8 T memory,Monocyte non-classical,HLA-C,LILRB2,6,True
+consensus,Plasmacytoid DC,Pre-B large,APP,CD74,6,True
+consensus,CD8 T memory,CD8 T memory,HLA-C,CD8A,6,False
+consensus,CD8 T memory,CD8 T memory,HLA-B,CD8B,6,False
+consensus,CD8 T memory,CD8 T memory,HLA-C,CD8B,6,False
+consensus,Plasmacytoid DC,CD8 T memory,HLA-B,CD8A,6,False
+consensus,CD8 T memory,Monocyte non-classical,RPS19,C5AR1,6,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-B,CD8B,6,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-C,CD8A,6,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-C,CD8B,6,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-A,CD8B,6,False
+consensus,CD8 T memory,CD8 T memory,HLA-A,CD8B,6,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,B2M,KLRD1,6,False
+consensus,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,6,True
+consensus,Monocyte classical,NK,LGALS1,PTPRC,6,False
+consensus,CD4 T memory,CD8 T memory,HLA-C,CD8B,6,False
+consensus,NK,CD8 T memory,HLA-B,CD8B,6,False
+consensus,NK,CD8 T cytotoxic,HLA-C,CD8B,6,False
+consensus,NK,CD8 T cytotoxic,HLA-B,CD8B,6,False
+consensus,NK,CD8 T cytotoxic,HLA-A,CD8B,6,False
+consensus,CD4 T memory,Monocyte non-classical,HLA-B,LILRB2,6,False
+consensus,CD4 T memory,Monocyte non-classical,RPS19,C5AR1,6,False
+consensus,Monocyte non-classical,Monocyte non-classical,HLA-B,LILRB2,6,True
+consensus,CD4 T memory,Monocyte non-classical,HLA-A,LILRB2,6,True
+consensus,NK,CD8 T memory,HLA-A,CD8B,6,False
+consensus,CD4 T memory,CD8 T cytotoxic,HLA-B,CD3D,6,False
+consensus,CD4 T memory,CD8 T cytotoxic,B2M,KLRD1,6,False
+consensus,CD4 T memory,CD8 T cytotoxic,HLA-B,KLRD1,6,False
+consensus,CD4 T memory,CD8 T cytotoxic,HLA-B,CD8A,6,False
+consensus,NK,CD8 T memory,HLA-C,CD8B,6,True
+consensus,Plasmacytoid DC,CD8 T cytotoxic,B2M,KLRD1,6,False
+consensus,Granulocyte precursor,Monocyte non-classical,LGALS1,PTPRC,6,False
+consensus,Granulocyte precursor,Monocyte classical,S100A9,ITGB2,6,False
+consensus,Granulocyte precursor,Monocyte classical,S100A9,CD36,6,True
+consensus,HSPC,Monocyte non-classical,RPS19,C5AR1,6,False
+consensus,Granulocyte precursor,NK,LGALS1,CD69,6,False
+consensus,Granulocyte precursor,Monocyte non-classical,RPS19,C5AR1,6,False
+consensus,Granulocyte precursor,NK,S100A8,CD69,6,False
+consensus,Granulocyte precursor,Pre-B small,S100A8,CD69,6,True
+consensus,Granulocyte precursor,CD4 T memory,S100A8,CD69,6,True
+consensus,Granulocyte precursor,CD8 T memory,S100A8,ITGB2,6,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,RPS19,C5AR1,6,False
+consensus,Erythroid late,Monocyte non-classical,RPS19,C5AR1,6,False
+consensus,Granulocyte precursor,CD8 T cytotoxic,LGALS1,ITGB1,6,False
+consensus,CD8 T cytotoxic,CD8 T memory,HLA-A,CD8B,6,False
+consensus,CD8 T cytotoxic,CD8 T memory,HLA-B,CD8B,6,False
+consensus,CD8 T cytotoxic,CD8 T memory,HLA-C,CD8B,6,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-B,CD8B,6,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-A,CD8B,6,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-C,CD8B,6,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,HLA-B,KLRD1,6,False
+consensus,Monocyte non-classical,CD8 T memory,LGALS1,CD69,6,False
+consensus,Monocyte non-classical,Dendritic cell,TNFSF13B,HLA-DPB1,6,True
+consensus,Monocyte classical,Monocyte non-classical,LGALS1,PTPRC,6,False
+consensus,CD4 T naive,CD8 T cytotoxic,B2M,KLRD1,6,False
+consensus,CD4 T memory,CD8 T memory,HLA-C,CD8A,6,False
+consensus,CD4 T naive,NK,B2M,KLRC1,6,True
+consensus,CD8 T memory,CD4 T naive,HLA-B,CD3D,6,False
+consensus,Monocyte classical,CD4 T memory,LGALS1,ITGB1,6,False
+consensus,CD4 T naive,Monocyte non-classical,RPS19,C5AR1,6,False
+consensus,Dendritic cell,Monocyte non-classical,LGALS1,PTPRC,6,False
+consensus,B naive,NK,B2M,KLRC1,5,False
+consensus,Pre-B small,Monocyte non-classical,HLA-B,LILRB2,5,True
+consensus,CD8 T cytotoxic,Plasmacytoid DC,CCL5,CXCR3,5,False
+consensus,Granulocyte precursor,CD8 T memory,S100A9,ITGB2,5,False
+consensus,Granulocyte precursor,B naive,S100A8,CD69,5,False
+consensus,Granulocyte precursor,NK,B2M,KLRD1,5,False
+consensus,HSPC,NK,B2M,KLRD1,5,False
+consensus,Dendritic cell,NK,LGALS1,PTPRC,5,False
+consensus,Granulocyte precursor,Platelet,LGALS1,ITGB1,5,False
+consensus,Granulocyte precursor,NK,HLA-B,KLRD1,5,False
+consensus,CD8 T cytotoxic,CD4 T naive,HLA-B,CD3D,5,False
+consensus,Pre-B large,NK,HLA-B,KLRD1,5,True
+consensus,Platelet,NK,CLEC1B,KLRB1,5,True
+consensus,Plasmacytoid DC,Monocyte non-classical,RPS19,C5AR1,5,False
+consensus,Plasmacytoid DC,NK,B2M,KLRC1,5,True
+consensus,Plasmacytoid DC,Monocyte classical,APP,CD74,5,True
+consensus,Plasmacytoid DC,Monocyte non-classical,HLA-B,LILRB2,5,False
+consensus,Plasmacytoid DC,CD8 T cytotoxic,HLA-B,KLRD1,5,False
+consensus,Pre-B small,CD8 T cytotoxic,HLA-B,CD3D,5,False
+consensus,Monocyte classical,HSPC,S100A8,CD69,5,False
+consensus,Monocyte classical,Dendritic cell,S100A9,CD68,5,True
+consensus,CD4 T naive,Dendritic cell,B2M,CD1C,5,False
+consensus,Dendritic cell,Monocyte classical,VIM,CD44,5,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,HLA-B,CD3D,5,False
+consensus,Dendritic cell,CD8 T cytotoxic,LGALS1,ITGB1,5,False
+consensus,Dendritic cell,CD8 T cytotoxic,HLA-B,KLRD1,5,False
+consensus,Dendritic cell,NK,B2M,KLRC1,5,False
+consensus,Monocyte non-classical,Monocyte non-classical,RPS19,C5AR1,5,False
+consensus,Plasmacytoid DC,CD8 T cytotoxic,HLA-B,CD8A,5,False
+consensus,NK,CD4 T naive,HLA-B,CD3D,5,False
+consensus,CD4 T memory,CD8 T memory,HLA-A,CD8B,5,False
+consensus,Dendritic cell,CD4 T memory,LGALS1,ITGB1,5,False
+consensus,CD4 T memory,CD4 T memory,HLA-B,CD3D,5,False
+consensus,CD4 T memory,CD8 T memory,HLA-B,CD3D,5,False
+consensus,Granulocyte precursor,CD4 T memory,LGALS1,ITGB1,5,False
+consensus,Granulocyte precursor,CD4 T memory,LGALS1,CD69,5,False
+consensus,CD4 T memory,CD8 T memory,HLA-B,CD8B,5,False
+consensus,Monocyte classical,Platelet,LGALS1,ITGB1,5,True
+consensus,Monocyte classical,NK,B2M,KLRC1,5,True
+consensus,Dendritic cell,Monocyte non-classical,HLA-B,LILRB2,5,False
+consensus,Dendritic cell,CD8 T cytotoxic,B2M,KLRD1,5,False
+consensus,CD4 T memory,CD8 T cytotoxic,HLA-A,CD8A,5,False
+consensus,Monocyte classical,B naive,LGALS1,CD69,5,False
+consensus,Monocyte classical,Dendritic cell,B2M,CD1C,5,False
+consensus,Monocyte classical,CD8 T cytotoxic,B2M,KLRD1,5,False
+consensus,Granulocyte precursor,Erythroid late,S100A9,CD36,5,True
+consensus,Granulocyte precursor,CD4 T naive,S100A8,CD69,5,False
+consensus,Granulocyte precursor,Erythroid late,S100A8,CD36,5,True
+consensus,Granulocyte precursor,B naive,LGALS1,CD69,5,False
+consensus,Erythroid early,Monocyte non-classical,RPS19,C5AR1,5,False
+consensus,B naive,CD8 T cytotoxic,B2M,KLRD1,5,False
+consensus,Monocyte classical,B naive,TNFSF13B,HLA-DPB1,5,False
+consensus,Monocyte classical,CD4 T naive,S100A8,ITGB2,5,False
+consensus,Monocyte classical,CD4 T naive,S100A8,CD69,5,True
+consensus,Monocyte classical,CD4 T naive,S100A9,ITGB2,5,False
+consensus,Monocyte classical,Dendritic cell,LGALS1,PTPRC,5,False
+consensus,Monocyte classical,Dendritic cell,S100A8,CD68,5,True
+consensus,Dendritic cell,Monocyte non-classical,RPS19,C5AR1,5,False
+consensus,Pre-B small,NK,B2M,KLRC1,4,False
+consensus,Platelet,Plasmacytoid DC,PF4,CXCR3,4,True
+consensus,B naive,Plasmacytoid DC,HLA-DRA,CD4,4,True
+consensus,Pre-B small,CD8 T cytotoxic,HLA-B,CD8A,4,False
+consensus,Pre-B small,CD8 T cytotoxic,B2M,KLRD1,4,False
+consensus,Platelet,NK,B2M,KLRD1,4,True
+consensus,Platelet,NK,HLA-B,KLRD1,4,False
+consensus,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,4,True
+consensus,Platelet,CD8 T cytotoxic,B2M,KLRD1,4,False
+consensus,Monocyte classical,Erythroid late,S100A12,CD36,4,False
+consensus,Dendritic cell,Monocyte non-classical,VIM,CD44,4,False
+consensus,Monocyte classical,HSPC,AGTRAP,RACK1,4,False
+consensus,CD4 T naive,Monocyte classical,RPS19,C5AR1,4,False
+consensus,CD4 T naive,Monocyte non-classical,HLA-B,LILRB2,4,False
+consensus,Monocyte classical,Monocyte classical,S100A12,CD36,4,True
+consensus,Monocyte classical,Platelet,S100A9,CD68,4,True
+consensus,Monocyte non-classical,CD8 T cytotoxic,HLA-B,CD8A,4,False
+consensus,Monocyte non-classical,CD4 T memory,LGALS1,CD69,4,False
+consensus,Monocyte classical,Pre-B large,S100A8,CD69,4,False
+consensus,Monocyte non-classical,CD8 T memory,HLA-B,CD3D,4,False
+consensus,Dendritic cell,B naive,LGALS1,CD69,4,False
+consensus,Plasmacytoid DC,CD8 T cytotoxic,HLA-B,CD3D,4,False
+consensus,Monocyte non-classical,Pre-B small,LGALS1,CD69,4,False
+consensus,CD4 T memory,Monocyte classical,RPS19,C5AR1,4,False
+consensus,NK,NK,B2M,KLRC2,4,True
+consensus,NK,Monocyte non-classical,RPS19,C5AR1,4,False
+consensus,CD4 T naive,CD8 T cytotoxic,HLA-B,KLRD1,4,False
+consensus,Dendritic cell,Platelet,LGALS1,ITGB1,4,False
+consensus,Granulocyte precursor,NK,LGALS1,PTPRC,4,False
+consensus,HSPC,Monocyte classical,RPS19,C5AR1,4,False
+consensus,Granulocyte precursor,Dendritic cell,S100A9,CD36,4,False
+consensus,Granulocyte precursor,Monocyte classical,RPS19,C5AR1,4,False
+consensus,Granulocyte precursor,Dendritic cell,LGALS1,PTPRC,4,False
+consensus,Granulocyte precursor,Dendritic cell,S100A8,CD36,4,False
+consensus,CD8 T cytotoxic,NK,B2M,KLRC2,4,False
+consensus,CD8 T cytotoxic,NK,CLEC2D,KLRB1,4,False
+consensus,Granulocyte precursor,CD8 T cytotoxic,S100A8,CD69,4,False
+consensus,B naive,Monocyte classical,RPS19,C5AR1,4,False
+consensus,B naive,CD8 T memory,HLA-B,CD8A,4,False
+consensus,B naive,CD8 T cytotoxic,HLA-B,KLRD1,4,False
+consensus,T activated,NK,B2M,KLRD1,3,True
+consensus,T activated,NK,HLA-B,KLRD1,3,True
+consensus,Granulocyte precursor,B naive,TNFSF13B,HLA-DPB1,3,False
+consensus,Pre-B small,Monocyte non-classical,HLA-DRA,CD4,3,False
+consensus,B naive,Monocyte non-classical,HLA-DRA,CD4,3,False
+consensus,Pre-B small,CD8 T memory,HLA-B,CD8B,3,False
+consensus,Granulocyte precursor,Granulocyte precursor,S100A8,ITGB2,3,False
+consensus,Granulocyte precursor,CD4 T memory,S100A8,ITGB2,3,False
+consensus,CD8 T cytotoxic,Monocyte classical,RPS19,C5AR1,3,False
+consensus,CD8 T cytotoxic,CD8 T memory,HLA-B,KLRD1,3,False
+consensus,Granulocyte precursor,CD8 T cytotoxic,HLA-B,KLRD1,3,False
+consensus,Pre-B large,Pre-B small,HMGB1,CXCR4,3,True
+consensus,Pre-B small,Monocyte non-classical,HLA-A,LILRB2,3,False
+consensus,HSPC,NK,HLA-B,KLRD1,3,False
+consensus,Granulocyte precursor,T activated,LGALS1,CD69,3,True
+consensus,Pre-B large,CD8 T cytotoxic,HLA-B,KLRD1,3,False
+consensus,Granulocyte precursor,Plasmacytoid DC,S100A8,CD36,3,False
+consensus,Pre-B large,NK,B2M,KLRD1,3,True
+consensus,Pre-B large,Plasmacytoid DC,HLA-DRA,CD4,3,False
+consensus,Pre-B large,Pre-B large,HMGB1,CXCR4,3,True
+consensus,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,3,True
+consensus,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,3,True
+consensus,Dendritic cell,T activated,LGALS1,CD69,3,True
+consensus,Dendritic cell,Plasmacytoid DC,HLA-DPA1,CD4,3,False
+consensus,Monocyte classical,B naive,CXCL8,CD79A,3,True
+consensus,Monocyte classical,CD4 T naive,LGALS1,CD69,3,False
+consensus,Monocyte classical,CD4 T naive,LGALS1,PTPRC,3,False
+consensus,Granulocyte precursor,T activated,S100A8,CD69,3,True
+consensus,Platelet,NK,B2M,KLRC1,3,True
+consensus,CD8 T memory,Plasmacytoid DC,CCL5,CXCR3,3,False
+consensus,Plasmacytoid DC,Monocyte classical,RPS19,C5AR1,3,False
+consensus,Monocyte classical,CD8 T cytotoxic,HLA-B,KLRD1,3,False
+consensus,Plasmacytoid DC,CD8 T memory,HLA-B,CD8B,3,False
+consensus,Monocyte classical,T activated,S100A8,CD69,3,True
+consensus,T activated,Dendritic cell,B2M,CD1C,3,False
+consensus,Monocyte classical,Platelet,S100A8,CD68,3,True
+consensus,Dendritic cell,CD4 T naive,LGALS1,PTPRC,3,False
+consensus,CD4 T naive,CD8 T memory,HLA-B,CD8A,3,False
+consensus,Monocyte non-classical,NK,B2M,KLRC2,3,False
+consensus,Monocyte non-classical,NK,LGALS1,CD69,3,False
+consensus,Monocyte classical,Monocyte non-classical,HLA-B,LILRB2,3,False
+consensus,Monocyte non-classical,Monocyte non-classical,LGALS1,PTPRC,3,False
+consensus,CD4 T memory,NK,B2M,KLRC2,3,False
+consensus,Monocyte non-classical,T activated,LGALS1,CD69,3,False
+consensus,NK,Monocyte classical,HLA-A,APLP2,3,False
+consensus,CD4 T memory,CD8 T cytotoxic,HLA-B,CD8B,3,False
+consensus,CD4 T memory,CD8 T cytotoxic,HLA-A,CD8B,3,False
+consensus,Dendritic cell,CD8 T cytotoxic,HLA-B,CD8A,3,False
+consensus,CD4 T memory,CD8 T cytotoxic,HLA-C,CD8A,3,False
+consensus,Plasmacytoid DC,CD8 T cytotoxic,HLA-B,CD8B,3,False
+consensus,CD8 T memory,NK,B2M,KLRC2,3,False
+consensus,Monocyte classical,Dendritic cell,S100A12,CD36,3,False
+consensus,CD4 T memory,Monocyte non-classical,HLA-C,LILRB2,3,False
+consensus,Dendritic cell,Erythroid early,S100A9,CD36,3,False
+consensus,Dendritic cell,Dendritic cell,B2M,CD1C,3,False
+consensus,Dendritic cell,CD8 T memory,HLA-B,CD8B,3,False
+consensus,Monocyte non-classical,Dendritic cell,TIMP1,CD63,3,False
+consensus,Monocyte non-classical,CD8 T memory,HLA-B,CD8B,3,False
+consensus,Monocyte non-classical,CD4 T memory,HLA-B,CD3D,3,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,HLA-B,CD8B,3,False
+consensus,Monocyte classical,Plasmacytoid DC,VCAN,SELL,3,False
+consensus,Monocyte non-classical,B naive,LGALS1,CD69,3,False
+consensus,B naive,Monocyte non-classical,HLA-B,LILRB2,3,False
+consensus,T activated,CD8 T cytotoxic,HLA-B,KLRD1,3,False
+consensus,Monocyte classical,T activated,LGALS1,CD69,3,True
+consensus,T activated,CD8 T memory,HLA-B,CD8A,3,False
+consensus,Granulocyte precursor,CD4 T naive,LGALS1,CD69,2,False
+consensus,Granulocyte precursor,CD4 T naive,LGALS1,PTPRC,2,False
+consensus,T proliferating,CD8 T memory,HLA-B,CD8A,2,False
+consensus,T proliferating,CD8 T memory,HLA-B,CD3D,2,False
+consensus,T proliferating,CD8 T memory,HLA-B,CD8B,2,False
+consensus,B naive,Plasmacytoid DC,HLA-DPB1,CD4,2,False
+consensus,CD8 T memory,Monocyte classical,HLA-A,APLP2,2,False
+consensus,Platelet,Plasmacytoid DC,CCL5,CXCR3,2,False
+consensus,Platelet,Pre-B small,APP,CD74,2,False
+consensus,Pre-B large,CD8 T memory,HMGB1,CXCR4,2,True
+consensus,Platelet,Plasmacytoid DC,APP,CD74,2,False
+consensus,Granulocyte precursor,Platelet,S100A8,CD68,2,True
+consensus,Granulocyte precursor,HSPC,S100A8,CD69,2,False
+consensus,Granulocyte precursor,Monocyte non-classical,LGALS1,ITGB1,2,False
+consensus,Granulocyte precursor,Plasmacytoid DC,S100A9,CD36,2,False
+consensus,Granulocyte precursor,Platelet,S100A9,CD68,2,True
+consensus,Granulocyte precursor,Pre-B large,S100A8,CD69,2,False
+consensus,Granulocyte precursor,CD4 T memory,S100A9,ITGB2,2,False
+consensus,Pre-B small,CD8 T cytotoxic,HLA-A,CD8A,2,False
+consensus,Granulocyte precursor,Granulocyte precursor,S100A9,ITGB2,2,False
+consensus,Dendritic cell,T proliferating,LGALS1,PTPRC,2,False
+consensus,Dendritic cell,T proliferating,LGALS1,CD69,2,False
+consensus,Erythroid early,Erythroid early,CDH1,IGF1R,2,False
+consensus,Erythroid early,Erythroid early,CDH1,LRP5,2,True
+consensus,Pre-B small,CD8 T cytotoxic,HLA-B,CD8B,2,False
+consensus,Erythroid early,Erythroid early,TGM2,SDC4,2,False
+consensus,Pre-B small,CD8 T memory,HLA-B,CD3D,2,False
+consensus,Pre-B small,Dendritic cell,B2M,CD1C,2,False
+consensus,Pre-B small,CD8 T memory,HLA-A,CD8A,2,False
+consensus,Pre-B small,CD8 T memory,HLA-A,CD8B,2,False
+consensus,CD8 T cytotoxic,Monocyte classical,HLA-A,APLP2,2,False
+consensus,B naive,Plasmacytoid DC,HLA-DRB1,CD4,2,False
+consensus,B naive,T proliferating,HLA-B,CD8A,2,False
+consensus,T proliferating,CD8 T memory,HLA-A,CD8B,2,False
+consensus,T proliferating,CD8 T memory,HLA-C,CD8A,2,False
+consensus,T proliferating,T proliferating,CCL5,CXCR3,2,True
+consensus,T proliferating,T proliferating,HLA-A,CD8A,2,True
+consensus,T proliferating,T proliferating,HLA-B,CD8A,2,False
+consensus,T proliferating,T proliferating,HLA-C,CD8A,2,True
+consensus,T proliferating,CD8 T memory,HLA-C,CD8B,2,False
+consensus,T proliferating,Dendritic cell,B2M,CD1C,2,True
+consensus,T proliferating,Monocyte non-classical,HLA-A,LILRB2,2,True
+consensus,T proliferating,NK,B2M,KLRD1,2,True
+consensus,T proliferating,CD8 T cytotoxic,HLA-A,CD8A,2,False
+consensus,T proliferating,NK,HLA-B,KLRD1,2,True
+consensus,T proliferating,CD8 T cytotoxic,B2M,KLRD1,2,False
+consensus,T proliferating,NK,B2M,KLRC1,2,True
+consensus,T proliferating,Monocyte non-classical,HLA-C,LILRB2,2,True
+consensus,T proliferating,Monocyte non-classical,HLA-B,LILRB2,2,True
+consensus,Pre-B small,T proliferating,HLA-A,CD8A,2,False
+consensus,CD8 T memory,T proliferating,CCL5,CXCR3,2,True
+consensus,CD8 T memory,T proliferating,HLA-A,CD8A,2,True
+consensus,CD8 T memory,T proliferating,HLA-A,CD8B,2,False
+consensus,CD8 T memory,T proliferating,HLA-B,CD3D,2,False
+consensus,Plasmacytoid DC,Dendritic cell,COPA,CD74,2,False
+consensus,Plasmacytoid DC,CD8 T memory,HLA-B,CD3D,2,False
+consensus,CD8 T cytotoxic,CD4 T naive,HLA-C,CD8B,2,False
+consensus,Plasmacytoid DC,Granulocyte precursor,APP,CD74,2,False
+consensus,Plasmacytoid DC,NK,B2M,KLRC2,2,False
+consensus,Dendritic cell,NK,S100A9,ITGB2,2,False
+consensus,Dendritic cell,NK,B2M,KLRC2,2,False
+consensus,CD8 T cytotoxic,CD4 T naive,HLA-A,CD8B,2,False
+consensus,Platelet,B naive,APP,CD74,2,False
+consensus,Plasmacytoid DC,T proliferating,HLA-B,CD8A,2,False
+consensus,Plasmacytoid DC,T proliferating,APP,CD74,2,True
+consensus,Plasmacytoid DC,Plasmacytoid DC,HLA-DRA,CD4,2,False
+consensus,Platelet,CD8 T memory,HLA-C,CD8A,2,False
+consensus,Platelet,CD8 T memory,HLA-A,CD8A,2,False
+consensus,CD8 T cytotoxic,CD4 T naive,HLA-B,CD8B,2,False
+consensus,Dendritic cell,T proliferating,HLA-B,CD8A,2,False
+consensus,Dendritic cell,T proliferating,HLA-A,CD8A,2,False
+consensus,CD8 T memory,CD8 T memory,HLA-B,KLRD1,2,False
+consensus,CD8 T memory,Monocyte classical,RPS19,C5AR1,2,False
+consensus,Platelet,Monocyte non-classical,HLA-C,LILRB2,2,False
+consensus,Granulocyte precursor,T proliferating,S100A8,ITGB2,2,True
+consensus,Granulocyte precursor,T proliferating,S100A9,ITGB2,2,True
+consensus,Granulocyte precursor,T proliferating,LGALS1,PTPRC,2,False
+consensus,Granulocyte precursor,T proliferating,S100A8,CD69,2,True
+consensus,Granulocyte precursor,T proliferating,LGALS1,CD69,2,False
+consensus,Granulocyte precursor,T activated,LGALS1,PTPRC,2,False
+consensus,Platelet,Dendritic cell,B2M,CD1C,2,True
+consensus,Platelet,Dendritic cell,APP,CD74,2,False
+consensus,Pre-B large,Monocyte non-classical,RPS19,C5AR1,2,False
+consensus,CD8 T cytotoxic,T proliferating,HLA-C,CD8B,2,True
+consensus,NK,CD8 T memory,HLA-B,KLRD1,2,False
+consensus,CD8 T cytotoxic,T proliferating,HLA-C,CD8A,2,True
+consensus,Monocyte classical,Dendritic cell,VCAN,SELL,2,False
+consensus,Dendritic cell,Monocyte non-classical,LGALS1,ITGB1,2,False
+consensus,Dendritic cell,Monocyte non-classical,HLA-DRB1,CD4,2,False
+consensus,CD4 T memory,CD8 T cytotoxic,HLA-C,CD8B,2,False
+consensus,CD4 T naive,CD8 T cytotoxic,HLA-C,CD8A,2,False
+consensus,CD4 T naive,CD8 T cytotoxic,HLA-B,CD3D,2,False
+consensus,Dendritic cell,B naive,TNFSF13B,HLA-DPB1,2,False
+consensus,Dendritic cell,CD8 T cytotoxic,HLA-B,CD3D,2,False
+consensus,CD8 T memory,T proliferating,HLA-C,CD8B,2,False
+consensus,Monocyte classical,Monocyte classical,LGALS1,PTPRC,2,False
+consensus,CD4 T naive,CD8 T memory,HLA-C,CD8A,2,False
+consensus,CD8 T memory,CD4 T naive,HLA-A,CD8B,2,False
+consensus,NK,T proliferating,HLA-B,CD8A,2,True
+consensus,NK,T proliferating,HLA-B,CD8B,2,False
+consensus,NK,T proliferating,HLA-C,CD8A,2,True
+consensus,NK,T proliferating,HLA-C,CD8B,2,True
+consensus,Plasmacytoid DC,CD4 T memory,HLA-B,CD3D,2,False
+consensus,NK,T proliferating,HLA-B,CD3D,2,False
+consensus,NK,T proliferating,HLA-A,CD8B,2,False
+consensus,NK,T proliferating,HLA-A,CD8A,2,True
+consensus,CD4 T naive,Monocyte non-classical,HLA-C,LILRB2,2,False
+consensus,CD4 T naive,NK,B2M,KLRC2,2,False
+consensus,Monocyte classical,CD8 T memory,HLA-B,CD8A,2,False
+consensus,CD8 T memory,NK,CLEC2D,KLRB1,2,False
+consensus,CD4 T naive,T proliferating,HLA-A,CD8A,2,False
+consensus,CD4 T naive,NK,CLEC2D,KLRB1,2,False
+consensus,CD8 T cytotoxic,T proliferating,HLA-B,CD8B,2,False
+consensus,CD4 T naive,T proliferating,HLA-C,CD8A,2,False
+consensus,Monocyte non-classical,Monocyte non-classical,TIMP1,CD63,2,False
+consensus,Monocyte non-classical,Plasmacytoid DC,APP,CD74,2,False
+consensus,Monocyte non-classical,NK,TIMP1,CD63,2,False
+consensus,Monocyte non-classical,NK,S100A9,ITGB2,2,False
+consensus,Monocyte classical,NK,B2M,KLRC2,2,False
+consensus,Monocyte classical,Monocyte non-classical,S100A9,CD36,2,False
+consensus,Monocyte classical,Monocyte non-classical,S100A8,CD36,2,False
+consensus,Monocyte classical,Monocyte non-classical,LGALS1,ITGB1,2,False
+consensus,Monocyte non-classical,Plasmacytoid DC,TIMP1,CD63,2,False
+consensus,Monocyte non-classical,T proliferating,HLA-B,CD8A,2,False
+consensus,CD8 T memory,T proliferating,HLA-C,CD8A,2,True
+consensus,CD8 T memory,T proliferating,HLA-B,CD8B,2,False
+consensus,CD8 T memory,T proliferating,HLA-B,CD8A,2,True
+consensus,NK,CD4 T naive,HLA-C,CD8B,2,False
+consensus,NK,CD4 T naive,HLA-B,CD8B,2,False
+consensus,NK,CD4 T naive,HLA-A,CD8B,2,False
+consensus,CD4 T naive,CD8 T memory,HLA-A,CD8A,2,False
+consensus,Monocyte non-classical,CD8 T memory,HLA-C,CD8A,2,False
+consensus,Monocyte non-classical,Monocyte classical,RPS19,C5AR1,2,False
+consensus,Monocyte non-classical,Granulocyte precursor,TIMP1,CD63,2,False
+consensus,Monocyte non-classical,CD4 T memory,LGALS1,PTPRC,2,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,LGALS1,ITGB1,2,False
+consensus,Monocyte non-classical,B naive,TNFSF13B,HLA-DPB1,2,False
+consensus,Monocyte non-classical,CD8 T memory,HLA-A,CD8A,2,False
+consensus,Monocyte classical,Platelet,S100A8,CD36,2,True
+consensus,Monocyte non-classical,Dendritic cell,APP,CD74,2,False
+consensus,Dendritic cell,CD8 T cytotoxic,HLA-B,CD8B,2,False
+consensus,Monocyte non-classical,Monocyte non-classical,HLA-A,LILRB2,2,False
+consensus,CD4 T memory,T proliferating,HLA-B,CD8A,2,False
+consensus,CD4 T memory,T proliferating,HLA-A,CD8A,2,False
+consensus,CD4 T memory,T proliferating,HLA-C,CD8A,2,True
+consensus,Monocyte non-classical,Monocyte non-classical,HLA-C,LILRB2,2,False
+consensus,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,2,True
+consensus,CD8 T cytotoxic,T proliferating,HLA-A,CD8A,2,True
+consensus,CD8 T cytotoxic,T proliferating,HLA-A,CD8B,2,False
+consensus,CD8 T cytotoxic,T proliferating,HLA-B,CD3D,2,False
+consensus,CD8 T cytotoxic,T proliferating,HLA-B,CD8A,2,True
+consensus,Monocyte classical,Plasmacytoid DC,S100A8,ITGB2,2,False
+consensus,Monocyte classical,Plasmacytoid DC,S100A9,ITGB2,2,False
+consensus,Dendritic cell,Monocyte non-classical,HLA-DPB1,CD4,2,False
+consensus,Monocyte classical,T proliferating,S100A8,CD69,2,True
+consensus,Monocyte classical,T proliferating,S100A8,ITGB2,2,True
+consensus,Monocyte classical,T proliferating,S100A9,ITGB2,2,True
+consensus,Monocyte non-classical,B naive,APP,CD74,2,False
+consensus,Monocyte classical,T proliferating,LGALS1,PTPRC,2,False
+consensus,Dendritic cell,Monocyte non-classical,HLA-DPA1,CD4,2,False
+consensus,Dendritic cell,Monocyte non-classical,HLA-C,LILRB2,2,False
+consensus,Dendritic cell,Monocyte non-classical,HLA-A,LILRB2,2,False
+consensus,T activated,NK,B2M,KLRC1,2,True
+consensus,Monocyte classical,Platelet,S100A9,CD36,2,True
+consensus,Monocyte classical,T proliferating,LGALS1,CD69,2,False
+consensus,T activated,CD8 T cytotoxic,B2M,KLRD1,2,False
+consensus,Pre-B small,T proliferating,HLA-B,CD8A,2,False
+consensus,T proliferating,CD8 T memory,HLA-A,CD8A,2,False
+consensus,T proliferating,CD8 T cytotoxic,HLA-C,CD8B,2,False
+consensus,T activated,CD4 T memory,HLA-B,CD3D,2,False
+consensus,T proliferating,CD8 T cytotoxic,HLA-C,CD8A,2,False
+consensus,T proliferating,CD8 T cytotoxic,HLA-B,KLRD1,2,False
+consensus,T proliferating,CD8 T cytotoxic,HLA-B,CD8A,2,False
+consensus,T proliferating,CD8 T cytotoxic,HLA-B,CD8B,2,False
+consensus,T proliferating,CD8 T cytotoxic,HLA-B,CD3D,2,False
+consensus,T proliferating,CD8 T cytotoxic,HLA-A,CD8B,2,False
+consensus,B naive,Monocyte non-classical,CD52,SIGLEC10,2,False
+consensus,B naive,Dendritic cell,B2M,CD1C,2,False
+consensus,B naive,CD8 T cytotoxic,HLA-A,CD8A,1,False
+consensus,B naive,CD8 T cytotoxic,HLA-B,CD8B,1,False
+consensus,B naive,CD8 T memory,HLA-A,CD8A,1,False
+consensus,B naive,Monocyte non-classical,HLA-A,LILRB2,1,False
+consensus,B naive,Monocyte non-classical,HLA-C,LILRB2,1,False
+consensus,B naive,Monocyte non-classical,HLA-DPA1,CD4,1,False
+consensus,Pre-B small,T proliferating,HLA-B,CD8B,1,False
+consensus,Pre-B small,T proliferating,HLA-C,CD8A,1,False
+consensus,CD8 T cytotoxic,Platelet,CCL5,SDC4,1,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,HLA-C,LILRB1,1,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,HLA-C,LILRA1,1,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,HLA-B,LILRB1,1,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,HLA-B,LILRA1,1,False
+consensus,T proliferating,T proliferating,HLA-C,CD8B,1,False
+consensus,T proliferating,T proliferating,HLA-B,CD8B,1,False
+consensus,T proliferating,T proliferating,HLA-B,CD3D,1,False
+consensus,T proliferating,T proliferating,HLA-A,CD8B,1,False
+consensus,Pre-B small,Monocyte non-classical,HLA-C,LILRB2,1,False
+consensus,Pre-B small,Monocyte non-classical,HLA-C,LILRA1,1,False
+consensus,Pre-B small,Monocyte non-classical,HLA-B,LILRB1,1,False
+consensus,Pre-B small,Monocyte non-classical,HLA-B,LILRA1,1,False
+consensus,B naive,T proliferating,HLA-DRA,LAG3,1,False
+consensus,B naive,T proliferating,HLA-B,CD8B,1,False
+consensus,B naive,T proliferating,HLA-B,CD3D,1,False
+consensus,Dendritic cell,CD8 T cytotoxic,S100A9,ITGB2,1,False
+consensus,Dendritic cell,CD8 T cytotoxic,LGALS1,CD69,1,False
+consensus,Dendritic cell,CD8 T cytotoxic,HLA-C,CD8B,1,False
+consensus,Dendritic cell,CD8 T cytotoxic,HLA-C,CD8A,1,False
+consensus,Monocyte non-classical,Monocyte classical,S100A9,ITGB2,1,False
+consensus,Monocyte non-classical,Erythroid early,LGALS1,ITGB1,1,False
+consensus,Monocyte non-classical,CD8 T memory,TGFB1,CXCR4,1,False
+consensus,Monocyte non-classical,CD8 T memory,HLA-C,CD8B,1,False
+consensus,Monocyte non-classical,CD8 T memory,HLA-A,CD8B,1,False
+consensus,Monocyte non-classical,CD8 T memory,CXCL12,CXCR4,1,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,HLA-C,CD8B,1,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,HLA-C,CD8A,1,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,HLA-A,CD8B,1,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,HLA-A,CD8A,1,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,CXCL12,CXCR4,1,False
+consensus,Monocyte non-classical,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,CD4 T memory,T proliferating,HLA-A,CD8B,1,False
+consensus,CD4 T memory,T proliferating,B2M,KLRC1,1,False
+consensus,CD4 T memory,Monocyte non-classical,HLA-C,LILRB1,1,False
+consensus,CD4 T memory,Monocyte non-classical,HLA-C,LILRA1,1,False
+consensus,CD4 T memory,Monocyte non-classical,HLA-B,LILRB1,1,False
+consensus,CD4 T memory,Monocyte non-classical,HLA-B,LILRA1,1,False
+consensus,CD4 T memory,Monocyte non-classical,HLA-A,LILRB1,1,False
+consensus,CD4 T memory,Monocyte non-classical,HLA-A,LILRA1,1,False
+consensus,CD4 T memory,Monocyte non-classical,CD52,SIGLEC10,1,False
+consensus,Dendritic cell,Erythroid early,EFNB1,EPHB4,1,False
+consensus,Dendritic cell,Dendritic cell,VIM,CD44,1,False
+consensus,Dendritic cell,Dendritic cell,S100A9,ITGB2,1,False
+consensus,Dendritic cell,Dendritic cell,LGALS1,PTPRC,1,False
+consensus,Dendritic cell,CD8 T memory,HLA-B,CD3D,1,False
+consensus,Dendritic cell,CD8 T memory,HLA-A,CD8B,1,False
+consensus,Dendritic cell,CD8 T memory,HLA-A,CD8A,1,False
+consensus,Monocyte non-classical,NK,LGALS1,PTPRC,1,False
+consensus,Monocyte non-classical,Monocyte non-classical,S100A9,CD68,1,False
+consensus,Monocyte non-classical,Monocyte non-classical,HLA-C,LILRB1,1,False
+consensus,Monocyte non-classical,Monocyte non-classical,HLA-C,LILRA1,1,False
+consensus,Monocyte non-classical,Monocyte non-classical,HLA-B,LILRB1,1,False
+consensus,Monocyte non-classical,Monocyte non-classical,HLA-B,LILRA1,1,False
+consensus,Dendritic cell,Monocyte classical,LGALS1,PTPRC,1,False
+consensus,Dendritic cell,HSPC,LGALS1,CD69,1,False
+consensus,Monocyte classical,Plasmacytoid DC,HLA-DRA,CD4,1,False
+consensus,Monocyte classical,NK,VCAN,SELL,1,False
+consensus,Monocyte classical,NK,CD14,ITGB2,1,False
+consensus,CD4 T naive,CD8 T cytotoxic,HLA-A,CD8A,1,False
+consensus,CD4 T naive,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,CD4 T memory,T proliferating,HLA-C,CD8B,1,False
+consensus,CD4 T memory,T proliferating,HLA-B,CD8B,1,False
+consensus,CD4 T memory,T proliferating,HLA-B,CD3D,1,False
+consensus,Monocyte non-classical,Pre-B large,CXCL12,CXCR4,1,False
+consensus,Monocyte non-classical,Platelet,TIMP1,CD63,1,False
+consensus,Monocyte non-classical,Platelet,LGALS1,ITGB1,1,False
+consensus,Monocyte non-classical,Plasmacytoid DC,TNFSF13B,HLA-DPB1,1,False
+consensus,Monocyte non-classical,Plasmacytoid DC,HLA-DRB1,CD4,1,False
+consensus,CD4 T memory,NK,CLEC2D,KLRB1,1,False
+consensus,Monocyte classical,Monocyte non-classical,VIM,CD44,1,False
+consensus,Monocyte classical,Monocyte non-classical,VCAN,CD44,1,False
+consensus,Monocyte classical,Monocyte non-classical,TNFSF13B,HLA-DPB1,1,False
+consensus,Monocyte classical,Monocyte non-classical,S100A9,TLR4,1,False
+consensus,Monocyte classical,Monocyte non-classical,S100A8,TLR4,1,False
+consensus,Monocyte classical,Monocyte non-classical,RPS19,C5AR1,1,False
+consensus,Monocyte classical,Monocyte non-classical,HLA-A,LILRB2,1,False
+consensus,Monocyte classical,Monocyte classical,VIM,CD44,1,False
+consensus,Monocyte classical,Monocyte classical,VCAN,SELL,1,False
+consensus,Monocyte non-classical,Plasmacytoid DC,HLA-DRA,CD4,1,False
+consensus,NK,CD8 T memory,B2M,KLRD1,1,False
+consensus,NK,CD8 T cytotoxic,HLA-E,CD8B,1,False
+consensus,NK,CD8 T cytotoxic,HLA-E,CD8A,1,False
+consensus,NK,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,Monocyte non-classical,T proliferating,LGALS1,PTPRC,1,False
+consensus,Monocyte non-classical,T proliferating,LGALS1,CD69,1,False
+consensus,Monocyte non-classical,T proliferating,HLA-DRA,LAG3,1,False
+consensus,Monocyte non-classical,T proliferating,HLA-C,CD8B,1,False
+consensus,Monocyte non-classical,T proliferating,HLA-C,CD8A,1,False
+consensus,Monocyte non-classical,T proliferating,HLA-B,CD8B,1,False
+consensus,Monocyte non-classical,T proliferating,HLA-B,CD3D,1,False
+consensus,Monocyte non-classical,T proliferating,HLA-A,CD8B,1,False
+consensus,Monocyte non-classical,T proliferating,HLA-A,CD8A,1,False
+consensus,Monocyte non-classical,T proliferating,B2M,KLRC1,1,False
+consensus,Monocyte non-classical,Pre-B small,CXCL12,CXCR4,1,False
+consensus,Monocyte non-classical,Pre-B small,APP,CD74,1,False
+consensus,Dendritic cell,CD8 T cytotoxic,HLA-A,CD8B,1,False
+consensus,Dendritic cell,CD8 T cytotoxic,HLA-A,CD8A,1,False
+consensus,Dendritic cell,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,Dendritic cell,CD4 T memory,HLA-B,CD3D,1,False
+consensus,Monocyte classical,Monocyte classical,VCAN,CD44,1,False
+consensus,Monocyte classical,HSPC,VCAN,SELL,1,False
+consensus,Monocyte classical,HSPC,VCAN,CD44,1,False
+consensus,CD4 T naive,Monocyte non-classical,HLA-A,LILRB2,1,False
+consensus,CD4 T naive,CD8 T memory,HLA-C,CD8B,1,False
+consensus,CD4 T naive,CD8 T memory,HLA-B,CD8B,1,False
+consensus,CD4 T naive,CD8 T memory,HLA-A,CD8B,1,False
+consensus,CD4 T naive,CD8 T cytotoxic,HLA-B,CD8B,1,False
+consensus,CD4 T naive,CD8 T cytotoxic,HLA-B,CD8A,1,False
+consensus,CD4 T naive,CD8 T cytotoxic,HLA-A,CD8B,1,False
+consensus,CD8 T memory,T proliferating,HLA-B,KLRD1,1,False
+consensus,CD4 T memory,CD4 T naive,HLA-B,CD8B,1,False
+consensus,NK,Monocyte non-classical,HLA-A,LILRB1,1,False
+consensus,NK,Monocyte non-classical,HLA-A,LILRA1,1,False
+consensus,NK,Granulocyte precursor,HLA-A,APLP2,1,False
+consensus,NK,CD8 T memory,TGFB1,CXCR4,1,False
+consensus,Monocyte classical,HSPC,LGALS1,CD69,1,False
+consensus,Monocyte classical,Granulocyte precursor,VCAN,CD44,1,False
+consensus,Monocyte classical,Erythroid late,LGALS1,ITGB1,1,False
+consensus,Monocyte classical,Erythroid early,VCAN,ITGB1,1,False
+consensus,Monocyte classical,Dendritic cell,VCAN,CD44,1,False
+consensus,Dendritic cell,Monocyte non-classical,S100A9,CD68,1,False
+consensus,CD8 T memory,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,CD8 T memory,CD4 T naive,HLA-C,CD8B,1,False
+consensus,CD8 T memory,CD4 T naive,HLA-B,CD8B,1,False
+consensus,CD8 T cytotoxic,T proliferating,HLA-B,KLRD1,1,False
+consensus,NK,CD8 T memory,HLA-E,CD8A,1,False
+consensus,CD4 T memory,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,CD8 T memory,Monocyte non-classical,HLA-C,LILRA1,1,False
+consensus,CD8 T memory,Monocyte non-classical,HLA-B,LILRB1,1,False
+consensus,CD8 T memory,Monocyte non-classical,HLA-B,LILRA1,1,False
+consensus,Plasmacytoid DC,CD8 T memory,HLA-A,CD8A,1,False
+consensus,Plasmacytoid DC,CD8 T cytotoxic,HLA-A,CD8B,1,False
+consensus,Plasmacytoid DC,CD8 T cytotoxic,HLA-A,CD8A,1,False
+consensus,Plasmacytoid DC,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,Plasmacytoid DC,CD4 T naive,HLA-B,CD8B,1,False
+consensus,NK,T proliferating,HLA-B,KLRD1,1,False
+consensus,NK,T proliferating,B2M,KLRD1,1,False
+consensus,NK,T proliferating,B2M,KLRC1,1,False
+consensus,NK,Platelet,CCL5,SDC4,1,False
+consensus,NK,Monocyte non-classical,HLA-C,LILRB1,1,False
+consensus,NK,Monocyte non-classical,HLA-C,LILRA1,1,False
+consensus,NK,Monocyte non-classical,HLA-B,LILRB1,1,False
+consensus,NK,Monocyte non-classical,HLA-B,LILRA1,1,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-E,CD8A,1,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,Plasmacytoid DC,Monocyte non-classical,HLA-B,LILRA1,1,False
+consensus,Plasmacytoid DC,CD8 T memory,HLA-A,CD8B,1,False
+consensus,CD8 T memory,T proliferating,B2M,KLRD1,1,False
+consensus,CD8 T memory,T proliferating,B2M,KLRC1,1,False
+consensus,CD8 T memory,Platelet,CCL5,SDC4,1,False
+consensus,Monocyte classical,CD8 T memory,VCAN,CD44,1,False
+consensus,CD4 T naive,T proliferating,HLA-B,CD8B,1,False
+consensus,CD4 T naive,T proliferating,HLA-B,CD8A,1,False
+consensus,CD4 T naive,T proliferating,HLA-B,CD3D,1,False
+consensus,CD4 T naive,T proliferating,HLA-A,CD8B,1,False
+consensus,CD4 T naive,T proliferating,B2M,KLRC1,1,False
+consensus,CD4 T naive,Monocyte non-classical,HLA-C,LILRA1,1,False
+consensus,Monocyte classical,CD8 T memory,HLA-A,CD8A,1,False
+consensus,CD8 T memory,Monocyte non-classical,HLA-C,LILRB1,1,False
+consensus,Plasmacytoid DC,T proliferating,HLA-A,CD8A,1,False
+consensus,Plasmacytoid DC,T proliferating,B2M,KLRC1,1,False
+consensus,Plasmacytoid DC,Plasmacytoid DC,COPA,CD74,1,False
+consensus,Plasmacytoid DC,Monocyte non-classical,HLA-DRA,CD4,1,False
+consensus,Plasmacytoid DC,Monocyte non-classical,HLA-C,LILRB2,1,False
+consensus,Plasmacytoid DC,Monocyte non-classical,HLA-C,LILRA1,1,False
+consensus,Plasmacytoid DC,Monocyte non-classical,HLA-B,LILRB1,1,False
+consensus,Monocyte classical,CD8 T cytotoxic,LGALS1,CD69,1,False
+consensus,Monocyte classical,CD8 T cytotoxic,HLA-B,CD8B,1,False
+consensus,Monocyte classical,CD8 T cytotoxic,HLA-B,CD8A,1,False
+consensus,Monocyte classical,CD8 T cytotoxic,HLA-A,CD8B,1,False
+consensus,Monocyte classical,CD8 T cytotoxic,HLA-A,CD8A,1,False
+consensus,Monocyte classical,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,Monocyte classical,CD4 T memory,VCAN,ITGB1,1,False
+consensus,Monocyte classical,CD4 T memory,VCAN,CD44,1,False
+consensus,CD8 T cytotoxic,CD8 T cytotoxic,HLA-E,CD8B,1,False
+consensus,Platelet,CD8 T memory,HLA-B,CD8B,1,False
+consensus,Platelet,CD8 T memory,HLA-B,CD8A,1,False
+consensus,Platelet,CD8 T memory,HLA-A,CD8B,1,False
+consensus,Platelet,CD8 T cytotoxic,HLA-E,CD8B,1,False
+consensus,Platelet,CD8 T cytotoxic,HLA-E,CD8A,1,False
+consensus,Platelet,CD8 T cytotoxic,HLA-B,KLRD1,1,False
+consensus,Dendritic cell,T proliferating,HLA-DRA,LAG3,1,False
+consensus,Dendritic cell,T proliferating,HLA-B,CD8B,1,False
+consensus,Dendritic cell,T proliferating,HLA-B,CD3D,1,False
+consensus,Dendritic cell,T activated,LGALS1,PTPRC,1,False
+consensus,Dendritic cell,Plasmacytoid DC,LGALS1,ITGB1,1,False
+consensus,Dendritic cell,Plasmacytoid DC,HLA-DQB1,CD4,1,False
+consensus,Platelet,CD8 T cytotoxic,HLA-A,CD8B,1,False
+consensus,Platelet,CD8 T cytotoxic,HLA-A,CD8A,1,False
+consensus,Plasmacytoid DC,T proliferating,HLA-B,CD8B,1,False
+consensus,Plasmacytoid DC,T proliferating,HLA-B,CD3D,1,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-E,CD8B,1,False
+consensus,CD8 T memory,CD8 T cytotoxic,HLA-E,CD8A,1,False
+consensus,Platelet,Monocyte non-classical,HLA-B,LILRB2,1,False
+consensus,HSPC,T proliferating,CCL28,CCR3,1,False
+consensus,HSPC,NK,B2M,KLRC1,1,False
+consensus,HSPC,Erythroid early,DBP,ACKR1,1,False
+consensus,HSPC,CD8 T cytotoxic,HLA-B,KLRD1,1,False
+consensus,HSPC,CD8 T cytotoxic,HLA-A,CD8A,1,False
+consensus,HSPC,CD8 T cytotoxic,B2M,KLRD1,1,False
+consensus,Granulocyte precursor,T proliferating,LGALS1,ITGB1,1,False
+consensus,Platelet,Monocyte non-classical,HLA-A,LILRB2,1,False
+consensus,Platelet,Monocyte non-classical,APP,CD74,1,False
+consensus,Platelet,Granulocyte precursor,TIMP1,CD63,1,False
+consensus,Platelet,CD8 T memory,HLA-E,CD8B,1,False
+consensus,Platelet,CD8 T memory,HLA-E,CD8A,1,False
+consensus,Platelet,CD8 T memory,HLA-C,CD8B,1,False
+consensus,Pre-B large,CD8 T cytotoxic,HLA-A,CD8A,1,False
+consensus,Pre-B large,CD8 T cytotoxic,B2M,KLRD1,1,False
+consensus,Pre-B large,CD4 T memory,HMGB1,CXCR4,1,False
+consensus,Pre-B large,B naive,HMGB1,CXCR4,1,True
+consensus,Platelet,Pre-B large,TGFB1,CXCR4,1,False
+consensus,Platelet,Pre-B large,APP,CD74,1,False
+consensus,Platelet,Platelet,CCL5,SDC4,1,False
+consensus,Platelet,Plasmacytoid DC,TIMP1,CD63,1,False
+consensus,Platelet,NK,HLA-E,KLRC1_KLRD1,1,False
+consensus,Platelet,NK,B2M,KLRC2,1,False
+consensus,Platelet,Monocyte non-classical,PF4,LDLR,1,False
+consensus,Platelet,Monocyte non-classical,HLA-C,LILRA1,1,False
+consensus,CD8 T memory,Monocyte non-classical,HLA-A,LILRB1,1,False
+consensus,CD8 T memory,Monocyte non-classical,HLA-A,LILRA1,1,False
+consensus,CD8 T memory,Granulocyte precursor,HLA-A,APLP2,1,False
+consensus,Pre-B large,NK,CLEC2D,KLRB1,1,False
+consensus,Pre-B large,Monocyte non-classical,HLA-DRA,CD4,1,False
+consensus,Pre-B large,Dendritic cell,HMGB1,HAVCR2,1,False
+consensus,Pre-B large,Dendritic cell,B2M,CD1C,1,False
+consensus,Granulocyte precursor,Pre-B large,MIF,CD74_CXCR4,1,False
+consensus,Granulocyte precursor,Platelet,RETN,CAP1,1,False
+consensus,Granulocyte precursor,Plasmacytoid DC,LGALS1,ITGB1,1,False
+consensus,Granulocyte precursor,NK,LGALS1,ITGB1,1,False
+consensus,Granulocyte precursor,NK,B2M,KLRC1,1,False
+consensus,Granulocyte precursor,Monocyte non-classical,S100A8,CD36,1,False
+consensus,Granulocyte precursor,Monocyte classical,VIM,CD44,1,False
+consensus,Granulocyte precursor,HSPC,LGALS1,CD69,1,False
+consensus,Granulocyte precursor,HSPC,AGTRAP,RACK1,1,False
+consensus,Pre-B large,CD8 T cytotoxic,HMGB1,CXCR4,1,False
+consensus,Pre-B large,CD8 T cytotoxic,HLA-B,CD8B,1,False
+consensus,Pre-B large,CD8 T cytotoxic,HLA-B,CD8A,1,False
+consensus,Pre-B small,CD8 T cytotoxic,HLA-E,CD8A,1,False
+consensus,Granulocyte precursor,B naive,MIF,CD74_CXCR4,1,False
+consensus,Erythroid late,Monocyte classical,RPS19,C5AR1,1,False
+consensus,Erythroid early,Pre-B large,TNXB,SDC1,1,False
+consensus,Erythroid early,Platelet,RLN2,RAMP3,1,False
+consensus,Erythroid early,Dendritic cell,COPA,CD74,1,False
+consensus,Erythroid early,CD8 T memory,HMGB1,CXCR4,1,False
+consensus,Dendritic cell,T proliferating,LGALS1,ITGB1,1,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,HLA-A,LILRB1,1,False
+consensus,Pre-B small,CD8 T cytotoxic,HLA-A,CD8B,1,False
+consensus,Pre-B small,CD8 T cytotoxic,B2M,KLRC2,1,False
+consensus,Pre-B large,T proliferating,HMGB1,CXCR4,1,False
+consensus,Pre-B large,T proliferating,HLA-B,CD8A,1,False
+consensus,Pre-B large,Plasmacytoid DC,HMGB1,CXCR4,1,False
+consensus,CD8 T cytotoxic,Monocyte non-classical,HLA-A,LILRA1,1,False
+consensus,CD8 T cytotoxic,CD8 T memory,HLA-E,CD8A,1,False
+consensus,CD8 T cytotoxic,CD8 T memory,B2M,KLRD1,1,False
+consensus,Granulocyte precursor,Erythroid late,LGALS1,ITGB1,1,False
+consensus,Granulocyte precursor,CD8 T cytotoxic,LGALS1,CD69,1,False
+consensus,Granulocyte precursor,CD8 T cytotoxic,HLA-B,CD8A,1,False
+consensus,Granulocyte precursor,CD8 T cytotoxic,B2M,KLRD1,1,False
+consensus,Granulocyte precursor,CD4 T naive,S100A8,ITGB2,1,False
+consensus,B naive,Plasmacytoid DC,HLA-DPA1,CD4,1,False
+consensus,B naive,NK,CLEC2D,KLRB1,1,False
+consensus,B naive,NK,B2M,KLRC2,1,False
+consensus,B naive,Monocyte non-classical,HLA-DRB1,CD4,1,False
+consensus,Pre-B small,Monocyte non-classical,HLA-A,LILRA1,1,False
+consensus,Pre-B small,Monocyte classical,RPS19,C5AR1,1,False
+consensus,Pre-B small,CD8 T memory,HLA-C,CD8B,1,False
+consensus,Pre-B small,CD8 T memory,HLA-C,CD8A,1,False
+consensus,Pre-B small,T proliferating,HLA-DRA,LAG3,1,False
+consensus,B naive,CD8 T cytotoxic,HLA-A,CD8B,1,False
+consensus,T proliferating,CD4 T memory,HLA-B,CD3D,1,False
+consensus,T activated,T proliferating,HLA-B,CD8A,1,False
+consensus,T activated,T proliferating,HLA-A,CD8A,1,False
+consensus,T activated,T proliferating,B2M,KLRC1,1,False
+consensus,B naive,CD8 T cytotoxic,HLA-B,CD3D,1,False
+consensus,B naive,CD8 T cytotoxic,HLA-B,CD8A,1,False
+consensus,Pre-B small,T proliferating,HLA-B,CD3D,1,False
+consensus,Pre-B small,T proliferating,HLA-A,CD8B,1,False
+consensus,Pre-B small,NK,B2M,KLRC2,1,False
+consensus,T proliferating,T proliferating,B2M,KLRC1,1,False
+consensus,T proliferating,NK,CLEC2D,KLRB1,1,False
+consensus,T proliferating,Monocyte non-classical,RPS19,C5AR1,1,False
+consensus,CD8 T cytotoxic,T proliferating,B2M,KLRD1,1,False
+consensus,CD8 T cytotoxic,T proliferating,B2M,KLRC1,1,False
+consensus,Monocyte non-classical,B naive,CXCL12,CXCR4,1,False
+consensus,Monocyte classical,Plasmacytoid DC,TNFSF13B,HLA-DPB1,1,False
+consensus,Monocyte classical,Plasmacytoid DC,LGALS1,ITGB1,1,False
+consensus,Dendritic cell,Monocyte non-classical,HLA-B,LILRA1,1,False
+consensus,Monocyte classical,T proliferating,LGALS1,ITGB1,1,False
+consensus,Monocyte classical,T proliferating,B2M,KLRC1,1,False
+consensus,Monocyte classical,T activated,LGALS1,PTPRC,1,False
+consensus,Monocyte classical,Pre-B small,CXCL8,CD79A,1,False
+consensus,Monocyte classical,Pre-B large,CXCL8,CD79A,1,False
+consensus,Monocyte classical,Platelet,S100A8,CD69,1,False
+consensus,T activated,NK,B2M,KLRC2,1,False
+consensus,T activated,Monocyte non-classical,RPS19,C5AR1,1,False
+consensus,T activated,Monocyte non-classical,HLA-B,LILRB2,1,True
+consensus,T activated,Monocyte classical,RPS19,C5AR1,1,False
+consensus,T activated,CD8 T memory,HLA-A,CD8A,1,False
+consensus,T activated,CD8 T cytotoxic,HLA-B,CD3D,1,False
+consensus,Pre-B large,T activated,HMGB1,CXCR4,0,True
+consensus,Erythroid early,Monocyte classical,ERFE,LRP1,0,True
+consensus,Platelet,T proliferating,PF4,CXCR3,0,True
+cellphonedb,B naive,Monocyte non-classical,RPS19,C5AR1,8,True
+cellphonedb,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,8,True
+cellphonedb,Plasmacytoid DC,B naive,APP,CD74,8,True
+cellphonedb,Plasmacytoid DC,Pre-B small,APP,CD74,8,True
+cellphonedb,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,8,True
+cellphonedb,Plasmacytoid DC,Dendritic cell,APP,CD74,8,True
+cellphonedb,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,8,True
+cellphonedb,Plasmacytoid DC,Monocyte non-classical,APP,CD74,8,True
+cellphonedb,CD4 T memory,Monocyte non-classical,RPS19,C5AR1,7,False
+cellphonedb,Dendritic cell,Dendritic cell,TNFSF13B,HLA-DPB1,7,True
+cellphonedb,Monocyte non-classical,Dendritic cell,TNFSF13B,HLA-DPB1,7,True
+cellphonedb,CD4 T naive,Monocyte non-classical,RPS19,C5AR1,7,True
+cellphonedb,HSPC,Monocyte non-classical,RPS19,C5AR1,6,False
+cellphonedb,CD4 T memory,Monocyte classical,RPS19,C5AR1,6,False
+cellphonedb,Plasmacytoid DC,HSPC,APP,CD74,6,True
+cellphonedb,Pre-B small,Monocyte non-classical,RPS19,C5AR1,6,False
+cellphonedb,Plasmacytoid DC,Pre-B large,APP,CD74,6,True
+cellphonedb,Monocyte non-classical,Monocyte non-classical,RPS19,C5AR1,6,False
+cellphonedb,Granulocyte precursor,Monocyte non-classical,RPS19,C5AR1,6,False
+cellphonedb,Erythroid late,Monocyte non-classical,RPS19,C5AR1,6,False
+cellphonedb,HSPC,Monocyte classical,RPS19,C5AR1,6,False
+cellphonedb,CD8 T cytotoxic,Monocyte non-classical,RPS19,C5AR1,6,False
+cellphonedb,CD8 T memory,Monocyte non-classical,RPS19,C5AR1,6,False
+cellphonedb,CD4 T naive,Monocyte classical,RPS19,C5AR1,6,False
+cellphonedb,B naive,Monocyte classical,RPS19,C5AR1,6,False
+cellphonedb,Granulocyte precursor,B naive,MIF,CD74,5,False
+cellphonedb,HSPC,Plasmacytoid DC,MIF,CD74,5,False
+cellphonedb,Monocyte classical,B naive,TNFSF13B,HLA-DPB1,5,True
+cellphonedb,Granulocyte precursor,Monocyte classical,RPS19,C5AR1,5,False
+cellphonedb,Plasmacytoid DC,Monocyte non-classical,RPS19,C5AR1,5,False
+cellphonedb,Dendritic cell,Monocyte non-classical,RPS19,C5AR1,5,False
+cellphonedb,HSPC,Dendritic cell,MIF,CD74,5,False
+cellphonedb,Platelet,Plasmacytoid DC,PF4,CXCR3,4,True
+cellphonedb,Monocyte non-classical,Monocyte classical,RPS19,C5AR1,4,False
+cellphonedb,Plasmacytoid DC,Monocyte classical,APP,CD74,4,False
+cellphonedb,NK,Monocyte non-classical,RPS19,C5AR1,4,False
+cellphonedb,HSPC,B naive,MIF,CD74,4,False
+cellphonedb,Erythroid early,Monocyte non-classical,RPS19,C5AR1,4,False
+cellphonedb,Granulocyte precursor,Dendritic cell,MIF,CD74,4,False
+cellphonedb,Plasmacytoid DC,Dendritic cell,COPA,CD74,3,False
+cellphonedb,Plasmacytoid DC,Granulocyte precursor,APP,CD74,3,False
+cellphonedb,HSPC,Dendritic cell,TNFSF13B,HLA-DPB1,3,False
+cellphonedb,HSPC,B naive,APP,CD74,3,False
+cellphonedb,Granulocyte precursor,Plasmacytoid DC,MIF,CD74,3,False
+cellphonedb,HSPC,Dendritic cell,APP,CD74,3,False
+cellphonedb,B naive,Monocyte non-classical,CD52,SIGLEC10,3,False
+cellphonedb,CD8 T cytotoxic,Monocyte classical,RPS19,C5AR1,3,False
+cellphonedb,CD8 T memory,Monocyte classical,RPS19,C5AR1,3,False
+cellphonedb,Granulocyte precursor,B naive,TNFSF13B,HLA-DPB1,2,True
+cellphonedb,CD4 T naive,NK,CLEC2D,KLRB1,2,False
+cellphonedb,B naive,NK,CLEC2D,KLRB1,2,False
+cellphonedb,CD4 T memory,Monocyte non-classical,CD52,SIGLEC10,2,False
+cellphonedb,CD8 T memory,NK,CLEC2D,KLRB1,2,False
+cellphonedb,Dendritic cell,B naive,TNFSF13B,HLA-DPB1,2,False
+cellphonedb,Dendritic cell,Dendritic cell,COPA,CD74,2,False
+cellphonedb,HSPC,Plasmacytoid DC,APP,CD74,2,False
+cellphonedb,CD4 T memory,NK,CLEC2D,KLRB1,2,False
+cellphonedb,Plasmacytoid DC,T proliferating,APP,CD74,2,True
+cellphonedb,CD8 T cytotoxic,NK,CLEC2D,KLRB1,2,False
+cellphonedb,Monocyte non-classical,Pre-B small,CXCL12,CXCR4,2,False
+cellphonedb,Monocyte non-classical,Pre-B small,APP,CD74,2,False
+cellphonedb,Plasmacytoid DC,Monocyte classical,RPS19,C5AR1,2,False
+cellphonedb,Monocyte non-classical,Plasmacytoid DC,APP,CD74,2,False
+cellphonedb,T activated,Monocyte classical,RPS19,C5AR1,2,False
+cellphonedb,Pre-B large,Monocyte non-classical,RPS19,C5AR1,2,False
+cellphonedb,Plasmacytoid DC,Plasmacytoid DC,COPA,CD74,2,False
+cellphonedb,Platelet,Plasmacytoid DC,APP,CD74,2,False
+cellphonedb,Platelet,Pre-B small,APP,CD74,2,False
+cellphonedb,Platelet,Dendritic cell,APP,CD74,2,False
+cellphonedb,Monocyte non-classical,Dendritic cell,APP,CD74,2,False
+cellphonedb,Platelet,B naive,APP,CD74,2,True
+cellphonedb,Monocyte non-classical,B naive,APP,CD74,2,False
+cellphonedb,HSPC,T proliferating,CCL28,CCR3,1,False
+cellphonedb,CD8 T memory,NK,HLA-B,KIR3DL2,1,False
+cellphonedb,HSPC,Pre-B small,MIF,CD74,1,False
+cellphonedb,HSPC,Pre-B small,APP,CD74,1,False
+cellphonedb,HSPC,B naive,TNFSF13B,HLA-DPB1,1,False
+cellphonedb,Granulocyte precursor,Pre-B small,MIF,CD74,1,False
+cellphonedb,Erythroid early,Dendritic cell,COPA,CD74,1,False
+cellphonedb,Dendritic cell,Plasmacytoid DC,COPA,CD74,1,False
+cellphonedb,Erythroid late,Monocyte classical,RPS19,C5AR1,1,False
+cellphonedb,Erythroid early,Plasmacytoid DC,MIF,CD74,1,False
+cellphonedb,Erythroid early,Plasmacytoid DC,COPA,CD74,1,False
+cellphonedb,Erythroid early,Monocyte classical,ERFE,LRP1,1,False
+cellphonedb,Erythroid early,Dendritic cell,MIF,CD74,1,False
+cellphonedb,Erythroid early,B naive,MIF,CD74,1,False
+cellphonedb,Dendritic cell,B naive,COPA,CD74,1,False
+cellphonedb,Dendritic cell,Dendritic cell,MIF,CD74,1,False
+cellphonedb,Dendritic cell,Plasmacytoid DC,APP,CD74,1,False
+cellphonedb,Monocyte non-classical,Pre-B large,CXCL12,CXCR4,1,False
+cellphonedb,Plasmacytoid DC,B naive,COPA,CD74,1,False
+cellphonedb,Monocyte non-classical,B naive,TNFSF13B,HLA-DPB1,1,False
+cellphonedb,Monocyte non-classical,B naive,CXCL12,CXCR4,1,False
+cellphonedb,Monocyte classical,Plasmacytoid DC,TNFSF13B,HLA-DPB1,1,False
+cellphonedb,Monocyte non-classical,Monocyte non-classical,CD52,SIGLEC10,1,False
+cellphonedb,Monocyte non-classical,Plasmacytoid DC,TNFSF13B,HLA-DPB1,1,False
+cellphonedb,Monocyte classical,Monocyte non-classical,RPS19,C5AR1,1,False
+cellphonedb,Monocyte non-classical,CD8 T memory,CXCL12,CXCR4,1,False
+cellphonedb,Monocyte non-classical,CD8 T cytotoxic,CXCL12,CXCR4,1,False
+cellphonedb,Monocyte non-classical,Pre-B large,APP,CD74,1,False
+cellphonedb,Platelet,NK,HLA-E,KLRC1,1,False
+cellphonedb,Platelet,Pre-B large,APP,CD74,1,False
+cellphonedb,Platelet,Monocyte non-classical,APP,CD74,1,False
+cellphonedb,Plasmacytoid DC,Pre-B small,COPA,CD74,1,False
+cellphonedb,Platelet,NK,HLA-E,KLRC1_KLRD1,1,False
+cellphonedb,T activated,Dendritic cell,MIF,CD74,1,False
+cellphonedb,Pre-B large,Dendritic cell,COPA,CD74,1,False
+cellphonedb,Pre-B large,B naive,COPA,CD74,1,False
+cellphonedb,Pre-B large,Plasmacytoid DC,COPA,CD74,1,False
+cellphonedb,Pre-B small,Monocyte classical,RPS19,C5AR1,1,False
+cellphonedb,Pre-B small,NK,CLEC2D,KLRB1,1,False
+cellphonedb,T activated,B naive,MIF,CD74,1,False
+cellphonedb,Pre-B large,NK,CLEC2D,KLRB1,1,False
+cellphonedb,T proliferating,Dendritic cell,COPA,CD74,1,False
+cellphonedb,T activated,Monocyte non-classical,RPS19,C5AR1,1,False
+cellphonedb,T activated,Plasmacytoid DC,MIF,CD74,1,False
+cellphonedb,T proliferating,B naive,COPA,CD74,1,False
+cellphonedb,T proliferating,NK,CLEC2D,KLRB1,1,True
+cellphonedb,T proliferating,Monocyte non-classical,RPS19,C5AR1,1,False
+cellphonedb,T proliferating,Plasmacytoid DC,COPA,CD74,1,False
+cellphonedb,Platelet,T proliferating,PF4,CXCR3,0,True

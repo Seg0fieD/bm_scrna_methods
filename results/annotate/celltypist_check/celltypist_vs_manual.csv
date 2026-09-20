@@ -1,0 +1,20 @@
+cell_type,CD16+ NK cells,Classical monocytes,DC2,HSC/MPP,Large pre-B cells,Megakaryocytes/platelets,Mid erythroid,Naive B cells,Non-classical monocytes,Small pre-B cells,Tcm/Naive helper T cells,Tem/Temra cytotoxic T cells,Tem/Trm cytotoxic T cells,pDC
+HSPC,0,0,0,973,0,0,0,0,0,0,0,0,0,0
+Granulocyte precursor,0,926,0,0,0,0,0,0,0,0,0,0,0,0
+Monocyte classical,0,5030,0,0,0,0,0,0,0,0,0,0,0,0
+Monocyte non-classical,0,0,0,0,0,0,0,0,901,0,0,0,0,0
+Dendritic cell,0,0,497,0,0,0,0,0,0,0,0,0,0,0
+Plasmacytoid DC,0,0,0,0,0,0,0,0,0,0,0,0,0,330
+Erythroid early,0,0,0,0,0,0,1151,0,0,0,0,0,0,0
+Erythroid late,0,0,0,0,0,0,597,0,0,0,0,0,0,0
+Platelet,0,0,0,0,0,103,0,0,0,0,0,0,0,0
+Pre-B large,0,0,0,0,334,0,0,0,0,0,0,0,0,0
+Pre-B small,0,0,0,0,0,0,0,0,0,1025,0,0,0,0
+B naive,0,0,0,0,0,0,0,5018,0,0,0,0,0,0
+CD4 T naive,0,0,0,0,0,0,0,0,0,0,10765,0,0,0
+CD4 T memory,0,0,0,0,0,0,0,0,0,0,2713,0,0,0
+T activated,0,0,0,0,0,0,0,0,0,0,583,0,0,0
+CD8 T memory,0,0,0,0,0,0,0,0,0,0,0,0,2977,0
+CD8 T cytotoxic,0,0,0,0,0,0,0,0,0,0,0,2307,0,0
+NK,2153,0,0,0,0,0,0,0,0,0,0,0,0,0
+T proliferating,0,0,0,0,0,0,0,0,0,0,0,0,47,0

@@ -1,0 +1,1801 @@
+resource,method,position,source,target,ligand_complex,receptor_complex,score
+consensus,CellPhoneDB magnitude,1,NK,NK,B2M,KLRD1,3.739877
+consensus,CellPhoneDB magnitude,2,CD8 T cytotoxic,NK,B2M,KLRD1,3.6725526
+consensus,CellPhoneDB magnitude,3,CD8 T memory,NK,B2M,KLRD1,3.6331825
+consensus,CellPhoneDB magnitude,4,CD4 T memory,NK,B2M,KLRD1,3.5219622
+consensus,CellPhoneDB magnitude,5,T proliferating,NK,B2M,KLRD1,3.5138295
+consensus,CellPhoneDB magnitude,6,Monocyte classical,NK,S100A9,ITGB2,3.4593103
+consensus,CellPhoneDB magnitude,7,Monocyte non-classical,NK,B2M,KLRD1,3.4305303
+consensus,CellPhoneDB magnitude,8,Monocyte classical,Erythroid early,S100A9,CD36,3.410087
+consensus,CellPhoneDB magnitude,9,Monocyte classical,NK,S100A8,ITGB2,3.3926349
+consensus,CellPhoneDB magnitude,10,Monocyte classical,T proliferating,S100A9,ITGB2,3.3904648
+consensus,CellPhoneDB magnitude,11,Pre-B large,CD8 T memory,HMGB1,CXCR4,3.3855886
+consensus,CellPhoneDB magnitude,12,Monocyte classical,Dendritic cell,S100A9,ITGB2,3.3788471
+consensus,CellPhoneDB magnitude,13,Plasmacytoid DC,NK,B2M,KLRD1,3.375885
+consensus,CellPhoneDB magnitude,14,Monocyte classical,Erythroid early,S100A8,CD36,3.3434114
+consensus,CellPhoneDB magnitude,15,Pre-B large,Pre-B large,HMGB1,CXCR4,3.343348
+consensus,CellPhoneDB magnitude,16,Monocyte classical,T proliferating,S100A8,ITGB2,3.3237894
+consensus,CellPhoneDB magnitude,17,Monocyte classical,Dendritic cell,S100A8,ITGB2,3.312172
+consensus,CellPhoneDB magnitude,18,Monocyte classical,T activated,S100A8,CD69,3.3035996
+consensus,CellPhoneDB magnitude,19,CD4 T naive,NK,B2M,KLRD1,3.299649
+consensus,CellPhoneDB magnitude,20,Monocyte classical,Monocyte non-classical,S100A9,CD68,3.268873
+consensus,CellPhoneDB magnitude,21,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,3.2682083
+consensus,CellPhoneDB magnitude,22,Platelet,NK,B2M,KLRD1,3.2664726
+consensus,CellPhoneDB magnitude,23,Monocyte classical,NK,B2M,KLRD1,3.2461524
+consensus,CellPhoneDB magnitude,24,Monocyte classical,CD8 T memory,S100A8,CD69,3.2403634
+consensus,CellPhoneDB magnitude,25,T activated,NK,B2M,KLRD1,3.2301173
+consensus,CellPhoneDB magnitude,26,NK,CD8 T cytotoxic,B2M,KLRD1,3.2130237
+consensus,CellPhoneDB magnitude,27,Pre-B large,Pre-B small,HMGB1,CXCR4,3.2091618
+consensus,CellPhoneDB magnitude,28,Pre-B large,B naive,HMGB1,CXCR4,3.2081366
+consensus,CellPhoneDB magnitude,29,Monocyte classical,CD8 T cytotoxic,S100A9,ITGB2,3.2080593
+consensus,CellPhoneDB magnitude,30,Pre-B small,NK,B2M,KLRD1,3.20494
+consensus,CellPhoneDB magnitude,31,Monocyte classical,Monocyte non-classical,S100A8,CD68,3.2021976
+consensus,CellPhoneDB magnitude,32,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,3.2015328
+consensus,CellPhoneDB magnitude,33,Dendritic cell,NK,B2M,KLRD1,3.1882384
+consensus,CellPhoneDB magnitude,34,Monocyte classical,T proliferating,S100A8,CD69,3.1648822
+consensus,CellPhoneDB magnitude,35,B naive,NK,B2M,KLRD1,3.160825
+consensus,CellPhoneDB magnitude,36,Pre-B large,T activated,HMGB1,CXCR4,3.147527
+consensus,CellPhoneDB magnitude,37,CD8 T cytotoxic,CD8 T cytotoxic,B2M,KLRD1,3.1456993
+consensus,CellPhoneDB magnitude,38,Monocyte classical,CD8 T cytotoxic,S100A8,ITGB2,3.141384
+consensus,CellPhoneDB magnitude,39,Monocyte classical,Plasmacytoid DC,S100A9,CD68,3.1152537
+consensus,CellPhoneDB magnitude,40,Pre-B large,T proliferating,HMGB1,CXCR4,3.1125462
+consensus,CellPhoneDB magnitude,41,CD8 T memory,CD8 T cytotoxic,B2M,KLRD1,3.1063292
+consensus,CellPhoneDB magnitude,42,Monocyte classical,CD4 T memory,S100A8,CD69,3.0597093
+consensus,CellPhoneDB magnitude,43,Monocyte classical,Plasmacytoid DC,S100A8,CD68,3.0485783
+consensus,CellPhoneDB magnitude,44,Monocyte classical,Pre-B small,S100A8,CD69,3.0463858
+consensus,CellPhoneDB magnitude,45,NK,T proliferating,B2M,KLRD1,3.0444856
+consensus,CellPhoneDB magnitude,46,NK,NK,B2M,KLRC1,3.044065
+consensus,CellPhoneDB magnitude,47,Monocyte classical,Monocyte classical,S100A9,ITGB2,3.0417004
+consensus,CellPhoneDB magnitude,48,Pre-B large,CD4 T memory,HMGB1,CXCR4,3.0394738
+consensus,CellPhoneDB magnitude,49,Monocyte classical,CD8 T memory,S100A9,ITGB2,3.0333726
+consensus,CellPhoneDB magnitude,50,Monocyte classical,Monocyte classical,S100A9,CD36,3.030427
+consensus,CellPhoneDB magnitude,51,NK,CD8 T memory,B2M,KLRD1,3.0164237
+consensus,CellPhoneDB magnitude,52,Plasmacytoid DC,Dendritic cell,APP,CD74,3.0144258
+consensus,CellPhoneDB magnitude,53,Monocyte classical,Monocyte classical,S100A9,CD68,3.006463
+consensus,CellPhoneDB magnitude,54,Erythroid early,CD8 T memory,HMGB1,CXCR4,2.9990501
+consensus,CellPhoneDB magnitude,55,Plasmacytoid DC,B naive,APP,CD74,2.9983869
+consensus,CellPhoneDB magnitude,56,CD4 T memory,CD8 T cytotoxic,B2M,KLRD1,2.9951088
+consensus,CellPhoneDB magnitude,57,NK,Dendritic cell,B2M,CD1C,2.991069
+consensus,CellPhoneDB magnitude,58,T proliferating,CD8 T cytotoxic,B2M,KLRD1,2.9869761
+consensus,CellPhoneDB magnitude,59,Monocyte classical,Erythroid late,S100A9,CD36,2.982479
+consensus,CellPhoneDB magnitude,60,CD8 T cytotoxic,T proliferating,B2M,KLRD1,2.9771612
+consensus,CellPhoneDB magnitude,61,CD8 T cytotoxic,NK,B2M,KLRC1,2.9767404
+consensus,CellPhoneDB magnitude,62,Monocyte classical,Monocyte classical,S100A8,ITGB2,2.9750252
+consensus,CellPhoneDB magnitude,63,Monocyte classical,CD8 T memory,S100A8,ITGB2,2.9666972
+consensus,CellPhoneDB magnitude,64,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,2.9641495
+consensus,CellPhoneDB magnitude,65,Monocyte classical,Monocyte classical,S100A8,CD36,2.9637516
+consensus,CellPhoneDB magnitude,66,Erythroid early,Pre-B large,HMGB1,CXCR4,2.9568093
+consensus,CellPhoneDB magnitude,67,Erythroid late,CD8 T memory,HMGB1,CXCR4,2.9504642
+consensus,CellPhoneDB magnitude,68,CD8 T cytotoxic,CD8 T memory,B2M,KLRD1,2.9490993
+consensus,CellPhoneDB magnitude,69,Monocyte classical,B naive,S100A8,CD69,2.9490006
+consensus,CellPhoneDB magnitude,70,Monocyte classical,Monocyte classical,S100A8,CD68,2.9397876
+consensus,CellPhoneDB magnitude,71,CD8 T memory,T proliferating,B2M,KLRD1,2.937791
+consensus,CellPhoneDB magnitude,72,CD8 T memory,NK,B2M,KLRC1,2.9373703
+consensus,CellPhoneDB magnitude,73,Monocyte classical,Granulocyte precursor,S100A9,ITGB2,2.929707
+consensus,CellPhoneDB magnitude,74,CD8 T cytotoxic,Dendritic cell,B2M,CD1C,2.9237447
+consensus,CellPhoneDB magnitude,75,Pre-B large,NK,B2M,KLRD1,2.9233313
+consensus,CellPhoneDB magnitude,76,Monocyte classical,Platelet,S100A9,CD68,2.9159577
+consensus,CellPhoneDB magnitude,77,Monocyte classical,Erythroid late,S100A8,CD36,2.915804
+consensus,CellPhoneDB magnitude,78,CD8 T cytotoxic,T proliferating,HLA-B,CD3D,2.9141488
+consensus,CellPhoneDB magnitude,79,Monocyte classical,NK,S100A8,CD69,2.9119055
+consensus,CellPhoneDB magnitude,80,CD8 T memory,CD8 T memory,B2M,KLRD1,2.9097292
+consensus,CellPhoneDB magnitude,81,Monocyte classical,CD4 T memory,S100A9,ITGB2,2.9083312
+consensus,CellPhoneDB magnitude,82,Erythroid late,Pre-B large,HMGB1,CXCR4,2.9082236
+consensus,CellPhoneDB magnitude,83,Monocyte non-classical,CD8 T cytotoxic,B2M,KLRD1,2.903677
+consensus,CellPhoneDB magnitude,84,CD8 T cytotoxic,NK,HLA-B,KLRD1,2.9020705
+consensus,CellPhoneDB magnitude,85,Monocyte classical,Dendritic cell,S100A9,CD36,2.8896255
+consensus,CellPhoneDB magnitude,86,Monocyte classical,Plasmacytoid DC,S100A9,CD36,2.8861978
+consensus,CellPhoneDB magnitude,87,T proliferating,CD8 T memory,HMGB1,CXCR4,2.885111
+consensus,CellPhoneDB magnitude,88,CD8 T memory,Dendritic cell,B2M,CD1C,2.8843746
+consensus,CellPhoneDB magnitude,89,NK,NK,B2M,KLRC2,2.867444
+consensus,CellPhoneDB magnitude,90,CD8 T memory,T proliferating,HLA-B,CD3D,2.867172
+consensus,CellPhoneDB magnitude,91,NK,T proliferating,B2M,KLRC1,2.8650818
+consensus,CellPhoneDB magnitude,92,Monocyte classical,CD4 T naive,S100A8,CD69,2.8633926
+consensus,CellPhoneDB magnitude,93,Monocyte classical,Granulocyte precursor,S100A8,ITGB2,2.8630316
+consensus,CellPhoneDB magnitude,94,Pre-B large,CD8 T cytotoxic,HMGB1,CXCR4,2.856995
+consensus,CellPhoneDB magnitude,95,CD8 T memory,NK,HLA-B,KLRD1,2.8550937
+consensus,CellPhoneDB magnitude,96,Monocyte classical,CD8 T cytotoxic,S100A8,CD69,2.8508377
+consensus,CellPhoneDB magnitude,97,Monocyte classical,Platelet,S100A8,CD68,2.8492823
+consensus,CellPhoneDB magnitude,98,Plasmacytoid DC,CD8 T cytotoxic,B2M,KLRD1,2.8490317
+consensus,CellPhoneDB magnitude,99,NK,T proliferating,HLA-B,CD3D,2.8484628
+consensus,CellPhoneDB magnitude,100,T proliferating,Pre-B large,HMGB1,CXCR4,2.8428702
+consensus,NATMI magnitude,1,NK,NK,B2M,KLRD1,11.058282
+consensus,NATMI magnitude,2,Pre-B large,CD8 T memory,HMGB1,CXCR4,10.852417
+consensus,NATMI magnitude,3,CD8 T cytotoxic,NK,B2M,KLRD1,10.7851305
+consensus,NATMI magnitude,4,CD8 T memory,NK,B2M,KLRD1,10.625397
+consensus,NATMI magnitude,5,Pre-B large,Pre-B large,HMGB1,CXCR4,10.500426
+consensus,NATMI magnitude,6,CD4 T memory,NK,B2M,KLRD1,10.174149
+consensus,NATMI magnitude,7,T proliferating,NK,B2M,KLRD1,10.141152
+consensus,NATMI magnitude,8,Monocyte non-classical,NK,B2M,KLRD1,9.803187
+consensus,NATMI magnitude,9,Plasmacytoid DC,NK,B2M,KLRD1,9.581478
+consensus,NATMI magnitude,10,Pre-B large,Pre-B small,HMGB1,CXCR4,9.382257
+consensus,NATMI magnitude,11,Pre-B large,B naive,HMGB1,CXCR4,9.373714
+consensus,NATMI magnitude,12,CD4 T naive,NK,B2M,KLRD1,9.272171
+consensus,NATMI magnitude,13,Platelet,NK,B2M,KLRD1,9.137566
+consensus,NATMI magnitude,14,Monocyte classical,NK,B2M,KLRD1,9.055122
+consensus,NATMI magnitude,15,T activated,NK,B2M,KLRD1,8.990064
+consensus,NATMI magnitude,16,Pre-B small,NK,B2M,KLRD1,8.887914
+consensus,NATMI magnitude,17,Pre-B large,T activated,HMGB1,CXCR4,8.868658
+consensus,NATMI magnitude,18,Erythroid early,CD8 T memory,HMGB1,CXCR4,8.838786
+consensus,NATMI magnitude,19,Dendritic cell,NK,B2M,KLRD1,8.820151
+consensus,NATMI magnitude,20,B naive,NK,B2M,KLRD1,8.708928
+consensus,NATMI magnitude,21,Monocyte classical,NK,S100A9,ITGB2,8.625128
+consensus,NATMI magnitude,22,Erythroid late,CD8 T memory,HMGB1,CXCR4,8.585684
+consensus,NATMI magnitude,23,Pre-B large,T proliferating,HMGB1,CXCR4,8.577165
+consensus,NATMI magnitude,24,Erythroid early,Pre-B large,HMGB1,CXCR4,8.552106
+consensus,NATMI magnitude,25,Monocyte classical,NK,S100A8,ITGB2,8.407596
+consensus,NATMI magnitude,26,Erythroid late,Pre-B large,HMGB1,CXCR4,8.307214
+consensus,NATMI magnitude,27,T proliferating,CD8 T memory,HMGB1,CXCR4,8.245234
+consensus,NATMI magnitude,28,Monocyte classical,Erythroid early,S100A9,CD36,8.104607
+consensus,NATMI magnitude,29,T proliferating,Pre-B large,HMGB1,CXCR4,7.977805
+consensus,NATMI magnitude,30,Pre-B large,CD4 T memory,HMGB1,CXCR4,7.968255
+consensus,NATMI magnitude,31,Monocyte classical,Erythroid early,S100A8,CD36,7.9002023
+consensus,NATMI magnitude,32,Monocyte classical,T proliferating,S100A9,ITGB2,7.897108
+consensus,NATMI magnitude,33,Monocyte classical,Dendritic cell,S100A9,ITGB2,7.774256
+consensus,NATMI magnitude,34,CD8 T cytotoxic,T proliferating,HLA-B,CD3D,7.750302
+consensus,NATMI magnitude,35,Pre-B large,NK,B2M,KLRD1,7.745359
+consensus,NATMI magnitude,36,Monocyte classical,T proliferating,S100A8,ITGB2,7.697937
+consensus,NATMI magnitude,37,CD8 T cytotoxic,NK,HLA-B,KLRD1,7.659098
+consensus,NATMI magnitude,38,Erythroid early,Pre-B small,HMGB1,CXCR4,7.6414094
+consensus,NATMI magnitude,39,Erythroid early,B naive,HMGB1,CXCR4,7.634452
+consensus,NATMI magnitude,40,Monocyte classical,Dendritic cell,S100A8,ITGB2,7.5781837
+consensus,NATMI magnitude,41,CD8 T memory,T proliferating,HLA-B,CD3D,7.5574365
+consensus,NATMI magnitude,42,Monocyte classical,T activated,S100A8,CD69,7.4898205
+consensus,NATMI magnitude,43,NK,T proliferating,HLA-B,CD3D,7.480625
+consensus,NATMI magnitude,44,CD8 T memory,NK,HLA-B,KLRD1,7.4685025
+consensus,NATMI magnitude,45,Erythroid late,Pre-B small,HMGB1,CXCR4,7.422595
+consensus,NATMI magnitude,46,Erythroid late,B naive,HMGB1,CXCR4,7.4158363
+consensus,NATMI magnitude,47,NK,NK,HLA-B,KLRD1,7.392595
+consensus,NATMI magnitude,48,HSPC,NK,B2M,KLRD1,7.3662376
+consensus,NATMI magnitude,49,T activated,T proliferating,HLA-B,CD3D,7.3219743
+consensus,NATMI magnitude,50,Granulocyte precursor,NK,B2M,KLRD1,7.2990055
+consensus,NATMI magnitude,51,T activated,NK,HLA-B,KLRD1,7.235811
+consensus,NATMI magnitude,52,Erythroid early,T activated,HMGB1,CXCR4,7.223107
+consensus,NATMI magnitude,53,T proliferating,T proliferating,HLA-B,CD3D,7.155836
+consensus,NATMI magnitude,54,HSPC,CD8 T memory,HMGB1,CXCR4,7.1488266
+consensus,NATMI magnitude,55,T proliferating,Pre-B small,HMGB1,CXCR4,7.1282644
+consensus,NATMI magnitude,56,T proliferating,B naive,HMGB1,CXCR4,7.121774
+consensus,NATMI magnitude,57,Platelet,CD8 T memory,HMGB1,CXCR4,7.081961
+consensus,NATMI magnitude,58,T proliferating,NK,HLA-B,KLRD1,7.0716276
+consensus,NATMI magnitude,59,Erythroid late,T activated,HMGB1,CXCR4,7.0162706
+consensus,NATMI magnitude,60,Erythroid early,T proliferating,HMGB1,CXCR4,6.985699
+consensus,NATMI magnitude,61,CD8 T cytotoxic,CD8 T memory,HLA-B,CD3D,6.9267282
+consensus,NATMI magnitude,62,HSPC,Pre-B large,HMGB1,CXCR4,6.9169593
+consensus,NATMI magnitude,63,Platelet,Pre-B large,HMGB1,CXCR4,6.852263
+consensus,NATMI magnitude,64,Monocyte classical,CD8 T memory,S100A8,CD69,6.8379836
+consensus,NATMI magnitude,65,Erythroid late,T proliferating,HMGB1,CXCR4,6.785661
+consensus,NATMI magnitude,66,CD8 T memory,CD8 T memory,HLA-B,CD3D,6.7543573
+consensus,NATMI magnitude,67,T proliferating,T activated,HMGB1,CXCR4,6.7380524
+consensus,NATMI magnitude,68,Monocyte non-classical,T proliferating,HLA-B,CD3D,6.711392
+consensus,NATMI magnitude,69,Plasmacytoid DC,Dendritic cell,APP,CD74,6.6961546
+consensus,NATMI magnitude,70,NK,CD8 T memory,HLA-B,CD3D,6.685708
+consensus,NATMI magnitude,71,Plasmacytoid DC,B naive,APP,CD74,6.649056
+consensus,NATMI magnitude,72,CD8 T cytotoxic,CD4 T memory,HLA-B,CD3D,6.6418986
+consensus,NATMI magnitude,73,Monocyte non-classical,NK,HLA-B,KLRD1,6.632414
+consensus,NATMI magnitude,74,CD4 T memory,T proliferating,HLA-B,CD3D,6.628639
+consensus,NATMI magnitude,75,Monocyte classical,Monocyte non-classical,S100A9,CD68,6.6113124
+consensus,NATMI magnitude,76,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,6.6042833
+consensus,NATMI magnitude,77,CD4 T memory,NK,HLA-B,KLRD1,6.5506353
+consensus,NATMI magnitude,78,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,6.5485168
+consensus,NATMI magnitude,79,T activated,CD8 T memory,HLA-B,CD3D,6.5439167
+consensus,NATMI magnitude,80,T proliferating,T proliferating,HMGB1,CXCR4,6.5165873
+consensus,NATMI magnitude,81,Granulocyte precursor,CD8 T memory,HMGB1,CXCR4,6.5023937
+consensus,NATMI magnitude,82,Erythroid early,CD4 T memory,HMGB1,CXCR4,6.489771
+consensus,NATMI magnitude,83,CD8 T memory,CD4 T memory,HLA-B,CD3D,6.4766154
+consensus,NATMI magnitude,84,Pre-B large,CD8 T cytotoxic,HMGB1,CXCR4,6.447666
+consensus,NATMI magnitude,85,Monocyte classical,Monocyte non-classical,S100A8,CD68,6.44457
+consensus,NATMI magnitude,86,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,6.4377184
+consensus,NATMI magnitude,87,Pre-B small,T proliferating,HLA-B,CD3D,6.428361
+consensus,NATMI magnitude,88,NK,CD4 T memory,HLA-B,CD3D,6.410789
+consensus,NATMI magnitude,89,T proliferating,CD8 T memory,HLA-B,CD3D,6.3954325
+consensus,NATMI magnitude,90,Pre-B small,NK,HLA-B,KLRD1,6.3527136
+consensus,NATMI magnitude,91,Erythroid late,CD4 T memory,HMGB1,CXCR4,6.303934
+consensus,NATMI magnitude,92,Granulocyte precursor,Pre-B large,HMGB1,CXCR4,6.2914934
+consensus,NATMI magnitude,93,T activated,CD4 T memory,HLA-B,CD3D,6.274828
+consensus,NATMI magnitude,94,CD8 T cytotoxic,CD8 T cytotoxic,HLA-B,CD3D,6.1927943
+consensus,NATMI magnitude,95,HSPC,Pre-B small,HMGB1,CXCR4,6.180386
+consensus,NATMI magnitude,96,HSPC,B naive,HMGB1,CXCR4,6.174759
+consensus,NATMI magnitude,97,T proliferating,CD4 T memory,HLA-B,CD3D,6.1324496
+consensus,NATMI magnitude,98,Dendritic cell,T proliferating,HLA-B,CD3D,6.1323953
+consensus,NATMI magnitude,99,Platelet,Pre-B small,HMGB1,CXCR4,6.122579
+consensus,NATMI magnitude,100,Platelet,B naive,HMGB1,CXCR4,6.1170044
+consensus,SingleCellSignalR magnitude,1,NK,NK,B2M,KLRD1,0.9774453
+consensus,SingleCellSignalR magnitude,2,Pre-B large,CD8 T memory,HMGB1,CXCR4,0.9772372
+consensus,SingleCellSignalR magnitude,3,CD8 T cytotoxic,NK,B2M,KLRD1,0.97716796
+consensus,SingleCellSignalR magnitude,4,CD8 T memory,NK,B2M,KLRD1,0.9770009
+consensus,SingleCellSignalR magnitude,5,Pre-B large,Pre-B large,HMGB1,CXCR4,0.9768676
+consensus,SingleCellSignalR magnitude,6,CD4 T memory,NK,B2M,KLRD1,0.97650826
+consensus,SingleCellSignalR magnitude,7,T proliferating,NK,B2M,KLRD1,0.976471
+consensus,SingleCellSignalR magnitude,8,Monocyte non-classical,NK,B2M,KLRD1,0.97607845
+consensus,SingleCellSignalR magnitude,9,Plasmacytoid DC,NK,B2M,KLRD1,0.97580993
+consensus,SingleCellSignalR magnitude,10,Pre-B large,Pre-B small,HMGB1,CXCR4,0.9755607
+consensus,SingleCellSignalR magnitude,11,Pre-B large,B naive,HMGB1,CXCR4,0.9755498
+consensus,SingleCellSignalR magnitude,12,CD4 T naive,NK,B2M,KLRD1,0.9754196
+consensus,SingleCellSignalR magnitude,13,Platelet,NK,B2M,KLRD1,0.9752437
+consensus,SingleCellSignalR magnitude,14,Monocyte classical,NK,B2M,KLRD1,0.975134
+consensus,SingleCellSignalR magnitude,15,T activated,NK,B2M,KLRD1,0.97504646
+consensus,SingleCellSignalR magnitude,16,Pre-B small,NK,B2M,KLRD1,0.97490704
+consensus,SingleCellSignalR magnitude,17,Pre-B large,T activated,HMGB1,CXCR4,0.9748805
+consensus,SingleCellSignalR magnitude,18,Erythroid early,CD8 T memory,HMGB1,CXCR4,0.97483915
+consensus,SingleCellSignalR magnitude,19,Dendritic cell,NK,B2M,KLRD1,0.9748133
+consensus,SingleCellSignalR magnitude,20,B naive,NK,B2M,KLRD1,0.974657
+consensus,SingleCellSignalR magnitude,21,Monocyte classical,NK,S100A9,ITGB2,0.9745373
+consensus,SingleCellSignalR magnitude,22,Erythroid late,CD8 T memory,HMGB1,CXCR4,0.9744804
+consensus,SingleCellSignalR magnitude,23,Pre-B large,T proliferating,HMGB1,CXCR4,0.97446805
+consensus,SingleCellSignalR magnitude,24,Erythroid early,Pre-B large,HMGB1,CXCR4,0.97443163
+consensus,SingleCellSignalR magnitude,25,Monocyte classical,NK,S100A8,ITGB2,0.9742185
+consensus,SingleCellSignalR magnitude,26,Erythroid late,Pre-B large,HMGB1,CXCR4,0.9740672
+consensus,SingleCellSignalR magnitude,27,T proliferating,CD8 T memory,HMGB1,CXCR4,0.97397244
+consensus,SingleCellSignalR magnitude,28,Monocyte classical,Erythroid early,S100A9,CD36,0.9737535
+consensus,SingleCellSignalR magnitude,29,T proliferating,Pre-B large,HMGB1,CXCR4,0.9735512
+consensus,SingleCellSignalR magnitude,30,Pre-B large,CD4 T memory,HMGB1,CXCR4,0.97353584
+consensus,SingleCellSignalR magnitude,31,Monocyte classical,Erythroid early,S100A8,CD36,0.9734251
+consensus,SingleCellSignalR magnitude,32,Monocyte classical,T proliferating,S100A9,ITGB2,0.97342
+consensus,SingleCellSignalR magnitude,33,Monocyte classical,Dendritic cell,S100A9,ITGB2,0.9732164
+consensus,SingleCellSignalR magnitude,34,CD8 T cytotoxic,T proliferating,HLA-B,CD3D,0.9731762
+consensus,SingleCellSignalR magnitude,35,Pre-B large,NK,B2M,KLRD1,0.9731679
+consensus,SingleCellSignalR magnitude,36,Monocyte classical,T proliferating,S100A8,ITGB2,0.97308755
+consensus,SingleCellSignalR magnitude,37,CD8 T cytotoxic,NK,HLA-B,KLRD1,0.97302127
+consensus,SingleCellSignalR magnitude,38,Erythroid early,Pre-B small,HMGB1,CXCR4,0.9729909
+consensus,SingleCellSignalR magnitude,39,Erythroid early,B naive,HMGB1,CXCR4,0.97297895
+consensus,SingleCellSignalR magnitude,40,Monocyte classical,Dendritic cell,S100A8,ITGB2,0.9728815
+consensus,SingleCellSignalR magnitude,41,CD8 T memory,T proliferating,HLA-B,CD3D,0.9728453
+consensus,SingleCellSignalR magnitude,42,Monocyte classical,T activated,S100A8,CD69,0.97272635
+consensus,SingleCellSignalR magnitude,43,NK,T proliferating,HLA-B,CD3D,0.9727101
+consensus,SingleCellSignalR magnitude,44,CD8 T memory,NK,HLA-B,KLRD1,0.9726885
+consensus,SingleCellSignalR magnitude,45,Erythroid late,Pre-B small,HMGB1,CXCR4,0.9726065
+consensus,SingleCellSignalR magnitude,46,Erythroid late,B naive,HMGB1,CXCR4,0.9725944
+consensus,SingleCellSignalR magnitude,47,NK,NK,HLA-B,KLRD1,0.9725525
+consensus,SingleCellSignalR magnitude,48,HSPC,NK,B2M,KLRD1,0.9725048
+consensus,SingleCellSignalR magnitude,49,T activated,T proliferating,HLA-B,CD3D,0.9724241
+consensus,SingleCellSignalR magnitude,50,Granulocyte precursor,NK,B2M,KLRD1,0.97238195
+consensus,SingleCellSignalR magnitude,51,T activated,NK,HLA-B,KLRD1,0.97226495
+consensus,SingleCellSignalR magnitude,52,Erythroid early,T activated,HMGB1,CXCR4,0.9722412
+consensus,SingleCellSignalR magnitude,53,T proliferating,T proliferating,HLA-B,CD3D,0.9721147
+consensus,SingleCellSignalR magnitude,54,HSPC,CD8 T memory,HMGB1,CXCR4,0.9721014
+consensus,SingleCellSignalR magnitude,55,T proliferating,Pre-B small,HMGB1,CXCR4,0.9720623
+consensus,SingleCellSignalR magnitude,56,T proliferating,B naive,HMGB1,CXCR4,0.97204995
+consensus,SingleCellSignalR magnitude,57,Platelet,CD8 T memory,HMGB1,CXCR4,0.9719737
+consensus,SingleCellSignalR magnitude,58,T proliferating,NK,HLA-B,KLRD1,0.9719538
+consensus,SingleCellSignalR magnitude,59,Erythroid late,T activated,HMGB1,CXCR4,0.97184646
+consensus,SingleCellSignalR magnitude,60,Erythroid early,T proliferating,HMGB1,CXCR4,0.9717867
+consensus,SingleCellSignalR magnitude,61,CD8 T cytotoxic,CD8 T memory,HLA-B,CD3D,0.9716702
+consensus,SingleCellSignalR magnitude,62,HSPC,Pre-B large,HMGB1,CXCR4,0.9716508
+consensus,SingleCellSignalR magnitude,63,Platelet,Pre-B large,HMGB1,CXCR4,0.9715211
+consensus,SingleCellSignalR magnitude,64,Monocyte classical,CD8 T memory,S100A8,CD69,0.97149223
+consensus,SingleCellSignalR magnitude,65,Erythroid late,T proliferating,HMGB1,CXCR4,0.97138566
+consensus,SingleCellSignalR magnitude,66,CD8 T memory,CD8 T memory,HLA-B,CD3D,0.97132134
+consensus,SingleCellSignalR magnitude,67,T proliferating,T activated,HMGB1,CXCR4,0.97128767
+consensus,SingleCellSignalR magnitude,68,Monocyte non-classical,T proliferating,HLA-B,CD3D,0.9712323
+consensus,SingleCellSignalR magnitude,69,Plasmacytoid DC,Dendritic cell,APP,CD74,0.9712005
+consensus,SingleCellSignalR magnitude,70,NK,CD8 T memory,HLA-B,CD3D,0.9711787
+consensus,SingleCellSignalR magnitude,71,Plasmacytoid DC,B naive,APP,CD74,0.97110164
+consensus,SingleCellSignalR magnitude,72,CD8 T cytotoxic,CD4 T memory,HLA-B,CD3D,0.97108656
+consensus,SingleCellSignalR magnitude,73,Monocyte non-classical,NK,HLA-B,KLRD1,0.9710665
+consensus,SingleCellSignalR magnitude,74,CD4 T memory,T proliferating,HLA-B,CD3D,0.9710585
+consensus,SingleCellSignalR magnitude,75,Monocyte classical,Monocyte non-classical,S100A9,CD68,0.97102165
+consensus,SingleCellSignalR magnitude,76,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,0.9710067
+consensus,SingleCellSignalR magnitude,77,CD4 T memory,NK,HLA-B,KLRD1,0.97089165
+consensus,SingleCellSignalR magnitude,78,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,0.9708871
+consensus,SingleCellSignalR magnitude,79,T activated,CD8 T memory,HLA-B,CD3D,0.9708772
+consensus,SingleCellSignalR magnitude,80,T proliferating,T proliferating,HMGB1,CXCR4,0.9708179
+consensus,SingleCellSignalR magnitude,81,Granulocyte precursor,CD8 T memory,HMGB1,CXCR4,0.97078705
+consensus,SingleCellSignalR magnitude,82,Erythroid early,CD4 T memory,HMGB1,CXCR4,0.97075945
+consensus,SingleCellSignalR magnitude,83,CD8 T memory,CD4 T memory,HLA-B,CD3D,0.97073066
+consensus,SingleCellSignalR magnitude,84,Pre-B large,CD8 T cytotoxic,HMGB1,CXCR4,0.97066694
+consensus,SingleCellSignalR magnitude,85,Monocyte classical,Monocyte non-classical,S100A8,CD68,0.9706601
+consensus,SingleCellSignalR magnitude,86,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,0.97064495
+consensus,SingleCellSignalR magnitude,87,Pre-B small,T proliferating,HLA-B,CD3D,0.9706242
+consensus,SingleCellSignalR magnitude,88,NK,CD4 T memory,HLA-B,CD3D,0.97058517
+consensus,SingleCellSignalR magnitude,89,T proliferating,CD8 T memory,HLA-B,CD3D,0.97055095
+consensus,SingleCellSignalR magnitude,90,Pre-B small,NK,HLA-B,KLRD1,0.970455
+consensus,SingleCellSignalR magnitude,91,Erythroid late,CD4 T memory,HMGB1,CXCR4,0.9703443
+consensus,SingleCellSignalR magnitude,92,Granulocyte precursor,Pre-B large,HMGB1,CXCR4,0.9703159
+consensus,SingleCellSignalR magnitude,93,T activated,CD4 T memory,HLA-B,CD3D,0.9702776
+consensus,SingleCellSignalR magnitude,94,CD8 T cytotoxic,CD8 T cytotoxic,HLA-B,CD3D,0.9700873
+consensus,SingleCellSignalR magnitude,95,HSPC,Pre-B small,HMGB1,CXCR4,0.9700582
+consensus,SingleCellSignalR magnitude,96,HSPC,B naive,HMGB1,CXCR4,0.970045
+consensus,SingleCellSignalR magnitude,97,T proliferating,CD4 T memory,HLA-B,CD3D,0.9699449
+consensus,SingleCellSignalR magnitude,98,Dendritic cell,T proliferating,HLA-B,CD3D,0.9699448
+consensus,SingleCellSignalR magnitude,99,Platelet,Pre-B small,HMGB1,CXCR4,0.9699214
+consensus,SingleCellSignalR magnitude,100,Platelet,B naive,HMGB1,CXCR4,0.9699081
+consensus,Merged magnitude,1,NK,NK,B2M,KLRD1,-3.3306343865505135e-08
+consensus,Merged magnitude,2,CD8 T cytotoxic,NK,B2M,KLRD1,-2.997327557473985e-07
+consensus,Merged magnitude,3,CD8 T memory,NK,B2M,KLRD1,-5.328366614628256e-07
+consensus,Merged magnitude,4,CD4 T memory,NK,B2M,KLRD1,-1.1987851321402158e-06
+consensus,Merged magnitude,5,T proliferating,NK,B2M,KLRD1,-1.6316136463023807e-06
+consensus,Merged magnitude,6,Monocyte non-classical,NK,B2M,KLRD1,-2.131000830463268e-06
+consensus,Merged magnitude,7,Pre-B large,CD8 T memory,HMGB1,CXCR4,-4.028433002098952e-06
+consensus,Merged magnitude,8,Plasmacytoid DC,NK,B2M,KLRD1,-5.626032710486872e-06
+consensus,Merged magnitude,9,Pre-B large,Pre-B large,HMGB1,CXCR4,-7.489671622450508e-06
+consensus,Merged magnitude,10,CD4 T naive,NK,B2M,KLRD1,-1.201481221708865e-05
+consensus,Merged magnitude,11,Monocyte classical,NK,S100A9,ITGB2,-1.467618205419323e-05
+consensus,Merged magnitude,12,Platelet,NK,B2M,KLRD1,-1.6106540129232367e-05
+consensus,Merged magnitude,13,Monocyte classical,NK,B2M,KLRD1,-1.760333536208794e-05
+consensus,Merged magnitude,14,T activated,NK,B2M,KLRD1,-2.079620169890588e-05
+consensus,Merged magnitude,15,Monocyte classical,NK,S100A8,ITGB2,-2.079620169890588e-05
+consensus,Merged magnitude,16,Pre-B large,Pre-B small,HMGB1,CXCR4,-2.4254718897940013e-05
+consensus,Merged magnitude,17,Pre-B large,B naive,HMGB1,CXCR4,-2.6083578089835124e-05
+consensus,Merged magnitude,18,Monocyte classical,Erythroid early,S100A9,CD36,-2.6083578089835124e-05
+consensus,Merged magnitude,19,Pre-B small,NK,B2M,KLRD1,-2.994045013362976e-05
+consensus,Merged magnitude,20,Monocyte classical,Erythroid early,S100A8,CD36,-3.196845046574603e-05
+consensus,Merged magnitude,21,Monocyte classical,T proliferating,S100A9,ITGB2,-3.4062815010160976e-05
+consensus,Merged magnitude,22,Dendritic cell,NK,B2M,KLRD1,-3.622353566181191e-05
+consensus,Merged magnitude,23,Monocyte classical,Dendritic cell,S100A9,ITGB2,-3.622353566181191e-05
+consensus,Merged magnitude,24,B naive,NK,B2M,KLRD1,-4.074400396214294e-05
+consensus,Merged magnitude,25,Monocyte classical,T proliferating,S100A8,ITGB2,-4.310374405127164e-05
+consensus,Merged magnitude,26,Pre-B large,T activated,HMGB1,CXCR4,-4.310374405127164e-05
+consensus,Merged magnitude,27,Pre-B large,T proliferating,HMGB1,CXCR4,-5.320586022732163e-05
+consensus,Merged magnitude,28,Monocyte classical,Dendritic cell,S100A8,ITGB2,-5.320586022732163e-05
+consensus,Merged magnitude,29,Monocyte classical,T activated,S100A8,CD69,-5.8654687655436206e-05
+consensus,Merged magnitude,30,Pre-B large,CD4 T memory,HMGB1,CXCR4,-7.659153025593097e-05
+consensus,Merged magnitude,31,Erythroid early,CD8 T memory,HMGB1,CXCR4,-9.691252116256338e-05
+consensus,Merged magnitude,32,Monocyte classical,CD8 T memory,S100A8,CD69,-0.0001360742025619
+consensus,Merged magnitude,33,Erythroid early,Pre-B large,HMGB1,CXCR4,-0.0001446999618929
+consensus,Merged magnitude,34,Erythroid late,CD8 T memory,HMGB1,CXCR4,-0.0001491119494014
+consensus,Merged magnitude,35,Plasmacytoid DC,Dendritic cell,APP,CD74,-0.0001581341671231
+consensus,Merged magnitude,36,Plasmacytoid DC,B naive,APP,CD74,-0.0001674206097251
+consensus,Merged magnitude,37,Monocyte classical,Monocyte non-classical,S100A9,CD68,-0.0001867858721397
+consensus,Merged magnitude,38,Pre-B large,NK,B2M,KLRD1,-0.0001867858721397
+consensus,Merged magnitude,39,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,-0.0001917922552793
+consensus,Merged magnitude,40,CD8 T cytotoxic,T proliferating,HLA-B,CD3D,-0.0002020029738387
+consensus,Merged magnitude,41,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,-0.0002020029738387
+consensus,Merged magnitude,42,Erythroid late,Pre-B large,HMGB1,CXCR4,-0.0002232161038078
+consensus,Merged magnitude,43,CD8 T cytotoxic,NK,HLA-B,KLRD1,-0.000234218426131
+consensus,Merged magnitude,44,Monocyte classical,Monocyte non-classical,S100A8,CD68,-0.0002398185148706
+consensus,Merged magnitude,45,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,-0.0002454844870312
+consensus,Merged magnitude,46,T proliferating,CD8 T memory,HMGB1,CXCR4,-0.0002512163771214
+consensus,Merged magnitude,47,CD8 T memory,T proliferating,HLA-B,CD3D,-0.0002688075652007
+consensus,Merged magnitude,48,Pre-B large,CD8 T cytotoxic,HMGB1,CXCR4,-0.0002931847719349
+consensus,Merged magnitude,49,CD8 T memory,NK,HLA-B,KLRD1,-0.0002994437633562
+consensus,Merged magnitude,50,NK,T proliferating,HLA-B,CD3D,-0.0003251379573848
+consensus,Merged magnitude,51,T proliferating,Pre-B large,HMGB1,CXCR4,-0.0003317260962064
+consensus,Merged magnitude,52,NK,NK,HLA-B,KLRD1,-0.0003450997304575
+consensus,Merged magnitude,53,Monocyte classical,T proliferating,S100A8,CD69,-0.0003518852086695
+consensus,Merged magnitude,54,HSPC,NK,B2M,KLRD1,-0.000365653550621
+consensus,Merged magnitude,55,Monocyte classical,CD8 T cytotoxic,S100A9,ITGB2,-0.0004012251134694
+consensus,Merged magnitude,56,Erythroid early,Pre-B small,HMGB1,CXCR4,-0.0004012251134694
+consensus,Merged magnitude,57,Erythroid early,B naive,HMGB1,CXCR4,-0.0004085366636263
+consensus,Merged magnitude,58,Granulocyte precursor,NK,B2M,KLRD1,-0.0004460798207716
+consensus,Merged magnitude,59,Monocyte classical,CD8 T cytotoxic,S100A8,ITGB2,-0.0004460798207716
+consensus,Merged magnitude,60,T activated,T proliferating,HLA-B,CD3D,-0.0004615568188478
+consensus,Merged magnitude,61,CD8 T cytotoxic,CD8 T memory,HLA-B,CD3D,-0.0004693938700331
+consensus,Merged magnitude,62,T activated,NK,HLA-B,KLRD1,-0.0005013983839205
+consensus,Merged magnitude,63,Plasmacytoid DC,Pre-B small,APP,CD74,-0.0005260907605689
+consensus,Merged magnitude,64,Pre-B large,CD4 T naive,HMGB1,CXCR4,-0.0005428803504184
+consensus,Merged magnitude,65,Erythroid early,Erythroid early,GDF11,BMPR2,-0.0005474785671549
+consensus,Merged magnitude,66,Erythroid late,Pre-B small,HMGB1,CXCR4,-0.0005599321865907
+consensus,Merged magnitude,67,Erythroid late,B naive,HMGB1,CXCR4,-0.0005772464015373
+consensus,Merged magnitude,68,T proliferating,T proliferating,HLA-B,CD3D,-0.0006037091629229
+consensus,Merged magnitude,69,CD8 T cytotoxic,CD4 T memory,HLA-B,CD3D,-0.0006216785767669
+consensus,Merged magnitude,70,Erythroid early,T activated,HMGB1,CXCR4,-0.0006771588133006
+consensus,Merged magnitude,71,CD8 T memory,CD8 T memory,HLA-B,CD3D,-0.0007057828483217
+consensus,Merged magnitude,72,NK,CD8 T cytotoxic,B2M,KLRD1,-0.0007057828483217
+consensus,Merged magnitude,73,T proliferating,NK,HLA-B,KLRD1,-0.0007154549208256
+consensus,Merged magnitude,74,Pre-B large,Dendritic cell,HMGB1,CXCR4,-0.0007251925654272
+consensus,Merged magnitude,75,NK,CD8 T memory,HLA-B,CD3D,-0.000744863944212
+consensus,Merged magnitude,76,Erythroid early,T proliferating,HMGB1,CXCR4,-0.0008054477174088
+consensus,Merged magnitude,77,CD8 T memory,CD4 T memory,HLA-B,CD3D,-0.000815773657433
+consensus,Merged magnitude,78,CD8 T cytotoxic,CD8 T cytotoxic,B2M,KLRD1,-0.0008366218749663
+consensus,Merged magnitude,79,Erythroid late,T activated,HMGB1,CXCR4,-0.0008683839719076
+consensus,Merged magnitude,80,Pre-B large,NK,HMGB1,CXCR4,-0.0008791020077885
+consensus,Merged magnitude,81,T proliferating,Pre-B small,HMGB1,CXCR4,-0.0008898851729319
+consensus,Merged magnitude,82,CD8 T cytotoxic,CD8 T cytotoxic,HLA-B,CD3D,-0.000900733789397
+consensus,Merged magnitude,83,T proliferating,B naive,HMGB1,CXCR4,-0.0009116476844964
+consensus,Merged magnitude,84,CD8 T memory,CD8 T cytotoxic,B2M,KLRD1,-0.0009226266815452
+consensus,Merged magnitude,85,NK,CD4 T memory,HLA-B,CD3D,-0.0009671957106765
+consensus,Merged magnitude,86,Monocyte classical,Plasmacytoid DC,S100A9,CD68,-0.0009785011053761
+consensus,Merged magnitude,87,T activated,CD8 T memory,HLA-B,CD3D,-0.0009785011053761
+consensus,Merged magnitude,88,Monocyte classical,CD4 T memory,S100A8,CD69,-0.0009898717219741
+consensus,Merged magnitude,89,Erythroid late,T proliferating,HMGB1,CXCR4,-0.0010477024906351
+consensus,Merged magnitude,90,HSPC,CD8 T memory,HMGB1,CXCR4,-0.00105946426642
+consensus,Merged magnitude,91,Pre-B large,Plasmacytoid DC,HMGB1,CXCR4,-0.0010712912073674
+consensus,Merged magnitude,92,Erythroid early,Erythroid early,TCTN1,TMEM67,-0.001094890522973
+consensus,Merged magnitude,93,T activated,CD4 T memory,HLA-B,CD3D,-0.001095140368777
+consensus,Merged magnitude,94,CD4 T memory,CD8 T cytotoxic,B2M,KLRD1,-0.001107162755584
+consensus,Merged magnitude,95,Platelet,CD8 T memory,HMGB1,CXCR4,-0.0011192502751331
+consensus,Merged magnitude,96,T proliferating,CD8 T cytotoxic,B2M,KLRD1,-0.0011314027327757
+consensus,Merged magnitude,97,Monocyte non-classical,T proliferating,HLA-B,CD3D,-0.0011436204924966
+consensus,Merged magnitude,98,CD8 T memory,CD8 T cytotoxic,HLA-B,CD3D,-0.0011559033606443
+consensus,Merged magnitude,99,T proliferating,CD8 T memory,HLA-B,CD3D,-0.0011682511395801
+consensus,Merged magnitude,100,CD8 T cytotoxic,CD4 T naive,HLA-B,CD3D,-0.0011806641992693
+consensus,CellPhoneDB specificity,1,B naive,B naive,FAM3C,LAMP1,-0.0
+consensus,CellPhoneDB specificity,2,NK,NK,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,3,CD8 T cytotoxic,NK,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,4,CD8 T memory,NK,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,5,CD4 T memory,NK,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,6,T proliferating,NK,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,7,B naive,CD8 T memory,FAM3C,LAMP1,-0.0
+consensus,CellPhoneDB specificity,8,B naive,Dendritic cell,CD47,SIRPA,-0.0
+consensus,CellPhoneDB specificity,9,B naive,Dendritic cell,GNAS,ADCY7,-0.0
+consensus,CellPhoneDB specificity,10,B naive,Dendritic cell,HLA-DOB,CD4,-0.0
+consensus,CellPhoneDB specificity,11,B naive,Dendritic cell,IL16,CD4,-0.0
+consensus,CellPhoneDB specificity,12,B naive,Dendritic cell,LGALS9,HAVCR2,-0.0
+consensus,CellPhoneDB specificity,13,Pre-B large,NK,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,14,Monocyte classical,Monocyte non-classical,S100A9,CD68,-0.0
+consensus,CellPhoneDB specificity,15,Plasmacytoid DC,B naive,APP,CD74,-0.0
+consensus,CellPhoneDB specificity,16,Plasmacytoid DC,Dendritic cell,APP,CD74,-0.0
+consensus,CellPhoneDB specificity,17,Erythroid late,CD8 T memory,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,18,Erythroid early,Pre-B large,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,19,Monocyte classical,CD8 T memory,S100A8,CD69,-0.0
+consensus,CellPhoneDB specificity,20,Erythroid early,CD8 T memory,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,21,Pre-B large,CD4 T memory,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,22,Monocyte classical,T activated,S100A8,CD69,-0.0
+consensus,CellPhoneDB specificity,23,Monocyte classical,Dendritic cell,S100A8,ITGB2,-0.0
+consensus,CellPhoneDB specificity,24,Pre-B large,T proliferating,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,25,Pre-B large,T activated,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,26,Monocyte classical,T proliferating,S100A8,ITGB2,-0.0
+consensus,CellPhoneDB specificity,27,B naive,NK,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,28,Monocyte classical,Dendritic cell,S100A9,ITGB2,-0.0
+consensus,CellPhoneDB specificity,29,HSPC,NK,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,30,Monocyte classical,T proliferating,S100A8,CD69,-0.0
+consensus,CellPhoneDB specificity,31,NK,NK,HLA-B,KLRD1,-0.0
+consensus,CellPhoneDB specificity,32,T proliferating,Pre-B large,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,33,NK,T proliferating,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,34,CD8 T memory,NK,HLA-B,KLRD1,-0.0
+consensus,CellPhoneDB specificity,35,Pre-B large,CD8 T cytotoxic,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,36,CD8 T memory,T proliferating,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,37,T proliferating,CD8 T memory,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,38,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,-0.0
+consensus,CellPhoneDB specificity,39,Monocyte classical,Monocyte non-classical,S100A8,CD68,-0.0
+consensus,CellPhoneDB specificity,40,CD8 T cytotoxic,NK,HLA-B,KLRD1,-0.0
+consensus,CellPhoneDB specificity,41,Erythroid late,Pre-B large,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,42,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,-0.0
+consensus,CellPhoneDB specificity,43,CD8 T cytotoxic,T proliferating,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,44,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,-0.0
+consensus,CellPhoneDB specificity,45,Erythroid early,T activated,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,46,CD8 T cytotoxic,CD4 T memory,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,47,T proliferating,T proliferating,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,48,Erythroid late,B naive,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,49,Erythroid late,Pre-B small,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,50,Erythroid early,Erythroid early,GDF11,BMPR2,-0.0
+consensus,CellPhoneDB specificity,51,Pre-B large,CD4 T naive,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,52,Plasmacytoid DC,Pre-B small,APP,CD74,-0.0
+consensus,CellPhoneDB specificity,53,T activated,NK,HLA-B,KLRD1,-0.0
+consensus,CellPhoneDB specificity,54,CD8 T cytotoxic,CD8 T memory,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,55,T activated,T proliferating,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,56,Monocyte classical,CD8 T cytotoxic,S100A8,ITGB2,-0.0
+consensus,CellPhoneDB specificity,57,Granulocyte precursor,NK,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,58,Erythroid early,B naive,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,59,Erythroid early,Pre-B small,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,60,Monocyte classical,CD8 T cytotoxic,S100A9,ITGB2,-0.0
+consensus,CellPhoneDB specificity,61,Monocyte classical,Plasmacytoid DC,S100A9,CD68,-0.0
+consensus,CellPhoneDB specificity,62,NK,CD4 T memory,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,63,CD8 T memory,CD8 T cytotoxic,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,64,T proliferating,B naive,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,65,CD8 T cytotoxic,CD8 T cytotoxic,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,66,T proliferating,Pre-B small,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,67,Pre-B large,NK,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,68,Erythroid late,T activated,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,69,CD8 T cytotoxic,CD8 T cytotoxic,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,70,CD8 T memory,CD4 T memory,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,71,Erythroid early,T proliferating,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,72,NK,CD8 T memory,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,73,Pre-B large,Dendritic cell,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,74,T proliferating,NK,HLA-B,KLRD1,-0.0
+consensus,CellPhoneDB specificity,75,NK,CD8 T cytotoxic,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,76,CD8 T memory,CD8 T memory,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,77,Erythroid early,CD4 T memory,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,78,Monocyte classical,Plasmacytoid DC,S100A8,CD68,-0.0
+consensus,CellPhoneDB specificity,79,CD8 T cytotoxic,CD4 T naive,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,80,T proliferating,CD8 T memory,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,81,CD8 T memory,CD8 T cytotoxic,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,82,Monocyte non-classical,T proliferating,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,83,T proliferating,CD8 T cytotoxic,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,84,Platelet,CD8 T memory,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,85,CD4 T memory,CD8 T cytotoxic,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,86,T activated,CD4 T memory,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,87,Erythroid early,Erythroid early,TCTN1,TMEM67,-0.0
+consensus,CellPhoneDB specificity,88,Pre-B large,Plasmacytoid DC,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,89,HSPC,CD8 T memory,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,90,Erythroid late,T proliferating,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,91,Monocyte classical,CD4 T memory,S100A8,CD69,-0.0
+consensus,CellPhoneDB specificity,92,T activated,CD8 T memory,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,93,Pre-B small,T proliferating,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,94,T activated,CD8 T cytotoxic,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,95,Plasmacytoid DC,CD8 T cytotoxic,B2M,KLRD1,-0.0
+consensus,CellPhoneDB specificity,96,Erythroid late,CD4 T memory,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,97,CD8 T memory,CD4 T naive,HLA-B,CD3D,-0.0
+consensus,CellPhoneDB specificity,98,T proliferating,T proliferating,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,99,Platelet,Pre-B large,HMGB1,CXCR4,-0.0
+consensus,CellPhoneDB specificity,100,T proliferating,CD4 T memory,HLA-B,CD3D,-0.0
+consensus,NATMI specificity,1,Dendritic cell,Platelet,FBLN2,ITGB3,0.6670875
+consensus,NATMI specificity,2,Erythroid early,Platelet,TGM2,ITGB3,0.6355808
+consensus,NATMI specificity,3,Platelet,Dendritic cell,PROS1,AXL,0.6087818
+consensus,NATMI specificity,4,Erythroid early,Platelet,TNXB,ITGA2B_ITGB3,0.60790133
+consensus,NATMI specificity,5,HSPC,Platelet,CD34,SELP,0.60352486
+consensus,NATMI specificity,6,Erythroid early,Platelet,TGM2,TBXA2R,0.54726297
+consensus,NATMI specificity,7,Platelet,Erythroid early,PPBP,ACKR1,0.5418446
+consensus,NATMI specificity,8,Platelet,Erythroid early,PF4,ACKR1,0.5389686
+consensus,NATMI specificity,9,Dendritic cell,Plasmacytoid DC,EFNB1,EPHB1,0.48147058
+consensus,NATMI specificity,10,Platelet,Platelet,LTBP1,ITGB5,0.4383221
+consensus,NATMI specificity,11,Monocyte classical,Platelet,VCAN,SELP,0.43692514
+consensus,NATMI specificity,12,Platelet,CD4 T memory,TNFSF4,TNFRSF4,0.4290966
+consensus,NATMI specificity,13,Pre-B large,Platelet,CD24,SELP,0.41365924
+consensus,NATMI specificity,14,Erythroid early,Platelet,ICAM4,ITGB3,0.40507427
+consensus,NATMI specificity,15,T proliferating,Plasmacytoid DC,CD70,TNFRSF17,0.3916849
+consensus,NATMI specificity,16,Erythroid early,Platelet,COL18A1,ITGB3,0.39124742
+consensus,NATMI specificity,17,Monocyte non-classical,Monocyte classical,C1QA,CD93,0.37919602
+consensus,NATMI specificity,18,Plasmacytoid DC,Dendritic cell,GAS6,AXL,0.37607816
+consensus,NATMI specificity,19,Monocyte classical,Platelet,THBS1,ITGA2B_ITGB3,0.36567593
+consensus,NATMI specificity,20,Pre-B small,Platelet,CD24,SELP,0.35931635
+consensus,NATMI specificity,21,Erythroid early,Platelet,COL18A1,ITGB5,0.3561411
+consensus,NATMI specificity,22,Platelet,Monocyte non-classical,PF4,LRP1,0.34745836
+consensus,NATMI specificity,23,Platelet,NK,CLEC1B,KLRB1,0.33831498
+consensus,NATMI specificity,24,Platelet,T proliferating,PF4,CXCR3,0.33457825
+consensus,NATMI specificity,25,Erythroid early,Plasmacytoid DC,COL18A1,PTPRS,0.322701
+consensus,NATMI specificity,26,Erythroid early,Erythroid early,ICAM4,RHAG,0.31838414
+consensus,NATMI specificity,27,Monocyte non-classical,Dendritic cell,C1QA,CD33,0.31732956
+consensus,NATMI specificity,28,Platelet,Monocyte classical,PF4,LRP1,0.31494406
+consensus,NATMI specificity,29,Plasmacytoid DC,Monocyte classical,PROC,ITGAM,0.30771768
+consensus,NATMI specificity,30,Platelet,Dendritic cell,PF4,THBD,0.30680117
+consensus,NATMI specificity,31,Erythroid early,Monocyte non-classical,ERFE,LRP1,0.30482566
+consensus,NATMI specificity,32,Erythroid early,Platelet,ICAM4,ITGA2B,0.303946
+consensus,NATMI specificity,33,Platelet,Erythroid early,SPARC,ENG,0.3018498
+consensus,NATMI specificity,34,Erythroid early,Platelet,LTBP1,ITGB5,0.30137068
+consensus,NATMI specificity,35,Plasmacytoid DC,Dendritic cell,PROC,THBD,0.29017788
+consensus,NATMI specificity,36,B naive,Monocyte non-classical,FCER2,ITGAX_ITGB2,0.28088117
+consensus,NATMI specificity,37,Dendritic cell,Erythroid early,EFNB1,EPHB4,0.28082708
+consensus,NATMI specificity,38,Monocyte classical,Erythroid early,CXCL8,ACKR1,0.2786621
+consensus,NATMI specificity,39,Erythroid early,Monocyte classical,ERFE,LRP1,0.27630085
+consensus,NATMI specificity,40,CD4 T memory,Platelet,CD40LG,ITGA2B_ITGB3,0.2704328
+consensus,NATMI specificity,41,B naive,Monocyte classical,FCER2,ITGAM_ITGB2,0.2692989
+consensus,NATMI specificity,42,Platelet,Monocyte classical,GP1BA,ITGAM_ITGB2,0.26574746
+consensus,NATMI specificity,43,HSPC,Platelet,SERPING1,SELP,0.26525712
+consensus,NATMI specificity,44,Platelet,Platelet,VCL,ITGB5,0.2634726
+consensus,NATMI specificity,45,Pre-B large,Monocyte non-classical,CD24,SIGLEC10,0.25710106
+consensus,NATMI specificity,46,Platelet,Platelet,TLN1,ITGB3,0.25419903
+consensus,NATMI specificity,47,Plasmacytoid DC,Erythroid early,ASIP,ATRN,0.24788556
+consensus,NATMI specificity,48,Pre-B large,Platelet,MFGE8,ITGB3,0.24080268
+consensus,NATMI specificity,49,Erythroid early,NK,TGM2,ADGRG1,0.23630731
+consensus,NATMI specificity,50,Platelet,Platelet,TLN1,ITGB5,0.23138995
+consensus,NATMI specificity,51,Monocyte non-classical,Platelet,ADM,RAMP1,0.22862296
+consensus,NATMI specificity,52,Platelet,Plasmacytoid DC,PF4,CXCR3,0.22504991
+consensus,NATMI specificity,53,Monocyte non-classical,Erythroid early,CXCL2,ACKR1,0.22416672
+consensus,NATMI specificity,54,Pre-B small,Monocyte non-classical,CD24,SIGLEC10,0.22332539
+consensus,NATMI specificity,55,NK,Monocyte classical,SPON2,ITGAM,0.22236644
+consensus,NATMI specificity,56,Monocyte classical,Monocyte non-classical,S100A12,TLR4,0.22189257
+consensus,NATMI specificity,57,Pre-B large,Platelet,MFGE8,ITGB5,0.21919565
+consensus,NATMI specificity,58,Erythroid early,Dendritic cell,IL15RA,AXL,0.21807908
+consensus,NATMI specificity,59,Dendritic cell,Monocyte non-classical,CD1D,LILRB2,0.20893484
+consensus,NATMI specificity,60,Dendritic cell,Platelet,ADAM15,ITGB3,0.20779158
+consensus,NATMI specificity,61,Monocyte classical,Monocyte non-classical,CD14,TLR4,0.2073116
+consensus,NATMI specificity,62,Platelet,Platelet,THBS1,ITGA2B_ITGB3,0.206325
+consensus,NATMI specificity,63,B naive,Dendritic cell,FCER2,ITGAX_ITGB2,0.20342667
+consensus,NATMI specificity,64,Plasmacytoid DC,Plasmacytoid DC,APP,TNFRSF21,0.20191374
+consensus,NATMI specificity,65,Dendritic cell,Plasmacytoid DC,SPINT1,ST14,0.20118336
+consensus,NATMI specificity,66,T proliferating,Platelet,IL32,ITGB3,0.19876789
+consensus,NATMI specificity,67,Granulocyte precursor,Monocyte non-classical,RETN,TLR4,0.1959414
+consensus,NATMI specificity,68,Erythroid early,Erythroid early,CDH1,LRP5,0.19253264
+consensus,NATMI specificity,69,Monocyte classical,Erythroid early,S100A12,CD36,0.19246165
+consensus,NATMI specificity,70,Granulocyte precursor,Platelet,ADAM15,ITGB3,0.19152604
+consensus,NATMI specificity,71,Monocyte non-classical,Monocyte non-classical,SERPINA1,LRP1,0.18227887
+consensus,NATMI specificity,72,Dendritic cell,Monocyte non-classical,SEMA4A,LILRB2,0.18099388
+consensus,NATMI specificity,73,Granulocyte precursor,Platelet,VCAN,SELP,0.17988174
+consensus,NATMI specificity,74,HSPC,T proliferating,AVP,LDLR,0.17644386
+consensus,NATMI specificity,75,Plasmacytoid DC,Platelet,SELPLG,ESAM,0.17563342
+consensus,NATMI specificity,76,Erythroid early,CD8 T cytotoxic,CDH1,KLRG1,0.1749516
+consensus,NATMI specificity,77,Monocyte classical,B naive,CXCL8,CD79A,0.17459401
+consensus,NATMI specificity,78,Dendritic cell,Erythroid early,JAML,CXADR,0.17424957
+consensus,NATMI specificity,79,Erythroid early,Dendritic cell,CXADR,JAML,0.17424957
+consensus,NATMI specificity,80,CD8 T memory,Platelet,IL32,ITGB3,0.17300278
+consensus,NATMI specificity,81,Platelet,T proliferating,PF4,LDLR,0.1711096
+consensus,NATMI specificity,82,Plasmacytoid DC,Platelet,SELPLG,SELP,0.17090164
+consensus,NATMI specificity,83,Monocyte non-classical,Erythroid early,CXCL8,ACKR1,0.17081141
+consensus,NATMI specificity,84,CD4 T memory,Platelet,IL32,ITGB3,0.16946271
+consensus,NATMI specificity,85,Pre-B large,Platelet,ITGB3BP,ITGB3,0.16935022
+consensus,NATMI specificity,86,Monocyte classical,B naive,TNFSF13B,TNFRSF13C,0.16803259
+consensus,NATMI specificity,87,B naive,Plasmacytoid DC,HLA-DOB,CD4,0.16683184
+consensus,NATMI specificity,88,Monocyte non-classical,NK,SECTM1,CD7,0.16654295
+consensus,NATMI specificity,89,Monocyte non-classical,Monocyte classical,SERPINA1,LRP1,0.16522166
+consensus,NATMI specificity,90,HSPC,Platelet,IGFBP7,MPIG6B,0.16485526
+consensus,NATMI specificity,91,NK,T proliferating,CCL4,CCR5,0.16373421
+consensus,NATMI specificity,92,Erythroid early,CD8 T memory,CDH1,KLRG1,0.16213585
+consensus,NATMI specificity,93,T proliferating,Platelet,MFGE8,ITGB3,0.15867585
+consensus,NATMI specificity,94,T proliferating,T proliferating,CD70,CD27,0.15645035
+consensus,NATMI specificity,95,Plasmacytoid DC,Erythroid early,JAML,CXADR,0.15462892
+consensus,NATMI specificity,96,Erythroid early,Plasmacytoid DC,CXADR,JAML,0.15462892
+consensus,NATMI specificity,97,HSPC,Platelet,MFGE8,ITGB3,0.15444072
+consensus,NATMI specificity,98,Pre-B large,Platelet,ITGB3BP,ITGB5,0.15415455
+consensus,NATMI specificity,99,T proliferating,T proliferating,CCL3,CCR5,0.15298757
+consensus,NATMI specificity,100,Dendritic cell,Dendritic cell,GAS6,AXL,0.15162802
+consensus,Connectome specificity,1,Platelet,T proliferating,PF4,CXCR3,8.472266546746845
+consensus,Connectome specificity,2,Platelet,Plasmacytoid DC,PF4,CXCR3,8.109457865345297
+consensus,Connectome specificity,3,Platelet,Erythroid early,PF4,ACKR1,8.05136452136633
+consensus,Connectome specificity,4,Platelet,Monocyte non-classical,PF4,LRP1,7.8413481677107715
+consensus,Connectome specificity,5,Platelet,Monocyte classical,PF4,LRP1,7.797097455129345
+consensus,Connectome specificity,6,Platelet,Dendritic cell,PF4,THBD,7.719629674500744
+consensus,Connectome specificity,7,Platelet,Erythroid early,PPBP,ACKR1,7.677345456518755
+consensus,Connectome specificity,8,Platelet,T proliferating,PF4,LDLR,7.662162741880915
+consensus,Connectome specificity,9,Platelet,Erythroid early,PF4,LDLR,7.513632927642382
+consensus,Connectome specificity,10,Platelet,NK,CLEC1B,KLRB1,6.633996983812207
+consensus,Connectome specificity,11,Platelet,T activated,CLEC1B,KLRB1,5.908968731351476
+consensus,Connectome specificity,12,Platelet,CD4 T memory,CLEC1B,KLRB1,5.882105259422279
+consensus,Connectome specificity,13,Platelet,CD8 T memory,CLEC1B,KLRB1,5.865200281529846
+consensus,Connectome specificity,14,Platelet,CD8 T cytotoxic,CLEC1B,KLRB1,5.716028358806058
+consensus,Connectome specificity,15,Platelet,T proliferating,CLEC1B,KLRB1,5.590237545913989
+consensus,Connectome specificity,16,Platelet,Platelet,TLN1,ITGB3,5.053613564836606
+consensus,Connectome specificity,17,Platelet,Erythroid early,SPARC,ENG,4.925752067626696
+consensus,Connectome specificity,18,Erythroid early,Platelet,ICAM4,ITGB3,4.827521470757031
+consensus,Connectome specificity,19,Erythroid early,Platelet,TGM2,ITGB3,4.683394288468817
+consensus,Connectome specificity,20,Platelet,T activated,MYL9,CD69,4.487455378054409
+consensus,Connectome specificity,21,Pre-B large,Platelet,ITGB3BP,ITGB3,4.43308126058705
+consensus,Connectome specificity,22,HSPC,Plasmacytoid DC,BST2,LILRA4,4.427216192115572
+consensus,Connectome specificity,23,Platelet,CD8 T memory,MYL9,CD69,4.422228205391686
+consensus,Connectome specificity,24,T proliferating,Platelet,IL32,ITGB3,4.411469330929115
+consensus,Connectome specificity,25,Erythroid early,Platelet,ICAM4,ITGA2B,4.404678982629731
+consensus,Connectome specificity,26,Dendritic cell,Plasmacytoid DC,BST2,LILRA4,4.362064387833775
+consensus,Connectome specificity,27,Platelet,T proliferating,MYL9,CD69,4.344371997225779
+consensus,Connectome specificity,28,T proliferating,Plasmacytoid DC,BST2,LILRA4,4.333726844466319
+consensus,Connectome specificity,29,Erythroid early,Platelet,TNXB,ITGA2B_ITGB3,4.322274075417352
+consensus,Connectome specificity,30,T proliferating,Platelet,ITGB3BP,ITGB3,4.3159164184876815
+consensus,Connectome specificity,31,Plasmacytoid DC,Plasmacytoid DC,BST2,LILRA4,4.308684418932495
+consensus,Connectome specificity,32,CD8 T memory,Platelet,IL32,ITGB3,4.26464844580588
+consensus,Connectome specificity,33,Monocyte non-classical,Plasmacytoid DC,BST2,LILRA4,4.24461106154796
+consensus,Connectome specificity,34,CD4 T memory,Platelet,IL32,ITGB3,4.244477596843513
+consensus,Connectome specificity,35,Erythroid early,Platelet,ITGB3BP,ITGB3,4.239749565856673
+consensus,Connectome specificity,36,NK,Plasmacytoid DC,BST2,LILRA4,4.23719694851187
+consensus,Connectome specificity,37,Platelet,CD4 T memory,MYL9,CD69,4.235889314359598
+consensus,Connectome specificity,38,Granulocyte precursor,Plasmacytoid DC,BST2,LILRA4,4.222593030146427
+consensus,Connectome specificity,39,Platelet,Pre-B small,MYL9,CD69,4.222146648578539
+consensus,Connectome specificity,40,Pre-B large,Platelet,CD24,SELP,4.204023160142926
+consensus,Connectome specificity,41,Dendritic cell,Platelet,FBLN2,ITGB3,4.197828947434682
+consensus,Connectome specificity,42,HSPC,Platelet,IGFBP7,MPIG6B,4.142949656274976
+consensus,Connectome specificity,43,Monocyte classical,Plasmacytoid DC,BST2,LILRA4,4.136068680171026
+consensus,Connectome specificity,44,Platelet,B naive,MYL9,CD69,4.121696325919372
+consensus,Connectome specificity,45,CD8 T cytotoxic,Platelet,IL32,ITGB3,4.106822576220878
+consensus,Connectome specificity,46,Platelet,Dendritic cell,PROS1,AXL,4.10413975581463
+consensus,Connectome specificity,47,Monocyte classical,Platelet,THBS1,ITGA2B_ITGB3,4.092893741966255
+consensus,Connectome specificity,48,Platelet,NK,MYL9,CD69,4.08343417976054
+consensus,Connectome specificity,49,Platelet,Erythroid late,SPARC,ENG,4.059496333811412
+consensus,Connectome specificity,50,Pre-B large,Platelet,MFGE8,ITGB3,4.054088864813499
+consensus,Connectome specificity,51,Dendritic cell,Platelet,IGFBP7,MPIG6B,4.04532996634163
+consensus,Connectome specificity,52,Platelet,Platelet,TGFB1,ITGB3,4.043881560161047
+consensus,Connectome specificity,53,HSPC,Platelet,CD34,SELP,4.042923818410668
+consensus,Connectome specificity,54,HSPC,Platelet,ICAM4,ITGB3,4.040272571250439
+consensus,Connectome specificity,55,Erythroid early,Platelet,COL18A1,ITGB3,4.039780020956256
+consensus,Connectome specificity,56,Platelet,CD4 T naive,MYL9,CD69,4.033394172770655
+consensus,Connectome specificity,57,Platelet,CD8 T cytotoxic,MYL9,CD69,4.020444481529835
+consensus,Connectome specificity,58,HSPC,Platelet,ITGB3BP,ITGB3,4.014544286150533
+consensus,Connectome specificity,59,CD8 T cytotoxic,Plasmacytoid DC,BST2,LILRA4,4.014274865600949
+consensus,Connectome specificity,60,Dendritic cell,Platelet,ADAM15,ITGB3,4.001459822682377
+consensus,Connectome specificity,61,CD8 T memory,Plasmacytoid DC,BST2,LILRA4,3.991458309666777
+consensus,Connectome specificity,62,Pre-B large,Plasmacytoid DC,BST2,LILRA4,3.98842349604259
+consensus,Connectome specificity,63,Platelet,HSPC,MYL9,CD69,3.986751325174037
+consensus,Connectome specificity,64,CD4 T memory,Plasmacytoid DC,BST2,LILRA4,3.9794948585178425
+consensus,Connectome specificity,65,Platelet,Pre-B large,MYL9,CD69,3.9789939238614473
+consensus,Connectome specificity,66,Granulocyte precursor,Platelet,ADAM15,ITGB3,3.9691809709211374
+consensus,Connectome specificity,67,B naive,Plasmacytoid DC,BST2,LILRA4,3.96465858756702
+consensus,Connectome specificity,68,Pre-B small,Plasmacytoid DC,BST2,LILRA4,3.9614694072236016
+consensus,Connectome specificity,69,CD4 T naive,Plasmacytoid DC,BST2,LILRA4,3.959681647370597
+consensus,Connectome specificity,70,Pre-B small,Platelet,CD24,SELP,3.9569879575841744
+consensus,Connectome specificity,71,Plasmacytoid DC,Platelet,SELPLG,ESAM,3.956379628265648
+consensus,Connectome specificity,72,Erythroid early,Plasmacytoid DC,BST2,LILRA4,3.9535247020248514
+consensus,Connectome specificity,73,Erythroid late,Platelet,ITGB3BP,ITGB3,3.9526852666820265
+consensus,Connectome specificity,74,Erythroid early,Platelet,TLN1,ITGB3,3.94531063457465
+consensus,Connectome specificity,75,Platelet,HSPC,SPARC,ENG,3.908286266208568
+consensus,Connectome specificity,76,CD4 T memory,Platelet,CD40LG,ITGA2B_ITGB3,3.907202642990693
+consensus,Connectome specificity,77,NK,Platelet,IGFBP7,MPIG6B,3.906970653162601
+consensus,Connectome specificity,78,T proliferating,Platelet,MFGE8,ITGB3,3.899428402737072
+consensus,Connectome specificity,79,T proliferating,Platelet,TLN1,ITGB3,3.898613736399884
+consensus,Connectome specificity,80,Platelet,Pre-B large,SPARC,ENG,3.89858921403328
+consensus,Connectome specificity,81,Dendritic cell,Platelet,TLN1,ITGB3,3.892999567733323
+consensus,Connectome specificity,82,HSPC,Platelet,MFGE8,ITGB3,3.8914527945963706
+consensus,Connectome specificity,83,Platelet,Platelet,THBS1,ITGA2B_ITGB3,3.874533049363189
+consensus,Connectome specificity,84,Monocyte classical,Platelet,TGFB1,ITGB3,3.870266378017069
+consensus,Connectome specificity,85,Monocyte non-classical,Platelet,TGFB1,ITGB3,3.86921049904586
+consensus,Connectome specificity,86,NK,Platelet,TGFB1,ITGB3,3.861809028419096
+consensus,Connectome specificity,87,CD4 T naive,Platelet,IL32,ITGB3,3.844698220310413
+consensus,Connectome specificity,88,Granulocyte precursor,Platelet,ITGB3BP,ITGB3,3.8321866066031385
+consensus,Connectome specificity,89,T activated,Platelet,TGFB1,ITGB3,3.8316126177513543
+consensus,Connectome specificity,90,Platelet,Platelet,MYL9,CD69,3.825686669534423
+consensus,Connectome specificity,91,NK,Platelet,IL32,ITGB3,3.822401577421025
+consensus,Connectome specificity,92,HSPC,Platelet,TLN1,ITGB3,3.810457330805455
+consensus,Connectome specificity,93,Pre-B large,Platelet,TLN1,ITGB3,3.810033520775999
+consensus,Connectome specificity,94,CD8 T cytotoxic,Platelet,TGFB1,ITGB3,3.8082667966663175
+consensus,Connectome specificity,95,Platelet,Dendritic cell,MYL9,CD69,3.8028541938147966
+consensus,Connectome specificity,96,Platelet,Platelet,ITGB3BP,ITGB3,3.8006467091142286
+consensus,Connectome specificity,97,Plasmacytoid DC,Platelet,TLN1,ITGB3,3.796370174334962
+consensus,Connectome specificity,98,T proliferating,Platelet,TGFB1,ITGB3,3.791254938425809
+consensus,Connectome specificity,99,NK,Platelet,TLN1,ITGB3,3.788212686502226
+consensus,Connectome specificity,100,Pre-B large,Platelet,IGFBP7,MPIG6B,3.7793136801348033
+consensus,log2FC specificity,1,Platelet,T proliferating,PF4,CXCR3,4.128345905312782
+consensus,log2FC specificity,2,Platelet,Plasmacytoid DC,PF4,CXCR3,4.108871384732882
+consensus,log2FC specificity,3,Platelet,Monocyte classical,PF4,LRP1,3.9910108939880296
+consensus,log2FC specificity,4,Platelet,Monocyte non-classical,PF4,LRP1,3.9223222935733135
+consensus,log2FC specificity,5,Monocyte classical,Monocyte non-classical,S100A9,CD68,3.849758073241734
+consensus,log2FC specificity,6,Platelet,Erythroid early,PPBP,ACKR1,3.818419169501375
+consensus,log2FC specificity,7,Monocyte classical,Erythroid early,S100A9,CD36,3.7970305093368726
+consensus,log2FC specificity,8,Monocyte classical,Monocyte non-classical,S100A8,CD68,3.777406239275032
+consensus,log2FC specificity,9,Monocyte classical,NK,S100A9,ITGB2,3.741781124983765
+consensus,log2FC specificity,10,Monocyte classical,Erythroid early,S100A8,CD36,3.7246786753701695
+consensus,log2FC specificity,11,Platelet,Dendritic cell,PF4,THBD,3.704985044672161
+consensus,log2FC specificity,12,Platelet,T proliferating,PF4,LDLR,3.695467938380702
+consensus,log2FC specificity,13,Platelet,Erythroid early,PF4,ACKR1,3.678453204173777
+consensus,log2FC specificity,14,Monocyte classical,NK,S100A8,ITGB2,3.669429291017063
+consensus,log2FC specificity,15,Monocyte classical,Monocyte classical,S100A9,CD36,3.658733331163602
+consensus,log2FC specificity,16,Monocyte classical,Monocyte classical,S100A9,CD68,3.657704069225988
+consensus,log2FC specificity,17,Platelet,Erythroid early,PF4,LDLR,3.6231883043771616
+consensus,log2FC specificity,18,Monocyte classical,Monocyte classical,S100A8,CD36,3.5863814971969
+consensus,log2FC specificity,19,Monocyte classical,Monocyte classical,S100A8,CD68,3.585352235259286
+consensus,log2FC specificity,20,Monocyte classical,Plasmacytoid DC,S100A9,CD68,3.573382894050729
+consensus,log2FC specificity,21,Monocyte classical,Platelet,S100A9,CD68,3.5600300450164264
+consensus,log2FC specificity,22,Monocyte classical,Plasmacytoid DC,S100A8,CD68,3.5010310600840278
+consensus,log2FC specificity,23,Monocyte classical,Platelet,S100A8,CD68,3.487678211049724
+consensus,log2FC specificity,24,Monocyte classical,CD8 T memory,S100A8,CD69,3.4734125039395085
+consensus,log2FC specificity,25,Monocyte classical,Erythroid late,S100A9,CD36,3.471995835189245
+consensus,log2FC specificity,26,Monocyte classical,Erythroid late,S100A8,CD36,3.3996440012225437
+consensus,log2FC specificity,27,Monocyte classical,B naive,CXCL8,CD79A,3.390231387548865
+consensus,log2FC specificity,28,Monocyte classical,Erythroid early,S100A12,CD36,3.3667891828056766
+consensus,log2FC specificity,29,Monocyte classical,CD8 T cytotoxic,S100A9,ITGB2,3.338040771824141
+consensus,log2FC specificity,30,Monocyte classical,T activated,S100A8,CD69,3.3343951455785383
+consensus,log2FC specificity,31,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,3.3112100637563504
+consensus,log2FC specificity,32,Monocyte classical,Platelet,S100A9,CD36,3.3079773795344694
+consensus,log2FC specificity,33,Monocyte classical,CD8 T cytotoxic,S100A8,ITGB2,3.2656889378574387
+consensus,log2FC specificity,34,Monocyte classical,Dendritic cell,S100A9,ITGB2,3.265320487325148
+consensus,log2FC specificity,35,Monocyte classical,Pre-B small,S100A8,CD69,3.2520494552150803
+consensus,log2FC specificity,36,Monocyte classical,T proliferating,S100A9,ITGB2,3.2518457551021487
+consensus,log2FC specificity,37,Platelet,NK,CLEC1B,KLRB1,3.241320222850377
+consensus,log2FC specificity,38,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,3.238858229789648
+consensus,log2FC specificity,39,Monocyte classical,Platelet,S100A8,CD36,3.235625545567767
+consensus,log2FC specificity,40,Monocyte classical,Monocyte classical,S100A12,CD36,3.228492004632406
+consensus,log2FC specificity,41,Monocyte classical,Dendritic cell,S100A8,ITGB2,3.1929686533584456
+consensus,log2FC specificity,42,Monocyte classical,T proliferating,S100A8,ITGB2,3.1794939211354465
+consensus,log2FC specificity,43,Monocyte classical,Plasmacytoid DC,S100A9,CD36,3.1258056670759595
+consensus,log2FC specificity,44,Monocyte classical,Monocyte classical,S100A9,ITGB2,3.0943374311290324
+consensus,log2FC specificity,45,Monocyte classical,CD4 T memory,S100A8,CD69,3.068834052152377
+consensus,log2FC specificity,46,Monocyte classical,Plasmacytoid DC,S100A8,CD36,3.0534538331092573
+consensus,log2FC specificity,47,Monocyte classical,CD8 T memory,S100A9,ITGB2,3.0514692124277234
+consensus,log2FC specificity,48,Monocyte classical,Monocyte non-classical,S100A9,TLR4,3.047896925125511
+consensus,log2FC specificity,49,Monocyte classical,Erythroid late,S100A12,CD36,3.041754508658049
+consensus,log2FC specificity,50,Monocyte classical,Dendritic cell,S100A9,CD36,3.038774593093178
+consensus,log2FC specificity,51,Monocyte classical,B naive,S100A8,CD69,3.03195140885306
+consensus,log2FC specificity,52,Monocyte classical,Monocyte classical,S100A8,ITGB2,3.02198559716233
+consensus,log2FC specificity,53,Monocyte classical,Monocyte non-classical,S100A9,CD36,3.0064543587215464
+consensus,log2FC specificity,54,Monocyte classical,T proliferating,S100A8,CD69,2.979959079061773
+consensus,log2FC specificity,55,Monocyte classical,CD8 T memory,S100A8,ITGB2,2.979117378461021
+consensus,log2FC specificity,56,Monocyte classical,Monocyte non-classical,S100A8,TLR4,2.975545091158809
+consensus,log2FC specificity,57,Monocyte classical,Granulocyte precursor,S100A9,CD68,2.971242996077424
+consensus,log2FC specificity,58,Monocyte classical,Dendritic cell,S100A8,CD36,2.966422759126476
+consensus,log2FC specificity,59,Monocyte classical,Dendritic cell,S100A9,CD68,2.962077968528482
+consensus,log2FC specificity,60,Monocyte classical,NK,S100A8,CD69,2.94985431090456
+consensus,log2FC specificity,61,Monocyte classical,Monocyte non-classical,S100A8,CD36,2.934102524754844
+consensus,log2FC specificity,62,Monocyte classical,Granulocyte precursor,S100A8,CD68,2.8988911621107216
+consensus,log2FC specificity,63,Monocyte classical,Dendritic cell,S100A8,CD68,2.88972613456178
+consensus,log2FC specificity,64,Monocyte classical,Granulocyte precursor,S100A9,CD36,2.882538592722589
+consensus,log2FC specificity,65,Monocyte classical,Platelet,S100A12,CD36,2.8777360530032734
+consensus,log2FC specificity,66,Monocyte classical,Granulocyte precursor,S100A8,CD36,2.8101867587558877
+consensus,log2FC specificity,67,Monocyte classical,Granulocyte precursor,S100A9,ITGB2,2.7979348232743653
+consensus,log2FC specificity,68,Plasmacytoid DC,B naive,APP,CD74,2.787858028418875
+consensus,log2FC specificity,69,Monocyte classical,Granulocyte precursor,S100A8,ITGB2,2.725582989307663
+consensus,log2FC specificity,70,Monocyte classical,CD8 T cytotoxic,S100A8,CD69,2.712382079742174
+consensus,log2FC specificity,71,Monocyte classical,CD4 T memory,S100A9,ITGB2,2.706892707245741
+consensus,log2FC specificity,72,Monocyte classical,CD4 T naive,S100A8,CD69,2.697915350645993
+consensus,log2FC specificity,73,Monocyte classical,Plasmacytoid DC,S100A12,CD36,2.695564340544764
+consensus,log2FC specificity,74,Monocyte classical,CD4 T memory,S100A8,ITGB2,2.6345408732790387
+consensus,log2FC specificity,75,Monocyte classical,Platelet,VCAN,ITGB1,2.6304898925118603
+consensus,log2FC specificity,76,Monocyte classical,Monocyte non-classical,S100A12,TLR4,2.617655598594315
+consensus,log2FC specificity,77,Monocyte classical,Dendritic cell,S100A12,CD36,2.6085332665619823
+consensus,log2FC specificity,78,Monocyte classical,Pre-B small,CXCL8,CD79A,2.594007733454446
+consensus,log2FC specificity,79,Monocyte classical,Monocyte non-classical,S100A12,CD36,2.5762130321903505
+consensus,log2FC specificity,80,Platelet,CD8 T memory,CLEC1B,KLRB1,2.547410728821444
+consensus,log2FC specificity,81,Monocyte classical,T activated,S100A9,ITGB2,2.540320753805875
+consensus,log2FC specificity,82,Monocyte classical,CD4 T naive,S100A9,ITGB2,2.5259590514415406
+consensus,log2FC specificity,83,Monocyte classical,T activated,S100A8,ITGB2,2.4679689198391728
+consensus,log2FC specificity,84,Monocyte non-classical,B naive,CXCL8,CD79A,2.4670637068049674
+consensus,log2FC specificity,85,Monocyte classical,HSPC,S100A8,CD69,2.458287150565728
+consensus,log2FC specificity,86,Monocyte classical,CD4 T naive,S100A8,ITGB2,2.4536072174748385
+consensus,log2FC specificity,87,Monocyte classical,Granulocyte precursor,S100A12,CD36,2.452297266191393
+consensus,log2FC specificity,88,Monocyte classical,Pre-B large,S100A8,CD69,2.448627399290705
+consensus,log2FC specificity,89,Monocyte classical,Plasmacytoid DC,S100A9,ITGB2,2.439412331186588
+consensus,log2FC specificity,90,Monocyte classical,Platelet,LGALS1,ITGB1,2.4250281214258087
+consensus,log2FC specificity,91,NK,Platelet,SPON2,ITGB1,2.4054262083430906
+consensus,log2FC specificity,92,Platelet,Platelet,F13A1,ITGB1,2.385739832887764
+consensus,log2FC specificity,93,Platelet,Platelet,TLN1,ITGB3,2.3843791903915084
+consensus,log2FC specificity,94,Platelet,T activated,CLEC1B,KLRB1,2.3760374190009355
+consensus,log2FC specificity,95,Monocyte classical,Plasmacytoid DC,S100A8,ITGB2,2.3670604972198857
+consensus,log2FC specificity,96,NK,NK,SPON2,ITGB2,2.346813465996176
+consensus,log2FC specificity,97,Plasmacytoid DC,Dendritic cell,APP,CD74,2.345370091047009
+consensus,log2FC specificity,98,Monocyte classical,B naive,S100A9,ITGB2,2.3334534952421544
+consensus,log2FC specificity,99,Monocyte classical,Platelet,VCAN,SELP,2.32893361827466
+consensus,log2FC specificity,100,Monocyte classical,HSPC,S100A9,ITGB2,2.3257937118589758
+consensus,Merged specificity,1,Platelet,Erythroid early,PPBP,ACKR1,-1.2351748676477235e-09
+consensus,Merged specificity,2,Platelet,Erythroid early,PF4,ACKR1,-7.909434580493944e-09
+consensus,Merged specificity,3,Platelet,Monocyte non-classical,PF4,LRP1,-3.8318186363777635e-08
+consensus,Merged specificity,4,Platelet,T proliferating,PF4,CXCR3,-4.9742883413255394e-08
+consensus,Merged specificity,5,Platelet,Monocyte classical,PF4,LRP1,-7.897542476694719e-08
+consensus,Merged specificity,6,Platelet,Dendritic cell,PF4,THBD,-9.712744350809484e-08
+consensus,Merged specificity,7,Platelet,NK,CLEC1B,KLRB1,-1.821564054923561e-07
+consensus,Merged specificity,8,Platelet,Plasmacytoid DC,PF4,CXCR3,-3.552244287911985e-07
+consensus,Merged specificity,9,Platelet,T proliferating,PF4,LDLR,-1.9073048514751157e-06
+consensus,Merged specificity,10,Platelet,Platelet,TLN1,ITGB3,-2.885195017154891e-06
+consensus,Merged specificity,11,Platelet,Erythroid early,SPARC,ENG,-4.269579969562447e-06
+consensus,Merged specificity,12,Platelet,T activated,CLEC1B,KLRB1,-4.269579969562447e-06
+consensus,Merged specificity,13,Platelet,CD4 T memory,CLEC1B,KLRB1,-6.829266468440512e-06
+consensus,Merged specificity,14,Pre-B small,Platelet,CD24,SELP,-7.336017831628502e-06
+consensus,Merged specificity,15,Platelet,CD8 T memory,CLEC1B,KLRB1,-8.614380958469798e-06
+consensus,Merged specificity,16,Platelet,T activated,MYL9,CD69,-8.80827868501419e-06
+consensus,Merged specificity,17,Platelet,Platelet,TLN1,ITGB5,-9.204740833637216e-06
+consensus,Merged specificity,18,Monocyte classical,Platelet,VCAN,SELP,-9.82141692086365e-06
+consensus,Merged specificity,19,Platelet,CD8 T memory,MYL9,CD69,-1.1835028985517865e-05
+consensus,Merged specificity,20,Pre-B large,Platelet,CD24,SELP,-1.6949587611650334e-05
+consensus,Merged specificity,21,NK,Platelet,IGFBP7,MPIG6B,-2.261553596244181e-05
+consensus,Merged specificity,22,Plasmacytoid DC,Plasmacytoid DC,APP,TNFRSF21,-2.3730412720220685e-05
+consensus,Merged specificity,23,Platelet,Erythroid early,PF4,LDLR,-2.5633747067061066e-05
+consensus,Merged specificity,24,Erythroid early,Platelet,ICAM4,ITGB3,-2.873584771293719e-05
+consensus,Merged specificity,25,Erythroid early,Platelet,TGM2,ITGB3,-3.201481194461138e-05
+consensus,Merged specificity,26,Platelet,CD8 T cytotoxic,CLEC1B,KLRB1,-4.566242375020645e-05
+consensus,Merged specificity,27,Monocyte classical,Erythroid early,S100A9,CD36,-4.624821178900937e-05
+consensus,Merged specificity,28,Monocyte classical,Erythroid early,S100A8,CD36,-4.803548010475457e-05
+consensus,Merged specificity,29,Dendritic cell,Platelet,HBEGF,CD9,-5.174644644135767e-05
+consensus,Merged specificity,30,Monocyte classical,Erythroid early,S100A12,CD36,-5.432327373268655e-05
+consensus,Merged specificity,31,Plasmacytoid DC,Monocyte classical,SERPINF1,PLXDC2,-6.113494763589952e-05
+consensus,Merged specificity,32,Platelet,CD4 T memory,MYL9,CD69,-6.184572247947142e-05
+consensus,Merged specificity,33,Erythroid early,Platelet,ICAM4,ITGA2B,-6.328368950847993e-05
+consensus,Merged specificity,34,HSPC,Plasmacytoid DC,BST2,LILRA4,-6.474368357259718e-05
+consensus,Merged specificity,35,Platelet,Platelet,F13A1,ITGB1,-7.002950211788654e-05
+consensus,Merged specificity,36,T proliferating,Platelet,IL32,ITGB3,-7.08072220319271e-05
+consensus,Merged specificity,37,Pre-B small,Monocyte non-classical,CD24,SIGLEC10,-7.08072220319271e-05
+consensus,Merged specificity,38,Monocyte classical,Monocyte non-classical,S100A9,CD68,-7.15906543478533e-05
+consensus,Merged specificity,39,Erythroid early,Platelet,TNXB,ITGA2B_ITGB3,-7.4522459564505e-05
+consensus,Merged specificity,40,Platelet,Pre-B small,MYL9,CD69,-7.478191842159129e-05
+consensus,Merged specificity,41,Monocyte classical,Monocyte non-classical,S100A8,CD68,-7.559422080581354e-05
+consensus,Merged specificity,42,Platelet,Erythroid late,SPARC,ENG,-7.890199148968976e-05
+consensus,Merged specificity,43,CD4 T memory,Platelet,CD40LG,CD9,-7.974367701207155e-05
+consensus,Merged specificity,44,Monocyte non-classical,Platelet,HBEGF,CD9,-8.317000559940468e-05
+consensus,Merged specificity,45,Monocyte classical,Platelet,HBEGF,CD9,-9.688730082998706e-05
+consensus,Merged specificity,46,Plasmacytoid DC,Plasmacytoid DC,BST2,LILRA4,-0.0001037716828861
+consensus,Merged specificity,47,HSPC,Platelet,IGFBP7,MPIG6B,-0.0001047808821853
+consensus,Merged specificity,48,Plasmacytoid DC,Platelet,SELPLG,ESAM,-0.0001068187719098
+consensus,Merged specificity,49,Platelet,T proliferating,MYL9,CD69,-0.0001184985042934
+consensus,Merged specificity,50,Platelet,CD8 T memory,SNCA,LAG3,-0.0001229469059953
+consensus,Merged specificity,51,Platelet,Erythroid early,F13A1,ITGB1,-0.0001345493011683
+consensus,Merged specificity,52,T proliferating,NK,CLEC2B,KLRF1,-0.000135747922804
+consensus,Merged specificity,53,Monocyte classical,Plasmacytoid DC,S100A9,CD68,-0.0001369536041867
+consensus,Merged specificity,54,Monocyte classical,Plasmacytoid DC,S100A8,CD68,-0.0001393862273179
+consensus,Merged specificity,55,Dendritic cell,Pre-B small,HBEGF,CD9,-0.0001393862273179
+consensus,Merged specificity,56,Granulocyte precursor,Erythroid early,S100A8,CD36,-0.0001406132096189
+consensus,Merged specificity,57,NK,NK,SPON2,ITGB2,-0.0001481257705031
+consensus,Merged specificity,58,Dendritic cell,Platelet,FBLN2,ITGB3,-0.0001488112105747
+consensus,Merged specificity,59,CD8 T memory,Platelet,IL32,ITGB3,-0.0001532791221441
+consensus,Merged specificity,60,Dendritic cell,Platelet,IGFBP7,MPIG6B,-0.0001572211700865
+consensus,Merged specificity,61,CD4 T memory,Pre-B small,CD40LG,CD9,-0.0001666793652663
+consensus,Merged specificity,62,NK,Platelet,SPON2,ITGB1,-0.0001793841404585
+consensus,Merged specificity,63,NK,T proliferating,SPON2,ITGB2,-0.0001837574251826
+consensus,Merged specificity,64,Platelet,Dendritic cell,PROS1,AXL,-0.0001872436907967
+consensus,Merged specificity,65,Monocyte classical,Erythroid early,TNFSF13B,TFRC,-0.0001927147985863
+consensus,Merged specificity,66,Monocyte classical,Platelet,THBS1,ITGA2B_ITGB3,-0.0001954573293417
+consensus,Merged specificity,67,NK,Dendritic cell,SPON2,ITGB2,-0.0001972999743028
+consensus,Merged specificity,68,Pre-B large,Monocyte non-classical,CD24,SIGLEC10,-0.0002066860189611
+consensus,Merged specificity,69,Granulocyte precursor,Monocyte non-classical,S100A8,CD68,-0.0002147299889682
+consensus,Merged specificity,70,Platelet,T proliferating,F13A1,ITGB1,-0.0002180047628072
+consensus,Merged specificity,71,Monocyte non-classical,Plasmacytoid DC,BST2,LILRA4,-0.0002196544840874
+consensus,Merged specificity,72,Pre-B large,Platelet,MFGE8,ITGB3,-0.0002211517551594
+consensus,Merged specificity,73,Monocyte non-classical,Pre-B small,HBEGF,CD9,-0.0002263360661465
+consensus,Merged specificity,74,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,-0.0002383503037547
+consensus,Merged specificity,75,Platelet,T proliferating,F13A1,ITGA4,-0.0002383503037547
+consensus,Merged specificity,76,NK,Erythroid early,SPON2,ITGB1,-0.0002436259119915
+consensus,Merged specificity,77,NK,Plasmacytoid DC,BST2,LILRA4,-0.000247185600711
+consensus,Merged specificity,78,HSPC,Platelet,CD34,SELP,-0.0002484255425446
+consensus,Merged specificity,79,Monocyte classical,B naive,CXCL8,CD79A,-0.0002489782900218
+consensus,Merged specificity,80,Granulocyte precursor,Erythroid early,S100A9,CD36,-0.0002525894584775
+consensus,Merged specificity,81,Dendritic cell,Plasmacytoid DC,HLA-DQA1,CD4,-0.0002544079775832
+consensus,Merged specificity,82,NK,Monocyte classical,SPON2,ITGAM,-0.0002636307207516
+consensus,Merged specificity,83,Platelet,B naive,MYL9,CD69,-0.000265501438652
+consensus,Merged specificity,84,Erythroid early,Platelet,COL18A1,ITGB3,-0.0002674849168977
+consensus,Merged specificity,85,Dendritic cell,Plasmacytoid DC,BST2,LILRA4,-0.0002730722062032
+consensus,Merged specificity,86,CD8 T memory,T proliferating,CCL5,CXCR3,-0.0002788431309059
+consensus,Merged specificity,87,Monocyte classical,Pre-B small,HBEGF,CD9,-0.0002807845642987
+consensus,Merged specificity,88,T proliferating,Platelet,CALR,ITGA2B,-0.000284694238344
+consensus,Merged specificity,89,Platelet,HSPC,F13A1,ITGA4,-0.0002886397881512
+consensus,Merged specificity,90,Granulocyte precursor,T proliferating,RETN,CAP1,-0.0002906260662316
+consensus,Merged specificity,91,Plasmacytoid DC,Monocyte non-classical,SERPINF1,PLXDC2,-0.0002966391519633
+consensus,Merged specificity,92,Granulocyte precursor,Plasmacytoid DC,BST2,LILRA4,-0.0002986616640095
+consensus,Merged specificity,93,Monocyte non-classical,NK,CLEC2B,KLRF1,-0.0003068429930804
+consensus,Merged specificity,94,Plasmacytoid DC,Monocyte classical,APP,LRP1,-0.0003089112449393
+consensus,Merged specificity,95,NK,Monocyte non-classical,SPON2,ITGB2,-0.0003130753912285
+consensus,Merged specificity,96,Dendritic cell,Platelet,ADAM15,ITGB3,-0.0003181998167541
+consensus,Merged specificity,97,Monocyte classical,Monocyte classical,S100A8,CD68,-0.0003193910149337
+consensus,Merged specificity,98,Granulocyte precursor,Monocyte non-classical,S100A9,CD68,-0.0003215148100381
+consensus,Merged specificity,99,Platelet,CD8 T cytotoxic,F13A1,ITGB1,-0.000334454134914
+consensus,Merged specificity,100,Platelet,T proliferating,SNCA,LAG3,-0.0003388425968294
+cellphonedb,CellPhoneDB magnitude,1,Plasmacytoid DC,Dendritic cell,APP,CD74,3.0144258
+cellphonedb,CellPhoneDB magnitude,2,Plasmacytoid DC,B naive,APP,CD74,2.9983869
+cellphonedb,CellPhoneDB magnitude,3,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,2.9641495
+cellphonedb,CellPhoneDB magnitude,4,HSPC,Dendritic cell,MIF,CD74,2.8845398
+cellphonedb,CellPhoneDB magnitude,5,HSPC,B naive,MIF,CD74,2.868501
+cellphonedb,CellPhoneDB magnitude,6,HSPC,Plasmacytoid DC,MIF,CD74,2.8342636
+cellphonedb,CellPhoneDB magnitude,7,Granulocyte precursor,Dendritic cell,MIF,CD74,2.8333254
+cellphonedb,CellPhoneDB magnitude,8,Granulocyte precursor,B naive,MIF,CD74,2.8172865
+cellphonedb,CellPhoneDB magnitude,9,T proliferating,Dendritic cell,MIF,CD74,2.8100133
+cellphonedb,CellPhoneDB magnitude,10,T proliferating,B naive,MIF,CD74,2.7939744
+cellphonedb,CellPhoneDB magnitude,11,Plasmacytoid DC,Pre-B small,APP,CD74,2.7916646
+cellphonedb,CellPhoneDB magnitude,12,Granulocyte precursor,Plasmacytoid DC,MIF,CD74,2.783049
+cellphonedb,CellPhoneDB magnitude,13,Pre-B large,Dendritic cell,MIF,CD74,2.771713
+cellphonedb,CellPhoneDB magnitude,14,Dendritic cell,Dendritic cell,MIF,CD74,2.7612453
+cellphonedb,CellPhoneDB magnitude,15,T proliferating,Plasmacytoid DC,MIF,CD74,2.759737
+cellphonedb,CellPhoneDB magnitude,16,Pre-B large,B naive,MIF,CD74,2.7556741
+cellphonedb,CellPhoneDB magnitude,17,Dendritic cell,B naive,MIF,CD74,2.7452064
+cellphonedb,CellPhoneDB magnitude,18,Pre-B large,Plasmacytoid DC,MIF,CD74,2.7214367
+cellphonedb,CellPhoneDB magnitude,19,Erythroid early,Dendritic cell,MIF,CD74,2.718665
+cellphonedb,CellPhoneDB magnitude,20,Dendritic cell,Plasmacytoid DC,MIF,CD74,2.710969
+cellphonedb,CellPhoneDB magnitude,21,Erythroid early,B naive,MIF,CD74,2.702626
+cellphonedb,CellPhoneDB magnitude,22,Erythroid early,Plasmacytoid DC,MIF,CD74,2.6683886
+cellphonedb,CellPhoneDB magnitude,23,HSPC,Pre-B small,MIF,CD74,2.6617787
+cellphonedb,CellPhoneDB magnitude,24,CD4 T memory,Dendritic cell,MIF,CD74,2.6441743
+cellphonedb,CellPhoneDB magnitude,25,CD4 T memory,B naive,MIF,CD74,2.6281354
+cellphonedb,CellPhoneDB magnitude,26,Granulocyte precursor,Pre-B small,MIF,CD74,2.6105642
+cellphonedb,CellPhoneDB magnitude,27,CD4 T memory,Plasmacytoid DC,MIF,CD74,2.593898
+cellphonedb,CellPhoneDB magnitude,28,T proliferating,Pre-B small,MIF,CD74,2.5872521
+cellphonedb,CellPhoneDB magnitude,29,Platelet,T proliferating,PF4,CXCR3,2.5867689
+cellphonedb,CellPhoneDB magnitude,30,Plasmacytoid DC,Dendritic cell,MIF,CD74,2.578783
+cellphonedb,CellPhoneDB magnitude,31,NK,Dendritic cell,MIF,CD74,2.577445
+cellphonedb,CellPhoneDB magnitude,32,Plasmacytoid DC,B naive,MIF,CD74,2.5627441
+cellphonedb,CellPhoneDB magnitude,33,NK,B naive,MIF,CD74,2.5614061
+cellphonedb,CellPhoneDB magnitude,34,CD8 T memory,Dendritic cell,MIF,CD74,2.5557268
+cellphonedb,CellPhoneDB magnitude,35,Erythroid late,Dendritic cell,MIF,CD74,2.553841
+cellphonedb,CellPhoneDB magnitude,36,T activated,Dendritic cell,MIF,CD74,2.551255
+cellphonedb,CellPhoneDB magnitude,37,Pre-B large,Pre-B small,MIF,CD74,2.5489519
+cellphonedb,CellPhoneDB magnitude,38,Monocyte non-classical,Dendritic cell,MIF,CD74,2.5489464
+cellphonedb,CellPhoneDB magnitude,39,CD8 T cytotoxic,Dendritic cell,MIF,CD74,2.542218
+cellphonedb,CellPhoneDB magnitude,40,CD8 T memory,B naive,MIF,CD74,2.5396879
+cellphonedb,CellPhoneDB magnitude,41,Dendritic cell,Pre-B small,MIF,CD74,2.538484
+cellphonedb,CellPhoneDB magnitude,42,Erythroid late,B naive,MIF,CD74,2.5378022
+cellphonedb,CellPhoneDB magnitude,43,T activated,B naive,MIF,CD74,2.535216
+cellphonedb,CellPhoneDB magnitude,44,Monocyte non-classical,B naive,MIF,CD74,2.5329075
+cellphonedb,CellPhoneDB magnitude,45,CD4 T naive,Dendritic cell,MIF,CD74,2.5292373
+cellphonedb,CellPhoneDB magnitude,46,Plasmacytoid DC,Plasmacytoid DC,MIF,CD74,2.5285068
+cellphonedb,CellPhoneDB magnitude,47,NK,Plasmacytoid DC,MIF,CD74,2.5271688
+cellphonedb,CellPhoneDB magnitude,48,CD8 T cytotoxic,B naive,MIF,CD74,2.526179
+cellphonedb,CellPhoneDB magnitude,49,B naive,Monocyte non-classical,RPS19,C5AR1,2.5172267
+cellphonedb,CellPhoneDB magnitude,50,CD4 T naive,B naive,MIF,CD74,2.5131984
+cellphonedb,CellPhoneDB magnitude,51,CD8 T memory,Plasmacytoid DC,MIF,CD74,2.5054505
+cellphonedb,CellPhoneDB magnitude,52,Erythroid late,Plasmacytoid DC,MIF,CD74,2.5035648
+cellphonedb,CellPhoneDB magnitude,53,T activated,Plasmacytoid DC,MIF,CD74,2.5009787
+cellphonedb,CellPhoneDB magnitude,54,CD4 T naive,Monocyte non-classical,RPS19,C5AR1,2.499339
+cellphonedb,CellPhoneDB magnitude,55,Monocyte non-classical,Plasmacytoid DC,MIF,CD74,2.49867
+cellphonedb,CellPhoneDB magnitude,56,Monocyte classical,Dendritic cell,MIF,CD74,2.497087
+cellphonedb,CellPhoneDB magnitude,57,Erythroid early,Pre-B small,MIF,CD74,2.4959037
+cellphonedb,CellPhoneDB magnitude,58,B naive,Dendritic cell,MIF,CD74,2.4956353
+cellphonedb,CellPhoneDB magnitude,59,CD8 T cytotoxic,Plasmacytoid DC,MIF,CD74,2.4919417
+cellphonedb,CellPhoneDB magnitude,60,CD4 T memory,Monocyte non-classical,RPS19,C5AR1,2.4877033
+cellphonedb,CellPhoneDB magnitude,61,Platelet,Plasmacytoid DC,PF4,CXCR3,2.4839828
+cellphonedb,CellPhoneDB magnitude,62,Monocyte classical,B naive,MIF,CD74,2.481048
+cellphonedb,CellPhoneDB magnitude,63,B naive,B naive,MIF,CD74,2.4795964
+cellphonedb,CellPhoneDB magnitude,64,CD4 T naive,Plasmacytoid DC,MIF,CD74,2.478961
+cellphonedb,CellPhoneDB magnitude,65,Platelet,Dendritic cell,MIF,CD74,2.4777298
+cellphonedb,CellPhoneDB magnitude,66,T activated,Monocyte non-classical,RPS19,C5AR1,2.4763336
+cellphonedb,CellPhoneDB magnitude,67,Platelet,B naive,MIF,CD74,2.461691
+cellphonedb,CellPhoneDB magnitude,68,Monocyte classical,Plasmacytoid DC,MIF,CD74,2.4468107
+cellphonedb,CellPhoneDB magnitude,69,B naive,Plasmacytoid DC,MIF,CD74,2.445359
+cellphonedb,CellPhoneDB magnitude,70,Platelet,Dendritic cell,APP,CD74,2.4452257
+cellphonedb,CellPhoneDB magnitude,71,Granulocyte precursor,Monocyte non-classical,RPS19,C5AR1,2.4418683
+cellphonedb,CellPhoneDB magnitude,72,HSPC,Monocyte non-classical,RPS19,C5AR1,2.4416056
+cellphonedb,CellPhoneDB magnitude,73,B naive,Monocyte classical,RPS19,C5AR1,2.4350598
+cellphonedb,CellPhoneDB magnitude,74,Pre-B small,Dendritic cell,MIF,CD74,2.4336884
+cellphonedb,CellPhoneDB magnitude,75,Platelet,B naive,APP,CD74,2.4291868
+cellphonedb,CellPhoneDB magnitude,76,Platelet,Plasmacytoid DC,MIF,CD74,2.4274535
+cellphonedb,CellPhoneDB magnitude,77,Dendritic cell,Dendritic cell,APP,CD74,2.4264793
+cellphonedb,CellPhoneDB magnitude,78,HSPC,Dendritic cell,APP,CD74,2.42646
+cellphonedb,CellPhoneDB magnitude,79,CD4 T memory,Pre-B small,MIF,CD74,2.4214132
+cellphonedb,CellPhoneDB magnitude,80,Pre-B small,B naive,MIF,CD74,2.4176495
+cellphonedb,CellPhoneDB magnitude,81,CD4 T naive,Monocyte classical,RPS19,C5AR1,2.4171722
+cellphonedb,CellPhoneDB magnitude,82,Dendritic cell,B naive,APP,CD74,2.4104404
+cellphonedb,CellPhoneDB magnitude,83,HSPC,B naive,APP,CD74,2.4104211
+cellphonedb,CellPhoneDB magnitude,84,CD4 T memory,Monocyte classical,RPS19,C5AR1,2.4055367
+cellphonedb,CellPhoneDB magnitude,85,Platelet,Plasmacytoid DC,APP,CD74,2.3949494
+cellphonedb,CellPhoneDB magnitude,86,T activated,Monocyte classical,RPS19,C5AR1,2.394167
+cellphonedb,CellPhoneDB magnitude,87,CD8 T cytotoxic,Monocyte non-classical,RPS19,C5AR1,2.3935742
+cellphonedb,CellPhoneDB magnitude,88,Dendritic cell,Dendritic cell,COPA,CD74,2.3850663
+cellphonedb,CellPhoneDB magnitude,89,Erythroid early,Dendritic cell,COPA,CD74,2.3850167
+cellphonedb,CellPhoneDB magnitude,90,Pre-B small,Plasmacytoid DC,MIF,CD74,2.3834121
+cellphonedb,CellPhoneDB magnitude,91,Granulocyte precursor,Dendritic cell,APP,CD74,2.382678
+cellphonedb,CellPhoneDB magnitude,92,Monocyte non-classical,Monocyte non-classical,RPS19,C5AR1,2.3818507
+cellphonedb,CellPhoneDB magnitude,93,Plasmacytoid DC,Dendritic cell,COPA,CD74,2.3811584
+cellphonedb,CellPhoneDB magnitude,94,Pre-B large,Dendritic cell,APP,CD74,2.3765821
+cellphonedb,CellPhoneDB magnitude,95,Dendritic cell,Plasmacytoid DC,APP,CD74,2.376203
+cellphonedb,CellPhoneDB magnitude,96,HSPC,Plasmacytoid DC,APP,CD74,2.3761837
+cellphonedb,CellPhoneDB magnitude,97,T activated,Dendritic cell,COPA,CD74,2.3747633
+cellphonedb,CellPhoneDB magnitude,98,Pre-B large,Dendritic cell,COPA,CD74,2.3732722
+cellphonedb,CellPhoneDB magnitude,99,Granulocyte precursor,Dendritic cell,COPA,CD74,2.3724113
+cellphonedb,CellPhoneDB magnitude,100,HSPC,Dendritic cell,COPA,CD74,2.3716393
+cellphonedb,NATMI magnitude,1,Plasmacytoid DC,Dendritic cell,APP,CD74,6.6961546
+cellphonedb,NATMI magnitude,2,Plasmacytoid DC,B naive,APP,CD74,6.649056
+cellphonedb,NATMI magnitude,3,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,6.5485168
+cellphonedb,NATMI magnitude,4,Plasmacytoid DC,Pre-B small,APP,CD74,6.0420094
+cellphonedb,NATMI magnitude,5,HSPC,Dendritic cell,MIF,CD74,5.5114427
+cellphonedb,NATMI magnitude,6,HSPC,B naive,MIF,CD74,5.4726768
+cellphonedb,NATMI magnitude,7,HSPC,Plasmacytoid DC,MIF,CD74,5.3899255
+cellphonedb,NATMI magnitude,8,Granulocyte precursor,Dendritic cell,MIF,CD74,5.044308
+cellphonedb,NATMI magnitude,9,Granulocyte precursor,B naive,MIF,CD74,5.0088277
+cellphonedb,NATMI magnitude,10,HSPC,Pre-B small,MIF,CD74,4.9730315
+cellphonedb,NATMI magnitude,11,Granulocyte precursor,Plasmacytoid DC,MIF,CD74,4.93309
+cellphonedb,NATMI magnitude,12,T proliferating,Dendritic cell,MIF,CD74,4.8316746
+cellphonedb,NATMI magnitude,13,T proliferating,B naive,MIF,CD74,4.79769
+cellphonedb,NATMI magnitude,14,T proliferating,Plasmacytoid DC,MIF,CD74,4.725145
+cellphonedb,NATMI magnitude,15,Plasmacytoid DC,Pre-B large,APP,CD74,4.7167025
+cellphonedb,NATMI magnitude,16,Granulocyte precursor,Pre-B small,MIF,CD74,4.551531
+cellphonedb,NATMI magnitude,17,Plasmacytoid DC,Monocyte non-classical,APP,CD74,4.524367
+cellphonedb,NATMI magnitude,18,Pre-B large,Dendritic cell,MIF,CD74,4.4823294
+cellphonedb,NATMI magnitude,19,Pre-B large,B naive,MIF,CD74,4.4508023
+cellphonedb,NATMI magnitude,20,Dendritic cell,Dendritic cell,MIF,CD74,4.386852
+cellphonedb,NATMI magnitude,21,Pre-B large,Plasmacytoid DC,MIF,CD74,4.3835025
+cellphonedb,NATMI magnitude,22,T proliferating,Pre-B small,MIF,CD74,4.3596697
+cellphonedb,NATMI magnitude,23,Dendritic cell,B naive,MIF,CD74,4.355996
+cellphonedb,NATMI magnitude,24,Dendritic cell,Plasmacytoid DC,MIF,CD74,4.29013
+cellphonedb,NATMI magnitude,25,Plasmacytoid DC,T proliferating,APP,CD74,4.0649104
+cellphonedb,NATMI magnitude,26,Pre-B large,Pre-B small,MIF,CD74,4.0444517
+cellphonedb,NATMI magnitude,27,Erythroid early,Dendritic cell,MIF,CD74,3.9984694
+cellphonedb,NATMI magnitude,28,Erythroid early,B naive,MIF,CD74,3.9703453
+cellphonedb,NATMI magnitude,29,Dendritic cell,Pre-B small,MIF,CD74,3.9583015
+cellphonedb,NATMI magnitude,30,Erythroid early,Plasmacytoid DC,MIF,CD74,3.9103103
+cellphonedb,NATMI magnitude,31,HSPC,Pre-B large,MIF,CD74,3.8822033
+cellphonedb,NATMI magnitude,32,HSPC,Monocyte non-classical,MIF,CD74,3.7238965
+cellphonedb,NATMI magnitude,33,Plasmacytoid DC,HSPC,APP,CD74,3.6679788
+cellphonedb,NATMI magnitude,34,Erythroid early,Pre-B small,MIF,CD74,3.6078598
+cellphonedb,NATMI magnitude,35,Granulocyte precursor,Pre-B large,MIF,CD74,3.5531585
+cellphonedb,NATMI magnitude,36,Granulocyte precursor,Monocyte non-classical,MIF,CD74,3.4082694
+cellphonedb,NATMI magnitude,37,T proliferating,Pre-B large,MIF,CD74,3.4033816
+cellphonedb,NATMI magnitude,38,HSPC,T proliferating,MIF,CD74,3.345729
+cellphonedb,NATMI magnitude,39,CD4 T memory,Dendritic cell,MIF,CD74,3.3190289
+cellphonedb,NATMI magnitude,40,CD4 T memory,B naive,MIF,CD74,3.2956839
+cellphonedb,NATMI magnitude,41,T proliferating,Monocyte non-classical,MIF,CD74,3.2646
+cellphonedb,NATMI magnitude,42,CD4 T memory,Plasmacytoid DC,MIF,CD74,3.2458503
+cellphonedb,NATMI magnitude,43,Plasmacytoid DC,Monocyte classical,APP,CD74,3.1743152
+cellphonedb,NATMI magnitude,44,Pre-B large,Pre-B large,MIF,CD74,3.1573067
+cellphonedb,NATMI magnitude,45,Dendritic cell,Pre-B large,MIF,CD74,3.0900533
+cellphonedb,NATMI magnitude,46,Granulocyte precursor,T proliferating,MIF,CD74,3.0621543
+cellphonedb,NATMI magnitude,47,Pre-B large,Monocyte non-classical,MIF,CD74,3.0285594
+cellphonedb,NATMI magnitude,48,HSPC,HSPC,MIF,CD74,3.0190244
+cellphonedb,NATMI magnitude,49,CD4 T memory,Pre-B small,MIF,CD74,2.994794
+cellphonedb,NATMI magnitude,50,Dendritic cell,Monocyte non-classical,MIF,CD74,2.9640484
+cellphonedb,NATMI magnitude,51,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,2.9544983
+cellphonedb,NATMI magnitude,52,T proliferating,T proliferating,MIF,CD74,2.933075
+cellphonedb,NATMI magnitude,53,Plasmacytoid DC,Granulocyte precursor,APP,CD74,2.862796
+cellphonedb,NATMI magnitude,54,Platelet,T proliferating,PF4,CXCR3,2.8544621
+cellphonedb,NATMI magnitude,55,Erythroid early,Pre-B large,MIF,CD74,2.8164804
+cellphonedb,NATMI magnitude,56,Granulocyte precursor,HSPC,MIF,CD74,2.7631402
+cellphonedb,NATMI magnitude,57,Plasmacytoid DC,Dendritic cell,MIF,CD74,2.7225826
+cellphonedb,NATMI magnitude,58,Pre-B large,T proliferating,MIF,CD74,2.7210045
+cellphonedb,NATMI magnitude,59,NK,Dendritic cell,MIF,CD74,2.7103782
+cellphonedb,NATMI magnitude,60,Plasmacytoid DC,B naive,MIF,CD74,2.7034328
+cellphonedb,NATMI magnitude,61,Erythroid early,Monocyte non-classical,MIF,CD74,2.7016313
+cellphonedb,NATMI magnitude,62,NK,B naive,MIF,CD74,2.6913142
+cellphonedb,NATMI magnitude,63,Dendritic cell,T proliferating,MIF,CD74,2.6630447
+cellphonedb,NATMI magnitude,64,Plasmacytoid DC,Plasmacytoid DC,MIF,CD74,2.6625545
+cellphonedb,NATMI magnitude,65,NK,Plasmacytoid DC,MIF,CD74,2.6506193
+cellphonedb,NATMI magnitude,66,T proliferating,HSPC,MIF,CD74,2.646665
+cellphonedb,NATMI magnitude,67,HSPC,Monocyte classical,MIF,CD74,2.612702
+cellphonedb,NATMI magnitude,68,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,2.5497327
+cellphonedb,NATMI magnitude,69,CD8 T memory,Dendritic cell,MIF,CD74,2.5122824
+cellphonedb,NATMI magnitude,70,Erythroid late,Dendritic cell,MIF,CD74,2.4950833
+cellphonedb,NATMI magnitude,71,CD8 T memory,B naive,MIF,CD74,2.4946117
+cellphonedb,NATMI magnitude,72,Erythroid late,B naive,MIF,CD74,2.4775336
+cellphonedb,NATMI magnitude,73,T activated,Dendritic cell,MIF,CD74,2.471495
+cellphonedb,NATMI magnitude,74,Plasmacytoid DC,CD8 T memory,APP,CD74,2.4609966
+cellphonedb,NATMI magnitude,75,B naive,Monocyte non-classical,RPS19,C5AR1,2.457219
+cellphonedb,NATMI magnitude,76,CD8 T memory,Plasmacytoid DC,MIF,CD74,2.456891
+cellphonedb,NATMI magnitude,77,Plasmacytoid DC,Pre-B small,MIF,CD74,2.4566143
+cellphonedb,NATMI magnitude,78,Pre-B large,HSPC,MIF,CD74,2.455303
+cellphonedb,NATMI magnitude,79,T activated,B naive,MIF,CD74,2.454111
+cellphonedb,NATMI magnitude,80,Monocyte non-classical,Dendritic cell,MIF,CD74,2.4504366
+cellphonedb,NATMI magnitude,81,NK,Pre-B small,MIF,CD74,2.445602
+cellphonedb,NATMI magnitude,82,Erythroid late,Plasmacytoid DC,MIF,CD74,2.4400713
+cellphonedb,NATMI magnitude,83,CD4 T naive,Monocyte non-classical,RPS19,C5AR1,2.4376264
+cellphonedb,NATMI magnitude,84,Monocyte non-classical,B naive,MIF,CD74,2.4332008
+cellphonedb,NATMI magnitude,85,Erythroid early,T proliferating,MIF,CD74,2.4272764
+cellphonedb,NATMI magnitude,86,CD4 T memory,Monocyte non-classical,RPS19,C5AR1,2.4248817
+cellphonedb,NATMI magnitude,87,T activated,Plasmacytoid DC,MIF,CD74,2.417003
+cellphonedb,NATMI magnitude,88,T activated,Monocyte non-classical,RPS19,C5AR1,2.4124284
+cellphonedb,NATMI magnitude,89,Dendritic cell,HSPC,MIF,CD74,2.403003
+cellphonedb,NATMI magnitude,90,Monocyte non-classical,Plasmacytoid DC,MIF,CD74,2.3964088
+cellphonedb,NATMI magnitude,91,Granulocyte precursor,Monocyte classical,MIF,CD74,2.3912566
+cellphonedb,NATMI magnitude,92,CD8 T cytotoxic,Dendritic cell,MIF,CD74,2.3890674
+cellphonedb,NATMI magnitude,93,Granulocyte precursor,Monocyte non-classical,RPS19,C5AR1,2.3746781
+cellphonedb,NATMI magnitude,94,HSPC,Monocyte non-classical,RPS19,C5AR1,2.3743904
+cellphonedb,NATMI magnitude,95,CD8 T cytotoxic,B naive,MIF,CD74,2.3722634
+cellphonedb,NATMI magnitude,96,HSPC,Granulocyte precursor,MIF,CD74,2.356298
+cellphonedb,NATMI magnitude,97,Monocyte classical,B naive,TNFSF13B,HLA-DPB1,2.353085
+cellphonedb,NATMI magnitude,98,CD4 T memory,Pre-B large,MIF,CD74,2.3378897
+cellphonedb,NATMI magnitude,99,CD8 T cytotoxic,Plasmacytoid DC,MIF,CD74,2.3363929
+cellphonedb,NATMI magnitude,100,CD8 T cytotoxic,Monocyte non-classical,RPS19,C5AR1,2.321781
+cellphonedb,SingleCellSignalR magnitude,1,Plasmacytoid DC,Dendritic cell,APP,CD74,0.9712005
+cellphonedb,SingleCellSignalR magnitude,2,Plasmacytoid DC,B naive,APP,CD74,0.97110164
+cellphonedb,SingleCellSignalR magnitude,3,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,0.9708871
+cellphonedb,SingleCellSignalR magnitude,4,Plasmacytoid DC,Pre-B small,APP,CD74,0.9697276
+cellphonedb,SingleCellSignalR magnitude,5,HSPC,Dendritic cell,MIF,CD74,0.968349
+cellphonedb,SingleCellSignalR magnitude,6,HSPC,B naive,MIF,CD74,0.9682406
+cellphonedb,SingleCellSignalR magnitude,7,HSPC,Plasmacytoid DC,MIF,CD74,0.96800554
+cellphonedb,SingleCellSignalR magnitude,8,Granulocyte precursor,Dendritic cell,MIF,CD74,0.96696323
+cellphonedb,SingleCellSignalR magnitude,9,Granulocyte precursor,B naive,MIF,CD74,0.96685034
+cellphonedb,SingleCellSignalR magnitude,10,HSPC,Pre-B small,MIF,CD74,0.9667352
+cellphonedb,SingleCellSignalR magnitude,11,Granulocyte precursor,Plasmacytoid DC,MIF,CD74,0.9666053
+cellphonedb,SingleCellSignalR magnitude,12,T proliferating,Dendritic cell,MIF,CD74,0.96626836
+cellphonedb,SingleCellSignalR magnitude,13,T proliferating,B naive,MIF,CD74,0.96615314
+cellphonedb,SingleCellSignalR magnitude,14,T proliferating,Plasmacytoid DC,MIF,CD74,0.96590316
+cellphonedb,SingleCellSignalR magnitude,15,Plasmacytoid DC,Pre-B large,APP,CD74,0.96587366
+cellphonedb,SingleCellSignalR magnitude,16,Granulocyte precursor,Pre-B small,MIF,CD74,0.9652813
+cellphonedb,SingleCellSignalR magnitude,17,Plasmacytoid DC,Monocyte non-classical,APP,CD74,0.9651809
+cellphonedb,SingleCellSignalR magnitude,18,Pre-B large,Dendritic cell,MIF,CD74,0.96502364
+cellphonedb,SingleCellSignalR magnitude,19,Pre-B large,B naive,MIF,CD74,0.96490437
+cellphonedb,SingleCellSignalR magnitude,20,Dendritic cell,Dendritic cell,MIF,CD74,0.9646585
+cellphonedb,SingleCellSignalR magnitude,21,Pre-B large,Plasmacytoid DC,MIF,CD74,0.96464545
+cellphonedb,SingleCellSignalR magnitude,22,T proliferating,Pre-B small,MIF,CD74,0.96455234
+cellphonedb,SingleCellSignalR magnitude,23,Dendritic cell,B naive,MIF,CD74,0.964538
+cellphonedb,SingleCellSignalR magnitude,24,Dendritic cell,Plasmacytoid DC,MIF,CD74,0.96427643
+cellphonedb,SingleCellSignalR magnitude,25,Plasmacytoid DC,T proliferating,APP,CD74,0.96333593
+cellphonedb,SingleCellSignalR magnitude,26,Pre-B large,Pre-B small,MIF,CD74,0.96324676
+cellphonedb,SingleCellSignalR magnitude,27,Erythroid early,Dendritic cell,MIF,CD74,0.9630438
+cellphonedb,SingleCellSignalR magnitude,28,Erythroid early,B naive,MIF,CD74,0.9629179
+cellphonedb,SingleCellSignalR magnitude,29,Dendritic cell,Pre-B small,MIF,CD74,0.9628637
+cellphonedb,SingleCellSignalR magnitude,30,Erythroid early,Plasmacytoid DC,MIF,CD74,0.96264493
+cellphonedb,SingleCellSignalR magnitude,31,HSPC,Pre-B large,MIF,CD74,0.96251506
+cellphonedb,SingleCellSignalR magnitude,32,HSPC,Monocyte non-classical,MIF,CD74,0.96175677
+cellphonedb,SingleCellSignalR magnitude,33,Plasmacytoid DC,HSPC,APP,CD74,0.96147746
+cellphonedb,SingleCellSignalR magnitude,34,Erythroid early,Pre-B small,MIF,CD74,0.96117026
+cellphonedb,SingleCellSignalR magnitude,35,Granulocyte precursor,Pre-B large,MIF,CD74,0.96088415
+cellphonedb,SingleCellSignalR magnitude,36,Granulocyte precursor,Monocyte non-classical,MIF,CD74,0.9600942
+cellphonedb,SingleCellSignalR magnitude,37,T proliferating,Pre-B large,MIF,CD74,0.96006674
+cellphonedb,SingleCellSignalR magnitude,38,HSPC,T proliferating,MIF,CD74,0.9597379
+cellphonedb,SingleCellSignalR magnitude,39,CD4 T memory,Dendritic cell,MIF,CD74,0.95958287
+cellphonedb,SingleCellSignalR magnitude,40,CD4 T memory,B naive,MIF,CD74,0.9594457
+cellphonedb,SingleCellSignalR magnitude,41,T proliferating,Monocyte non-classical,MIF,CD74,0.959261
+cellphonedb,SingleCellSignalR magnitude,42,CD4 T memory,Plasmacytoid DC,MIF,CD74,0.9591483
+cellphonedb,SingleCellSignalR magnitude,43,Plasmacytoid DC,Monocyte classical,APP,CD74,0.9587094
+cellphonedb,SingleCellSignalR magnitude,44,Pre-B large,Pre-B large,MIF,CD74,0.95860296
+cellphonedb,SingleCellSignalR magnitude,45,Dendritic cell,Pre-B large,MIF,CD74,0.95817363
+cellphonedb,SingleCellSignalR magnitude,46,Granulocyte precursor,T proliferating,MIF,CD74,0.95799154
+cellphonedb,SingleCellSignalR magnitude,47,Pre-B large,Monocyte non-classical,MIF,CD74,0.957769
+cellphonedb,SingleCellSignalR magnitude,48,HSPC,HSPC,MIF,CD74,0.95770514
+cellphonedb,SingleCellSignalR magnitude,49,CD4 T memory,Pre-B small,MIF,CD74,0.95754164
+cellphonedb,SingleCellSignalR magnitude,50,Dendritic cell,Monocyte non-classical,MIF,CD74,0.95733136
+cellphonedb,SingleCellSignalR magnitude,51,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,0.95726544
+cellphonedb,SingleCellSignalR magnitude,52,T proliferating,T proliferating,MIF,CD74,0.9571163
+cellphonedb,SingleCellSignalR magnitude,53,Plasmacytoid DC,Granulocyte precursor,APP,CD74,0.9566158
+cellphonedb,SingleCellSignalR magnitude,54,Platelet,T proliferating,PF4,CXCR3,0.9565553
+cellphonedb,SingleCellSignalR magnitude,55,Erythroid early,Pre-B large,MIF,CD74,0.9562761
+cellphonedb,SingleCellSignalR magnitude,56,Granulocyte precursor,HSPC,MIF,CD74,0.9558746
+cellphonedb,SingleCellSignalR magnitude,57,Plasmacytoid DC,Dendritic cell,MIF,CD74,0.95556176
+cellphonedb,SingleCellSignalR magnitude,58,Pre-B large,T proliferating,MIF,CD74,0.9555494
+cellphonedb,SingleCellSignalR magnitude,59,NK,Dendritic cell,MIF,CD74,0.9554663
+cellphonedb,SingleCellSignalR magnitude,60,Plasmacytoid DC,B naive,MIF,CD74,0.9554116
+cellphonedb,SingleCellSignalR magnitude,61,Erythroid early,Monocyte non-classical,MIF,CD74,0.9553974
+cellphonedb,SingleCellSignalR magnitude,62,NK,B naive,MIF,CD74,0.9553158
+cellphonedb,SingleCellSignalR magnitude,63,Dendritic cell,T proliferating,MIF,CD74,0.9550899
+cellphonedb,SingleCellSignalR magnitude,64,Plasmacytoid DC,Plasmacytoid DC,MIF,CD74,0.955086
+cellphonedb,SingleCellSignalR magnitude,65,NK,Plasmacytoid DC,MIF,CD74,0.9549895
+cellphonedb,SingleCellSignalR magnitude,66,T proliferating,HSPC,MIF,CD74,0.9549574
+cellphonedb,SingleCellSignalR magnitude,67,HSPC,Monocyte classical,MIF,CD74,0.95467883
+cellphonedb,SingleCellSignalR magnitude,68,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,0.9541481
+cellphonedb,SingleCellSignalR magnitude,69,CD8 T memory,Dendritic cell,MIF,CD74,0.9538233
+cellphonedb,SingleCellSignalR magnitude,70,Erythroid late,Dendritic cell,MIF,CD74,0.9536718
+cellphonedb,SingleCellSignalR magnitude,71,CD8 T memory,B naive,MIF,CD74,0.95366764
+cellphonedb,SingleCellSignalR magnitude,72,Erythroid late,B naive,MIF,CD74,0.95351565
+cellphonedb,SingleCellSignalR magnitude,73,T activated,Dendritic cell,MIF,CD74,0.9534615
+cellphonedb,SingleCellSignalR magnitude,74,Plasmacytoid DC,CD8 T memory,APP,CD74,0.953367
+cellphonedb,SingleCellSignalR magnitude,75,B naive,Monocyte non-classical,RPS19,C5AR1,0.95333284
+cellphonedb,SingleCellSignalR magnitude,76,CD8 T memory,Plasmacytoid DC,MIF,CD74,0.95332986
+cellphonedb,SingleCellSignalR magnitude,77,Plasmacytoid DC,Pre-B small,MIF,CD74,0.95332736
+cellphonedb,SingleCellSignalR magnitude,78,Pre-B large,HSPC,MIF,CD74,0.9533155
+cellphonedb,SingleCellSignalR magnitude,79,T activated,B naive,MIF,CD74,0.95330465
+cellphonedb,SingleCellSignalR magnitude,80,Monocyte non-classical,Dendritic cell,MIF,CD74,0.9532713
+cellphonedb,SingleCellSignalR magnitude,81,NK,Pre-B small,MIF,CD74,0.9532273
+cellphonedb,SingleCellSignalR magnitude,82,Erythroid late,Plasmacytoid DC,MIF,CD74,0.9531768
+cellphonedb,SingleCellSignalR magnitude,83,CD4 T naive,Monocyte non-classical,RPS19,C5AR1,0.95315444
+cellphonedb,SingleCellSignalR magnitude,84,Monocyte non-classical,B naive,MIF,CD74,0.95311385
+cellphonedb,SingleCellSignalR magnitude,85,Erythroid early,T proliferating,MIF,CD74,0.9530593
+cellphonedb,SingleCellSignalR magnitude,86,CD4 T memory,Monocyte non-classical,RPS19,C5AR1,0.95303726
+cellphonedb,SingleCellSignalR magnitude,87,T activated,Plasmacytoid DC,MIF,CD74,0.95296437
+cellphonedb,SingleCellSignalR magnitude,88,T activated,Monocyte non-classical,RPS19,C5AR1,0.95292187
+cellphonedb,SingleCellSignalR magnitude,89,Dendritic cell,HSPC,MIF,CD74,0.952834
+cellphonedb,SingleCellSignalR magnitude,90,Monocyte non-classical,Plasmacytoid DC,MIF,CD74,0.9527722
+cellphonedb,SingleCellSignalR magnitude,91,Granulocyte precursor,Monocyte classical,MIF,CD74,0.9527238
+cellphonedb,SingleCellSignalR magnitude,92,CD8 T cytotoxic,Dendritic cell,MIF,CD74,0.9527031
+cellphonedb,SingleCellSignalR magnitude,93,Granulocyte precursor,Monocyte non-classical,RPS19,C5AR1,0.95256686
+cellphonedb,SingleCellSignalR magnitude,94,HSPC,Monocyte non-classical,RPS19,C5AR1,0.9525641
+cellphonedb,SingleCellSignalR magnitude,95,CD8 T cytotoxic,B naive,MIF,CD74,0.95254385
+cellphonedb,SingleCellSignalR magnitude,96,HSPC,Granulocyte precursor,MIF,CD74,0.952391
+cellphonedb,SingleCellSignalR magnitude,97,Monocyte classical,B naive,TNFSF13B,HLA-DPB1,0.95236003
+cellphonedb,SingleCellSignalR magnitude,98,CD4 T memory,Pre-B large,MIF,CD74,0.95221287
+cellphonedb,SingleCellSignalR magnitude,99,CD8 T cytotoxic,Plasmacytoid DC,MIF,CD74,0.9521983
+cellphonedb,SingleCellSignalR magnitude,100,CD8 T cytotoxic,Monocyte non-classical,RPS19,C5AR1,0.95205534
+cellphonedb,Merged magnitude,1,Plasmacytoid DC,Dendritic cell,APP,CD74,-7.225320754734993e-07
+cellphonedb,Merged magnitude,2,Plasmacytoid DC,B naive,APP,CD74,-2.8895822219191e-06
+cellphonedb,Merged magnitude,3,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,-6.500331764336431e-06
+cellphonedb,Merged magnitude,4,HSPC,Dendritic cell,MIF,CD74,-1.804965062864768e-05
+cellphonedb,Merged magnitude,5,HSPC,B naive,MIF,CD74,-2.5986582896509145e-05
+cellphonedb,Merged magnitude,6,HSPC,Plasmacytoid DC,MIF,CD74,-3.536393793124689e-05
+cellphonedb,Merged magnitude,7,Granulocyte precursor,Dendritic cell,MIF,CD74,-4.618089187311536e-05
+cellphonedb,Merged magnitude,8,Granulocyte precursor,B naive,MIF,CD74,-5.843663982049222e-05
+cellphonedb,Merged magnitude,9,Plasmacytoid DC,Pre-B small,APP,CD74,-8.72611903120612e-05
+cellphonedb,Merged magnitude,10,Granulocyte precursor,Plasmacytoid DC,MIF,CD74,-0.0001038283782993
+cellphonedb,Merged magnitude,11,T proliferating,Dendritic cell,MIF,CD74,-0.0001038283782993
+cellphonedb,Merged magnitude,12,T proliferating,B naive,MIF,CD74,-0.0001218310601304
+cellphonedb,Merged magnitude,13,T proliferating,Plasmacytoid DC,MIF,CD74,-0.0001621396679151
+cellphonedb,Merged magnitude,14,Pre-B large,Dendritic cell,MIF,CD74,-0.0002333484669121
+cellphonedb,Merged magnitude,15,Pre-B large,B naive,MIF,CD74,-0.0002599469695214
+cellphonedb,Merged magnitude,16,Dendritic cell,Dendritic cell,MIF,CD74,-0.0002879752900455
+cellphonedb,Merged magnitude,17,Pre-B large,Plasmacytoid DC,MIF,CD74,-0.0003174325668286
+cellphonedb,Merged magnitude,18,HSPC,Pre-B small,MIF,CD74,-0.0003806306584145
+cellphonedb,Merged magnitude,19,Dendritic cell,B naive,MIF,CD74,-0.0003806306584145
+cellphonedb,Merged magnitude,20,Dendritic cell,Plasmacytoid DC,MIF,CD74,-0.0004143698869038
+cellphonedb,Merged magnitude,21,Granulocyte precursor,Pre-B small,MIF,CD74,-0.0004861245027885
+cellphonedb,Merged magnitude,22,Erythroid early,Dendritic cell,MIF,CD74,-0.0005241383109009
+cellphonedb,Merged magnitude,23,Erythroid early,B naive,MIF,CD74,-0.0005635753414264
+cellphonedb,Merged magnitude,24,T proliferating,Pre-B small,MIF,CD74,-0.0005635753414264
+cellphonedb,Merged magnitude,25,Erythroid early,Plasmacytoid DC,MIF,CD74,-0.0006467156519344
+cellphonedb,Merged magnitude,26,Pre-B large,Pre-B small,MIF,CD74,-0.000982418208867
+cellphonedb,Merged magnitude,27,CD4 T memory,Dendritic cell,MIF,CD74,-0.0010910808129813
+cellphonedb,Merged magnitude,28,CD4 T memory,B naive,MIF,CD74,-0.0011475325201137
+cellphonedb,Merged magnitude,29,Dendritic cell,Pre-B small,MIF,CD74,-0.001205396796446
+cellphonedb,Merged magnitude,30,CD4 T memory,Plasmacytoid DC,MIF,CD74,-0.0012646730199992
+cellphonedb,Merged magnitude,31,Platelet,T proliferating,PF4,CXCR3,-0.0020858047505991
+cellphonedb,Merged magnitude,32,Erythroid early,Pre-B small,MIF,CD74,-0.0023226678276976
+cellphonedb,Merged magnitude,33,Plasmacytoid DC,Dendritic cell,MIF,CD74,-0.0023226678276976
+cellphonedb,Merged magnitude,34,NK,Dendritic cell,MIF,CD74,-0.0024875709635228
+cellphonedb,Merged magnitude,35,Erythroid early,T proliferating,GDF11,ACVR2B_TGFBR1,-0.0025495749037226
+cellphonedb,Merged magnitude,36,Plasmacytoid DC,B naive,MIF,CD74,-0.0025721184499299
+cellphonedb,Merged magnitude,37,NK,B naive,MIF,CD74,-0.0027454017428357
+cellphonedb,Merged magnitude,38,Plasmacytoid DC,Plasmacytoid DC,MIF,CD74,-0.0029242626697988
+cellphonedb,Merged magnitude,39,NK,Plasmacytoid DC,MIF,CD74,-0.0030157829083878
+cellphonedb,Merged magnitude,40,CD8 T memory,Dendritic cell,MIF,CD74,-0.003395777226784
+cellphonedb,Merged magnitude,41,Erythroid late,Dendritic cell,MIF,CD74,-0.0034942497395715
+cellphonedb,Merged magnitude,42,CD8 T memory,B naive,MIF,CD74,-0.0035941102480165
+cellphonedb,Merged magnitude,43,Erythroid late,B naive,MIF,CD74,-0.0036953586030887
+cellphonedb,Merged magnitude,44,T activated,Dendritic cell,MIF,CD74,-0.0037979926546073
+cellphonedb,Merged magnitude,45,B naive,Monocyte non-classical,RPS19,C5AR1,-0.0040074165534288
+cellphonedb,Merged magnitude,46,CD8 T memory,Plasmacytoid DC,MIF,CD74,-0.0041142047624974
+cellphonedb,Merged magnitude,47,CD4 T memory,Pre-B small,MIF,CD74,-0.0044428653326739
+cellphonedb,Merged magnitude,48,T activated,B naive,MIF,CD74,-0.0044428653326739
+cellphonedb,Merged magnitude,49,Monocyte non-classical,Dendritic cell,MIF,CD74,-0.0045551809599078
+cellphonedb,Merged magnitude,50,Erythroid late,Plasmacytoid DC,MIF,CD74,-0.0047839508086829
+cellphonedb,Merged magnitude,51,CD4 T naive,Monocyte non-classical,RPS19,C5AR1,-0.0049004033919897
+cellphonedb,Merged magnitude,52,Monocyte non-classical,B naive,MIF,CD74,-0.0050182341014743
+cellphonedb,Merged magnitude,53,Erythroid early,T proliferating,IL7,IL2RG_IL7R,-0.0050977048798143
+cellphonedb,Merged magnitude,54,CD4 T memory,Monocyte non-classical,RPS19,C5AR1,-0.0052580227453215
+cellphonedb,Merged magnitude,55,T activated,Plasmacytoid DC,MIF,CD74,-0.0053799798114532
+cellphonedb,Merged magnitude,56,T activated,Monocyte non-classical,RPS19,C5AR1,-0.0055033109482341
+cellphonedb,Merged magnitude,57,Monocyte non-classical,Plasmacytoid DC,MIF,CD74,-0.005754092990522
+cellphonedb,Merged magnitude,58,CD8 T cytotoxic,Dendritic cell,MIF,CD74,-0.006010360670774
+cellphonedb,Merged magnitude,59,Granulocyte precursor,Monocyte non-classical,RPS19,C5AR1,-0.0061405498830454
+cellphonedb,Merged magnitude,60,HSPC,Monocyte non-classical,RPS19,C5AR1,-0.0062721082512574
+cellphonedb,Merged magnitude,61,CD8 T cytotoxic,B naive,MIF,CD74,-0.0064050358345532
+cellphonedb,Merged magnitude,62,CD8 T cytotoxic,Plasmacytoid DC,MIF,CD74,-0.0069504096764993
+cellphonedb,Merged magnitude,63,CD8 T cytotoxic,Monocyte non-classical,RPS19,C5AR1,-0.0070901657878592
+cellphonedb,Merged magnitude,64,Monocyte non-classical,Monocyte non-classical,RPS19,C5AR1,-0.0072312862534319
+cellphonedb,Merged magnitude,65,T proliferating,Erythroid early,TNF,SEMA4C,-0.0076443905993243
+cellphonedb,Merged magnitude,66,CD4 T naive,Dendritic cell,MIF,CD74,-0.0076628172222205
+cellphonedb,Merged magnitude,67,CD4 T naive,B naive,MIF,CD74,-0.0079573066281457
+cellphonedb,Merged magnitude,68,CD4 T naive,Plasmacytoid DC,MIF,CD74,-0.0090307705677268
+cellphonedb,Merged magnitude,69,Plasmacytoid DC,Pre-B small,MIF,CD74,-0.0090307705677268
+cellphonedb,Merged magnitude,70,NK,Pre-B small,MIF,CD74,-0.0093496615203593
+cellphonedb,Merged magnitude,71,CD8 T memory,Monocyte non-classical,RPS19,C5AR1,-0.0095111351750975
+cellphonedb,Merged magnitude,72,Plasmacytoid DC,Pre-B large,APP,CD74,-0.0100036526817388
+cellphonedb,Merged magnitude,73,HSPC,T proliferating,GDF11,ACVR2B_TGFBR1,-0.0101896316873447
+cellphonedb,Merged magnitude,74,CD8 T memory,Pre-B small,MIF,CD74,-0.0105083009713413
+cellphonedb,Merged magnitude,75,Erythroid late,Pre-B small,MIF,CD74,-0.0108514608088563
+cellphonedb,Merged magnitude,76,Plasmacytoid DC,Monocyte non-classical,RPS19,C5AR1,-0.0111999956994735
+cellphonedb,Merged magnitude,77,T activated,Pre-B small,MIF,CD74,-0.0113762779050569
+cellphonedb,Merged magnitude,78,Monocyte non-classical,Pre-B small,MIF,CD74,-0.0117328631061926
+cellphonedb,Merged magnitude,79,Monocyte classical,Dendritic cell,MIF,CD74,-0.0126477571836957
+cellphonedb,Merged magnitude,80,CD8 T cytotoxic,Pre-B small,MIF,CD74,-0.0126477571836957
+cellphonedb,Merged magnitude,81,Erythroid early,Erythroid early,TNFSF13B,HLA-DPB1,-0.0127334295990962
+cellphonedb,Merged magnitude,82,B naive,Dendritic cell,MIF,CD74,-0.0128347445222721
+cellphonedb,Merged magnitude,83,Monocyte classical,B naive,MIF,CD74,-0.013023069080857
+cellphonedb,Merged magnitude,84,T proliferating,Monocyte non-classical,RPS19,C5AR1,-0.0132127250887311
+cellphonedb,Merged magnitude,85,B naive,B naive,MIF,CD74,-0.0132127250887311
+cellphonedb,Merged magnitude,86,Monocyte classical,Plasmacytoid DC,MIF,CD74,-0.0134037167134526
+cellphonedb,Merged magnitude,87,B naive,Plasmacytoid DC,MIF,CD74,-0.0135960406513135
+cellphonedb,Merged magnitude,88,Pre-B small,Monocyte non-classical,RPS19,C5AR1,-0.0137896935285451
+cellphonedb,Merged magnitude,89,Platelet,Plasmacytoid DC,PF4,CXCR3,-0.0137896935285451
+cellphonedb,Merged magnitude,90,CD4 T naive,Pre-B small,MIF,CD74,-0.0139846796177964
+cellphonedb,Merged magnitude,91,Erythroid late,Monocyte non-classical,RPS19,C5AR1,-0.0147779090570318
+cellphonedb,Merged magnitude,92,Plasmacytoid DC,Monocyte non-classical,APP,CD74,-0.0149795361988314
+cellphonedb,Merged magnitude,93,T proliferating,Erythroid early,GRN,TNFRSF1A,-0.0152757842211602
+cellphonedb,Merged magnitude,94,Dendritic cell,Monocyte non-classical,RPS19,C5AR1,-0.01600753643391
+cellphonedb,Merged magnitude,95,Erythroid early,Monocyte non-classical,RPS19,C5AR1,-0.0166402006958441
+cellphonedb,Merged magnitude,96,Platelet,Dendritic cell,MIF,CD74,-0.01706857793298
+cellphonedb,Merged magnitude,97,Platelet,B naive,MIF,CD74,-0.0172847404638662
+cellphonedb,Merged magnitude,98,Monocyte classical,Pre-B small,MIF,CD74,-0.0175022225775989
+cellphonedb,Merged magnitude,99,Dendritic cell,Erythroid early,TNFSF10,RIPK1,-0.0178166959630969
+cellphonedb,Merged magnitude,100,HSPC,Pre-B large,MIF,CD74,-0.0179411308752536
+cellphonedb,CellPhoneDB specificity,1,B naive,B naive,FAM3C,CLEC2D,-0.0
+cellphonedb,CellPhoneDB specificity,2,Plasmacytoid DC,Dendritic cell,APP,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,3,Plasmacytoid DC,B naive,APP,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,4,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,5,HSPC,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,6,HSPC,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,7,HSPC,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,8,Granulocyte precursor,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,9,Granulocyte precursor,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,10,B naive,Erythroid early,LGALS9,SLC1A5,-0.0
+cellphonedb,CellPhoneDB specificity,11,B naive,Granulocyte precursor,FAM3C,LAMP1,-0.0
+cellphonedb,CellPhoneDB specificity,12,T proliferating,T activated,SIRPG,CD47,-0.0
+cellphonedb,CellPhoneDB specificity,13,B naive,HSPC,FAM3C,LAMP1,-0.0
+cellphonedb,CellPhoneDB specificity,14,B naive,HSPC,SELL,SELPLG,-0.0
+cellphonedb,CellPhoneDB specificity,15,Erythroid late,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,16,CD8 T memory,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,17,NK,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,18,Plasmacytoid DC,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,19,NK,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,20,Plasmacytoid DC,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,21,NK,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,22,Plasmacytoid DC,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,23,Erythroid early,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,24,Platelet,T proliferating,PF4,CXCR3,-0.0
+cellphonedb,CellPhoneDB specificity,25,CD4 T memory,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,26,Dendritic cell,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,27,CD4 T memory,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,28,CD4 T memory,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,29,Pre-B large,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,30,Monocyte non-classical,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,31,T activated,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,32,T activated,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,33,CD4 T memory,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,34,Monocyte non-classical,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,35,CD4 T naive,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,36,Erythroid late,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,37,Monocyte non-classical,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,38,T activated,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,39,CD4 T memory,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,40,CD8 T memory,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,41,B naive,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,42,T activated,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,43,Erythroid late,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,44,CD8 T memory,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,45,Plasmacytoid DC,Pre-B large,APP,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,46,CD8 T memory,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,47,NK,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,48,Plasmacytoid DC,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,49,CD4 T naive,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,50,CD4 T naive,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,51,CD4 T naive,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,52,Monocyte non-classical,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,53,CD8 T cytotoxic,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,54,CD8 T cytotoxic,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,55,CD8 T cytotoxic,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,56,HSPC,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,57,Granulocyte precursor,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,58,CD8 T cytotoxic,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,59,Platelet,Plasmacytoid DC,PF4,CXCR3,-0.0
+cellphonedb,CellPhoneDB specificity,60,Pre-B small,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,61,B naive,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,62,Monocyte classical,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,63,B naive,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,64,T proliferating,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,65,Monocyte classical,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,66,B naive,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,67,CD8 T cytotoxic,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,68,Monocyte classical,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,69,Monocyte non-classical,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,70,T activated,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,71,Plasmacytoid DC,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,72,Erythroid late,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,73,CD8 T memory,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,74,B naive,Monocyte classical,FAM3C,LAMP1,-0.0
+cellphonedb,CellPhoneDB specificity,75,B naive,Monocyte classical,HLA-F,LILRB2,-0.0
+cellphonedb,CellPhoneDB specificity,76,B naive,Monocyte non-classical,FAM3C,LAMP1,-0.0
+cellphonedb,CellPhoneDB specificity,77,B naive,Monocyte non-classical,LGALS9,CD47,-0.0
+cellphonedb,CellPhoneDB specificity,78,B naive,Monocyte non-classical,LGALS9,LRP1,-0.0
+cellphonedb,CellPhoneDB specificity,79,B naive,NK,FAM3C,LAMP1,-0.0
+cellphonedb,CellPhoneDB specificity,80,B naive,Plasmacytoid DC,FAM3C,LAMP1,-0.0
+cellphonedb,CellPhoneDB specificity,81,B naive,Platelet,CD24,SELP,-0.0
+cellphonedb,CellPhoneDB specificity,82,B naive,Pre-B large,FAM3C,LAMP1,-0.0
+cellphonedb,CellPhoneDB specificity,83,B naive,Monocyte classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,84,Platelet,Plasmacytoid DC,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,85,B naive,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,86,HSPC,Pre-B large,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,87,Dendritic cell,Erythroid early,TNFSF10,RIPK1,-0.0
+cellphonedb,CellPhoneDB specificity,88,Monocyte classical,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,89,Platelet,B naive,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,90,Platelet,Dendritic cell,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,91,Erythroid early,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,92,Dendritic cell,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,93,Plasmacytoid DC,Monocyte non-classical,APP,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,94,Erythroid late,Monocyte non-classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,95,CD4 T naive,Pre-B small,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,96,CD8 T cytotoxic,Monocyte classical,RPS19,C5AR1,-0.0
+cellphonedb,CellPhoneDB specificity,97,Granulocyte precursor,Monocyte non-classical,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,98,Pre-B large,Pre-B large,MIF,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,99,Plasmacytoid DC,T proliferating,APP,CD74,-0.0
+cellphonedb,CellPhoneDB specificity,100,T proliferating,Pre-B large,MIF,CD74,-0.0
+cellphonedb,NATMI specificity,1,Platelet,Dendritic cell,PROS1,AXL,0.6087818
+cellphonedb,NATMI specificity,2,Platelet,Erythroid early,PF4,ACKR1,0.5389686
+cellphonedb,NATMI specificity,3,Dendritic cell,Plasmacytoid DC,EFNB1,EPHB1,0.48147058
+cellphonedb,NATMI specificity,4,Platelet,CD4 T memory,TNFSF4,TNFRSF4,0.4290966
+cellphonedb,NATMI specificity,5,Pre-B large,Platelet,CD24,SELP,0.41365924
+cellphonedb,NATMI specificity,6,T proliferating,Plasmacytoid DC,CD70,TNFRSF17,0.3916849
+cellphonedb,NATMI specificity,7,Plasmacytoid DC,Dendritic cell,GAS6,AXL,0.37607816
+cellphonedb,NATMI specificity,8,Monocyte classical,Platelet,THBS1,ITGA2B_ITGB3,0.36567593
+cellphonedb,NATMI specificity,9,Pre-B small,Platelet,CD24,SELP,0.35931635
+cellphonedb,NATMI specificity,10,Platelet,T proliferating,PF4,CXCR3,0.33457825
+cellphonedb,NATMI specificity,11,Erythroid early,Monocyte non-classical,ERFE,LRP1,0.30482566
+cellphonedb,NATMI specificity,12,B naive,Monocyte non-classical,FCER2,ITGAX_ITGB2,0.28088117
+cellphonedb,NATMI specificity,13,Dendritic cell,Erythroid early,EFNB1,EPHB4,0.28082708
+cellphonedb,NATMI specificity,14,Monocyte classical,Erythroid early,CXCL8,ACKR1,0.2786621
+cellphonedb,NATMI specificity,15,Erythroid early,Monocyte classical,ERFE,LRP1,0.27630085
+cellphonedb,NATMI specificity,16,CD4 T memory,Platelet,CD40LG,ITGA2B_ITGB3,0.2704328
+cellphonedb,NATMI specificity,17,B naive,Monocyte classical,FCER2,ITGAM_ITGB2,0.2692989
+cellphonedb,NATMI specificity,18,Platelet,Monocyte classical,GP1BA,ITGAM_ITGB2,0.26574746
+cellphonedb,NATMI specificity,19,Platelet,Plasmacytoid DC,PF4,CXCR3,0.22504991
+cellphonedb,NATMI specificity,20,Erythroid early,Dendritic cell,IL15RA,AXL,0.21807908
+cellphonedb,NATMI specificity,21,Dendritic cell,Monocyte non-classical,CD1D,LILRB2,0.20893484
+cellphonedb,NATMI specificity,22,Platelet,Platelet,THBS1,ITGA2B_ITGB3,0.206325
+cellphonedb,NATMI specificity,23,B naive,Dendritic cell,FCER2,ITGAX_ITGB2,0.20342667
+cellphonedb,NATMI specificity,24,Erythroid early,Monocyte non-classical,CSF1,CSF1R,0.19003062
+cellphonedb,NATMI specificity,25,Erythroid early,CD8 T cytotoxic,CDH1,KLRG1,0.1749516
+cellphonedb,NATMI specificity,26,Platelet,Plasmacytoid DC,SELP,SELPLG,0.17090164
+cellphonedb,NATMI specificity,27,Monocyte non-classical,Erythroid early,CXCL8,ACKR1,0.17081141
+cellphonedb,NATMI specificity,28,Monocyte classical,B naive,TNFSF13B,TNFRSF13C,0.16803259
+cellphonedb,NATMI specificity,29,NK,T proliferating,CCL4,CCR5,0.16373421
+cellphonedb,NATMI specificity,30,Erythroid early,CD8 T memory,CDH1,KLRG1,0.16213585
+cellphonedb,NATMI specificity,31,T proliferating,T proliferating,CD70,CD27,0.15645035
+cellphonedb,NATMI specificity,32,T proliferating,T proliferating,CCL3,CCR5,0.15298757
+cellphonedb,NATMI specificity,33,Dendritic cell,Dendritic cell,GAS6,AXL,0.15162802
+cellphonedb,NATMI specificity,34,T proliferating,T proliferating,CCL4,CCR5,0.1476606
+cellphonedb,NATMI specificity,35,Granulocyte precursor,B naive,TNFSF13B,TNFRSF13C,0.14501214
+cellphonedb,NATMI specificity,36,HSPC,Monocyte non-classical,MDK,LRP1,0.142379
+cellphonedb,NATMI specificity,37,Dendritic cell,Platelet,GHRL,TBXA2R,0.14191103
+cellphonedb,NATMI specificity,38,Monocyte classical,Plasmacytoid DC,TNFSF13B,TNFRSF17,0.14160624
+cellphonedb,NATMI specificity,39,CD4 T memory,B naive,CD40LG,CD40,0.14005534
+cellphonedb,NATMI specificity,40,Erythroid early,T proliferating,CDH1,KLRG1,0.13765831
+cellphonedb,NATMI specificity,41,T proliferating,Plasmacytoid DC,TNF,PTPRS,0.13707082
+cellphonedb,NATMI specificity,42,Erythroid early,Erythroid early,CSF1,SLC7A1,0.13260634
+cellphonedb,NATMI specificity,43,HSPC,Monocyte classical,MDK,LRP1,0.12905551
+cellphonedb,NATMI specificity,44,T proliferating,CD4 T naive,CD70,CD27,0.12828836
+cellphonedb,NATMI specificity,45,T proliferating,CD4 T memory,CD70,CD27,0.1274254
+cellphonedb,NATMI specificity,46,Dendritic cell,B naive,TNFSF13B,TNFRSF13C,0.12549026
+cellphonedb,NATMI specificity,47,CD8 T memory,T proliferating,CCL4,CCR5,0.12349365
+cellphonedb,NATMI specificity,48,Granulocyte precursor,Plasmacytoid DC,TNFSF13B,TNFRSF17,0.1222062
+cellphonedb,NATMI specificity,49,T proliferating,Dendritic cell,CTLA4,CD86,0.117180474
+cellphonedb,NATMI specificity,50,CD8 T cytotoxic,Erythroid early,CCL5,ACKR1,0.11629764
+cellphonedb,NATMI specificity,51,Erythroid early,NK,CDH1,KLRG1,0.11620572
+cellphonedb,NATMI specificity,52,Dendritic cell,Monocyte classical,CD1D,LILRB2,0.1158022
+cellphonedb,NATMI specificity,53,Monocyte classical,B naive,TNFSF13B,CD40,0.11479044
+cellphonedb,NATMI specificity,54,T proliferating,Monocyte non-classical,CTLA4,CD86,0.113814086
+cellphonedb,NATMI specificity,55,NK,T proliferating,CCL3,CCR5,0.11380574
+cellphonedb,NATMI specificity,56,CD8 T memory,Erythroid early,CCL5,ACKR1,0.11348239
+cellphonedb,NATMI specificity,57,CD8 T cytotoxic,T proliferating,CCL5,CCR5,0.1117043
+cellphonedb,NATMI specificity,58,CD8 T memory,T proliferating,CCL5,CCR5,0.10900024
+cellphonedb,NATMI specificity,59,Erythroid early,Dendritic cell,GAL,HLA-DPA1,0.10867414
+cellphonedb,NATMI specificity,60,Platelet,T proliferating,SELP,SELPLG,0.10782467
+cellphonedb,NATMI specificity,61,T proliferating,T proliferating,FASLG,FAS,0.107481904
+cellphonedb,NATMI specificity,62,T proliferating,Monocyte non-classical,CCL3,CCR1,0.10588581
+cellphonedb,NATMI specificity,63,Monocyte non-classical,B naive,TNFSF13B,TNFRSF13C,0.10580279
+cellphonedb,NATMI specificity,64,Dendritic cell,Plasmacytoid DC,TNFSF13B,TNFRSF17,0.10575451
+cellphonedb,NATMI specificity,65,Dendritic cell,Platelet,GHRL,PTGIR,0.10374878
+cellphonedb,NATMI specificity,66,HSPC,Plasmacytoid DC,BST2,LILRA4,0.10242537
+cellphonedb,NATMI specificity,67,T proliferating,Erythroid early,CCL5,ACKR1,0.10143687
+cellphonedb,NATMI specificity,68,T proliferating,HSPC,TIGIT,NECTIN2,0.100398034
+cellphonedb,NATMI specificity,69,Erythroid early,T proliferating,NECTIN1,CD96,0.09969319
+cellphonedb,NATMI specificity,70,Granulocyte precursor,B naive,TNFSF13B,CD40,0.09906417
+cellphonedb,NATMI specificity,71,NK,Erythroid early,CCL4,SLC7A1,0.099004045
+cellphonedb,NATMI specificity,72,Plasmacytoid DC,Plasmacytoid DC,LILRB4,LAIR1,0.09853328
+cellphonedb,NATMI specificity,73,Erythroid early,Dendritic cell,CSF1,SIRPA,0.09845954
+cellphonedb,NATMI specificity,74,T proliferating,Dendritic cell,FASLG,TNFRSF10B,0.097764306
+cellphonedb,NATMI specificity,75,T proliferating,T proliferating,CCL5,CCR5,0.097430475
+cellphonedb,NATMI specificity,76,Platelet,Monocyte non-classical,SELP,SELPLG,0.0955647
+cellphonedb,NATMI specificity,77,NK,Erythroid early,CCL5,ACKR1,0.09357532
+cellphonedb,NATMI specificity,78,Platelet,NK,SELP,SELPLG,0.09252236
+cellphonedb,NATMI specificity,79,CD8 T cytotoxic,T proliferating,CCL4,CCR5,0.0920997
+cellphonedb,NATMI specificity,80,Dendritic cell,Plasmacytoid DC,BST2,LILRA4,0.09195182
+cellphonedb,NATMI specificity,81,T proliferating,Monocyte classical,CCL3,CCR1,0.09105397
+cellphonedb,NATMI specificity,82,T proliferating,HSPC,FASLG,TNFRSF1A,0.09020487
+cellphonedb,NATMI specificity,83,NK,T proliferating,CCL5,CCR5,0.08987942
+cellphonedb,NATMI specificity,84,T proliferating,Erythroid early,CCL4,SLC7A1,0.08928493
+cellphonedb,NATMI specificity,85,Monocyte non-classical,Plasmacytoid DC,TNFSF13B,TNFRSF17,0.08916327
+cellphonedb,NATMI specificity,86,T proliferating,Plasmacytoid DC,BST2,LILRA4,0.08739637
+cellphonedb,NATMI specificity,87,Monocyte non-classical,Plasmacytoid DC,ITGAX_ITGB2,ICAM1,0.08650907
+cellphonedb,NATMI specificity,88,Dendritic cell,B naive,TNFSF13B,CD40,0.08572791
+cellphonedb,NATMI specificity,89,T proliferating,Dendritic cell,CD28,CD86,0.08538269
+cellphonedb,NATMI specificity,90,Plasmacytoid DC,Plasmacytoid DC,BST2,LILRA4,0.083370626
+cellphonedb,NATMI specificity,91,Monocyte classical,Plasmacytoid DC,ITGAM_ITGB2,ICAM1,0.08294183
+cellphonedb,NATMI specificity,92,T proliferating,Monocyte non-classical,CD28,CD86,0.08292979
+cellphonedb,NATMI specificity,93,B naive,Platelet,CD24,SELP,0.082285024
+cellphonedb,NATMI specificity,94,Monocyte classical,Erythroid early,TNFSF13B,TFRC,0.08225612
+cellphonedb,NATMI specificity,95,Erythroid early,B naive,GAL,HLA-DPA1,0.08218388
+cellphonedb,NATMI specificity,96,T proliferating,NK,CLEC2B,KLRF1,0.08217834
+cellphonedb,NATMI specificity,97,NK,T proliferating,KLRF1,CLEC2B,0.08217834
+cellphonedb,NATMI specificity,98,T proliferating,CD8 T memory,CD70,CD27,0.081255294
+cellphonedb,NATMI specificity,99,CD4 T memory,Dendritic cell,CD28,CD86,0.07895929
+cellphonedb,NATMI specificity,100,NK,Monocyte non-classical,CCL3,CCR1,0.07876727
+cellphonedb,Connectome specificity,1,Platelet,T proliferating,PF4,CXCR3,8.472266546746845
+cellphonedb,Connectome specificity,2,Platelet,Plasmacytoid DC,PF4,CXCR3,8.109457865345297
+cellphonedb,Connectome specificity,3,Platelet,Erythroid early,PF4,ACKR1,8.05136452136633
+cellphonedb,Connectome specificity,4,HSPC,Plasmacytoid DC,BST2,LILRA4,4.427216192115572
+cellphonedb,Connectome specificity,5,Dendritic cell,Plasmacytoid DC,BST2,LILRA4,4.362064387833775
+cellphonedb,Connectome specificity,6,T proliferating,Plasmacytoid DC,BST2,LILRA4,4.333726844466319
+cellphonedb,Connectome specificity,7,Plasmacytoid DC,Plasmacytoid DC,BST2,LILRA4,4.308684418932495
+cellphonedb,Connectome specificity,8,Monocyte non-classical,Plasmacytoid DC,BST2,LILRA4,4.24461106154796
+cellphonedb,Connectome specificity,9,NK,Plasmacytoid DC,BST2,LILRA4,4.23719694851187
+cellphonedb,Connectome specificity,10,Granulocyte precursor,Plasmacytoid DC,BST2,LILRA4,4.222593030146427
+cellphonedb,Connectome specificity,11,Pre-B large,Platelet,CD24,SELP,4.204023160142926
+cellphonedb,Connectome specificity,12,Monocyte classical,Plasmacytoid DC,BST2,LILRA4,4.136068680171026
+cellphonedb,Connectome specificity,13,Platelet,Dendritic cell,PROS1,AXL,4.10413975581463
+cellphonedb,Connectome specificity,14,Monocyte classical,Platelet,THBS1,ITGA2B_ITGB3,4.092893741966255
+cellphonedb,Connectome specificity,15,CD8 T cytotoxic,Plasmacytoid DC,BST2,LILRA4,4.014274865600949
+cellphonedb,Connectome specificity,16,CD8 T memory,Plasmacytoid DC,BST2,LILRA4,3.991458309666777
+cellphonedb,Connectome specificity,17,Pre-B large,Plasmacytoid DC,BST2,LILRA4,3.98842349604259
+cellphonedb,Connectome specificity,18,CD4 T memory,Plasmacytoid DC,BST2,LILRA4,3.9794948585178425
+cellphonedb,Connectome specificity,19,B naive,Plasmacytoid DC,BST2,LILRA4,3.96465858756702
+cellphonedb,Connectome specificity,20,Pre-B small,Plasmacytoid DC,BST2,LILRA4,3.9614694072236016
+cellphonedb,Connectome specificity,21,CD4 T naive,Plasmacytoid DC,BST2,LILRA4,3.959681647370597
+cellphonedb,Connectome specificity,22,Pre-B small,Platelet,CD24,SELP,3.9569879575841744
+cellphonedb,Connectome specificity,23,Erythroid early,Plasmacytoid DC,BST2,LILRA4,3.9535247020248514
+cellphonedb,Connectome specificity,24,CD4 T memory,Platelet,CD40LG,ITGA2B_ITGB3,3.907202642990693
+cellphonedb,Connectome specificity,25,Platelet,Platelet,THBS1,ITGA2B_ITGB3,3.874533049363189
+cellphonedb,Connectome specificity,26,Platelet,Plasmacytoid DC,SELP,SELPLG,2.909929929189796
+cellphonedb,Connectome specificity,27,Platelet,CD4 T memory,TNFSF4,TNFRSF4,2.7957475051815357
+cellphonedb,Connectome specificity,28,Plasmacytoid DC,Dendritic cell,GAS6,AXL,2.788925650529751
+cellphonedb,Connectome specificity,29,B naive,Platelet,CD24,SELP,2.697632353356356
+cellphonedb,Connectome specificity,30,Platelet,T proliferating,SELP,SELPLG,2.6867741457928185
+cellphonedb,Connectome specificity,31,Platelet,Monocyte non-classical,SELP,SELPLG,2.6434003919953617
+cellphonedb,Connectome specificity,32,Platelet,NK,SELP,SELPLG,2.6326372006569074
+cellphonedb,Connectome specificity,33,Platelet,Dendritic cell,SELP,SELPLG,2.5484374376212275
+cellphonedb,Connectome specificity,34,Platelet,Monocyte classical,SELP,SELPLG,2.517285455795678
+cellphonedb,Connectome specificity,35,Plasmacytoid DC,Dendritic cell,APP,CD74,2.5141872152047164
+cellphonedb,Connectome specificity,36,Platelet,Granulocyte precursor,SELP,SELPLG,2.506830011373521
+cellphonedb,Connectome specificity,37,Plasmacytoid DC,B naive,APP,CD74,2.505064090725905
+cellphonedb,Connectome specificity,38,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,2.4855857750180803
+cellphonedb,Connectome specificity,39,Dendritic cell,Platelet,GHRL,TBXA2R,2.3941796474406547
+cellphonedb,Connectome specificity,40,Platelet,HSPC,SELP,SELPLG,2.3906010432312392
+cellphonedb,Connectome specificity,41,Plasmacytoid DC,Pre-B small,APP,CD74,2.387460287323939
+cellphonedb,Connectome specificity,42,Platelet,Erythroid early,SELP,SELPLG,2.368888732433459
+cellphonedb,Connectome specificity,43,Dendritic cell,Plasmacytoid DC,EFNB1,EPHB1,2.354239289456176
+cellphonedb,Connectome specificity,44,Platelet,Monocyte classical,GP1BA,ITGAM_ITGB2,2.216606338697253
+cellphonedb,Connectome specificity,45,Plasmacytoid DC,Pre-B large,APP,CD74,2.1307115959448333
+cellphonedb,Connectome specificity,46,Erythroid early,Dendritic cell,GAL,HLA-DPA1,2.102243359652322
+cellphonedb,Connectome specificity,47,Plasmacytoid DC,Monocyte non-classical,APP,CD74,2.0934502499617027
+cellphonedb,Connectome specificity,48,Plasmacytoid DC,Plasmacytoid DC,LILRB4,LAIR1,2.0710965434279767
+cellphonedb,Connectome specificity,49,Plasmacytoid DC,T proliferating,APP,CD74,2.004440789318057
+cellphonedb,Connectome specificity,50,Plasmacytoid DC,HSPC,APP,CD74,1.927544089867008
+cellphonedb,Connectome specificity,51,T proliferating,NK,CLEC2B,KLRF1,1.8922592956474469
+cellphonedb,Connectome specificity,52,NK,T proliferating,KLRF1,CLEC2B,1.8922592956474469
+cellphonedb,Connectome specificity,53,Plasmacytoid DC,Monocyte classical,APP,CD74,1.831907946089362
+cellphonedb,Connectome specificity,54,Plasmacytoid DC,HSPC,LILRB4,LAIR1,1.8192435861328573
+cellphonedb,Connectome specificity,55,Monocyte non-classical,NK,CLEC2B,KLRF1,1.7964261852171983
+cellphonedb,Connectome specificity,56,NK,Monocyte non-classical,KLRF1,CLEC2B,1.7964261852171983
+cellphonedb,Connectome specificity,57,Plasmacytoid DC,Granulocyte precursor,APP,CD74,1.7715574907389195
+cellphonedb,Connectome specificity,58,Monocyte classical,Erythroid early,TNFSF13B,TFRC,1.7714298315286126
+cellphonedb,Connectome specificity,59,Plasmacytoid DC,Granulocyte precursor,LILRB4,LAIR1,1.7698918421374286
+cellphonedb,Connectome specificity,60,CD8 T memory,NK,CLEC2B,KLRF1,1.7595654141550816
+cellphonedb,Connectome specificity,61,NK,CD8 T memory,KLRF1,CLEC2B,1.7595654141550816
+cellphonedb,Connectome specificity,62,Erythroid early,B naive,GAL,HLA-DPA1,1.7560906735415474
+cellphonedb,Connectome specificity,63,NK,NK,KLRF1,CLEC2B,1.755751846120715
+cellphonedb,Connectome specificity,64,NK,NK,CLEC2B,KLRF1,1.755751846120715
+cellphonedb,Connectome specificity,65,CD8 T cytotoxic,NK,CLEC2B,KLRF1,1.7406456867596634
+cellphonedb,Connectome specificity,66,NK,CD8 T cytotoxic,KLRF1,CLEC2B,1.7406456867596634
+cellphonedb,Connectome specificity,67,Plasmacytoid DC,Pre-B large,LILRB4,LAIR1,1.7398295754224802
+cellphonedb,Connectome specificity,68,NK,T activated,KLRF1,CLEC2B,1.71498866211281
+cellphonedb,Connectome specificity,69,T activated,NK,CLEC2B,KLRF1,1.71498866211281
+cellphonedb,Connectome specificity,70,T proliferating,Plasmacytoid DC,CD70,TNFRSF17,1.7081847818832578
+cellphonedb,Connectome specificity,71,Plasmacytoid DC,CD8 T memory,APP,CD74,1.6937167954400394
+cellphonedb,Connectome specificity,72,Dendritic cell,Dendritic cell,GAS6,AXL,1.684858810644247
+cellphonedb,Connectome specificity,73,Granulocyte precursor,Erythroid early,TNFSF13B,TFRC,1.6654490616523692
+cellphonedb,Connectome specificity,74,Erythroid early,Monocyte non-classical,GAL,HLA-DPA1,1.6503482365120488
+cellphonedb,Connectome specificity,75,Erythroid early,CD8 T cytotoxic,CDH1,KLRG1,1.630265364604584
+cellphonedb,Connectome specificity,76,Dendritic cell,NK,CLEC2B,KLRF1,1.629357249926216
+cellphonedb,Connectome specificity,77,NK,Dendritic cell,KLRF1,CLEC2B,1.629357249926216
+cellphonedb,Connectome specificity,78,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,1.619549247940372
+cellphonedb,Connectome specificity,79,T proliferating,Plasmacytoid DC,TNF,PTPRS,1.614313893216473
+cellphonedb,Connectome specificity,80,HSPC,NK,CLEC2B,KLRF1,1.5908925588616394
+cellphonedb,Connectome specificity,81,NK,HSPC,KLRF1,CLEC2B,1.5908925588616394
+cellphonedb,Connectome specificity,82,CD4 T memory,NK,CLEC2B,KLRF1,1.5880404237961714
+cellphonedb,Connectome specificity,83,NK,CD4 T memory,KLRF1,CLEC2B,1.5880404237961714
+cellphonedb,Connectome specificity,84,Erythroid early,CD8 T memory,CDH1,KLRG1,1.5869158262407186
+cellphonedb,Connectome specificity,85,T proliferating,Monocyte non-classical,CD99,PILRA,1.5814244874528978
+cellphonedb,Connectome specificity,86,Plasmacytoid DC,Dendritic cell,LILRB4,LAIR1,1.5783977594319931
+cellphonedb,Connectome specificity,87,Dendritic cell,Erythroid early,TNFSF13B,TFRC,1.5755747616777127
+cellphonedb,Connectome specificity,88,CD8 T cytotoxic,Erythroid early,CCL5,ACKR1,1.569792781896751
+cellphonedb,Connectome specificity,89,Erythroid early,Monocyte non-classical,CSF1,CSF1R,1.5689997262587378
+cellphonedb,Connectome specificity,90,CD8 T memory,Erythroid early,CCL5,ACKR1,1.5402120212893515
+cellphonedb,Connectome specificity,91,NK,Plasmacytoid DC,KLRF1,CLEC2B,1.5289081402453943
+cellphonedb,Connectome specificity,92,Plasmacytoid DC,NK,CLEC2B,KLRF1,1.5289081402453943
+cellphonedb,Connectome specificity,93,Erythroid early,Plasmacytoid DC,GAL,HLA-DPA1,1.5283739773376444
+cellphonedb,Connectome specificity,94,Plasmacytoid DC,NK,APP,CD74,1.519971977792311
+cellphonedb,Connectome specificity,95,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,1.5135684780641283
+cellphonedb,Connectome specificity,96,Erythroid early,T proliferating,CDH1,KLRG1,1.5041203395146976
+cellphonedb,Connectome specificity,97,CD8 T cytotoxic,T proliferating,CCL5,CCR5,1.5010042144474092
+cellphonedb,Connectome specificity,98,Monocyte non-classical,Erythroid early,TNFSF13B,TFRC,1.484938268035264
+cellphonedb,Connectome specificity,99,Monocyte classical,NK,CLEC2B,KLRF1,1.4841439992075776
+cellphonedb,Connectome specificity,100,NK,Monocyte classical,KLRF1,CLEC2B,1.4841439992075776
+cellphonedb,log2FC specificity,1,Platelet,T proliferating,PF4,CXCR3,4.128345905312782
+cellphonedb,log2FC specificity,2,Platelet,Plasmacytoid DC,PF4,CXCR3,4.108871384732882
+cellphonedb,log2FC specificity,3,Platelet,Erythroid early,PF4,ACKR1,3.678453204173777
+cellphonedb,log2FC specificity,4,Plasmacytoid DC,B naive,APP,CD74,2.787858028418875
+cellphonedb,log2FC specificity,5,Plasmacytoid DC,Dendritic cell,APP,CD74,2.345370091047009
+cellphonedb,log2FC specificity,6,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,2.3171245470426296
+cellphonedb,log2FC specificity,7,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,2.2741382236302856
+cellphonedb,log2FC specificity,8,Platelet,B naive,APP,CD74,2.186199937917289
+cellphonedb,log2FC specificity,9,Monocyte classical,B naive,TNFSF13B,HLA-DPB1,2.1049710621554434
+cellphonedb,log2FC specificity,10,Pre-B small,Platelet,CD24,SELP,2.1002893252800514
+cellphonedb,log2FC specificity,11,Plasmacytoid DC,Pre-B small,APP,CD74,2.069638853632409
+cellphonedb,log2FC specificity,12,NK,NK,CLEC2B,KLRF1,2.052665541925731
+cellphonedb,log2FC specificity,13,NK,NK,KLRF1,CLEC2B,2.052665541925731
+cellphonedb,log2FC specificity,14,NK,CD8 T memory,KLRF1,CLEC2B,2.0509622180206337
+cellphonedb,log2FC specificity,15,CD8 T memory,NK,CLEC2B,KLRF1,2.0509622180206337
+cellphonedb,log2FC specificity,16,CD8 T cytotoxic,NK,CLEC2B,KLRF1,2.014668896363049
+cellphonedb,log2FC specificity,17,NK,CD8 T cytotoxic,KLRF1,CLEC2B,2.014668896363049
+cellphonedb,log2FC specificity,18,Granulocyte precursor,B naive,MIF,CD74,1.9857604550336083
+cellphonedb,log2FC specificity,19,Monocyte non-classical,NK,CLEC2B,KLRF1,1.9738926895296065
+cellphonedb,log2FC specificity,20,NK,Monocyte non-classical,KLRF1,CLEC2B,1.9738926895296065
+cellphonedb,log2FC specificity,21,T proliferating,NK,CLEC2B,KLRF1,1.9621212524409608
+cellphonedb,log2FC specificity,22,NK,T proliferating,KLRF1,CLEC2B,1.9621212524409608
+cellphonedb,log2FC specificity,23,Pre-B large,Platelet,CD24,SELP,1.9341912906756356
+cellphonedb,log2FC specificity,24,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,1.9227063250097585
+cellphonedb,log2FC specificity,25,NK,T activated,KLRF1,CLEC2B,1.894462374297732
+cellphonedb,log2FC specificity,26,T activated,NK,CLEC2B,KLRF1,1.894462374297732
+cellphonedb,log2FC specificity,27,Monocyte classical,B naive,TNFSF13B,TNFRSF13C,1.889795236367524
+cellphonedb,log2FC specificity,28,HSPC,B naive,MIF,CD74,1.8610765876362088
+cellphonedb,log2FC specificity,29,Pre-B large,B naive,MIF,CD74,1.813699511292193
+cellphonedb,log2FC specificity,30,CD4 T naive,NK,CLEC2D,KLRB1,1.8013486056141228
+cellphonedb,log2FC specificity,31,NK,Plasmacytoid DC,BST2,LILRA4,1.7897692753971586
+cellphonedb,log2FC specificity,32,HSPC,Plasmacytoid DC,BST2,LILRA4,1.749961958589447
+cellphonedb,log2FC specificity,33,Platelet,Dendritic cell,APP,CD74,1.743712000545423
+cellphonedb,log2FC specificity,34,Monocyte non-classical,Dendritic cell,TNFSF13B,HLA-DPB1,1.7289445267984545
+cellphonedb,log2FC specificity,35,Plasmacytoid DC,Plasmacytoid DC,BST2,LILRA4,1.7236875671125107
+cellphonedb,log2FC specificity,36,CD8 T cytotoxic,NK,CLEC2D,KLRB1,1.7167791504085546
+cellphonedb,log2FC specificity,37,CD8 T memory,NK,CLEC2D,KLRB1,1.7120768398204675
+cellphonedb,log2FC specificity,38,Granulocyte precursor,B naive,TNFSF13B,HLA-DPB1,1.710552840122572
+cellphonedb,log2FC specificity,39,T proliferating,B naive,MIF,CD74,1.702003954805173
+cellphonedb,log2FC specificity,40,HSPC,B naive,APP,CD74,1.700516148446845
+cellphonedb,log2FC specificity,41,Monocyte classical,Erythroid early,CXCL8,ACKR1,1.6956109613395525
+cellphonedb,log2FC specificity,42,Dendritic cell,B naive,APP,CD74,1.6924729980532454
+cellphonedb,log2FC specificity,43,Erythroid late,B naive,MIF,CD74,1.6892625055514916
+cellphonedb,log2FC specificity,44,NK,CD4 T memory,KLRF1,CLEC2B,1.6822359301429683
+cellphonedb,log2FC specificity,45,CD4 T memory,NK,CLEC2B,KLRF1,1.6822359301429683
+cellphonedb,log2FC specificity,46,Dendritic cell,B naive,MIF,CD74,1.6783280823753013
+cellphonedb,log2FC specificity,47,Monocyte classical,Erythroid early,TNFSF13B,TFRC,1.6734391105641675
+cellphonedb,log2FC specificity,48,Platelet,Plasmacytoid DC,APP,CD74,1.6724801331286991
+cellphonedb,log2FC specificity,49,Monocyte non-classical,Plasmacytoid DC,BST2,LILRA4,1.6677481174195354
+cellphonedb,log2FC specificity,50,NK,B naive,MIF,CD74,1.660776390388285
+cellphonedb,log2FC specificity,51,Dendritic cell,Dendritic cell,TNFSF13B,HLA-DPB1,1.658026707232985
+cellphonedb,log2FC specificity,52,Erythroid early,B naive,MIF,CD74,1.6543047005993414
+cellphonedb,log2FC specificity,53,Granulocyte precursor,B naive,APP,CD74,1.6539432306710682
+cellphonedb,log2FC specificity,54,CD8 T memory,Monocyte classical,CCL5,CCR1,1.6498829747726107
+cellphonedb,log2FC specificity,55,Monocyte classical,Plasmacytoid DC,BST2,LILRA4,1.6467839253408263
+cellphonedb,log2FC specificity,56,Monocyte non-classical,B naive,APP,CD74,1.646272410800623
+cellphonedb,log2FC specificity,57,CD4 T memory,B naive,MIF,CD74,1.6458810116781684
+cellphonedb,log2FC specificity,58,CD8 T cytotoxic,Monocyte classical,CCL5,CCR1,1.6454268013009503
+cellphonedb,log2FC specificity,59,T activated,B naive,COPA,CD74,1.6412342592439904
+cellphonedb,log2FC specificity,60,Granulocyte precursor,Plasmacytoid DC,BST2,LILRA4,1.6393138791089448
+cellphonedb,log2FC specificity,61,Plasmacytoid DC,B naive,COPA,CD74,1.63739144563322
+cellphonedb,log2FC specificity,62,CD8 T memory,Monocyte non-classical,CCL5,CCR1,1.6305845567496724
+cellphonedb,log2FC specificity,63,CD8 T cytotoxic,Monocyte non-classical,CCL5,CCR1,1.626128383278012
+cellphonedb,log2FC specificity,64,Granulocyte precursor,B naive,COPA,CD74,1.6236136910526069
+cellphonedb,log2FC specificity,65,B naive,NK,CLEC2D,KLRB1,1.6190359324411534
+cellphonedb,log2FC specificity,66,Dendritic cell,Plasmacytoid DC,BST2,LILRA4,1.6182380050612557
+cellphonedb,log2FC specificity,67,CD4 T memory,NK,CLEC2D,KLRB1,1.6159200324787388
+cellphonedb,log2FC specificity,68,Dendritic cell,NK,CLEC2B,KLRF1,1.6073160458809497
+cellphonedb,log2FC specificity,69,NK,Dendritic cell,KLRF1,CLEC2B,1.6073160458809497
+cellphonedb,log2FC specificity,70,Monocyte classical,Monocyte non-classical,TNFSF13B,HLA-DPB1,1.6067537831676364
+cellphonedb,log2FC specificity,71,Monocyte classical,Pre-B small,TNFSF13B,HLA-DPB1,1.5928750561761902
+cellphonedb,log2FC specificity,72,Pre-B large,B naive,APP,CD74,1.583941002475945
+cellphonedb,log2FC specificity,73,CD8 T memory,B naive,MIF,CD74,1.5779137341824847
+cellphonedb,log2FC specificity,74,Monocyte classical,NK,CLEC2B,KLRF1,1.5778270786868287
+cellphonedb,log2FC specificity,75,NK,Monocyte classical,KLRF1,CLEC2B,1.5778270786868287
+cellphonedb,log2FC specificity,76,T proliferating,NK,CLEC2D,KLRB1,1.577024730630849
+cellphonedb,log2FC specificity,77,T proliferating,Plasmacytoid DC,BST2,LILRA4,1.5763275892049893
+cellphonedb,log2FC specificity,78,Erythroid early,Dendritic cell,GAL,HLA-DPA1,1.5752068508030477
+cellphonedb,log2FC specificity,79,Monocyte classical,Plasmacytoid DC,TNFSF13B,HLA-DPB1,1.572542352872743
+cellphonedb,log2FC specificity,80,Dendritic cell,B naive,COPA,CD74,1.571551279894331
+cellphonedb,log2FC specificity,81,Pre-B small,NK,CLEC2D,KLRB1,1.5703830898744116
+cellphonedb,log2FC specificity,82,Platelet,NK,HLA-E,KLRC1_KLRD1,1.5618098025510163
+cellphonedb,log2FC specificity,83,Platelet,NK,HLA-E,KLRC1,1.5618098025510163
+cellphonedb,log2FC specificity,84,Platelet,Monocyte classical,GP1BA,ITGAM_ITGB2,1.558923095164083
+cellphonedb,log2FC specificity,85,Pre-B large,B naive,COPA,CD74,1.5532169570628738
+cellphonedb,log2FC specificity,86,CD8 T cytotoxic,B naive,MIF,CD74,1.5520116158371045
+cellphonedb,log2FC specificity,87,Granulocyte precursor,Dendritic cell,MIF,CD74,1.5432725176617428
+cellphonedb,log2FC specificity,88,NK,Plasmacytoid DC,KLRF1,CLEC2B,1.5401583792550229
+cellphonedb,log2FC specificity,89,Plasmacytoid DC,NK,CLEC2B,KLRF1,1.5401583792550229
+cellphonedb,log2FC specificity,90,HSPC,B naive,COPA,CD74,1.5385799535547895
+cellphonedb,log2FC specificity,91,Monocyte classical,Monocyte non-classical,GRN,TNFRSF1B,1.5370067292174383
+cellphonedb,log2FC specificity,92,NK,HSPC,KLRF1,CLEC2B,1.5310458044682007
+cellphonedb,log2FC specificity,93,HSPC,NK,CLEC2B,KLRF1,1.5310458044682007
+cellphonedb,log2FC specificity,94,T proliferating,B naive,COPA,CD74,1.5243966947448473
+cellphonedb,log2FC specificity,95,Erythroid early,B naive,COPA,CD74,1.5242421136182618
+cellphonedb,log2FC specificity,96,Pre-B small,NK,CLEC2B,KLRF1,1.5236515689808543
+cellphonedb,log2FC specificity,97,NK,Pre-B small,KLRF1,CLEC2B,1.5236515689808543
+cellphonedb,log2FC specificity,98,B naive,NK,CLEC2B,KLRF1,1.520247460019151
+cellphonedb,log2FC specificity,99,NK,B naive,KLRF1,CLEC2B,1.520247460019151
+cellphonedb,log2FC specificity,100,Monocyte non-classical,B naive,TNFSF13B,HLA-DPB1,1.5167910419112682
+cellphonedb,Merged specificity,1,Platelet,Erythroid early,PF4,ACKR1,-9.823172903524918e-09
+cellphonedb,Merged specificity,2,Platelet,T proliferating,PF4,CXCR3,-3.632796261353096e-07
+cellphonedb,Merged specificity,3,Platelet,Plasmacytoid DC,PF4,CXCR3,-2.486958806023948e-06
+cellphonedb,Merged specificity,4,Pre-B small,Platelet,CD24,SELP,-3.858315384083297e-06
+cellphonedb,Merged specificity,5,Pre-B large,Platelet,CD24,SELP,-4.4077854641177225e-06
+cellphonedb,Merged specificity,6,HSPC,Plasmacytoid DC,BST2,LILRA4,-0.0001031957939447
+cellphonedb,Merged specificity,7,Erythroid early,Dendritic cell,GAL,HLA-DPA1,-0.0001698983675531
+cellphonedb,Merged specificity,8,Dendritic cell,Plasmacytoid DC,BST2,LILRA4,-0.0001832262149108
+cellphonedb,Merged specificity,9,Platelet,Monocyte classical,GP1BA,ITGAM_ITGB2,-0.0002119238161508
+cellphonedb,Merged specificity,10,T proliferating,Plasmacytoid DC,BST2,LILRA4,-0.0002273260829149
+cellphonedb,Merged specificity,11,Plasmacytoid DC,Plasmacytoid DC,BST2,LILRA4,-0.0002603186081094
+cellphonedb,Merged specificity,12,Monocyte classical,Erythroid early,TNFSF13B,TFRC,-0.0002963361880765
+cellphonedb,Merged specificity,13,T proliferating,NK,CLEC2B,KLRF1,-0.0003204406144993
+cellphonedb,Merged specificity,14,NK,T proliferating,KLRF1,CLEC2B,-0.0003204406144993
+cellphonedb,Merged specificity,15,Platelet,Dendritic cell,PROS1,AXL,-0.0003240852142972
+cellphonedb,Merged specificity,16,Monocyte classical,Platelet,THBS1,ITGA2B_ITGB3,-0.0003757198425638
+cellphonedb,Merged specificity,17,Monocyte non-classical,Plasmacytoid DC,BST2,LILRA4,-0.0004861452541096
+cellphonedb,Merged specificity,18,NK,Plasmacytoid DC,BST2,LILRA4,-0.0005126764244299
+cellphonedb,Merged specificity,19,Granulocyte precursor,Plasmacytoid DC,BST2,LILRA4,-0.0005979723635871
+cellphonedb,Merged specificity,20,Monocyte non-classical,NK,CLEC2B,KLRF1,-0.000636110061333
+cellphonedb,Merged specificity,21,NK,Monocyte non-classical,KLRF1,CLEC2B,-0.000636110061333
+cellphonedb,Merged specificity,22,CD8 T cytotoxic,Monocyte non-classical,CCL5,CCR1,-0.0007427062209141
+cellphonedb,Merged specificity,23,CD8 T memory,T proliferating,CCL5,CCR5,-0.0007600836555886
+cellphonedb,Merged specificity,24,CD8 T cytotoxic,T proliferating,CCL5,CCR5,-0.0008322760923383
+cellphonedb,Merged specificity,25,Monocyte classical,B naive,TNFSF13B,TNFRSF13C,-0.0008322760923383
+cellphonedb,Merged specificity,26,NK,T proliferating,CCL4,CCR5,-0.0008700090979911
+cellphonedb,Merged specificity,27,CD8 T memory,NK,CLEC2B,KLRF1,-0.0008796154712647
+cellphonedb,Merged specificity,28,NK,CD8 T memory,KLRF1,CLEC2B,-0.0008796154712647
+cellphonedb,Merged specificity,29,CD8 T memory,Monocyte non-classical,CCL5,CCR1,-0.000928698149693
+cellphonedb,Merged specificity,30,NK,NK,KLRF1,CLEC2B,-0.0009387265368823
+cellphonedb,Merged specificity,31,NK,NK,CLEC2B,KLRF1,-0.0009387265368823
+cellphonedb,Merged specificity,32,NK,Erythroid early,CCL4,SLC7A1,-0.0009488261037286
+cellphonedb,Merged specificity,33,CD8 T memory,Erythroid early,CCL5,ACKR1,-0.0010756604667366
+cellphonedb,Merged specificity,34,NK,CD8 T cytotoxic,KLRF1,CLEC2B,-0.0010867072428251
+cellphonedb,Merged specificity,35,CD8 T cytotoxic,NK,CLEC2B,KLRF1,-0.0010867072428251
+cellphonedb,Merged specificity,36,CD4 T memory,Platelet,CD40LG,ITGA2B_ITGB3,-0.0010999793124902
+cellphonedb,Merged specificity,37,CD8 T cytotoxic,Monocyte classical,CCL5,CCR1,-0.0011661352049106
+cellphonedb,Merged specificity,38,Monocyte non-classical,Plasmacytoid DC,ALOX5,ALOX5AP,-0.0011661352049106
+cellphonedb,Merged specificity,39,CD8 T cytotoxic,Erythroid early,CCL5,ACKR1,-0.0011895112435277
+cellphonedb,Merged specificity,40,Platelet,Platelet,THBS1,ITGA2B_ITGB3,-0.0011931012443092
+cellphonedb,Merged specificity,41,Monocyte classical,Erythroid early,CXCL8,ACKR1,-0.0012131940399899
+cellphonedb,Merged specificity,42,Platelet,Plasmacytoid DC,SELP,SELPLG,-0.0012899687731636
+cellphonedb,Merged specificity,43,T activated,NK,CLEC2B,KLRF1,-0.0013490177470129
+cellphonedb,Merged specificity,44,NK,T activated,KLRF1,CLEC2B,-0.0013490177470129
+cellphonedb,Merged specificity,45,Erythroid early,B naive,GAL,HLA-DPA1,-0.0013618392755886
+cellphonedb,Merged specificity,46,CD8 T memory,Monocyte classical,CCL5,CCR1,-0.0013618392755886
+cellphonedb,Merged specificity,47,Platelet,CD4 T memory,TNFSF4,TNFRSF4,-0.0013905775777639
+cellphonedb,Merged specificity,48,T proliferating,Monocyte non-classical,CD99,PILRA,-0.0014673118357431
+cellphonedb,Merged specificity,49,Plasmacytoid DC,Dendritic cell,GAS6,AXL,-0.0014949233386779
+cellphonedb,Merged specificity,50,B naive,Monocyte non-classical,FCER2,ITGAX_ITGB2,-0.0015498495337453
+cellphonedb,Merged specificity,51,Monocyte classical,Plasmacytoid DC,BST2,LILRA4,-0.0016065378125386
+cellphonedb,Merged specificity,52,Granulocyte precursor,B naive,TNFSF13B,TNFRSF13C,-0.0016353865325582
+cellphonedb,Merged specificity,53,Granulocyte precursor,Erythroid early,TNFSF13B,TFRC,-0.0016941025095835
+cellphonedb,Merged specificity,54,T proliferating,Erythroid early,CCL4,SLC7A1,-0.0019104993731479
+cellphonedb,Merged specificity,55,NK,T proliferating,CCL5,CCR5,-0.0020419387107863
+cellphonedb,Merged specificity,56,T proliferating,Monocyte non-classical,CCL5,CCR1,-0.0020419387107863
+cellphonedb,Merged specificity,57,NK,NK,HLA-E,KLRC1_KLRD1,-0.0020587746802809
+cellphonedb,Merged specificity,58,NK,NK,HLA-E,KLRC1,-0.0020587746802809
+cellphonedb,Merged specificity,59,T proliferating,T proliferating,CCL4,CCR5,-0.002075701654968
+cellphonedb,Merged specificity,60,Monocyte classical,Plasmacytoid DC,TNFSF13B,TNFRSF17,-0.0022860077553249
+cellphonedb,Merged specificity,61,Plasmacytoid DC,Dendritic cell,APP,CD74,-0.0023296159994817
+cellphonedb,Merged specificity,62,Dendritic cell,Monocyte non-classical,GRN,TNFRSF1B,-0.0023962119628992
+cellphonedb,Merged specificity,63,Plasmacytoid DC,B naive,APP,CD74,-0.0026014864338295
+cellphonedb,Merged specificity,64,NK,Erythroid early,CCL5,ACKR1,-0.0026269703228632
+cellphonedb,Merged specificity,65,CD8 T cytotoxic,Monocyte non-classical,CD99,PILRA,-0.0026667930225078
+cellphonedb,Merged specificity,66,Plasmacytoid DC,Plasmacytoid DC,APP,CD74,-0.0027429645976128
+cellphonedb,Merged specificity,67,Dendritic cell,B naive,TNFSF13B,TNFRSF13C,-0.0028300447765041
+cellphonedb,Merged specificity,68,T proliferating,Monocyte classical,CCL5,CCR1,-0.0028718570278535
+cellphonedb,Merged specificity,69,Dendritic cell,Platelet,GHRL,TBXA2R,-0.0028881323265079
+cellphonedb,Merged specificity,70,NK,Dendritic cell,KLRF1,CLEC2B,-0.0029353322479925
+cellphonedb,Merged specificity,71,Dendritic cell,NK,CLEC2B,KLRF1,-0.0029353322479925
+cellphonedb,Merged specificity,72,Plasmacytoid DC,Plasmacytoid DC,LILRB4,LAIR1,-0.0030870046463371
+cellphonedb,Merged specificity,73,CD8 T cytotoxic,NK,HLA-E,KLRC1_KLRD1,-0.0031090827015327
+cellphonedb,Merged specificity,74,CD8 T cytotoxic,NK,HLA-E,KLRC1,-0.0031090827015327
+cellphonedb,Merged specificity,75,Plasmacytoid DC,Pre-B small,APP,CD74,-0.0031895192928913
+cellphonedb,Merged specificity,76,T proliferating,NK,CLEC2D,KLRB1,-0.0034055810528448
+cellphonedb,Merged specificity,77,CD8 T memory,T proliferating,CCL4,CCR5,-0.0034527773476374
+cellphonedb,Merged specificity,78,Dendritic cell,Plasmacytoid DC,EFNB1,EPHB1,-0.0035056129780644
+cellphonedb,Merged specificity,79,Dendritic cell,Plasmacytoid DC,ALOX5,ALOX5AP,-0.0035969336346147
+cellphonedb,Merged specificity,80,NK,Monocyte non-classical,CCL5,CCR1,-0.0037449784343693
+cellphonedb,Merged specificity,81,CD8 T memory,NK,HLA-E,KLRC1_KLRD1,-0.0039226760065497
+cellphonedb,Merged specificity,82,CD8 T memory,NK,HLA-E,KLRC1,-0.0039226760065497
+cellphonedb,Merged specificity,83,Dendritic cell,Monocyte classical,ANXA1,FPR1,-0.0040004911324609
+cellphonedb,Merged specificity,84,NK,Monocyte non-classical,CD99,PILRA,-0.0041058074841299
+cellphonedb,Merged specificity,85,Platelet,NK,HLA-E,KLRC1_KLRD1,-0.0041859745979997
+cellphonedb,Merged specificity,86,Platelet,NK,HLA-E,KLRC1,-0.0041859745979997
+cellphonedb,Merged specificity,87,CD8 T memory,Erythroid early,CCL4,SLC7A1,-0.004775976947501
+cellphonedb,Merged specificity,88,NK,HSPC,KLRF1,CLEC2B,-0.0049840782593271
+cellphonedb,Merged specificity,89,HSPC,NK,CLEC2B,KLRF1,-0.0049840782593271
+cellphonedb,Merged specificity,90,T proliferating,Monocyte non-classical,CCL3,CCR1,-0.0050750483213972
+cellphonedb,Merged specificity,91,T proliferating,T proliferating,CCL3,CCR5,-0.0052602304176964
+cellphonedb,Merged specificity,92,CD4 T memory,NK,CLEC2B,KLRF1,-0.0052915168746939
+cellphonedb,Merged specificity,93,NK,CD4 T memory,KLRF1,CLEC2B,-0.0052915168746939
+cellphonedb,Merged specificity,94,B naive,Monocyte classical,FCER2,ITGAM_ITGB2,-0.0053229246991792
+cellphonedb,Merged specificity,95,B naive,Dendritic cell,FCER2,ITGAX_ITGB2,-0.005449773976304
+cellphonedb,Merged specificity,96,Monocyte non-classical,Erythroid early,TNFSF13B,TFRC,-0.0055785823365314
+cellphonedb,Merged specificity,97,Dendritic cell,Plasmacytoid DC,AREG,ICAM1,-0.0058421312008737
+cellphonedb,Merged specificity,98,Monocyte classical,B naive,TNFSF13B,CD40,-0.0059768990780026
+cellphonedb,Merged specificity,99,CD4 T naive,NK,CLEC2D,KLRB1,-0.0060450373510303
+cellphonedb,Merged specificity,100,NK,Monocyte classical,CCL5,CCR1,-0.0060450373510303

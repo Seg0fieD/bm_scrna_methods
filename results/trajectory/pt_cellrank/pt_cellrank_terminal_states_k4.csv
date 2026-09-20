@@ -1,0 +1,5 @@
+state,Monocyte non-classical,Erythroid early,B naive,NK
+Erythroid early,0,30,0,0
+B naive,0,0,30,0
+Monocyte non-classical,30,0,0,0
+NK,0,0,0,30

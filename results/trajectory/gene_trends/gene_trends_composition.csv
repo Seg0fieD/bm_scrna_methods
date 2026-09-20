@@ -1,0 +1,881 @@
+cell_type,bin,fraction,lineage
+Dendritic cell,0,0.125,Plasmacytoid DC
+Dendritic cell,1,0.0,Plasmacytoid DC
+Dendritic cell,2,0.0,Plasmacytoid DC
+Dendritic cell,3,0.0,Plasmacytoid DC
+Dendritic cell,4,0.0,Plasmacytoid DC
+Dendritic cell,5,0.0,Plasmacytoid DC
+Dendritic cell,6,0.0,Plasmacytoid DC
+Dendritic cell,7,0.125,Plasmacytoid DC
+Dendritic cell,8,0.0,Plasmacytoid DC
+Dendritic cell,9,0.0,Plasmacytoid DC
+Dendritic cell,10,0.0,Plasmacytoid DC
+Dendritic cell,11,0.0,Plasmacytoid DC
+Dendritic cell,12,0.0,Plasmacytoid DC
+Dendritic cell,13,0.0,Plasmacytoid DC
+Dendritic cell,14,0.0,Plasmacytoid DC
+Dendritic cell,15,0.0,Plasmacytoid DC
+Dendritic cell,16,0.0,Plasmacytoid DC
+Dendritic cell,17,0.0,Plasmacytoid DC
+Dendritic cell,18,0.0,Plasmacytoid DC
+Dendritic cell,19,0.0,Plasmacytoid DC
+Dendritic cell,20,0.0,Plasmacytoid DC
+Dendritic cell,21,0.0,Plasmacytoid DC
+Dendritic cell,22,0.0,Plasmacytoid DC
+Dendritic cell,23,0.0,Plasmacytoid DC
+Dendritic cell,24,0.0,Plasmacytoid DC
+Dendritic cell,25,0.0,Plasmacytoid DC
+Dendritic cell,26,0.0,Plasmacytoid DC
+Dendritic cell,27,0.0,Plasmacytoid DC
+Dendritic cell,28,0.0,Plasmacytoid DC
+Dendritic cell,29,0.0,Plasmacytoid DC
+Dendritic cell,30,0.0,Plasmacytoid DC
+Dendritic cell,31,0.0,Plasmacytoid DC
+Dendritic cell,32,0.0,Plasmacytoid DC
+Dendritic cell,33,0.0,Plasmacytoid DC
+Dendritic cell,34,0.0,Plasmacytoid DC
+Dendritic cell,35,0.0,Plasmacytoid DC
+Dendritic cell,36,0.0,Plasmacytoid DC
+Dendritic cell,37,0.0,Plasmacytoid DC
+Dendritic cell,38,0.0,Plasmacytoid DC
+Dendritic cell,39,0.0,Plasmacytoid DC
+Plasmacytoid DC,0,0.875,Plasmacytoid DC
+Plasmacytoid DC,1,1.0,Plasmacytoid DC
+Plasmacytoid DC,2,1.0,Plasmacytoid DC
+Plasmacytoid DC,3,1.0,Plasmacytoid DC
+Plasmacytoid DC,4,1.0,Plasmacytoid DC
+Plasmacytoid DC,5,1.0,Plasmacytoid DC
+Plasmacytoid DC,6,1.0,Plasmacytoid DC
+Plasmacytoid DC,7,0.875,Plasmacytoid DC
+Plasmacytoid DC,8,1.0,Plasmacytoid DC
+Plasmacytoid DC,9,1.0,Plasmacytoid DC
+Plasmacytoid DC,10,1.0,Plasmacytoid DC
+Plasmacytoid DC,11,1.0,Plasmacytoid DC
+Plasmacytoid DC,12,1.0,Plasmacytoid DC
+Plasmacytoid DC,13,1.0,Plasmacytoid DC
+Plasmacytoid DC,14,1.0,Plasmacytoid DC
+Plasmacytoid DC,15,1.0,Plasmacytoid DC
+Plasmacytoid DC,16,1.0,Plasmacytoid DC
+Plasmacytoid DC,17,1.0,Plasmacytoid DC
+Plasmacytoid DC,18,1.0,Plasmacytoid DC
+Plasmacytoid DC,19,1.0,Plasmacytoid DC
+Plasmacytoid DC,20,1.0,Plasmacytoid DC
+Plasmacytoid DC,21,1.0,Plasmacytoid DC
+Plasmacytoid DC,22,1.0,Plasmacytoid DC
+Plasmacytoid DC,23,1.0,Plasmacytoid DC
+Plasmacytoid DC,24,1.0,Plasmacytoid DC
+Plasmacytoid DC,25,1.0,Plasmacytoid DC
+Plasmacytoid DC,26,1.0,Plasmacytoid DC
+Plasmacytoid DC,27,1.0,Plasmacytoid DC
+Plasmacytoid DC,28,1.0,Plasmacytoid DC
+Plasmacytoid DC,29,1.0,Plasmacytoid DC
+Plasmacytoid DC,30,1.0,Plasmacytoid DC
+Plasmacytoid DC,31,1.0,Plasmacytoid DC
+Plasmacytoid DC,32,1.0,Plasmacytoid DC
+Plasmacytoid DC,33,1.0,Plasmacytoid DC
+Plasmacytoid DC,34,1.0,Plasmacytoid DC
+Plasmacytoid DC,35,1.0,Plasmacytoid DC
+Plasmacytoid DC,36,1.0,Plasmacytoid DC
+Plasmacytoid DC,37,1.0,Plasmacytoid DC
+Plasmacytoid DC,38,1.0,Plasmacytoid DC
+Plasmacytoid DC,39,1.0,Plasmacytoid DC
+HSPC,0,1.0,Pre-B large
+HSPC,1,0.5555555555555556,Pre-B large
+HSPC,2,0.125,Pre-B large
+HSPC,3,0.0,Pre-B large
+HSPC,4,0.0,Pre-B large
+HSPC,5,0.0,Pre-B large
+HSPC,6,0.0,Pre-B large
+HSPC,7,0.0,Pre-B large
+HSPC,8,0.0,Pre-B large
+HSPC,9,0.0,Pre-B large
+HSPC,10,0.0,Pre-B large
+HSPC,11,0.0,Pre-B large
+HSPC,12,0.0,Pre-B large
+HSPC,13,0.0,Pre-B large
+HSPC,14,0.0,Pre-B large
+HSPC,15,0.0,Pre-B large
+HSPC,16,0.0,Pre-B large
+HSPC,17,0.0,Pre-B large
+HSPC,18,0.0,Pre-B large
+HSPC,19,0.0,Pre-B large
+HSPC,20,0.0,Pre-B large
+HSPC,21,0.0,Pre-B large
+HSPC,22,0.0,Pre-B large
+HSPC,23,0.0,Pre-B large
+HSPC,24,0.0,Pre-B large
+HSPC,25,0.0,Pre-B large
+HSPC,26,0.0,Pre-B large
+HSPC,27,0.0,Pre-B large
+HSPC,28,0.0,Pre-B large
+HSPC,29,0.0,Pre-B large
+HSPC,30,0.0,Pre-B large
+HSPC,31,0.0,Pre-B large
+HSPC,32,0.0,Pre-B large
+HSPC,33,0.0,Pre-B large
+HSPC,34,0.0,Pre-B large
+HSPC,35,0.0,Pre-B large
+HSPC,36,0.0,Pre-B large
+HSPC,37,0.0,Pre-B large
+HSPC,38,0.0,Pre-B large
+HSPC,39,0.0,Pre-B large
+Pre-B large,0,0.0,Pre-B large
+Pre-B large,1,0.4444444444444444,Pre-B large
+Pre-B large,2,0.875,Pre-B large
+Pre-B large,3,1.0,Pre-B large
+Pre-B large,4,1.0,Pre-B large
+Pre-B large,5,1.0,Pre-B large
+Pre-B large,6,1.0,Pre-B large
+Pre-B large,7,1.0,Pre-B large
+Pre-B large,8,1.0,Pre-B large
+Pre-B large,9,1.0,Pre-B large
+Pre-B large,10,1.0,Pre-B large
+Pre-B large,11,1.0,Pre-B large
+Pre-B large,12,1.0,Pre-B large
+Pre-B large,13,1.0,Pre-B large
+Pre-B large,14,1.0,Pre-B large
+Pre-B large,15,1.0,Pre-B large
+Pre-B large,16,1.0,Pre-B large
+Pre-B large,17,1.0,Pre-B large
+Pre-B large,18,1.0,Pre-B large
+Pre-B large,19,1.0,Pre-B large
+Pre-B large,20,1.0,Pre-B large
+Pre-B large,21,1.0,Pre-B large
+Pre-B large,22,1.0,Pre-B large
+Pre-B large,23,1.0,Pre-B large
+Pre-B large,24,1.0,Pre-B large
+Pre-B large,25,1.0,Pre-B large
+Pre-B large,26,1.0,Pre-B large
+Pre-B large,27,1.0,Pre-B large
+Pre-B large,28,1.0,Pre-B large
+Pre-B large,29,1.0,Pre-B large
+Pre-B large,30,1.0,Pre-B large
+Pre-B large,31,1.0,Pre-B large
+Pre-B large,32,1.0,Pre-B large
+Pre-B large,33,1.0,Pre-B large
+Pre-B large,34,1.0,Pre-B large
+Pre-B large,35,1.0,Pre-B large
+Pre-B large,36,1.0,Pre-B large
+Pre-B large,37,1.0,Pre-B large
+Pre-B large,38,1.0,Pre-B large
+Pre-B large,39,1.0,Pre-B large
+Erythroid late,0,1.0,Erythroid late
+Erythroid late,1,1.0,Erythroid late
+Erythroid late,2,1.0,Erythroid late
+Erythroid late,3,1.0,Erythroid late
+Erythroid late,4,1.0,Erythroid late
+Erythroid late,5,1.0,Erythroid late
+Erythroid late,6,1.0,Erythroid late
+Erythroid late,7,1.0,Erythroid late
+Erythroid late,8,1.0,Erythroid late
+Erythroid late,9,1.0,Erythroid late
+Erythroid late,10,1.0,Erythroid late
+Erythroid late,11,1.0,Erythroid late
+Erythroid late,12,1.0,Erythroid late
+Erythroid late,13,1.0,Erythroid late
+Erythroid late,14,1.0,Erythroid late
+Erythroid late,15,1.0,Erythroid late
+Erythroid late,16,1.0,Erythroid late
+Erythroid late,17,1.0,Erythroid late
+Erythroid late,18,1.0,Erythroid late
+Erythroid late,19,1.0,Erythroid late
+Erythroid late,20,1.0,Erythroid late
+Erythroid late,21,1.0,Erythroid late
+Erythroid late,22,1.0,Erythroid late
+Erythroid late,23,1.0,Erythroid late
+Erythroid late,24,1.0,Erythroid late
+Erythroid late,25,1.0,Erythroid late
+Erythroid late,26,1.0,Erythroid late
+Erythroid late,27,1.0,Erythroid late
+Erythroid late,28,1.0,Erythroid late
+Erythroid late,29,1.0,Erythroid late
+Erythroid late,30,1.0,Erythroid late
+Erythroid late,31,1.0,Erythroid late
+Erythroid late,32,1.0,Erythroid late
+Erythroid late,33,1.0,Erythroid late
+Erythroid late,34,1.0,Erythroid late
+Erythroid late,35,1.0,Erythroid late
+Erythroid late,36,1.0,Erythroid late
+Erythroid late,37,1.0,Erythroid late
+Erythroid late,38,1.0,Erythroid late
+Erythroid late,39,1.0,Erythroid late
+Erythroid early,0,1.0,Erythroid early
+Erythroid early,1,1.0,Erythroid early
+Erythroid early,2,1.0,Erythroid early
+Erythroid early,3,1.0,Erythroid early
+Erythroid early,4,1.0,Erythroid early
+Erythroid early,5,1.0,Erythroid early
+Erythroid early,6,1.0,Erythroid early
+Erythroid early,7,1.0,Erythroid early
+Erythroid early,8,1.0,Erythroid early
+Erythroid early,9,1.0,Erythroid early
+Erythroid early,10,1.0,Erythroid early
+Erythroid early,11,1.0,Erythroid early
+Erythroid early,12,1.0,Erythroid early
+Erythroid early,13,1.0,Erythroid early
+Erythroid early,14,1.0,Erythroid early
+Erythroid early,15,0.9642857142857143,Erythroid early
+Erythroid early,16,0.9642857142857143,Erythroid early
+Erythroid early,17,1.0,Erythroid early
+Erythroid early,18,0.9642857142857143,Erythroid early
+Erythroid early,19,1.0,Erythroid early
+Erythroid early,20,0.9285714285714286,Erythroid early
+Erythroid early,21,1.0,Erythroid early
+Erythroid early,22,0.9655172413793104,Erythroid early
+Erythroid early,23,1.0,Erythroid early
+Erythroid early,24,0.9642857142857143,Erythroid early
+Erythroid early,25,1.0,Erythroid early
+Erythroid early,26,1.0,Erythroid early
+Erythroid early,27,1.0,Erythroid early
+Erythroid early,28,1.0,Erythroid early
+Erythroid early,29,1.0,Erythroid early
+Erythroid early,30,1.0,Erythroid early
+Erythroid early,31,1.0,Erythroid early
+Erythroid early,32,1.0,Erythroid early
+Erythroid early,33,1.0,Erythroid early
+Erythroid early,34,1.0,Erythroid early
+Erythroid early,35,1.0,Erythroid early
+Erythroid early,36,1.0,Erythroid early
+Erythroid early,37,1.0,Erythroid early
+Erythroid early,38,1.0,Erythroid early
+Erythroid early,39,1.0,Erythroid early
+Erythroid late,0,0.0,Erythroid early
+Erythroid late,1,0.0,Erythroid early
+Erythroid late,2,0.0,Erythroid early
+Erythroid late,3,0.0,Erythroid early
+Erythroid late,4,0.0,Erythroid early
+Erythroid late,5,0.0,Erythroid early
+Erythroid late,6,0.0,Erythroid early
+Erythroid late,7,0.0,Erythroid early
+Erythroid late,8,0.0,Erythroid early
+Erythroid late,9,0.0,Erythroid early
+Erythroid late,10,0.0,Erythroid early
+Erythroid late,11,0.0,Erythroid early
+Erythroid late,12,0.0,Erythroid early
+Erythroid late,13,0.0,Erythroid early
+Erythroid late,14,0.0,Erythroid early
+Erythroid late,15,0.03571428571428571,Erythroid early
+Erythroid late,16,0.03571428571428571,Erythroid early
+Erythroid late,17,0.0,Erythroid early
+Erythroid late,18,0.03571428571428571,Erythroid early
+Erythroid late,19,0.0,Erythroid early
+Erythroid late,20,0.07142857142857142,Erythroid early
+Erythroid late,21,0.0,Erythroid early
+Erythroid late,22,0.034482758620689655,Erythroid early
+Erythroid late,23,0.0,Erythroid early
+Erythroid late,24,0.03571428571428571,Erythroid early
+Erythroid late,25,0.0,Erythroid early
+Erythroid late,26,0.0,Erythroid early
+Erythroid late,27,0.0,Erythroid early
+Erythroid late,28,0.0,Erythroid early
+Erythroid late,29,0.0,Erythroid early
+Erythroid late,30,0.0,Erythroid early
+Erythroid late,31,0.0,Erythroid early
+Erythroid late,32,0.0,Erythroid early
+Erythroid late,33,0.0,Erythroid early
+Erythroid late,34,0.0,Erythroid early
+Erythroid late,35,0.0,Erythroid early
+Erythroid late,36,0.0,Erythroid early
+Erythroid late,37,0.0,Erythroid early
+Erythroid late,38,0.0,Erythroid early
+Erythroid late,39,0.0,Erythroid early
+Pre-B small,0,0.9867549668874173,B naive
+Pre-B small,1,0.8145695364238411,B naive
+Pre-B small,2,0.5364238410596026,B naive
+Pre-B small,3,0.543046357615894,B naive
+Pre-B small,4,0.25165562913907286,B naive
+Pre-B small,5,0.31788079470198677,B naive
+Pre-B small,6,0.24503311258278146,B naive
+Pre-B small,7,0.09933774834437085,B naive
+Pre-B small,8,0.11920529801324503,B naive
+Pre-B small,9,0.15894039735099338,B naive
+Pre-B small,10,0.16556291390728478,B naive
+Pre-B small,11,0.039735099337748346,B naive
+Pre-B small,12,0.18543046357615894,B naive
+Pre-B small,13,0.06,B naive
+Pre-B small,14,0.026490066225165563,B naive
+Pre-B small,15,0.039735099337748346,B naive
+Pre-B small,16,0.15894039735099338,B naive
+Pre-B small,17,0.11258278145695365,B naive
+Pre-B small,18,0.046357615894039736,B naive
+Pre-B small,19,0.046357615894039736,B naive
+Pre-B small,20,0.07947019867549669,B naive
+Pre-B small,21,0.026490066225165563,B naive
+Pre-B small,22,0.026490066225165563,B naive
+Pre-B small,23,0.013245033112582781,B naive
+Pre-B small,24,0.013245033112582781,B naive
+Pre-B small,25,0.06622516556291391,B naive
+Pre-B small,26,0.06666666666666667,B naive
+Pre-B small,27,0.046357615894039736,B naive
+Pre-B small,28,0.06622516556291391,B naive
+Pre-B small,29,0.059602649006622516,B naive
+Pre-B small,30,0.059602649006622516,B naive
+Pre-B small,31,0.019867549668874173,B naive
+Pre-B small,32,0.013245033112582781,B naive
+Pre-B small,33,0.033112582781456956,B naive
+Pre-B small,34,0.019867549668874173,B naive
+Pre-B small,35,0.013245033112582781,B naive
+Pre-B small,36,0.019867549668874173,B naive
+Pre-B small,37,0.019867549668874173,B naive
+Pre-B small,38,0.3443708609271523,B naive
+Pre-B small,39,0.7947019867549668,B naive
+B naive,0,0.0,B naive
+B naive,1,0.17880794701986755,B naive
+B naive,2,0.46357615894039733,B naive
+B naive,3,0.45695364238410596,B naive
+B naive,4,0.7483443708609272,B naive
+B naive,5,0.6821192052980133,B naive
+B naive,6,0.7549668874172185,B naive
+B naive,7,0.9006622516556292,B naive
+B naive,8,0.8807947019867549,B naive
+B naive,9,0.8410596026490066,B naive
+B naive,10,0.8344370860927153,B naive
+B naive,11,0.9602649006622517,B naive
+B naive,12,0.8145695364238411,B naive
+B naive,13,0.94,B naive
+B naive,14,0.9735099337748344,B naive
+B naive,15,0.9602649006622517,B naive
+B naive,16,0.8410596026490066,B naive
+B naive,17,0.8874172185430463,B naive
+B naive,18,0.9536423841059603,B naive
+B naive,19,0.9536423841059603,B naive
+B naive,20,0.9205298013245033,B naive
+B naive,21,0.9735099337748344,B naive
+B naive,22,0.9735099337748344,B naive
+B naive,23,0.9867549668874173,B naive
+B naive,24,0.9867549668874173,B naive
+B naive,25,0.9337748344370861,B naive
+B naive,26,0.9333333333333333,B naive
+B naive,27,0.9536423841059603,B naive
+B naive,28,0.9337748344370861,B naive
+B naive,29,0.9403973509933775,B naive
+B naive,30,0.9403973509933775,B naive
+B naive,31,0.9801324503311258,B naive
+B naive,32,0.9867549668874173,B naive
+B naive,33,0.9668874172185431,B naive
+B naive,34,0.9801324503311258,B naive
+B naive,35,0.9867549668874173,B naive
+B naive,36,0.9801324503311258,B naive
+B naive,37,0.9801324503311258,B naive
+B naive,38,0.6556291390728477,B naive
+B naive,39,0.2052980132450331,B naive
+HSPC,0,0.03333333333333333,Monocyte classical
+HSPC,1,0.0,Monocyte classical
+HSPC,2,0.0,Monocyte classical
+HSPC,3,0.0,Monocyte classical
+HSPC,4,0.0,Monocyte classical
+HSPC,5,0.0,Monocyte classical
+HSPC,6,0.0,Monocyte classical
+HSPC,7,0.0,Monocyte classical
+HSPC,8,0.0,Monocyte classical
+HSPC,9,0.0,Monocyte classical
+HSPC,10,0.0,Monocyte classical
+HSPC,11,0.0,Monocyte classical
+HSPC,12,0.0,Monocyte classical
+HSPC,13,0.0,Monocyte classical
+HSPC,14,0.0,Monocyte classical
+HSPC,15,0.0,Monocyte classical
+HSPC,16,0.0,Monocyte classical
+HSPC,17,0.0,Monocyte classical
+HSPC,18,0.0,Monocyte classical
+HSPC,19,0.0,Monocyte classical
+HSPC,20,0.0,Monocyte classical
+HSPC,21,0.0,Monocyte classical
+HSPC,22,0.0,Monocyte classical
+HSPC,23,0.0,Monocyte classical
+HSPC,24,0.0,Monocyte classical
+HSPC,25,0.0,Monocyte classical
+HSPC,26,0.0,Monocyte classical
+HSPC,27,0.0,Monocyte classical
+HSPC,28,0.0,Monocyte classical
+HSPC,29,0.0,Monocyte classical
+HSPC,30,0.0,Monocyte classical
+HSPC,31,0.0,Monocyte classical
+HSPC,32,0.0,Monocyte classical
+HSPC,33,0.0,Monocyte classical
+HSPC,34,0.0,Monocyte classical
+HSPC,35,0.0,Monocyte classical
+HSPC,36,0.0,Monocyte classical
+HSPC,37,0.0,Monocyte classical
+HSPC,38,0.0,Monocyte classical
+HSPC,39,0.0,Monocyte classical
+Granulocyte precursor,0,0.7388888888888889,Monocyte classical
+Granulocyte precursor,1,0.46368715083798884,Monocyte classical
+Granulocyte precursor,2,0.7430167597765364,Monocyte classical
+Granulocyte precursor,3,0.770949720670391,Monocyte classical
+Granulocyte precursor,4,0.5698324022346368,Monocyte classical
+Granulocyte precursor,5,0.5388888888888889,Monocyte classical
+Granulocyte precursor,6,0.5083798882681564,Monocyte classical
+Granulocyte precursor,7,0.1787709497206704,Monocyte classical
+Granulocyte precursor,8,0.00558659217877095,Monocyte classical
+Granulocyte precursor,9,0.0,Monocyte classical
+Granulocyte precursor,10,0.0,Monocyte classical
+Granulocyte precursor,11,0.0,Monocyte classical
+Granulocyte precursor,12,0.0,Monocyte classical
+Granulocyte precursor,13,0.0,Monocyte classical
+Granulocyte precursor,14,0.0,Monocyte classical
+Granulocyte precursor,15,0.0,Monocyte classical
+Granulocyte precursor,16,0.0,Monocyte classical
+Granulocyte precursor,17,0.0,Monocyte classical
+Granulocyte precursor,18,0.0,Monocyte classical
+Granulocyte precursor,19,0.0,Monocyte classical
+Granulocyte precursor,20,0.0,Monocyte classical
+Granulocyte precursor,21,0.0,Monocyte classical
+Granulocyte precursor,22,0.0,Monocyte classical
+Granulocyte precursor,23,0.0,Monocyte classical
+Granulocyte precursor,24,0.0,Monocyte classical
+Granulocyte precursor,25,0.0,Monocyte classical
+Granulocyte precursor,26,0.0,Monocyte classical
+Granulocyte precursor,27,0.0,Monocyte classical
+Granulocyte precursor,28,0.0,Monocyte classical
+Granulocyte precursor,29,0.0,Monocyte classical
+Granulocyte precursor,30,0.0,Monocyte classical
+Granulocyte precursor,31,0.0,Monocyte classical
+Granulocyte precursor,32,0.0,Monocyte classical
+Granulocyte precursor,33,0.0,Monocyte classical
+Granulocyte precursor,34,0.0,Monocyte classical
+Granulocyte precursor,35,0.0,Monocyte classical
+Granulocyte precursor,36,0.0,Monocyte classical
+Granulocyte precursor,37,0.0,Monocyte classical
+Granulocyte precursor,38,0.0,Monocyte classical
+Granulocyte precursor,39,0.0,Monocyte classical
+Monocyte classical,0,0.0,Monocyte classical
+Monocyte classical,1,0.0,Monocyte classical
+Monocyte classical,2,0.0,Monocyte classical
+Monocyte classical,3,0.0,Monocyte classical
+Monocyte classical,4,0.0111731843575419,Monocyte classical
+Monocyte classical,5,0.0,Monocyte classical
+Monocyte classical,6,0.11173184357541899,Monocyte classical
+Monocyte classical,7,0.659217877094972,Monocyte classical
+Monocyte classical,8,0.88268156424581,Monocyte classical
+Monocyte classical,9,0.9497206703910615,Monocyte classical
+Monocyte classical,10,0.9664804469273743,Monocyte classical
+Monocyte classical,11,0.9611111111111111,Monocyte classical
+Monocyte classical,12,0.9608938547486033,Monocyte classical
+Monocyte classical,13,0.8938547486033519,Monocyte classical
+Monocyte classical,14,0.7653631284916201,Monocyte classical
+Monocyte classical,15,0.9497206703910615,Monocyte classical
+Monocyte classical,16,0.9720670391061452,Monocyte classical
+Monocyte classical,17,0.9055555555555556,Monocyte classical
+Monocyte classical,18,0.9720670391061452,Monocyte classical
+Monocyte classical,19,0.9776536312849162,Monocyte classical
+Monocyte classical,20,0.664804469273743,Monocyte classical
+Monocyte classical,21,0.9217877094972067,Monocyte classical
+Monocyte classical,22,0.9333333333333333,Monocyte classical
+Monocyte classical,23,0.9776536312849162,Monocyte classical
+Monocyte classical,24,0.9776536312849162,Monocyte classical
+Monocyte classical,25,0.9273743016759777,Monocyte classical
+Monocyte classical,26,0.9385474860335196,Monocyte classical
+Monocyte classical,27,0.9720670391061452,Monocyte classical
+Monocyte classical,28,0.9722222222222222,Monocyte classical
+Monocyte classical,29,0.9888268156424581,Monocyte classical
+Monocyte classical,30,0.9664804469273743,Monocyte classical
+Monocyte classical,31,0.9497206703910615,Monocyte classical
+Monocyte classical,32,0.9832402234636871,Monocyte classical
+Monocyte classical,33,0.9162011173184358,Monocyte classical
+Monocyte classical,34,0.9166666666666666,Monocyte classical
+Monocyte classical,35,0.8435754189944135,Monocyte classical
+Monocyte classical,36,0.8044692737430168,Monocyte classical
+Monocyte classical,37,0.48044692737430167,Monocyte classical
+Monocyte classical,38,0.0,Monocyte classical
+Monocyte classical,39,0.0,Monocyte classical
+Monocyte non-classical,0,0.0,Monocyte classical
+Monocyte non-classical,1,0.0,Monocyte classical
+Monocyte non-classical,2,0.0,Monocyte classical
+Monocyte non-classical,3,0.0,Monocyte classical
+Monocyte non-classical,4,0.0,Monocyte classical
+Monocyte non-classical,5,0.0,Monocyte classical
+Monocyte non-classical,6,0.0,Monocyte classical
+Monocyte non-classical,7,0.0111731843575419,Monocyte classical
+Monocyte non-classical,8,0.1005586592178771,Monocyte classical
+Monocyte non-classical,9,0.05027932960893855,Monocyte classical
+Monocyte non-classical,10,0.0223463687150838,Monocyte classical
+Monocyte non-classical,11,0.03888888888888889,Monocyte classical
+Monocyte non-classical,12,0.03910614525139665,Monocyte classical
+Monocyte non-classical,13,0.10614525139664804,Monocyte classical
+Monocyte non-classical,14,0.2346368715083799,Monocyte classical
+Monocyte non-classical,15,0.05027932960893855,Monocyte classical
+Monocyte non-classical,16,0.027932960893854747,Monocyte classical
+Monocyte non-classical,17,0.09444444444444444,Monocyte classical
+Monocyte non-classical,18,0.027932960893854747,Monocyte classical
+Monocyte non-classical,19,0.0223463687150838,Monocyte classical
+Monocyte non-classical,20,0.33519553072625696,Monocyte classical
+Monocyte non-classical,21,0.0782122905027933,Monocyte classical
+Monocyte non-classical,22,0.06666666666666667,Monocyte classical
+Monocyte non-classical,23,0.0223463687150838,Monocyte classical
+Monocyte non-classical,24,0.0223463687150838,Monocyte classical
+Monocyte non-classical,25,0.07262569832402235,Monocyte classical
+Monocyte non-classical,26,0.061452513966480445,Monocyte classical
+Monocyte non-classical,27,0.027932960893854747,Monocyte classical
+Monocyte non-classical,28,0.027777777777777776,Monocyte classical
+Monocyte non-classical,29,0.0111731843575419,Monocyte classical
+Monocyte non-classical,30,0.0335195530726257,Monocyte classical
+Monocyte non-classical,31,0.05027932960893855,Monocyte classical
+Monocyte non-classical,32,0.01675977653631285,Monocyte classical
+Monocyte non-classical,33,0.08379888268156424,Monocyte classical
+Monocyte non-classical,34,0.08333333333333333,Monocyte classical
+Monocyte non-classical,35,0.1564245810055866,Monocyte classical
+Monocyte non-classical,36,0.19553072625698323,Monocyte classical
+Monocyte non-classical,37,0.5195530726256983,Monocyte classical
+Monocyte non-classical,38,1.0,Monocyte classical
+Monocyte non-classical,39,1.0,Monocyte classical
+Dendritic cell,0,0.22777777777777777,Monocyte classical
+Dendritic cell,1,0.5363128491620112,Monocyte classical
+Dendritic cell,2,0.2569832402234637,Monocyte classical
+Dendritic cell,3,0.22905027932960895,Monocyte classical
+Dendritic cell,4,0.41899441340782123,Monocyte classical
+Dendritic cell,5,0.46111111111111114,Monocyte classical
+Dendritic cell,6,0.37988826815642457,Monocyte classical
+Dendritic cell,7,0.15083798882681565,Monocyte classical
+Dendritic cell,8,0.0111731843575419,Monocyte classical
+Dendritic cell,9,0.0,Monocyte classical
+Dendritic cell,10,0.0111731843575419,Monocyte classical
+Dendritic cell,11,0.0,Monocyte classical
+Dendritic cell,12,0.0,Monocyte classical
+Dendritic cell,13,0.0,Monocyte classical
+Dendritic cell,14,0.0,Monocyte classical
+Dendritic cell,15,0.0,Monocyte classical
+Dendritic cell,16,0.0,Monocyte classical
+Dendritic cell,17,0.0,Monocyte classical
+Dendritic cell,18,0.0,Monocyte classical
+Dendritic cell,19,0.0,Monocyte classical
+Dendritic cell,20,0.0,Monocyte classical
+Dendritic cell,21,0.0,Monocyte classical
+Dendritic cell,22,0.0,Monocyte classical
+Dendritic cell,23,0.0,Monocyte classical
+Dendritic cell,24,0.0,Monocyte classical
+Dendritic cell,25,0.0,Monocyte classical
+Dendritic cell,26,0.0,Monocyte classical
+Dendritic cell,27,0.0,Monocyte classical
+Dendritic cell,28,0.0,Monocyte classical
+Dendritic cell,29,0.0,Monocyte classical
+Dendritic cell,30,0.0,Monocyte classical
+Dendritic cell,31,0.0,Monocyte classical
+Dendritic cell,32,0.0,Monocyte classical
+Dendritic cell,33,0.0,Monocyte classical
+Dendritic cell,34,0.0,Monocyte classical
+Dendritic cell,35,0.0,Monocyte classical
+Dendritic cell,36,0.0,Monocyte classical
+Dendritic cell,37,0.0,Monocyte classical
+Dendritic cell,38,0.0,Monocyte classical
+Dendritic cell,39,0.0,Monocyte classical
+Monocyte non-classical,0,0.04814814814814815,NK
+Monocyte non-classical,1,0.0,NK
+Monocyte non-classical,2,0.0,NK
+Monocyte non-classical,3,0.0,NK
+Monocyte non-classical,4,0.0,NK
+Monocyte non-classical,5,0.0,NK
+Monocyte non-classical,6,0.0,NK
+Monocyte non-classical,7,0.0,NK
+Monocyte non-classical,8,0.0,NK
+Monocyte non-classical,9,0.0,NK
+Monocyte non-classical,10,0.0,NK
+Monocyte non-classical,11,0.0,NK
+Monocyte non-classical,12,0.0,NK
+Monocyte non-classical,13,0.0,NK
+Monocyte non-classical,14,0.0,NK
+Monocyte non-classical,15,0.0,NK
+Monocyte non-classical,16,0.0,NK
+Monocyte non-classical,17,0.0,NK
+Monocyte non-classical,18,0.0,NK
+Monocyte non-classical,19,0.0,NK
+Monocyte non-classical,20,0.0,NK
+Monocyte non-classical,21,0.0,NK
+Monocyte non-classical,22,0.0,NK
+Monocyte non-classical,23,0.0,NK
+Monocyte non-classical,24,0.0,NK
+Monocyte non-classical,25,0.0,NK
+Monocyte non-classical,26,0.0,NK
+Monocyte non-classical,27,0.0,NK
+Monocyte non-classical,28,0.0,NK
+Monocyte non-classical,29,0.0,NK
+Monocyte non-classical,30,0.0,NK
+Monocyte non-classical,31,0.0,NK
+Monocyte non-classical,32,0.0,NK
+Monocyte non-classical,33,0.0,NK
+Monocyte non-classical,34,0.0,NK
+Monocyte non-classical,35,0.0,NK
+Monocyte non-classical,36,0.0,NK
+Monocyte non-classical,37,0.0,NK
+Monocyte non-classical,38,0.0,NK
+Monocyte non-classical,39,0.0,NK
+CD4 T naive,0,0.19074074074074074,NK
+CD4 T naive,1,0.14074074074074075,NK
+CD4 T naive,2,0.4359925788497217,NK
+CD4 T naive,3,0.5425925925925926,NK
+CD4 T naive,4,0.5351851851851852,NK
+CD4 T naive,5,0.9128014842300557,NK
+CD4 T naive,6,0.8611111111111112,NK
+CD4 T naive,7,0.7959183673469388,NK
+CD4 T naive,8,0.6111111111111112,NK
+CD4 T naive,9,0.7333333333333333,NK
+CD4 T naive,10,0.6697588126159555,NK
+CD4 T naive,11,0.7685185185185185,NK
+CD4 T naive,12,0.7736549165120594,NK
+CD4 T naive,13,0.7351851851851852,NK
+CD4 T naive,14,0.7296296296296296,NK
+CD4 T naive,15,0.862708719851577,NK
+CD4 T naive,16,0.7648148148148148,NK
+CD4 T naive,17,0.8423005565862709,NK
+CD4 T naive,18,0.8111111111111111,NK
+CD4 T naive,19,0.7925925925925926,NK
+CD4 T naive,20,0.8033395176252319,NK
+CD4 T naive,21,0.5925925925925926,NK
+CD4 T naive,22,0.6623376623376623,NK
+CD4 T naive,23,0.7222222222222222,NK
+CD4 T naive,24,0.6907407407407408,NK
+CD4 T naive,25,0.7031539888682746,NK
+CD4 T naive,26,0.6611111111111111,NK
+CD4 T naive,27,0.7829313543599258,NK
+CD4 T naive,28,0.6092592592592593,NK
+CD4 T naive,29,0.10740740740740741,NK
+CD4 T naive,30,0.06679035250463822,NK
+CD4 T naive,31,0.024074074074074074,NK
+CD4 T naive,32,0.012987012987012988,NK
+CD4 T naive,33,0.0,NK
+CD4 T naive,34,0.0,NK
+CD4 T naive,35,0.0,NK
+CD4 T naive,36,0.0,NK
+CD4 T naive,37,0.0,NK
+CD4 T naive,38,0.0,NK
+CD4 T naive,39,0.0,NK
+CD4 T memory,0,0.040740740740740744,NK
+CD4 T memory,1,0.016666666666666666,NK
+CD4 T memory,2,0.016697588126159554,NK
+CD4 T memory,3,0.011111111111111112,NK
+CD4 T memory,4,0.012962962962962963,NK
+CD4 T memory,5,0.012987012987012988,NK
+CD4 T memory,6,0.014814814814814815,NK
+CD4 T memory,7,0.00927643784786642,NK
+CD4 T memory,8,0.024074074074074074,NK
+CD4 T memory,9,0.009259259259259259,NK
+CD4 T memory,10,0.19109461966604824,NK
+CD4 T memory,11,0.15925925925925927,NK
+CD4 T memory,12,0.10760667903525047,NK
+CD4 T memory,13,0.16296296296296298,NK
+CD4 T memory,14,0.1425925925925926,NK
+CD4 T memory,15,0.06679035250463822,NK
+CD4 T memory,16,0.11296296296296296,NK
+CD4 T memory,17,0.09833024118738404,NK
+CD4 T memory,18,0.13518518518518519,NK
+CD4 T memory,19,0.17222222222222222,NK
+CD4 T memory,20,0.1280148423005566,NK
+CD4 T memory,21,0.31296296296296294,NK
+CD4 T memory,22,0.23376623376623376,NK
+CD4 T memory,23,0.24444444444444444,NK
+CD4 T memory,24,0.2814814814814815,NK
+CD4 T memory,25,0.27087198515769945,NK
+CD4 T memory,26,0.2796296296296296,NK
+CD4 T memory,27,0.14842300556586271,NK
+CD4 T memory,28,0.2518518518518518,NK
+CD4 T memory,29,0.5685185185185185,NK
+CD4 T memory,30,0.40630797773654914,NK
+CD4 T memory,31,0.31666666666666665,NK
+CD4 T memory,32,0.06493506493506493,NK
+CD4 T memory,33,0.001851851851851852,NK
+CD4 T memory,34,0.0,NK
+CD4 T memory,35,0.0,NK
+CD4 T memory,36,0.0,NK
+CD4 T memory,37,0.0,NK
+CD4 T memory,38,0.0,NK
+CD4 T memory,39,0.0,NK
+T activated,0,0.005555555555555556,NK
+T activated,1,0.005555555555555556,NK
+T activated,2,0.0055658627087198514,NK
+T activated,3,0.003703703703703704,NK
+T activated,4,0.005555555555555556,NK
+T activated,5,0.0018552875695732839,NK
+T activated,6,0.0,NK
+T activated,7,0.00927643784786642,NK
+T activated,8,0.016666666666666666,NK
+T activated,9,0.027777777777777776,NK
+T activated,10,0.014842300556586271,NK
+T activated,11,0.018518518518518517,NK
+T activated,12,0.022263450834879406,NK
+T activated,13,0.016666666666666666,NK
+T activated,14,0.05,NK
+T activated,15,0.012987012987012988,NK
+T activated,16,0.016666666666666666,NK
+T activated,17,0.014842300556586271,NK
+T activated,18,0.005555555555555556,NK
+T activated,19,0.007407407407407408,NK
+T activated,20,0.011131725417439703,NK
+T activated,21,0.007407407407407408,NK
+T activated,22,0.03710575139146568,NK
+T activated,23,0.020370370370370372,NK
+T activated,24,0.007407407407407408,NK
+T activated,25,0.014842300556586271,NK
+T activated,26,0.024074074074074074,NK
+T activated,27,0.05380333951762523,NK
+T activated,28,0.04814814814814815,NK
+T activated,29,0.19814814814814816,NK
+T activated,30,0.16512059369202226,NK
+T activated,31,0.16296296296296298,NK
+T activated,32,0.0686456400742115,NK
+T activated,33,0.0,NK
+T activated,34,0.0,NK
+T activated,35,0.0,NK
+T activated,36,0.0,NK
+T activated,37,0.0,NK
+T activated,38,0.0,NK
+T activated,39,0.0,NK
+CD8 T memory,0,0.55,NK
+CD8 T memory,1,0.8148148148148148,NK
+CD8 T memory,2,0.5287569573283859,NK
+CD8 T memory,3,0.43703703703703706,NK
+CD8 T memory,4,0.4425925925925926,NK
+CD8 T memory,5,0.07235621521335807,NK
+CD8 T memory,6,0.12222222222222222,NK
+CD8 T memory,7,0.17996289424860853,NK
+CD8 T memory,8,0.34074074074074073,NK
+CD8 T memory,9,0.21666666666666667,NK
+CD8 T memory,10,0.10204081632653061,NK
+CD8 T memory,11,0.044444444444444446,NK
+CD8 T memory,12,0.08163265306122448,NK
+CD8 T memory,13,0.07037037037037037,NK
+CD8 T memory,14,0.06851851851851852,NK
+CD8 T memory,15,0.05380333951762523,NK
+CD8 T memory,16,0.0962962962962963,NK
+CD8 T memory,17,0.03896103896103896,NK
+CD8 T memory,18,0.044444444444444446,NK
+CD8 T memory,19,0.022222222222222223,NK
+CD8 T memory,20,0.05009276437847866,NK
+CD8 T memory,21,0.07592592592592592,NK
+CD8 T memory,22,0.06493506493506493,NK
+CD8 T memory,23,0.009259259259259259,NK
+CD8 T memory,24,0.016666666666666666,NK
+CD8 T memory,25,0.011131725417439703,NK
+CD8 T memory,26,0.03148148148148148,NK
+CD8 T memory,27,0.00927643784786642,NK
+CD8 T memory,28,0.06296296296296296,NK
+CD8 T memory,29,0.08333333333333333,NK
+CD8 T memory,30,0.24860853432282004,NK
+CD8 T memory,31,0.31666666666666665,NK
+CD8 T memory,32,0.20408163265306123,NK
+CD8 T memory,33,0.003703703703703704,NK
+CD8 T memory,34,0.0,NK
+CD8 T memory,35,0.0,NK
+CD8 T memory,36,0.0,NK
+CD8 T memory,37,0.0,NK
+CD8 T memory,38,0.0,NK
+CD8 T memory,39,0.0,NK
+CD8 T cytotoxic,0,0.040740740740740744,NK
+CD8 T cytotoxic,1,0.018518518518518517,NK
+CD8 T cytotoxic,2,0.011131725417439703,NK
+CD8 T cytotoxic,3,0.005555555555555556,NK
+CD8 T cytotoxic,4,0.003703703703703704,NK
+CD8 T cytotoxic,5,0.0,NK
+CD8 T cytotoxic,6,0.001851851851851852,NK
+CD8 T cytotoxic,7,0.0055658627087198514,NK
+CD8 T cytotoxic,8,0.007407407407407408,NK
+CD8 T cytotoxic,9,0.012962962962962963,NK
+CD8 T cytotoxic,10,0.02040816326530612,NK
+CD8 T cytotoxic,11,0.007407407407407408,NK
+CD8 T cytotoxic,12,0.014842300556586271,NK
+CD8 T cytotoxic,13,0.014814814814814815,NK
+CD8 T cytotoxic,14,0.009259259259259259,NK
+CD8 T cytotoxic,15,0.0037105751391465678,NK
+CD8 T cytotoxic,16,0.009259259259259259,NK
+CD8 T cytotoxic,17,0.0055658627087198514,NK
+CD8 T cytotoxic,18,0.003703703703703704,NK
+CD8 T cytotoxic,19,0.005555555555555556,NK
+CD8 T cytotoxic,20,0.0074211502782931356,NK
+CD8 T cytotoxic,21,0.011111111111111112,NK
+CD8 T cytotoxic,22,0.0018552875695732839,NK
+CD8 T cytotoxic,23,0.003703703703703704,NK
+CD8 T cytotoxic,24,0.003703703703703704,NK
+CD8 T cytotoxic,25,0.0,NK
+CD8 T cytotoxic,26,0.003703703703703704,NK
+CD8 T cytotoxic,27,0.0055658627087198514,NK
+CD8 T cytotoxic,28,0.027777777777777776,NK
+CD8 T cytotoxic,29,0.04259259259259259,NK
+CD8 T cytotoxic,30,0.11131725417439703,NK
+CD8 T cytotoxic,31,0.17407407407407408,NK
+CD8 T cytotoxic,32,0.62708719851577,NK
+CD8 T cytotoxic,33,0.8888888888888888,NK
+CD8 T cytotoxic,34,0.8333333333333334,NK
+CD8 T cytotoxic,35,0.8515769944341373,NK
+CD8 T cytotoxic,36,0.4722222222222222,NK
+CD8 T cytotoxic,37,0.0074211502782931356,NK
+CD8 T cytotoxic,38,0.0,NK
+CD8 T cytotoxic,39,0.0,NK
+NK,0,0.011111111111111112,NK
+NK,1,0.001851851851851852,NK
+NK,2,0.0018552875695732839,NK
+NK,3,0.0,NK
+NK,4,0.0,NK
+NK,5,0.0,NK
+NK,6,0.0,NK
+NK,7,0.0,NK
+NK,8,0.0,NK
+NK,9,0.0,NK
+NK,10,0.0018552875695732839,NK
+NK,11,0.001851851851851852,NK
+NK,12,0.0,NK
+NK,13,0.0,NK
+NK,14,0.0,NK
+NK,15,0.0,NK
+NK,16,0.0,NK
+NK,17,0.0,NK
+NK,18,0.0,NK
+NK,19,0.0,NK
+NK,20,0.0,NK
+NK,21,0.0,NK
+NK,22,0.0,NK
+NK,23,0.0,NK
+NK,24,0.0,NK
+NK,25,0.0,NK
+NK,26,0.0,NK
+NK,27,0.0,NK
+NK,28,0.0,NK
+NK,29,0.0,NK
+NK,30,0.0018552875695732839,NK
+NK,31,0.005555555555555556,NK
+NK,32,0.022263450834879406,NK
+NK,33,0.10555555555555556,NK
+NK,34,0.16666666666666666,NK
+NK,35,0.14842300556586271,NK
+NK,36,0.5277777777777778,NK
+NK,37,0.9925788497217068,NK
+NK,38,1.0,NK
+NK,39,1.0,NK
+T proliferating,0,0.08703703703703704,NK
+T proliferating,1,0.0,NK
+T proliferating,2,0.0,NK
+T proliferating,3,0.0,NK
+T proliferating,4,0.0,NK
+T proliferating,5,0.0,NK
+T proliferating,6,0.0,NK
+T proliferating,7,0.0,NK
+T proliferating,8,0.0,NK
+T proliferating,9,0.0,NK
+T proliferating,10,0.0,NK
+T proliferating,11,0.0,NK
+T proliferating,12,0.0,NK
+T proliferating,13,0.0,NK
+T proliferating,14,0.0,NK
+T proliferating,15,0.0,NK
+T proliferating,16,0.0,NK
+T proliferating,17,0.0,NK
+T proliferating,18,0.0,NK
+T proliferating,19,0.0,NK
+T proliferating,20,0.0,NK
+T proliferating,21,0.0,NK
+T proliferating,22,0.0,NK
+T proliferating,23,0.0,NK
+T proliferating,24,0.0,NK
+T proliferating,25,0.0,NK
+T proliferating,26,0.0,NK
+T proliferating,27,0.0,NK
+T proliferating,28,0.0,NK
+T proliferating,29,0.0,NK
+T proliferating,30,0.0,NK
+T proliferating,31,0.0,NK
+T proliferating,32,0.0,NK
+T proliferating,33,0.0,NK
+T proliferating,34,0.0,NK
+T proliferating,35,0.0,NK
+T proliferating,36,0.0,NK
+T proliferating,37,0.0,NK
+T proliferating,38,0.0,NK
+T proliferating,39,0.0,NK

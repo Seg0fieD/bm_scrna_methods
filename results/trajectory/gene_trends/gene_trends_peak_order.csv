@@ -1,0 +1,211 @@
+lineage,gene,peak_bin
+Plasmacytoid DC,CCDC50,1
+Plasmacytoid DC,PROC,6
+Plasmacytoid DC,SCN9A,9
+Plasmacytoid DC,UGCG,12
+Plasmacytoid DC,JCHAIN,19
+Plasmacytoid DC,TPM2,23
+Plasmacytoid DC,ASIP,26
+Plasmacytoid DC,AC119428.2,26
+Plasmacytoid DC,LRRC26,28
+Plasmacytoid DC,IL3RA,30
+Plasmacytoid DC,MAP1A,30
+Plasmacytoid DC,LILRA4,31
+Plasmacytoid DC,GAS6,32
+Plasmacytoid DC,SCAMP5,32
+Plasmacytoid DC,SCT,33
+Plasmacytoid DC,SMPD3,33
+Plasmacytoid DC,DERL3,33
+Plasmacytoid DC,SERPINF1,34
+Plasmacytoid DC,ITM2C,34
+Plasmacytoid DC,PLD4,35
+Plasmacytoid DC,PTCRA,35
+Plasmacytoid DC,APP,35
+Plasmacytoid DC,CLEC4C,36
+Plasmacytoid DC,IRF7,36
+Plasmacytoid DC,PPP1R14B,37
+Plasmacytoid DC,LILRB4,37
+Plasmacytoid DC,IRF8,37
+Plasmacytoid DC,TCF4,38
+Plasmacytoid DC,SHD,39
+Plasmacytoid DC,AC097375.1,39
+Pre-B large,UHRF1,2
+Pre-B large,CDCA7,5
+Pre-B large,DNTT,5
+Pre-B large,PHGDH,12
+Pre-B large,VPREB1,22
+Pre-B large,CDCA5,22
+Pre-B large,ASF1B,31
+Pre-B large,IGLL1,32
+Pre-B large,TYMS,32
+Pre-B large,PCLAF,32
+Pre-B large,PCNA,32
+Pre-B large,CLSPN,32
+Pre-B large,RRM2,32
+Pre-B large,SPC25,32
+Pre-B large,AURKB,34
+Pre-B large,ZWINT,34
+Pre-B large,FAM111B,34
+Pre-B large,SOX4,34
+Pre-B large,STMN1,35
+Pre-B large,PIMREG,37
+Pre-B large,NUSAP1,38
+Pre-B large,TUBB,38
+Pre-B large,TUBA1B,38
+Pre-B large,MKI67,39
+Pre-B large,TOP2A,39
+Pre-B large,UBE2C,39
+Pre-B large,CD24,39
+Pre-B large,SMC4,39
+Pre-B large,CENPF,39
+Pre-B large,BIRC5,39
+Erythroid late,PCLAF,2
+Erythroid late,APOC1,4
+Erythroid late,SYNGR1,5
+Erythroid late,EPCAM,6
+Erythroid late,FECH,7
+Erythroid late,TUBB,8
+Erythroid late,HMBS,9
+Erythroid late,GATA1,11
+Erythroid late,CA2,12
+Erythroid late,AKR1C3,12
+Erythroid late,KCNH2,16
+Erythroid late,HBQ1,22
+Erythroid late,CKS2,22
+Erythroid late,MYL4,24
+Erythroid late,UROD,25
+Erythroid late,TUBA1B,26
+Erythroid late,KLF1,29
+Erythroid late,PRDX2,31
+Erythroid late,SMIM1,32
+Erythroid late,CA1,34
+Erythroid late,GYPA,34
+Erythroid late,FAM178B,35
+Erythroid late,BLVRB,37
+Erythroid late,AHSP,39
+Erythroid late,HBB,39
+Erythroid late,HBA1,39
+Erythroid late,HBD,39
+Erythroid late,HBA2,39
+Erythroid late,ALAS2,39
+Erythroid late,HBM,39
+Erythroid early,APOC1,1
+Erythroid early,CNRIP1,1
+Erythroid early,TFR2,5
+Erythroid early,FAM178B,16
+Erythroid early,PKLR,16
+Erythroid early,EPCAM,17
+Erythroid early,HBQ1,21
+Erythroid early,KCNH2,24
+Erythroid early,HBD,30
+Erythroid early,GATA1,31
+Erythroid early,ANK1,31
+Erythroid early,AHSP,33
+Erythroid early,CA1,33
+Erythroid early,GYPA,33
+Erythroid early,TMEM56,33
+Erythroid early,HBB,33
+Erythroid early,SMIM1,33
+Erythroid early,HBA1,33
+Erythroid early,KLF1,35
+Erythroid early,HMBS,36
+Erythroid early,BLVRB,36
+Erythroid early,SPTA1,37
+Erythroid early,GFI1B,37
+Erythroid early,NFIA,38
+Erythroid early,FECH,38
+Erythroid early,RHAG,39
+Erythroid early,CA2,39
+Erythroid early,ALAS2,39
+Erythroid early,MYL4,39
+Erythroid early,EPB42,39
+B naive,CD79B,0
+B naive,VPREB3,0
+B naive,HLA-DMA,0
+B naive,IGLC3,18
+B naive,RALGPS2,23
+B naive,FCER2,28
+B naive,MEF2C,28
+B naive,ADAM28,30
+B naive,TNFRSF13C,32
+B naive,MS4A1,33
+B naive,BANK1,33
+B naive,HLA-DPB1,35
+B naive,HLA-DQA1,35
+B naive,CD22,35
+B naive,CD79A,36
+B naive,HLA-DQB1,36
+B naive,LINC00926,36
+B naive,IGHD,37
+B naive,CD74,37
+B naive,HLA-DRA,37
+B naive,IGKC,37
+B naive,HLA-DPA1,37
+B naive,HLA-DRB1,37
+B naive,CD37,37
+B naive,HLA-DMB,37
+B naive,IGHM,38
+B naive,TCL1A,39
+B naive,IGLC2,39
+B naive,FAM129C,39
+B naive,P2RX5,39
+Monocyte classical,LYZ,3
+Monocyte classical,LGALS1,9
+Monocyte classical,AC020656.1,10
+Monocyte classical,S100A9,16
+Monocyte classical,S100A8,16
+Monocyte classical,CSTA,16
+Monocyte classical,S100A12,18
+Monocyte classical,VCAN,24
+Monocyte classical,S100A6,24
+Monocyte classical,MNDA,25
+Monocyte classical,FCN1,30
+Monocyte classical,TYROBP,30
+Monocyte classical,CD14,30
+Monocyte classical,MS4A6A,30
+Monocyte classical,SRGN,33
+Monocyte classical,CLEC7A,35
+Monocyte classical,NAMPT,36
+Monocyte classical,NEAT1,36
+Monocyte classical,CST3,37
+Monocyte classical,FTL,37
+Monocyte classical,LST1,39
+Monocyte classical,AIF1,39
+Monocyte classical,CFD,39
+Monocyte classical,TYMP,39
+Monocyte classical,S100A11,39
+Monocyte classical,FCER1G,39
+Monocyte classical,SERPINA1,39
+Monocyte classical,CTSS,39
+Monocyte classical,PSAP,39
+Monocyte classical,SPI1,39
+NK,RPS29,5
+NK,RPS27,5
+NK,RPL31,11
+NK,CD3E,17
+NK,TRBC2,18
+NK,CD3D,21
+NK,IL7R,21
+NK,SARAF,23
+NK,TRAC,25
+NK,LEPROTL1,26
+NK,MALAT1,32
+NK,IL32,34
+NK,CD3G,34
+NK,CD2,34
+NK,CCL5,35
+NK,CD7,39
+NK,B2M,39
+NK,TRBC1,39
+NK,GZMM,39
+NK,HLA-C,39
+NK,NKG7,39
+NK,CTSW,39
+NK,LCK,39
+NK,HLA-A,39
+NK,CST7,39
+NK,GZMA,39
+NK,CD247,39
+NK,RARRES3,39
+NK,KLRB1,39
+NK,EVL,39

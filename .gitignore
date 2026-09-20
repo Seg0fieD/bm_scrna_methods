@@ -9,13 +9,11 @@ data/processed/*
 *.mtx
 *.npz
 *.pt
+*.npy
 !data/processed/bm_annotated.h5ad
 
+results/benchmark/emb_cnmf/cnmf/
 
-figures/*
-!figures/.gitkeep
-results/*
-!results/.gitkeep
 
 
 envs/*.tar.gz
@@ -31,4 +29,3 @@ notebooks/dimensionality_reduction_benchmark.ipynb
 docs/*
 !docs/.gitkeep
 
-src/cell_cell_communication/_.py

@@ -1,0 +1,9 @@
+state,Monocyte classical,Plasmacytoid DC,Erythroid early,Erythroid late,Platelet,Pre-B large,B naive,NK
+Platelet,0,0,0,0,30,0,0,0
+Plasmacytoid DC,0,30,0,0,0,0,0,0
+Pre-B large,0,0,0,0,0,30,0,0
+Erythroid late,0,0,0,30,0,0,0,0
+Erythroid early,0,0,30,0,0,0,0,0
+B naive,0,0,0,0,0,0,30,0
+Monocyte classical,30,0,0,0,0,0,0,0
+NK,0,0,0,0,0,0,0,30

@@ -1,0 +1,20 @@
+,cells
+HSPC,973
+Granulocyte precursor,926
+Monocyte classical,5030
+Monocyte non-classical,901
+Dendritic cell,497
+Plasmacytoid DC,330
+Erythroid early,1151
+Erythroid late,597
+Platelet,103
+Pre-B large,334
+Pre-B small,1025
+B naive,5018
+CD4 T naive,10765
+CD4 T memory,2713
+T activated,583
+CD8 T memory,2977
+CD8 T cytotoxic,2307
+NK,2153
+T proliferating,47

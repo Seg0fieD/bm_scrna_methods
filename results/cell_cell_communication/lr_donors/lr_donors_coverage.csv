@@ -1,0 +1,153 @@
+donor,cell_type,cells,testable
+MantonBM1,HSPC,105,True
+MantonBM1,Granulocyte precursor,126,True
+MantonBM1,Monocyte classical,366,True
+MantonBM1,Monocyte non-classical,32,True
+MantonBM1,Dendritic cell,33,True
+MantonBM1,Plasmacytoid DC,26,True
+MantonBM1,Erythroid early,121,True
+MantonBM1,Erythroid late,106,True
+MantonBM1,Platelet,18,True
+MantonBM1,Pre-B large,85,True
+MantonBM1,Pre-B small,267,True
+MantonBM1,B naive,648,True
+MantonBM1,CD4 T naive,1600,True
+MantonBM1,CD4 T memory,368,True
+MantonBM1,T activated,0,False
+MantonBM1,CD8 T memory,444,True
+MantonBM1,CD8 T cytotoxic,83,True
+MantonBM1,NK,121,True
+MantonBM1,T proliferating,4,False
+MantonBM2,HSPC,26,True
+MantonBM2,Granulocyte precursor,29,True
+MantonBM2,Monocyte classical,385,True
+MantonBM2,Monocyte non-classical,118,True
+MantonBM2,Dendritic cell,14,True
+MantonBM2,Plasmacytoid DC,19,True
+MantonBM2,Erythroid early,54,True
+MantonBM2,Erythroid late,34,True
+MantonBM2,Platelet,22,True
+MantonBM2,Pre-B large,33,True
+MantonBM2,Pre-B small,140,True
+MantonBM2,B naive,1318,True
+MantonBM2,CD4 T naive,869,True
+MantonBM2,CD4 T memory,640,True
+MantonBM2,T activated,1,False
+MantonBM2,CD8 T memory,221,True
+MantonBM2,CD8 T cytotoxic,484,True
+MantonBM2,NK,666,True
+MantonBM2,T proliferating,0,False
+MantonBM3,HSPC,79,True
+MantonBM3,Granulocyte precursor,120,True
+MantonBM3,Monocyte classical,616,True
+MantonBM3,Monocyte non-classical,401,True
+MantonBM3,Dendritic cell,92,True
+MantonBM3,Plasmacytoid DC,41,True
+MantonBM3,Erythroid early,57,True
+MantonBM3,Erythroid late,24,True
+MantonBM3,Platelet,17,True
+MantonBM3,Pre-B large,5,False
+MantonBM3,Pre-B small,15,True
+MantonBM3,B naive,313,True
+MantonBM3,CD4 T naive,997,True
+MantonBM3,CD4 T memory,124,True
+MantonBM3,T activated,532,True
+MantonBM3,CD8 T memory,208,True
+MantonBM3,CD8 T cytotoxic,816,True
+MantonBM3,NK,80,True
+MantonBM3,T proliferating,5,False
+MantonBM4,HSPC,184,True
+MantonBM4,Granulocyte precursor,148,True
+MantonBM4,Monocyte classical,1070,True
+MantonBM4,Monocyte non-classical,138,True
+MantonBM4,Dendritic cell,91,True
+MantonBM4,Plasmacytoid DC,83,True
+MantonBM4,Erythroid early,172,True
+MantonBM4,Erythroid late,87,True
+MantonBM4,Platelet,4,False
+MantonBM4,Pre-B large,67,True
+MantonBM4,Pre-B small,139,True
+MantonBM4,B naive,491,True
+MantonBM4,CD4 T naive,761,True
+MantonBM4,CD4 T memory,274,True
+MantonBM4,T activated,0,False
+MantonBM4,CD8 T memory,372,True
+MantonBM4,CD8 T cytotoxic,120,True
+MantonBM4,NK,471,True
+MantonBM4,T proliferating,22,True
+MantonBM5,HSPC,176,True
+MantonBM5,Granulocyte precursor,211,True
+MantonBM5,Monocyte classical,842,True
+MantonBM5,Monocyte non-classical,81,True
+MantonBM5,Dendritic cell,70,True
+MantonBM5,Plasmacytoid DC,37,True
+MantonBM5,Erythroid early,407,True
+MantonBM5,Erythroid late,146,True
+MantonBM5,Platelet,6,False
+MantonBM5,Pre-B large,7,False
+MantonBM5,Pre-B small,30,True
+MantonBM5,B naive,726,True
+MantonBM5,CD4 T naive,1147,True
+MantonBM5,CD4 T memory,256,True
+MantonBM5,T activated,17,True
+MantonBM5,CD8 T memory,228,True
+MantonBM5,CD8 T cytotoxic,139,True
+MantonBM5,NK,54,True
+MantonBM5,T proliferating,2,False
+MantonBM6,HSPC,138,True
+MantonBM6,Granulocyte precursor,116,True
+MantonBM6,Monocyte classical,656,True
+MantonBM6,Monocyte non-classical,18,True
+MantonBM6,Dendritic cell,59,True
+MantonBM6,Plasmacytoid DC,35,True
+MantonBM6,Erythroid early,151,True
+MantonBM6,Erythroid late,71,True
+MantonBM6,Platelet,14,True
+MantonBM6,Pre-B large,20,True
+MantonBM6,Pre-B small,89,True
+MantonBM6,B naive,457,True
+MantonBM6,CD4 T naive,2022,True
+MantonBM6,CD4 T memory,178,True
+MantonBM6,T activated,2,False
+MantonBM6,CD8 T memory,436,True
+MantonBM6,CD8 T cytotoxic,181,True
+MantonBM6,NK,270,True
+MantonBM6,T proliferating,4,False
+MantonBM7,HSPC,90,True
+MantonBM7,Granulocyte precursor,39,True
+MantonBM7,Monocyte classical,386,True
+MantonBM7,Monocyte non-classical,77,True
+MantonBM7,Dendritic cell,55,True
+MantonBM7,Plasmacytoid DC,50,True
+MantonBM7,Erythroid early,73,True
+MantonBM7,Erythroid late,71,True
+MantonBM7,Platelet,14,True
+MantonBM7,Pre-B large,87,True
+MantonBM7,Pre-B small,265,True
+MantonBM7,B naive,591,True
+MantonBM7,CD4 T naive,1871,True
+MantonBM7,CD4 T memory,310,True
+MantonBM7,T activated,1,False
+MantonBM7,CD8 T memory,372,True
+MantonBM7,CD8 T cytotoxic,283,True
+MantonBM7,NK,403,True
+MantonBM7,T proliferating,0,False
+MantonBM8,HSPC,175,True
+MantonBM8,Granulocyte precursor,137,True
+MantonBM8,Monocyte classical,709,True
+MantonBM8,Monocyte non-classical,36,True
+MantonBM8,Dendritic cell,83,True
+MantonBM8,Plasmacytoid DC,39,True
+MantonBM8,Erythroid early,116,True
+MantonBM8,Erythroid late,58,True
+MantonBM8,Platelet,8,False
+MantonBM8,Pre-B large,30,True
+MantonBM8,Pre-B small,80,True
+MantonBM8,B naive,474,True
+MantonBM8,CD4 T naive,1498,True
+MantonBM8,CD4 T memory,563,True
+MantonBM8,T activated,30,True
+MantonBM8,CD8 T memory,696,True
+MantonBM8,CD8 T cytotoxic,201,True
+MantonBM8,NK,88,True
+MantonBM8,T proliferating,10,True

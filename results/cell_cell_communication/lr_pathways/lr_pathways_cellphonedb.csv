@@ -1,0 +1,32 @@
+library,pathway,set_size,source,target,ligand_complex,receptor_complex,magnitude_rank,specificity_rank,significant
+KEGG_2021_Human,Chemokine signaling pathway,192,Platelet,T proliferating,PF4,CXCR3,0.0020858047505991,3.632796261353096e-07,True
+KEGG_2021_Human,Cytokine-cytokine receptor interaction,295,Platelet,T proliferating,PF4,CXCR3,0.0020858047505991,3.632796261353096e-07,True
+KEGG_2021_Human,Viral protein interaction with cytokine and cytokine receptor,100,Platelet,T proliferating,PF4,CXCR3,0.0020858047505991,3.632796261353096e-07,True
+KEGG_2021_Human,Coronavirus disease,232,B naive,Monocyte non-classical,RPS19,C5AR1,0.0040074165534288,0.0465460963517994,True
+KEGG_2021_Human,Coronavirus disease,232,CD4 T naive,Monocyte non-classical,RPS19,C5AR1,0.0049004033919897,0.0470585840870223,True
+KEGG_2021_Human,Chemokine signaling pathway,192,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0137896935285451,2.486958806023948e-06,True
+KEGG_2021_Human,Cytokine-cytokine receptor interaction,295,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0137896935285451,2.486958806023948e-06,True
+KEGG_2021_Human,Viral protein interaction with cytokine and cytokine receptor,100,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0137896935285451,2.486958806023948e-06,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,0.0214000653515241,0.0094751353229577,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,0.0214000653515241,0.0094751353229577,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,0.0248927625734493,0.0167742660326403,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,0.0248927625734493,0.0167742660326403,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Dendritic cell,Dendritic cell,TNFSF13B,HLA-DPB1,0.0262015715041965,0.024808787154437,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Dendritic cell,Dendritic cell,TNFSF13B,HLA-DPB1,0.0262015715041965,0.024808787154437,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Monocyte non-classical,Dendritic cell,TNFSF13B,HLA-DPB1,0.0270023012631478,0.0328763455448358,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Monocyte non-classical,Dendritic cell,TNFSF13B,HLA-DPB1,0.0270023012631478,0.0328763455448358,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Monocyte classical,B naive,TNFSF13B,HLA-DPB1,0.0433700189442557,0.0270151427099537,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Monocyte classical,B naive,TNFSF13B,HLA-DPB1,0.0433700189442557,0.0270151427099537,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Granulocyte precursor,B naive,TNFSF13B,HLA-DPB1,0.0499954166107133,0.0452804247293796,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Granulocyte precursor,B naive,TNFSF13B,HLA-DPB1,0.0499954166107133,0.0452804247293796,True
+Reactome_Pathways_2024,Chemokine Receptors Bind Chemokines,57,Platelet,T proliferating,PF4,CXCR3,0.0020858047505991,3.632796261353096e-07,True
+Reactome_Pathways_2024,Class A 1 (Rhodopsin-like Receptors),333,Platelet,T proliferating,PF4,CXCR3,0.0020858047505991,3.632796261353096e-07,True
+Reactome_Pathways_2024,G Alpha (I) Signalling Events,316,Platelet,T proliferating,PF4,CXCR3,0.0020858047505991,3.632796261353096e-07,True
+Reactome_Pathways_2024,GPCR Ligand Binding,467,Platelet,T proliferating,PF4,CXCR3,0.0020858047505991,3.632796261353096e-07,True
+Reactome_Pathways_2024,Peptide Ligand-Binding Receptors,198,Platelet,T proliferating,PF4,CXCR3,0.0020858047505991,3.632796261353096e-07,True
+Reactome_Pathways_2024,Chemokine Receptors Bind Chemokines,57,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0137896935285451,2.486958806023948e-06,True
+Reactome_Pathways_2024,Class A 1 (Rhodopsin-like Receptors),333,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0137896935285451,2.486958806023948e-06,True
+Reactome_Pathways_2024,G Alpha (I) Signalling Events,316,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0137896935285451,2.486958806023948e-06,True
+Reactome_Pathways_2024,GPCR Ligand Binding,467,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0137896935285451,2.486958806023948e-06,True
+Reactome_Pathways_2024,Peptide Ligand-Binding Receptors,198,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0137896935285451,2.486958806023948e-06,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,NK,CLEC2D,KLRB1,0.0443865304794666,0.0034055810528448,True

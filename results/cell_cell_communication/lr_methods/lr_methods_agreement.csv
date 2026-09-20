@@ -1,0 +1,15 @@
+resource,method,spearman_magnitude,shared_top100_magnitude,spearman_specificity,shared_top100_specificity
+consensus,CellPhoneDB magnitude,0.5717702352845215,61,0.3110592667126017,7
+consensus,NATMI magnitude,0.5540728218315785,81,0.3125213320789078,4
+consensus,SingleCellSignalR magnitude,0.5540728271908016,81,0.3125213821553669,4
+consensus,CellPhoneDB specificity,0.14995731908094684,83,0.7484113846249719,4
+consensus,NATMI specificity,0.1477357053604143,0,0.8480739668845082,36
+consensus,Connectome specificity,0.23071666340184396,0,0.8912360171995156,48
+consensus,log2FC specificity,0.23328152609515154,21,0.8830512690224155,26
+cellphonedb,CellPhoneDB magnitude,0.5700251921559986,74,0.32381153379106065,6
+cellphonedb,NATMI magnitude,0.5527924549252935,66,0.3351756862390527,5
+cellphonedb,SingleCellSignalR magnitude,0.5527924220171581,66,0.3351756862161736,5
+cellphonedb,CellPhoneDB specificity,0.20965263637919018,77,0.7387331091478238,5
+cellphonedb,NATMI specificity,0.12141775331735638,2,0.8413740073137014,47
+cellphonedb,Connectome specificity,0.29294744108877246,8,0.8845335668959367,55
+cellphonedb,log2FC specificity,0.22760109044893292,18,0.87982308391072,48

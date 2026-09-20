@@ -1,0 +1,20 @@
+cell_type,compartment,sent,received,self,sent_to_developing,sent_to_finished
+Monocyte classical,finished,55,13,7,6,49
+Granulocyte precursor,developing,32,0,0,5,27
+NK,finished,14,47,4,0,14
+CD8 T cytotoxic,finished,13,5,0,0,13
+Plasmacytoid DC,finished,12,13,1,3,9
+CD8 T memory,finished,11,10,0,0,11
+T proliferating,finished,10,25,3,0,10
+Dendritic cell,finished,8,19,1,0,8
+Pre-B large,developing,7,2,1,2,5
+CD4 T memory,finished,6,2,0,0,6
+Platelet,finished,6,7,0,0,6
+Monocyte non-classical,finished,5,26,1,0,5
+Pre-B small,developing,4,4,0,0,4
+T activated,finished,4,6,0,0,4
+B naive,finished,3,4,0,0,3
+CD4 T naive,finished,3,1,0,0,3
+Erythroid early,developing,2,6,1,1,1
+HSPC,developing,0,1,0,0,0
+Erythroid late,developing,0,4,0,0,0

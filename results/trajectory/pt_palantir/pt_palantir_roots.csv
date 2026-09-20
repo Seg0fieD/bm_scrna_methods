@@ -1,0 +1,5 @@
+run,root,cell_type
+diffmap_pca_marker,TTGCCGTAGCTACCTA-1-MantonBM6,HSPC
+diffmap_pca_diffusion,CAGAATCGTACATCCA-1-MantonBM5,HSPC
+diffmap_scvi_marker,TTGCCGTAGCTACCTA-1-MantonBM6,HSPC
+diffmap_scvi_diffusion,GACTGCGGTGAAAGAG-1-MantonBM8,HSPC

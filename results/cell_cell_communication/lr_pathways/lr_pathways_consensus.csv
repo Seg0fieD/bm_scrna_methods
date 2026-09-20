@@ -1,0 +1,743 @@
+library,pathway,set_size,source,target,ligand_complex,receptor_complex,magnitude_rank,specificity_rank,significant
+KEGG_2021_Human,Antigen processing and presentation,78,NK,NK,B2M,KLRD1,3.3306343865505135e-08,0.0114237864142464,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T cytotoxic,NK,B2M,KLRD1,2.997327557473985e-07,0.0128695647201432,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T memory,NK,B2M,KLRD1,5.328366614628256e-07,0.0138280327021835,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD4 T memory,NK,B2M,KLRD1,1.1987851321402158e-06,0.0170061161268332,True
+KEGG_2021_Human,Antigen processing and presentation,78,T proliferating,NK,B2M,KLRD1,1.6316136463023807e-06,0.0172951970237182,True
+KEGG_2021_Human,Antigen processing and presentation,78,Monocyte non-classical,NK,B2M,KLRD1,2.131000830463268e-06,0.0206213448157231,True
+KEGG_2021_Human,Antigen processing and presentation,78,Plasmacytoid DC,NK,B2M,KLRD1,5.626032710486872e-06,0.0230872569742428,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD4 T naive,NK,B2M,KLRD1,1.201481221708865e-05,0.0262262377440225,True
+KEGG_2021_Human,Antigen processing and presentation,78,Platelet,NK,B2M,KLRD1,1.6106540129232367e-05,0.0278537075273307,True
+KEGG_2021_Human,Antigen processing and presentation,78,Monocyte classical,NK,B2M,KLRD1,1.760333536208794e-05,0.0286911433157594,True
+KEGG_2021_Human,Antigen processing and presentation,78,T activated,NK,B2M,KLRD1,2.079620169890588e-05,0.0292990806220669,True
+KEGG_2021_Human,Antigen processing and presentation,78,Pre-B small,NK,B2M,KLRD1,2.994045013362976e-05,0.0309604200085388,True
+KEGG_2021_Human,Antigen processing and presentation,78,Dendritic cell,NK,B2M,KLRD1,3.622353566181191e-05,0.031598615580553,True
+KEGG_2021_Human,Antigen processing and presentation,78,B naive,NK,B2M,KLRD1,4.074400396214294e-05,0.0330762004491165,True
+KEGG_2021_Human,Antigen processing and presentation,78,Pre-B large,NK,B2M,KLRD1,0.0001867858721397,0.0490672045847317,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T cytotoxic,NK,HLA-B,KLRD1,0.000234218426131,0.0080486630435061,True
+KEGG_2021_Human,Graft-versus-host disease,42,CD8 T cytotoxic,NK,HLA-B,KLRD1,0.000234218426131,0.0080486630435061,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,CD8 T cytotoxic,NK,HLA-B,KLRD1,0.000234218426131,0.0080486630435061,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T memory,NK,HLA-B,KLRD1,0.0002994437633562,0.008889744564774,True
+KEGG_2021_Human,Graft-versus-host disease,42,CD8 T memory,NK,HLA-B,KLRD1,0.0002994437633562,0.008889744564774,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,CD8 T memory,NK,HLA-B,KLRD1,0.0002994437633562,0.008889744564774,True
+KEGG_2021_Human,Antigen processing and presentation,78,NK,NK,HLA-B,KLRD1,0.0003450997304575,0.0093699051825452,True
+KEGG_2021_Human,Graft-versus-host disease,42,NK,NK,HLA-B,KLRD1,0.0003450997304575,0.0093699051825452,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,NK,NK,HLA-B,KLRD1,0.0003450997304575,0.0093699051825452,True
+KEGG_2021_Human,Antigen processing and presentation,78,T activated,NK,HLA-B,KLRD1,0.0005013983839205,0.0103592777320634,True
+KEGG_2021_Human,Graft-versus-host disease,42,T activated,NK,HLA-B,KLRD1,0.0005013983839205,0.0103592777320634,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,T activated,NK,HLA-B,KLRD1,0.0005013983839205,0.0103592777320634,True
+KEGG_2021_Human,Antigen processing and presentation,78,T proliferating,NK,HLA-B,KLRD1,0.0007154549208256,0.0113476299814006,True
+KEGG_2021_Human,Graft-versus-host disease,42,T proliferating,NK,HLA-B,KLRD1,0.0007154549208256,0.0113476299814006,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,T proliferating,NK,HLA-B,KLRD1,0.0007154549208256,0.0113476299814006,True
+KEGG_2021_Human,Antigen processing and presentation,78,Monocyte non-classical,NK,HLA-B,KLRD1,0.0012565086470515,0.0150165173483,True
+KEGG_2021_Human,Graft-versus-host disease,42,Monocyte non-classical,NK,HLA-B,KLRD1,0.0012565086470515,0.0150165173483,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,Monocyte non-classical,NK,HLA-B,KLRD1,0.0012565086470515,0.0150165173483,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD4 T memory,NK,HLA-B,KLRD1,0.0013881180496596,0.0159913172435959,True
+KEGG_2021_Human,Graft-versus-host disease,42,CD4 T memory,NK,HLA-B,KLRD1,0.0013881180496596,0.0159913172435959,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,CD4 T memory,NK,HLA-B,KLRD1,0.0013881180496596,0.0159913172435959,True
+KEGG_2021_Human,Antigen processing and presentation,78,Pre-B small,NK,HLA-B,KLRD1,0.001568919856797,0.0188188948386292,True
+KEGG_2021_Human,Graft-versus-host disease,42,Pre-B small,NK,HLA-B,KLRD1,0.001568919856797,0.0188188948386292,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,Pre-B small,NK,HLA-B,KLRD1,0.001568919856797,0.0188188948386292,True
+KEGG_2021_Human,Antigen processing and presentation,78,Dendritic cell,NK,HLA-B,KLRD1,0.0020442557483912,0.0234391051506623,True
+KEGG_2021_Human,Graft-versus-host disease,42,Dendritic cell,NK,HLA-B,KLRD1,0.0020442557483912,0.0234391051506623,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,Dendritic cell,NK,HLA-B,KLRD1,0.0020442557483912,0.0234391051506623,True
+KEGG_2021_Human,Antigen processing and presentation,78,Plasmacytoid DC,NK,HLA-B,KLRD1,0.0021434339671605,0.0239016373326772,True
+KEGG_2021_Human,Graft-versus-host disease,42,Plasmacytoid DC,NK,HLA-B,KLRD1,0.0021434339671605,0.0239016373326772,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,Plasmacytoid DC,NK,HLA-B,KLRD1,0.0021434339671605,0.0239016373326772,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T cytotoxic,T proliferating,HLA-B,CD8A,0.0030203684445673,0.0425604236783712,True
+KEGG_2021_Human,Cell adhesion molecules,148,CD8 T cytotoxic,T proliferating,HLA-B,CD8A,0.0030203684445673,0.0425604236783712,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD4 T naive,NK,HLA-B,KLRD1,0.0031202318179482,0.0307495375129016,True
+KEGG_2021_Human,Graft-versus-host disease,42,CD4 T naive,NK,HLA-B,KLRD1,0.0031202318179482,0.0307495375129016,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,CD4 T naive,NK,HLA-B,KLRD1,0.0031202318179482,0.0307495375129016,True
+KEGG_2021_Human,Antigen processing and presentation,78,B naive,NK,HLA-B,KLRD1,0.0036002360585752,0.0324625501912772,True
+KEGG_2021_Human,Graft-versus-host disease,42,B naive,NK,HLA-B,KLRD1,0.0036002360585752,0.0324625501912772,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,B naive,NK,HLA-B,KLRD1,0.0036002360585752,0.0324625501912772,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T memory,T proliferating,HLA-B,CD8A,0.0042068669352019,0.0460119188803852,True
+KEGG_2021_Human,Cell adhesion molecules,148,CD8 T memory,T proliferating,HLA-B,CD8A,0.0042068669352019,0.0460119188803852,True
+KEGG_2021_Human,Antigen processing and presentation,78,NK,NK,B2M,KLRC1,0.0045155240379975,0.0037298319567341,True
+KEGG_2021_Human,Antigen processing and presentation,78,NK,T proliferating,HLA-B,CD8A,0.0047355076894402,0.0479976349771549,True
+KEGG_2021_Human,Cell adhesion molecules,148,NK,T proliferating,HLA-B,CD8A,0.0047355076894402,0.0479976349771549,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T cytotoxic,NK,B2M,KLRC1,0.0050879317641621,0.0041743731895501,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T memory,NK,B2M,KLRC1,0.0053999039877507,0.0044090741001736,True
+KEGG_2021_Human,Antigen processing and presentation,78,Monocyte classical,NK,HLA-B,KLRD1,0.0056129525813897,0.0389837901182324,True
+KEGG_2021_Human,Graft-versus-host disease,42,Monocyte classical,NK,HLA-B,KLRD1,0.0056129525813897,0.0389837901182324,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,Monocyte classical,NK,HLA-B,KLRD1,0.0056129525813897,0.0389837901182324,True
+KEGG_2021_Human,Antigen processing and presentation,78,T proliferating,T proliferating,HLA-A,CD8A,0.0062763727240479,0.0343256383580433,True
+KEGG_2021_Human,Cell adhesion molecules,148,T proliferating,T proliferating,HLA-A,CD8A,0.0062763727240479,0.0343256383580433,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD4 T memory,NK,B2M,KLRC1,0.0063904780149648,0.0054339797731973,True
+KEGG_2021_Human,Antigen processing and presentation,78,NK,T proliferating,HLA-C,CD8A,0.0064767184219044,0.0251019977851735,True
+KEGG_2021_Human,Cell adhesion molecules,148,NK,T proliferating,HLA-C,CD8A,0.0064767184219044,0.0251019977851735,True
+KEGG_2021_Human,Antigen processing and presentation,78,T proliferating,NK,B2M,KLRC1,0.0065635259058625,0.005530400085697,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T memory,T proliferating,HLA-A,CD8A,0.0066509002480034,0.0353281988342654,True
+KEGG_2021_Human,Cell adhesion molecules,148,CD8 T memory,T proliferating,HLA-A,CD8A,0.0066509002480034,0.0353281988342654,True
+KEGG_2021_Human,Antigen processing and presentation,78,NK,T proliferating,HLA-A,CD8A,0.00682734863149,0.0354202562984191,True
+KEGG_2021_Human,Cell adhesion molecules,148,NK,T proliferating,HLA-A,CD8A,0.00682734863149,0.0354202562984191,True
+KEGG_2021_Human,Antigen processing and presentation,78,Monocyte non-classical,NK,B2M,KLRC1,0.0075557736779347,0.008927554077696,True
+KEGG_2021_Human,Antigen processing and presentation,78,NK,CD8 T memory,HLA-C,CD8A,0.0080936044928552,0.0380603765703093,True
+KEGG_2021_Human,Cell adhesion molecules,148,NK,CD8 T memory,HLA-C,CD8A,0.0080936044928552,0.0380603765703093,True
+KEGG_2021_Human,Antigen processing and presentation,78,Plasmacytoid DC,NK,B2M,KLRC1,0.0082877470222982,0.0143885264832758,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T cytotoxic,T proliferating,HLA-A,CD8A,0.0084841406447165,0.0403203825006431,True
+KEGG_2021_Human,Cell adhesion molecules,148,CD8 T cytotoxic,T proliferating,HLA-A,CD8A,0.0084841406447165,0.0403203825006431,True
+KEGG_2021_Human,Antigen processing and presentation,78,Pre-B large,NK,HLA-B,KLRD1,0.0085831810687017,0.0494650325650177,True
+KEGG_2021_Human,Graft-versus-host disease,42,Pre-B large,NK,HLA-B,KLRD1,0.0085831810687017,0.0494650325650177,True
+KEGG_2021_Human,Natural killer cell mediated cytotoxicity,131,Pre-B large,NK,HLA-B,KLRD1,0.0085831810687017,0.0494650325650177,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T cytotoxic,T proliferating,HLA-C,CD8A,0.0089511371916138,0.0297089205772923,True
+KEGG_2021_Human,Cell adhesion molecules,148,CD8 T cytotoxic,T proliferating,HLA-C,CD8A,0.0089511371916138,0.0297089205772923,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD4 T naive,NK,B2M,KLRC1,0.0095695198378263,0.0324189989904747,True
+KEGG_2021_Human,Antigen processing and presentation,78,NK,T proliferating,HLA-C,CD8B,0.0100644258105127,0.0392783314241316,True
+KEGG_2021_Human,Cell adhesion molecules,148,NK,T proliferating,HLA-C,CD8B,0.0100644258105127,0.0392783314241316,True
+KEGG_2021_Human,Antigen processing and presentation,78,Platelet,NK,B2M,KLRC1,0.0100644258105127,0.0269160297868817,True
+KEGG_2021_Human,Chemokine signaling pathway,192,Platelet,T proliferating,PF4,CXCR3,0.0103164441085459,4.9742883413255394e-08,True
+KEGG_2021_Human,Cytokine-cytokine receptor interaction,295,Platelet,T proliferating,PF4,CXCR3,0.0103164441085459,4.9742883413255394e-08,True
+KEGG_2021_Human,Viral protein interaction with cytokine and cytokine receptor,100,Platelet,T proliferating,PF4,CXCR3,0.0103164441085459,4.9742883413255394e-08,True
+KEGG_2021_Human,Antigen processing and presentation,78,Monocyte classical,NK,B2M,KLRC1,0.0104253819369486,0.034779062269606,True
+KEGG_2021_Human,Antigen processing and presentation,78,NK,CD8 T memory,HLA-C,CD8B,0.0106081876562264,0.0449316755402579,True
+KEGG_2021_Human,Cell adhesion molecules,148,NK,CD8 T memory,HLA-C,CD8B,0.0106081876562264,0.0449316755402579,True
+KEGG_2021_Human,Antigen processing and presentation,78,T activated,NK,B2M,KLRC1,0.0107186159074457,0.0420959524935067,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T cytotoxic,CD8 T memory,HLA-C,CD8A,0.0115837350558656,0.0448780909534715,True
+KEGG_2021_Human,Cell adhesion molecules,148,CD8 T cytotoxic,CD8 T memory,HLA-C,CD8A,0.0115837350558656,0.0448780909534715,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T memory,T proliferating,HLA-C,CD8A,0.0116220905560777,0.0338312550140126,True
+KEGG_2021_Human,Cell adhesion molecules,148,CD8 T memory,T proliferating,HLA-C,CD8A,0.0116220905560777,0.0338312550140126,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,0.0117375299896639,0.006251771172189,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Monocyte classical,Dendritic cell,TNFSF13B,HLA-DPB1,0.0117375299896639,0.006251771172189,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD8 T cytotoxic,T proliferating,HLA-C,CD8B,0.0144600352698284,0.0459031601761078,True
+KEGG_2021_Human,Cell adhesion molecules,148,CD8 T cytotoxic,T proliferating,HLA-C,CD8B,0.0144600352698284,0.0459031601761078,True
+KEGG_2021_Human,Antigen processing and presentation,78,T proliferating,T proliferating,HLA-C,CD8A,0.0151509158128834,0.0386419426810756,True
+KEGG_2021_Human,Cell adhesion molecules,148,T proliferating,T proliferating,HLA-C,CD8A,0.0151509158128834,0.0386419426810756,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,0.0152821986313978,0.0115702757940873,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Granulocyte precursor,Dendritic cell,TNFSF13B,HLA-DPB1,0.0152821986313978,0.0115702757940873,True
+KEGG_2021_Human,Gastric cancer,149,Erythroid early,Erythroid early,CDH1,LRP5,0.0218472264036843,0.0225849155732309,True
+KEGG_2021_Human,Antigen processing and presentation,78,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+KEGG_2021_Human,Cell adhesion molecules,148,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+KEGG_2021_Human,Hematopoietic cell lineage,99,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+KEGG_2021_Human,Human T-cell leukemia virus 1 infection,219,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+KEGG_2021_Human,Th1 and Th2 cell differentiation,92,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+KEGG_2021_Human,Th17 cell differentiation,107,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+KEGG_2021_Human,Antigen processing and presentation,78,CD4 T memory,T proliferating,HLA-C,CD8A,0.0235044461676488,0.0494080752169116,True
+KEGG_2021_Human,Cell adhesion molecules,148,CD4 T memory,T proliferating,HLA-C,CD8A,0.0235044461676488,0.0494080752169116,True
+KEGG_2021_Human,Chemokine signaling pathway,192,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,0.0240473631135866,0.0002383503037547,True
+KEGG_2021_Human,Cytokine-cytokine receptor interaction,295,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,0.0240473631135866,0.0002383503037547,True
+KEGG_2021_Human,Viral protein interaction with cytokine and cytokine receptor,100,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,0.0240473631135866,0.0002383503037547,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Dendritic cell,Dendritic cell,TNFSF13B,HLA-DPB1,0.0258247209441293,0.0230522602520042,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Dendritic cell,Dendritic cell,TNFSF13B,HLA-DPB1,0.0258247209441293,0.0230522602520042,True
+KEGG_2021_Human,Chemokine signaling pathway,192,CD8 T memory,T proliferating,CCL5,CXCR3,0.0258812433052549,0.0002788431309059,True
+KEGG_2021_Human,Cytokine-cytokine receptor interaction,295,CD8 T memory,T proliferating,CCL5,CXCR3,0.0258812433052549,0.0002788431309059,True
+KEGG_2021_Human,Viral protein interaction with cytokine and cytokine receptor,100,CD8 T memory,T proliferating,CCL5,CXCR3,0.0258812433052549,0.0002788431309059,True
+KEGG_2021_Human,Antigen processing and presentation,78,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+KEGG_2021_Human,Cell adhesion molecules,148,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+KEGG_2021_Human,Hematopoietic cell lineage,99,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+KEGG_2021_Human,Human T-cell leukemia virus 1 infection,219,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+KEGG_2021_Human,Th1 and Th2 cell differentiation,92,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+KEGG_2021_Human,Th17 cell differentiation,107,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+KEGG_2021_Human,Antigen processing and presentation,78,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+KEGG_2021_Human,Cell adhesion molecules,148,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+KEGG_2021_Human,Hematopoietic cell lineage,99,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+KEGG_2021_Human,Human T-cell leukemia virus 1 infection,219,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+KEGG_2021_Human,Th1 and Th2 cell differentiation,92,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+KEGG_2021_Human,Th17 cell differentiation,107,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+KEGG_2021_Human,Chemokine signaling pathway,192,T proliferating,T proliferating,CCL5,CXCR3,0.0374177551275864,0.000741888229353,True
+KEGG_2021_Human,Cytokine-cytokine receptor interaction,295,T proliferating,T proliferating,CCL5,CXCR3,0.0374177551275864,0.000741888229353,True
+KEGG_2021_Human,Viral protein interaction with cytokine and cytokine receptor,100,T proliferating,T proliferating,CCL5,CXCR3,0.0374177551275864,0.000741888229353,True
+KEGG_2021_Human,Chemokine signaling pathway,192,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0409326932461768,3.552244287911985e-07,True
+KEGG_2021_Human,Cytokine-cytokine receptor interaction,295,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0409326932461768,3.552244287911985e-07,True
+KEGG_2021_Human,Viral protein interaction with cytokine and cytokine receptor,100,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0409326932461768,3.552244287911985e-07,True
+KEGG_2021_Human,Intestinal immune network for IgA production,48,Monocyte non-classical,Dendritic cell,TNFSF13B,HLA-DPB1,0.0440123396764688,0.0430281426987251,True
+KEGG_2021_Human,Rheumatoid arthritis,93,Monocyte non-classical,Dendritic cell,TNFSF13B,HLA-DPB1,0.0440123396764688,0.0430281426987251,True
+KEGG_2021_Human,Antigen processing and presentation,78,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+KEGG_2021_Human,Cell adhesion molecules,148,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+KEGG_2021_Human,Hematopoietic cell lineage,99,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+KEGG_2021_Human,Human T-cell leukemia virus 1 infection,219,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+KEGG_2021_Human,Th1 and Th2 cell differentiation,92,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+KEGG_2021_Human,Th17 cell differentiation,107,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+KEGG_2021_Human,Antigen processing and presentation,78,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+KEGG_2021_Human,Cell adhesion molecules,148,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+KEGG_2021_Human,Hematopoietic cell lineage,99,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+KEGG_2021_Human,Human T-cell leukemia virus 1 infection,219,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+KEGG_2021_Human,Th1 and Th2 cell differentiation,92,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+KEGG_2021_Human,Th17 cell differentiation,107,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+KEGG_2021_Human,Antigen processing and presentation,78,NK,NK,B2M,KLRC2,0.0484652004351993,0.0131110806046561,True
+KEGG_2021_Human,Antigen processing and presentation,78,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+KEGG_2021_Human,Cell adhesion molecules,148,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+KEGG_2021_Human,Hematopoietic cell lineage,99,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+KEGG_2021_Human,Human T-cell leukemia virus 1 infection,219,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+KEGG_2021_Human,Th1 and Th2 cell differentiation,92,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+KEGG_2021_Human,Th17 cell differentiation,107,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+Reactome_Pathways_2024,DAP12 Interactions,45,NK,NK,B2M,KLRD1,3.3306343865505135e-08,0.0114237864142464,True
+Reactome_Pathways_2024,DAP12 Signaling,29,NK,NK,B2M,KLRD1,3.3306343865505135e-08,0.0114237864142464,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,NK,B2M,KLRD1,3.3306343865505135e-08,0.0114237864142464,True
+Reactome_Pathways_2024,DAP12 Interactions,45,CD8 T cytotoxic,NK,B2M,KLRD1,2.997327557473985e-07,0.0128695647201432,True
+Reactome_Pathways_2024,DAP12 Signaling,29,CD8 T cytotoxic,NK,B2M,KLRD1,2.997327557473985e-07,0.0128695647201432,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,NK,B2M,KLRD1,2.997327557473985e-07,0.0128695647201432,True
+Reactome_Pathways_2024,DAP12 Interactions,45,CD8 T memory,NK,B2M,KLRD1,5.328366614628256e-07,0.0138280327021835,True
+Reactome_Pathways_2024,DAP12 Signaling,29,CD8 T memory,NK,B2M,KLRD1,5.328366614628256e-07,0.0138280327021835,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,NK,B2M,KLRD1,5.328366614628256e-07,0.0138280327021835,True
+Reactome_Pathways_2024,DAP12 Interactions,45,CD4 T memory,NK,B2M,KLRD1,1.1987851321402158e-06,0.0170061161268332,True
+Reactome_Pathways_2024,DAP12 Signaling,29,CD4 T memory,NK,B2M,KLRD1,1.1987851321402158e-06,0.0170061161268332,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD4 T memory,NK,B2M,KLRD1,1.1987851321402158e-06,0.0170061161268332,True
+Reactome_Pathways_2024,DAP12 Interactions,45,T proliferating,NK,B2M,KLRD1,1.6316136463023807e-06,0.0172951970237182,True
+Reactome_Pathways_2024,DAP12 Signaling,29,T proliferating,NK,B2M,KLRD1,1.6316136463023807e-06,0.0172951970237182,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,NK,B2M,KLRD1,1.6316136463023807e-06,0.0172951970237182,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Monocyte non-classical,NK,B2M,KLRD1,2.131000830463268e-06,0.0206213448157231,True
+Reactome_Pathways_2024,DAP12 Signaling,29,Monocyte non-classical,NK,B2M,KLRD1,2.131000830463268e-06,0.0206213448157231,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Monocyte non-classical,NK,B2M,KLRD1,2.131000830463268e-06,0.0206213448157231,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Plasmacytoid DC,NK,B2M,KLRD1,5.626032710486872e-06,0.0230872569742428,True
+Reactome_Pathways_2024,DAP12 Signaling,29,Plasmacytoid DC,NK,B2M,KLRD1,5.626032710486872e-06,0.0230872569742428,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Plasmacytoid DC,NK,B2M,KLRD1,5.626032710486872e-06,0.0230872569742428,True
+Reactome_Pathways_2024,DAP12 Interactions,45,CD4 T naive,NK,B2M,KLRD1,1.201481221708865e-05,0.0262262377440225,True
+Reactome_Pathways_2024,DAP12 Signaling,29,CD4 T naive,NK,B2M,KLRD1,1.201481221708865e-05,0.0262262377440225,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD4 T naive,NK,B2M,KLRD1,1.201481221708865e-05,0.0262262377440225,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,NK,S100A9,ITGB2,1.467618205419323e-05,0.0010410223132672,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,NK,S100A9,ITGB2,1.467618205419323e-05,0.0010410223132672,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,NK,S100A9,ITGB2,1.467618205419323e-05,0.0010410223132672,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Platelet,NK,B2M,KLRD1,1.6106540129232367e-05,0.0278537075273307,True
+Reactome_Pathways_2024,DAP12 Signaling,29,Platelet,NK,B2M,KLRD1,1.6106540129232367e-05,0.0278537075273307,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Platelet,NK,B2M,KLRD1,1.6106540129232367e-05,0.0278537075273307,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Monocyte classical,NK,B2M,KLRD1,1.760333536208794e-05,0.0286911433157594,True
+Reactome_Pathways_2024,DAP12 Signaling,29,Monocyte classical,NK,B2M,KLRD1,1.760333536208794e-05,0.0286911433157594,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Monocyte classical,NK,B2M,KLRD1,1.760333536208794e-05,0.0286911433157594,True
+Reactome_Pathways_2024,DAP12 Interactions,45,T activated,NK,B2M,KLRD1,2.079620169890588e-05,0.0292990806220669,True
+Reactome_Pathways_2024,DAP12 Signaling,29,T activated,NK,B2M,KLRD1,2.079620169890588e-05,0.0292990806220669,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T activated,NK,B2M,KLRD1,2.079620169890588e-05,0.0292990806220669,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,NK,S100A8,ITGB2,2.079620169890588e-05,0.0007718759948335,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,NK,S100A8,ITGB2,2.079620169890588e-05,0.0007718759948335,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,NK,S100A8,ITGB2,2.079620169890588e-05,0.0007718759948335,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Erythroid early,S100A9,CD36,2.6083578089835124e-05,4.624821178900937e-05,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Pre-B small,NK,B2M,KLRD1,2.994045013362976e-05,0.0309604200085388,True
+Reactome_Pathways_2024,DAP12 Signaling,29,Pre-B small,NK,B2M,KLRD1,2.994045013362976e-05,0.0309604200085388,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Pre-B small,NK,B2M,KLRD1,2.994045013362976e-05,0.0309604200085388,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Erythroid early,S100A8,CD36,3.196845046574603e-05,4.803548010475457e-05,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,T proliferating,S100A9,ITGB2,3.4062815010160976e-05,0.0014503567590472,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,T proliferating,S100A9,ITGB2,3.4062815010160976e-05,0.0014503567590472,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,T proliferating,S100A9,ITGB2,3.4062815010160976e-05,0.0014503567590472,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Dendritic cell,NK,B2M,KLRD1,3.622353566181191e-05,0.031598615580553,True
+Reactome_Pathways_2024,DAP12 Signaling,29,Dendritic cell,NK,B2M,KLRD1,3.622353566181191e-05,0.031598615580553,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Dendritic cell,NK,B2M,KLRD1,3.622353566181191e-05,0.031598615580553,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Dendritic cell,S100A9,ITGB2,3.622353566181191e-05,0.0015564240353066,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Dendritic cell,S100A9,ITGB2,3.622353566181191e-05,0.0015564240353066,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Dendritic cell,S100A9,ITGB2,3.622353566181191e-05,0.0015564240353066,True
+Reactome_Pathways_2024,DAP12 Interactions,45,B naive,NK,B2M,KLRD1,4.074400396214294e-05,0.0330762004491165,True
+Reactome_Pathways_2024,DAP12 Signaling,29,B naive,NK,B2M,KLRD1,4.074400396214294e-05,0.0330762004491165,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,B naive,NK,B2M,KLRD1,4.074400396214294e-05,0.0330762004491165,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,T proliferating,S100A8,ITGB2,4.310374405127164e-05,0.0010927356127618,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,T proliferating,S100A8,ITGB2,4.310374405127164e-05,0.0010927356127618,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,T proliferating,S100A8,ITGB2,4.310374405127164e-05,0.0010927356127618,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Dendritic cell,S100A8,ITGB2,5.320586022732163e-05,0.0011510507276547,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Dendritic cell,S100A8,ITGB2,5.320586022732163e-05,0.0011510507276547,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Dendritic cell,S100A8,ITGB2,5.320586022732163e-05,0.0011510507276547,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte non-classical,S100A9,CD68,0.0001867858721397,7.15906543478533e-05,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Pre-B large,NK,B2M,KLRD1,0.0001867858721397,0.0490672045847317,True
+Reactome_Pathways_2024,DAP12 Signaling,29,Pre-B large,NK,B2M,KLRD1,0.0001867858721397,0.0490672045847317,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Pre-B large,NK,B2M,KLRD1,0.0001867858721397,0.0490672045847317,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,0.0001917922552793,0.0034786420279199,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,0.0001917922552793,0.0034786420279199,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Monocyte non-classical,S100A9,ITGB2,0.0001917922552793,0.0034786420279199,True
+Reactome_Pathways_2024,DAP12 Interactions,45,CD8 T cytotoxic,NK,HLA-B,KLRD1,0.000234218426131,0.0080486630435061,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,NK,HLA-B,KLRD1,0.000234218426131,0.0080486630435061,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte non-classical,S100A8,CD68,0.0002398185148706,7.559422080581354e-05,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,0.0002454844870312,0.0024363493424383,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,0.0002454844870312,0.0024363493424383,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Monocyte non-classical,S100A8,ITGB2,0.0002454844870312,0.0024363493424383,True
+Reactome_Pathways_2024,DAP12 Interactions,45,CD8 T memory,NK,HLA-B,KLRD1,0.0002994437633562,0.008889744564774,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,NK,HLA-B,KLRD1,0.0002994437633562,0.008889744564774,True
+Reactome_Pathways_2024,DAP12 Interactions,45,NK,NK,HLA-B,KLRD1,0.0003450997304575,0.0093699051825452,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,NK,HLA-B,KLRD1,0.0003450997304575,0.0093699051825452,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,CD8 T cytotoxic,S100A9,ITGB2,0.0004012251134694,0.0054202957944428,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,CD8 T cytotoxic,S100A9,ITGB2,0.0004012251134694,0.0054202957944428,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,CD8 T cytotoxic,S100A9,ITGB2,0.0004012251134694,0.0054202957944428,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,CD8 T cytotoxic,S100A8,ITGB2,0.0004460798207716,0.0037728179054571,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,CD8 T cytotoxic,S100A8,ITGB2,0.0004460798207716,0.0037728179054571,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,CD8 T cytotoxic,S100A8,ITGB2,0.0004460798207716,0.0037728179054571,True
+Reactome_Pathways_2024,DAP12 Interactions,45,T activated,NK,HLA-B,KLRD1,0.0005013983839205,0.0103592777320634,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T activated,NK,HLA-B,KLRD1,0.0005013983839205,0.0103592777320634,True
+Reactome_Pathways_2024,DAP12 Interactions,45,T proliferating,NK,HLA-B,KLRD1,0.0007154549208256,0.0113476299814006,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,NK,HLA-B,KLRD1,0.0007154549208256,0.0113476299814006,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Plasmacytoid DC,S100A9,CD68,0.0009785011053761,0.0001369536041867,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Plasmacytoid DC,S100A8,CD68,0.0011806641992693,0.0001393862273179,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Monocyte non-classical,NK,HLA-B,KLRD1,0.0012565086470515,0.0150165173483,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Monocyte non-classical,NK,HLA-B,KLRD1,0.0012565086470515,0.0150165173483,True
+Reactome_Pathways_2024,DAP12 Interactions,45,CD4 T memory,NK,HLA-B,KLRD1,0.0013881180496596,0.0159913172435959,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD4 T memory,NK,HLA-B,KLRD1,0.0013881180496596,0.0159913172435959,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Pre-B small,NK,HLA-B,KLRD1,0.001568919856797,0.0188188948386292,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Pre-B small,NK,HLA-B,KLRD1,0.001568919856797,0.0188188948386292,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,NK,S100A8,ITGB2,0.0015832816857781,0.0039814350053437,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,NK,S100A8,ITGB2,0.0015832816857781,0.0039814350053437,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,NK,S100A8,ITGB2,0.0015832816857781,0.0039814350053437,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Erythroid early,S100A8,CD36,0.0018528773149721,0.0001406132096189,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,T proliferating,S100A8,ITGB2,0.0019474027826841,0.0059127657089013,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,T proliferating,S100A8,ITGB2,0.0019474027826841,0.0059127657089013,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,T proliferating,S100A8,ITGB2,0.0019474027826841,0.0059127657089013,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Dendritic cell,NK,HLA-B,KLRD1,0.0020442557483912,0.0234391051506623,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Dendritic cell,NK,HLA-B,KLRD1,0.0020442557483912,0.0234391051506623,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Dendritic cell,S100A8,ITGB2,0.0021101163650728,0.0062969020640638,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Dendritic cell,S100A8,ITGB2,0.0021101163650728,0.0062969020640638,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Dendritic cell,S100A8,ITGB2,0.0021101163650728,0.0062969020640638,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Plasmacytoid DC,NK,HLA-B,KLRD1,0.0021434339671605,0.0239016373326772,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Plasmacytoid DC,NK,HLA-B,KLRD1,0.0021434339671605,0.0239016373326772,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte classical,S100A9,ITGB2,0.0021601897230388,0.0257727445872225,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Monocyte classical,S100A9,ITGB2,0.0021601897230388,0.0257727445872225,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Monocyte classical,S100A9,ITGB2,0.0021601897230388,0.0257727445872225,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,CD8 T memory,S100A9,ITGB2,0.0024015423463463,0.027774779969167,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,CD8 T memory,S100A9,ITGB2,0.0024015423463463,0.027774779969167,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,CD8 T memory,S100A9,ITGB2,0.0024015423463463,0.027774779969167,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,NK,S100A9,ITGB2,0.0024192650914478,0.0081731556342187,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,NK,S100A9,ITGB2,0.0024192650914478,0.0081731556342187,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,NK,S100A9,ITGB2,0.0024192650914478,0.0081731556342187,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte classical,S100A8,ITGB2,0.0024370527996707,0.0175287324574977,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Monocyte classical,S100A8,ITGB2,0.0024370527996707,0.0175287324574977,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Monocyte classical,S100A8,ITGB2,0.0024370527996707,0.0175287324574977,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Monocyte classical,S100A9,CD36,0.0024728203489944,0.0007756797710725,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,CD8 T memory,S100A8,ITGB2,0.0025633670803527,0.0195648768247235,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,CD8 T memory,S100A8,ITGB2,0.0025633670803527,0.0195648768247235,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,CD8 T memory,S100A8,ITGB2,0.0025633670803527,0.0195648768247235,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Monocyte classical,S100A8,CD36,0.0026555226681237,0.0005262659073905,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Erythroid early,S100A9,CD36,0.0029221084481157,0.0002525894584775,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,T proliferating,HLA-B,CD8A,0.0030203684445673,0.0425604236783712,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte classical,S100A9,CD68,0.0031001309968988,0.0004777009597041,True
+Reactome_Pathways_2024,DAP12 Interactions,45,CD4 T naive,NK,HLA-B,KLRD1,0.0031202318179482,0.0307495375129016,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD4 T naive,NK,HLA-B,KLRD1,0.0031202318179482,0.0307495375129016,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,T proliferating,S100A9,ITGB2,0.0031606264252236,0.0119552436151784,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,T proliferating,S100A9,ITGB2,0.0031606264252236,0.0119552436151784,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,T proliferating,S100A9,ITGB2,0.0031606264252236,0.0119552436151784,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte classical,S100A8,CD68,0.0033873774562929,0.0003193910149337,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Dendritic cell,S100A9,ITGB2,0.0034717530597122,0.0127498961940867,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Dendritic cell,S100A9,ITGB2,0.0034717530597122,0.0127498961940867,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Dendritic cell,S100A9,ITGB2,0.0034717530597122,0.0127498961940867,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Monocyte non-classical,S100A8,CD68,0.0035143251057031,0.0002147299889682,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Monocyte non-classical,S100A8,ITGB2,0.0035786625666784,0.0124891701554234,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Monocyte non-classical,S100A8,ITGB2,0.0035786625666784,0.0124891701554234,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Monocyte non-classical,S100A8,ITGB2,0.0035786625666784,0.0124891701554234,True
+Reactome_Pathways_2024,DAP12 Interactions,45,B naive,NK,HLA-B,KLRD1,0.0036002360585752,0.0324625501912772,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,B naive,NK,HLA-B,KLRD1,0.0036002360585752,0.0324625501912772,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Erythroid late,S100A9,CD36,0.0039767644536545,0.0012737585876008,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,T proliferating,HLA-B,CD8A,0.0042068669352019,0.0460119188803852,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Erythroid late,S100A8,CD36,0.004395536568337,0.000933852936623,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,NK,B2M,KLRC1,0.0045155240379975,0.0037298319567341,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,T proliferating,HLA-B,CD8A,0.0047355076894402,0.0479976349771549,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,NK,B2M,KLRC1,0.0050879317641621,0.0041743731895501,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,CD8 T cytotoxic,S100A8,ITGB2,0.0051650691713033,0.0203942490606826,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,CD8 T cytotoxic,S100A8,ITGB2,0.0051650691713033,0.0203942490606826,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,CD8 T cytotoxic,S100A8,ITGB2,0.0051650691713033,0.0203942490606826,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,NK,B2M,KLRC1,0.0053999039877507,0.0044090741001736,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Monocyte classical,NK,HLA-B,KLRD1,0.0056129525813897,0.0389837901182324,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Monocyte classical,NK,HLA-B,KLRD1,0.0056129525813897,0.0389837901182324,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,T proliferating,HLA-A,CD8A,0.0062763727240479,0.0343256383580433,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD4 T memory,NK,B2M,KLRC1,0.0063904780149648,0.0054339797731973,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,T proliferating,HLA-C,CD8A,0.0064767184219044,0.0251019977851735,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,NK,B2M,KLRC1,0.0065635259058625,0.005530400085697,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,T proliferating,HLA-A,CD8A,0.0066509002480034,0.0353281988342654,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,T proliferating,HLA-A,CD8A,0.00682734863149,0.0354202562984191,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Monocyte non-classical,S100A9,CD68,0.0068569766295149,0.0003215148100381,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Monocyte non-classical,S100A9,ITGB2,0.0068866684395017,0.0273042261857722,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Monocyte non-classical,S100A9,ITGB2,0.0068866684395017,0.0273042261857722,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Monocyte non-classical,S100A9,ITGB2,0.0068866684395017,0.0273042261857722,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Monocyte non-classical,NK,B2M,KLRC1,0.0075557736779347,0.008927554077696,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Plasmacytoid DC,S100A8,CD68,0.0079335395744699,0.0007643054281638,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,CD8 T memory,HLA-C,CD8A,0.0080936044928552,0.0380603765703093,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Plasmacytoid DC,NK,B2M,KLRC1,0.0082877470222982,0.0143885264832758,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,T proliferating,HLA-A,CD8A,0.0084841406447165,0.0403203825006431,True
+Reactome_Pathways_2024,DAP12 Interactions,45,Pre-B large,NK,HLA-B,KLRD1,0.0085831810687017,0.0494650325650177,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Pre-B large,NK,HLA-B,KLRD1,0.0085831810687017,0.0494650325650177,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,CD8 T cytotoxic,S100A9,ITGB2,0.0086495196402722,0.0388370490357613,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,CD8 T cytotoxic,S100A9,ITGB2,0.0086495196402722,0.0388370490357613,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,CD8 T cytotoxic,S100A9,ITGB2,0.0086495196402722,0.0388370490357613,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,T proliferating,HLA-C,CD8A,0.0089511371916138,0.0297089205772923,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Erythroid early,S100A12,CD36,0.0095695198378263,5.432327373268655e-05,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Erythroid early,S100A12,CD36,0.0095695198378263,5.432327373268655e-05,True
+Reactome_Pathways_2024,Signaling by Interleukins,452,Monocyte classical,Erythroid early,S100A12,CD36,0.0095695198378263,5.432327373268655e-05,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Erythroid early,S100A12,CD36,0.0095695198378263,5.432327373268655e-05,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Erythroid early,S100A12,CD36,0.0095695198378263,5.432327373268655e-05,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Erythroid early,S100A12,CD36,0.0095695198378263,5.432327373268655e-05,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Erythroid early,S100A12,CD36,0.0095695198378263,5.432327373268655e-05,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Erythroid early,S100A12,CD36,0.0095695198378263,5.432327373268655e-05,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD4 T naive,NK,B2M,KLRC1,0.0095695198378263,0.0324189989904747,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,Dendritic cell,B2M,CD1C,0.0098862752192375,0.0035923466461213,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Platelet,S100A9,CD68,0.0099573481914702,0.0016236891145838,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,T proliferating,HLA-C,CD8B,0.0100644258105127,0.0392783314241316,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Platelet,NK,B2M,KLRC1,0.0100644258105127,0.0269160297868817,True
+Reactome_Pathways_2024,Chemokine Receptors Bind Chemokines,57,Platelet,T proliferating,PF4,CXCR3,0.0103164441085459,4.9742883413255394e-08,True
+Reactome_Pathways_2024,Class A 1 (Rhodopsin-like Receptors),333,Platelet,T proliferating,PF4,CXCR3,0.0103164441085459,4.9742883413255394e-08,True
+Reactome_Pathways_2024,G Alpha (I) Signalling Events,316,Platelet,T proliferating,PF4,CXCR3,0.0103164441085459,4.9742883413255394e-08,True
+Reactome_Pathways_2024,GPCR Ligand Binding,467,Platelet,T proliferating,PF4,CXCR3,0.0103164441085459,4.9742883413255394e-08,True
+Reactome_Pathways_2024,Peptide Ligand-Binding Receptors,198,Platelet,T proliferating,PF4,CXCR3,0.0103164441085459,4.9742883413255394e-08,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Monocyte classical,NK,B2M,KLRC1,0.0104253819369486,0.034779062269606,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,CD8 T memory,HLA-C,CD8B,0.0106081876562264,0.0449316755402579,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,Dendritic cell,B2M,CD1C,0.0106817452672761,0.0056139300876901,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T activated,NK,B2M,KLRC1,0.0107186159074457,0.0420959524935067,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Platelet,S100A8,CD68,0.011128285244201,0.0012011845168576,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,Dendritic cell,B2M,CD1C,0.0115837350558656,0.0083531671057203,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,CD8 T memory,HLA-C,CD8A,0.0115837350558656,0.0448780909534715,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,T proliferating,HLA-C,CD8A,0.0116220905560777,0.0338312550140126,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Monocyte classical,S100A8,CD36,0.0122441806243501,0.0031902466151329,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Plasmacytoid DC,S100A9,CD68,0.0127211047228831,0.0011709352680849,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD4 T memory,Dendritic cell,B2M,CD1C,0.0134531027113795,0.0248809350457534,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,Dendritic cell,B2M,CD1C,0.0135770388835229,0.0295445468205154,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Dendritic cell,S100A9,CD36,0.0142473490409282,0.0056419554379618,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,T proliferating,HLA-C,CD8B,0.0144600352698284,0.0459031601761078,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Plasmacytoid DC,S100A9,CD36,0.014933334447721,0.0059854146298044,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Monocyte classical,S100A8,CD68,0.0150201853115771,0.0025933945324031,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,T proliferating,HLA-C,CD8A,0.0151509158128834,0.0386419426810756,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Dendritic cell,S100A8,CD36,0.0154580961288816,0.0038816995517562,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Plasmacytoid DC,S100A8,CD36,0.0159916412740639,0.0041513637309802,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Monocyte classical,S100A9,CD36,0.0182611752099708,0.0059562855370114,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Platelet,Dendritic cell,B2M,CD1C,0.0191803497280118,0.0389348372259363,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Erythroid late,S100A8,CD36,0.0192293308550741,0.0054476863058537,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Monocyte classical,S100A9,CD68,0.0203725512442234,0.0042322617276091,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,Monocyte non-classical,HLA-B,LILRB2,0.0207268097907612,0.0080663715517816,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,CD8 T cytotoxic,Monocyte non-classical,HLA-B,LILRB2,0.0207268097907612,0.0080663715517816,True
+Reactome_Pathways_2024,Costimulation by the CD28 Family,78,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+Reactome_Pathways_2024,Downstream TCR Signaling,91,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+Reactome_Pathways_2024,Generation of Second Messenger Molecules,41,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+Reactome_Pathways_2024,PD-1 Signaling,30,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+Reactome_Pathways_2024,Phosphorylation of CD3 and TCR Zeta Chains,29,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+Reactome_Pathways_2024,TCR Signaling,113,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+Reactome_Pathways_2024,Translocation of ZAP-70 to Immunological Synapse,26,Dendritic cell,Plasmacytoid DC,HLA-DRA,CD4,0.022278395502245,0.0053657850782216,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,Monocyte non-classical,HLA-B,LILRB2,0.0227543861314309,0.008927554077696,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,CD8 T memory,Monocyte non-classical,HLA-B,LILRB2,0.0227543861314309,0.008927554077696,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD4 T memory,T proliferating,HLA-C,CD8A,0.0235044461676488,0.0494080752169116,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,Monocyte non-classical,HLA-B,LILRB2,0.0237751607469343,0.0093894542993719,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,NK,Monocyte non-classical,HLA-B,LILRB2,0.0237751607469343,0.0093894542993719,True
+Reactome_Pathways_2024,Chemokine Receptors Bind Chemokines,57,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,0.0240473631135866,0.0002383503037547,True
+Reactome_Pathways_2024,Class A 1 (Rhodopsin-like Receptors),333,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,0.0240473631135866,0.0002383503037547,True
+Reactome_Pathways_2024,G Alpha (I) Signalling Events,316,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,0.0240473631135866,0.0002383503037547,True
+Reactome_Pathways_2024,GPCR Ligand Binding,467,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,0.0240473631135866,0.0002383503037547,True
+Reactome_Pathways_2024,Peptide Ligand-Binding Receptors,198,CD8 T cytotoxic,T proliferating,CCL5,CXCR3,0.0240473631135866,0.0002383503037547,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Granulocyte precursor,Erythroid late,S100A9,CD36,0.024321058922022,0.0105059183319121,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T activated,Monocyte non-classical,HLA-B,LILRB2,0.0253746756848791,0.0117730638297865,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,T activated,Monocyte non-classical,HLA-B,LILRB2,0.0253746756848791,0.0117730638297865,True
+Reactome_Pathways_2024,Chemokine Receptors Bind Chemokines,57,CD8 T memory,T proliferating,CCL5,CXCR3,0.0258812433052549,0.0002788431309059,True
+Reactome_Pathways_2024,Class A 1 (Rhodopsin-like Receptors),333,CD8 T memory,T proliferating,CCL5,CXCR3,0.0258812433052549,0.0002788431309059,True
+Reactome_Pathways_2024,G Alpha (I) Signalling Events,316,CD8 T memory,T proliferating,CCL5,CXCR3,0.0258812433052549,0.0002788431309059,True
+Reactome_Pathways_2024,GPCR Ligand Binding,467,CD8 T memory,T proliferating,CCL5,CXCR3,0.0258812433052549,0.0002788431309059,True
+Reactome_Pathways_2024,Peptide Ligand-Binding Receptors,198,CD8 T memory,T proliferating,CCL5,CXCR3,0.0258812433052549,0.0002788431309059,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,Monocyte non-classical,HLA-A,LILRB2,0.0259378250021454,0.007563052586232,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,Monocyte non-classical,HLA-C,LILRB2,0.02633556458525,0.0042672457574445,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,NK,Monocyte non-classical,HLA-C,LILRB2,0.02633556458525,0.0042672457574445,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,Monocyte non-classical,HLA-A,LILRB2,0.0267362050278134,0.0066187825591295,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,NK,Monocyte non-classical,HLA-A,LILRB2,0.0269087949529694,0.0066812843189474,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,Monocyte non-classical,HLA-B,LILRB2,0.0278382768357857,0.0264931247744473,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,T proliferating,Monocyte non-classical,HLA-B,LILRB2,0.0278382768357857,0.0264931247744473,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,Monocyte non-classical,HLA-A,LILRB2,0.0301671646348484,0.0077083915794811,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T cytotoxic,Monocyte non-classical,HLA-C,LILRB2,0.0307787279430419,0.0052578410588087,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,CD8 T cytotoxic,Monocyte non-classical,HLA-C,LILRB2,0.0307787279430419,0.0052578410588087,True
+Reactome_Pathways_2024,Costimulation by the CD28 Family,78,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+Reactome_Pathways_2024,Downstream TCR Signaling,91,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+Reactome_Pathways_2024,Generation of Second Messenger Molecules,41,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+Reactome_Pathways_2024,PD-1 Signaling,30,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+Reactome_Pathways_2024,Phosphorylation of CD3 and TCR Zeta Chains,29,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+Reactome_Pathways_2024,TCR Signaling,113,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+Reactome_Pathways_2024,Translocation of ZAP-70 to Immunological Synapse,26,B naive,Plasmacytoid DC,HLA-DRA,CD4,0.0332835607160732,0.0090225352264666,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Monocyte non-classical,Monocyte non-classical,HLA-B,LILRB2,0.0334112555817889,0.0427678972991925,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte non-classical,Monocyte non-classical,HLA-B,LILRB2,0.0334112555817889,0.0427678972991925,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD8 T memory,Monocyte non-classical,HLA-C,LILRB2,0.0342469676497933,0.0062068519319359,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,CD8 T memory,Monocyte non-classical,HLA-C,LILRB2,0.0342469676497933,0.0062068519319359,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Platelet,S100A9,CD36,0.0364125311672644,0.0183319205994552,True
+Reactome_Pathways_2024,Costimulation by the CD28 Family,78,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+Reactome_Pathways_2024,Downstream TCR Signaling,91,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+Reactome_Pathways_2024,Generation of Second Messenger Molecules,41,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+Reactome_Pathways_2024,PD-1 Signaling,30,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+Reactome_Pathways_2024,Phosphorylation of CD3 and TCR Zeta Chains,29,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+Reactome_Pathways_2024,TCR Signaling,113,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+Reactome_Pathways_2024,Translocation of ZAP-70 to Immunological Synapse,26,Pre-B small,Plasmacytoid DC,HLA-DRA,CD4,0.0364791402009992,0.0101727026555545,True
+Reactome_Pathways_2024,Chemokine Receptors Bind Chemokines,57,T proliferating,T proliferating,CCL5,CXCR3,0.0374177551275864,0.000741888229353,True
+Reactome_Pathways_2024,Class A 1 (Rhodopsin-like Receptors),333,T proliferating,T proliferating,CCL5,CXCR3,0.0374177551275864,0.000741888229353,True
+Reactome_Pathways_2024,G Alpha (I) Signalling Events,316,T proliferating,T proliferating,CCL5,CXCR3,0.0374177551275864,0.000741888229353,True
+Reactome_Pathways_2024,GPCR Ligand Binding,467,T proliferating,T proliferating,CCL5,CXCR3,0.0374177551275864,0.000741888229353,True
+Reactome_Pathways_2024,Peptide Ligand-Binding Receptors,198,T proliferating,T proliferating,CCL5,CXCR3,0.0374177551275864,0.000741888229353,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Dendritic cell,S100A9,CD68,0.037823494465241,0.0090989916452196,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,Pre-B small,Monocyte non-classical,HLA-B,LILRB2,0.0391220323004965,0.0471637777657363,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Pre-B small,Monocyte non-classical,HLA-B,LILRB2,0.0391220323004965,0.0471637777657363,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,T proliferating,Monocyte non-classical,HLA-C,LILRB2,0.0393289748103138,0.0191584819568261,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,T proliferating,Monocyte non-classical,HLA-C,LILRB2,0.0393289748103138,0.0191584819568261,True
+Reactome_Pathways_2024,Antigen processing-Cross Presentation,96,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Class I MHC Mediated Antigen Processing & Presentation,373,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Diseases Associated With the TLR Signaling Cascade,35,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Diseases of Immune System,35,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,ER-Phagosome Pathway,80,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,IRAK4 Deficiency (TLR2 4),20,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,MyD88 Deficiency (TLR2 4),19,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Regulation of TLR by Endogenous Ligand,22,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Platelet,S100A8,CD36,0.0399528866235455,0.0125127283229837,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Platelet,S100A8,CD68,0.0407217816331895,0.0082808560341226,True
+Reactome_Pathways_2024,Chemokine Receptors Bind Chemokines,57,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0409326932461768,3.552244287911985e-07,True
+Reactome_Pathways_2024,Class A 1 (Rhodopsin-like Receptors),333,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0409326932461768,3.552244287911985e-07,True
+Reactome_Pathways_2024,G Alpha (I) Signalling Events,316,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0409326932461768,3.552244287911985e-07,True
+Reactome_Pathways_2024,GPCR Ligand Binding,467,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0409326932461768,3.552244287911985e-07,True
+Reactome_Pathways_2024,Peptide Ligand-Binding Receptors,198,Platelet,Plasmacytoid DC,PF4,CXCR3,0.0409326932461768,3.552244287911985e-07,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Dendritic cell,S100A8,CD68,0.0414268094212854,0.0066969696801705,True
+Reactome_Pathways_2024,Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell,223,CD4 T memory,Monocyte non-classical,HLA-A,LILRB2,0.0421375731675128,0.0331203140944347,True
+Reactome_Pathways_2024,Costimulation by the CD28 Family,78,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+Reactome_Pathways_2024,Downstream TCR Signaling,91,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+Reactome_Pathways_2024,Generation of Second Messenger Molecules,41,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+Reactome_Pathways_2024,PD-1 Signaling,30,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+Reactome_Pathways_2024,Phosphorylation of CD3 and TCR Zeta Chains,29,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+Reactome_Pathways_2024,TCR Signaling,113,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+Reactome_Pathways_2024,Translocation of ZAP-70 to Immunological Synapse,26,Dendritic cell,Plasmacytoid DC,HLA-DRB1,CD4,0.0443041991041719,0.0025765593185913,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Granulocyte precursor,Platelet,S100A9,CD68,0.0472728361633489,0.0140810153843773,True
+Reactome_Pathways_2024,MyD88 MAL(TIRAP) Cascade Initiated on Plasma Membrane,115,Monocyte classical,Monocyte classical,S100A12,CD36,0.0472728361633489,0.0003800650969904,True
+Reactome_Pathways_2024,Neutrophil Degranulation,478,Monocyte classical,Monocyte classical,S100A12,CD36,0.0472728361633489,0.0003800650969904,True
+Reactome_Pathways_2024,Signaling by Interleukins,452,Monocyte classical,Monocyte classical,S100A12,CD36,0.0472728361633489,0.0003800650969904,True
+Reactome_Pathways_2024,Toll Like Receptor 2 (TLR2) Cascade,118,Monocyte classical,Monocyte classical,S100A12,CD36,0.0472728361633489,0.0003800650969904,True
+Reactome_Pathways_2024,Toll Like Receptor 4 (TLR4) Cascade,148,Monocyte classical,Monocyte classical,S100A12,CD36,0.0472728361633489,0.0003800650969904,True
+Reactome_Pathways_2024,Toll Like Receptor TLR1 TLR2 Cascade,118,Monocyte classical,Monocyte classical,S100A12,CD36,0.0472728361633489,0.0003800650969904,True
+Reactome_Pathways_2024,Toll Like Receptor TLR6 TLR2 Cascade,115,Monocyte classical,Monocyte classical,S100A12,CD36,0.0472728361633489,0.0003800650969904,True
+Reactome_Pathways_2024,Toll-like Receptor Cascades,174,Monocyte classical,Monocyte classical,S100A12,CD36,0.0472728361633489,0.0003800650969904,True
+Reactome_Pathways_2024,Costimulation by the CD28 Family,78,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+Reactome_Pathways_2024,Downstream TCR Signaling,91,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+Reactome_Pathways_2024,Generation of Second Messenger Molecules,41,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+Reactome_Pathways_2024,PD-1 Signaling,30,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+Reactome_Pathways_2024,Phosphorylation of CD3 and TCR Zeta Chains,29,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+Reactome_Pathways_2024,TCR Signaling,113,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+Reactome_Pathways_2024,Translocation of ZAP-70 to Immunological Synapse,26,Dendritic cell,Plasmacytoid DC,HLA-DPB1,CD4,0.0474991554070792,0.0035094148484033,True
+Reactome_Pathways_2024,DAP12 Interactions,45,NK,NK,B2M,KLRC2,0.0484652004351993,0.0131110806046561,True
+Reactome_Pathways_2024,DAP12 Signaling,29,NK,NK,B2M,KLRC2,0.0484652004351993,0.0131110806046561,True
+Reactome_Pathways_2024,Costimulation by the CD28 Family,78,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+Reactome_Pathways_2024,Downstream TCR Signaling,91,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+Reactome_Pathways_2024,Generation of Second Messenger Molecules,41,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+Reactome_Pathways_2024,PD-1 Signaling,30,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+Reactome_Pathways_2024,Phosphorylation of CD3 and TCR Zeta Chains,29,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+Reactome_Pathways_2024,TCR Signaling,113,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True
+Reactome_Pathways_2024,Translocation of ZAP-70 to Immunological Synapse,26,Dendritic cell,Monocyte non-classical,HLA-DRA,CD4,0.0485620201922117,0.0164092491208898,True

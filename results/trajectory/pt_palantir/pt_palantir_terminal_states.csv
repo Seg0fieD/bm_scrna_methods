@@ -1,0 +1,15 @@
+run,terminal,cell_type
+diffmap_pca_marker,CACCTTGGTTGCGTTA-1-MantonBM6,Monocyte classical
+diffmap_pca_marker,GTACTTTTCTTGTATC-1-MantonBM2,NK
+diffmap_pca_marker,GTTTCTACAATAACGA-1-MantonBM2,Platelet
+diffmap_pca_marker,TAGCCGGAGGTCGGAT-1-MantonBM2,B naive
+diffmap_pca_diffusion,CACCTTGGTTGCGTTA-1-MantonBM6,Monocyte classical
+diffmap_pca_diffusion,GTACTTTTCTTGTATC-1-MantonBM2,NK
+diffmap_pca_diffusion,GTTTCTACAATAACGA-1-MantonBM2,Platelet
+diffmap_pca_diffusion,TAGCCGGAGGTCGGAT-1-MantonBM2,B naive
+diffmap_scvi_marker,AGCGTATAGTGTGGCA-1-MantonBM5,HSPC
+diffmap_scvi_marker,ACGATACGTCGGCACT-1-MantonBM6,Erythroid early
+diffmap_scvi_marker,CAACTAGTCCTTAATC-1-MantonBM6,Monocyte non-classical
+diffmap_scvi_marker,GTCACGGCAGTCAGCC-1-MantonBM2,NK
+diffmap_scvi_diffusion,AGCGTATAGTGTGGCA-1-MantonBM5,HSPC
+diffmap_scvi_diffusion,CCAATCCAGTCACGCC-1-MantonBM1,CD8 T memory

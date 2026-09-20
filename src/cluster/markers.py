@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore", category=PerformanceWarning)
 IN = Path("data/interim/bm_clustered.h5ad")
 OUT = Path("data/interim/bm_markers.h5ad")
 FIG = Path("figures/annotate")
-TAB = Path("results/tables")
+TAB = Path("results/cluster/markers")
 
 GROUP = "leiden_1.0"
 N_TOP = 25
@@ -94,7 +94,7 @@ def main():
 
     sc.pl.dotplot(a, dot, groupby=GROUP, dendrogram=True,
                   standard_scale="var", show=False)
-    plt.gcf().savefig(FIG / "dotplot_top3.png", dpi = 250, bbox_inches="tight")
+    plt.gcf().savefig(FIG / "dotplot_top3.png", dpi = 300, bbox_inches="tight")
     plt.close("all")
 
     a.write_h5ad(OUT, compression="gzip")

@@ -1,5 +1,4 @@
 """Cell-Rank cross-check of the trajectory: marostates, terminal states and fate probablities"""
-
 from __future__ import annotations
 
 import cellrank as cr
@@ -163,3 +162,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    

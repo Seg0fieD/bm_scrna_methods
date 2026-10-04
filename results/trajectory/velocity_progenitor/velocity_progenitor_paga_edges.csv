@@ -1,0 +1,23 @@
+model,source,target,confidence
+stochastic,Erythroid late,Erythroid early,0.8635089965684861
+stochastic,Granulocyte precursor,Monocyte classical,0.1949628395908362
+stochastic,Monocyte classical,Monocyte non-classical,0.0974388519274227
+stochastic,Platelet,HSPC,0.08655168562493111
+stochastic,Pre-B small,B naive,0.07970601352135474
+stochastic,Dendritic cell,Monocyte classical,0.06946594966671309
+stochastic,Erythroid late,HSPC,0.05668134682464662
+stochastic,Pre-B large,HSPC,0.055490074024305724
+stochastic,Granulocyte precursor,HSPC,0.053728938765052685
+stochastic,Pre-B large,Pre-B small,0.030079977129282284
+stochastic,Platelet,Plasmacytoid DC,0.02675869185543265
+dynamical,Erythroid late,Erythroid early,0.8172251717081747
+dynamical,Platelet,HSPC,0.2711321052119192
+dynamical,Granulocyte precursor,Monocyte classical,0.15534629173767175
+dynamical,Monocyte classical,Monocyte non-classical,0.11524183676455586
+dynamical,Pre-B large,HSPC,0.057185766486586936
+dynamical,Erythroid late,HSPC,0.05668134682464662
+dynamical,HSPC,Plasmacytoid DC,0.04717802144834071
+dynamical,Granulocyte precursor,Dendritic cell,0.04142119577053591
+dynamical,Pre-B large,Pre-B small,0.02700361583196932
+dynamical,Platelet,Granulocyte precursor,0.020939020858085817
+dynamical,Platelet,B naive,0.017016132893753762

@@ -1,0 +1,33 @@
+model,source,target,confidence_whole_sample,confidence_progenitor
+dynamical,Dendritic cell,Granulocyte precursor,0.0731135697586683,0.0
+dynamical,Dendritic cell,Plasmacytoid DC,0.0378618135655791,0.0
+dynamical,Erythroid early,HSPC,0.0684454195058234,0.0
+dynamical,Erythroid late,Erythroid early,0.3193624127198899,0.8172251717081747
+dynamical,Erythroid late,HSPC,0.0,0.05668134682464662
+dynamical,Granulocyte precursor,Dendritic cell,0.0,0.04142119577053591
+dynamical,Granulocyte precursor,Monocyte classical,0.0923304963221119,0.15534629173767175
+dynamical,HSPC,Dendritic cell,0.0258843873709868,0.0
+dynamical,HSPC,Plasmacytoid DC,0.0,0.04717802144834071
+dynamical,Monocyte classical,Monocyte non-classical,0.1480137340944764,0.11524183676455586
+dynamical,Platelet,B naive,0.0,0.017016132893753762
+dynamical,Platelet,Granulocyte precursor,0.0,0.020939020858085817
+dynamical,Platelet,HSPC,0.0,0.2711321052119192
+dynamical,Pre-B large,HSPC,0.0,0.057185766486586936
+dynamical,Pre-B large,Pre-B small,0.0193127125886869,0.02700361583196932
+dynamical,Pre-B small,B naive,0.200639275415824,0.0
+stochastic,Dendritic cell,Granulocyte precursor,0.1581670571593773,0.0
+stochastic,Dendritic cell,Monocyte classical,0.0,0.06946594966671309
+stochastic,Dendritic cell,Monocyte non-classical,0.0778070921575573,0.0
+stochastic,Dendritic cell,Plasmacytoid DC,0.0352279482740605,0.0
+stochastic,Erythroid late,Erythroid early,0.1235307645272603,0.8635089965684861
+stochastic,Erythroid late,HSPC,0.0,0.05668134682464662
+stochastic,Granulocyte precursor,HSPC,0.0,0.053728938765052685
+stochastic,Granulocyte precursor,Monocyte classical,0.1944840431060611,0.1949628395908362
+stochastic,HSPC,Pre-B large,0.0263124692422946,0.0
+stochastic,Monocyte classical,Monocyte non-classical,0.0,0.0974388519274227
+stochastic,Plasmacytoid DC,B naive,0.0972671941845451,0.0
+stochastic,Platelet,HSPC,0.0,0.08655168562493111
+stochastic,Platelet,Plasmacytoid DC,0.0,0.02675869185543265
+stochastic,Pre-B large,HSPC,0.0,0.055490074024305724
+stochastic,Pre-B large,Pre-B small,0.0476836001083508,0.030079977129282284
+stochastic,Pre-B small,B naive,0.1476244144953876,0.07970601352135474

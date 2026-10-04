@@ -1,0 +1,9 @@
+lane,cells,dominant_type,dominant_share,file
+MantonBM1,4553,CD4 T naive,0.351,velocity_barcodes_MantonBM1.tsv
+MantonBM2,5073,B naive,0.26,velocity_barcodes_MantonBM2.tsv
+MantonBM3,4542,CD4 T naive,0.22,velocity_barcodes_MantonBM3.tsv
+MantonBM4,4694,Monocyte classical,0.228,velocity_barcodes_MantonBM4.tsv
+MantonBM5,4582,CD4 T naive,0.25,velocity_barcodes_MantonBM5.tsv
+MantonBM6,4917,CD4 T naive,0.411,velocity_barcodes_MantonBM6.tsv
+MantonBM7,5038,CD4 T naive,0.371,velocity_barcodes_MantonBM7.tsv
+MantonBM8,5031,CD4 T naive,0.298,velocity_barcodes_MantonBM8.tsv

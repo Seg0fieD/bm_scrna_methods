@@ -1,0 +1,16 @@
+group,ordering,cells,spearman
+all cells,stochastic_velocity_pseudotime,38430,-0.4694464833770867
+all cells,dynamical_velocity_pseudotime,38430,-0.5599343314526752
+all cells,latent_time,38430,-0.43758039818280137
+erythroid,stochastic_velocity_pseudotime,2721,-0.6503903873753414
+erythroid,dynamical_velocity_pseudotime,2721,0.8021846654990104
+erythroid,latent_time,2721,0.7840324291422899
+B,stochastic_velocity_pseudotime,7350,0.5378805302646152
+B,dynamical_velocity_pseudotime,7350,0.2980297469263519
+B,latent_time,7350,-0.253516636090739
+myeloid,stochastic_velocity_pseudotime,8327,0.025298806722110764
+myeloid,dynamical_velocity_pseudotime,8327,-0.4193607226449399
+myeloid,latent_time,8327,-0.240974157070892
+mature lymphoid,stochastic_velocity_pseudotime,21545,-0.4690618466873603
+mature lymphoid,dynamical_velocity_pseudotime,21545,-0.4496963387164851
+mature lymphoid,latent_time,21545,-0.3395409491620358

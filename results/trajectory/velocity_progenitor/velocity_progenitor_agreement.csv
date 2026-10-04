@@ -1,0 +1,13 @@
+group,ordering,cells,spearman
+all cells,stochastic_velocity_pseudotime,16885,0.5562377627670549
+all cells,dynamical_velocity_pseudotime,16885,-0.02436917324744902
+all cells,latent_time,16885,0.15182947067435285
+erythroid,stochastic_velocity_pseudotime,2721,0.9015742824522682
+erythroid,dynamical_velocity_pseudotime,2721,0.9087382588415994
+erythroid,latent_time,2721,0.9002419287510341
+B,stochastic_velocity_pseudotime,7350,0.37290163965290446
+B,dynamical_velocity_pseudotime,7350,0.06633053983395405
+B,latent_time,7350,0.05938924682745495
+myeloid,stochastic_velocity_pseudotime,8327,0.37556270854199253
+myeloid,dynamical_velocity_pseudotime,8327,0.274359426328259
+myeloid,latent_time,8327,0.6820145637717688

@@ -1,0 +1,37 @@
+model,source,target,confidence
+stochastic,CD8 T memory,T activated,0.5878669376112982
+stochastic,NK,CD8 T cytotoxic,0.5762778697721552
+stochastic,CD8 T memory,CD4 T memory,0.4491304304549391
+stochastic,CD4 T memory,CD4 T naive,0.3661962395538387
+stochastic,CD8 T cytotoxic,CD8 T memory,0.35838091117834264
+stochastic,Granulocyte precursor,Monocyte classical,0.19448404310606113
+stochastic,Dendritic cell,Granulocyte precursor,0.15816705715937734
+stochastic,Pre-B small,B naive,0.1476244144953876
+stochastic,Erythroid late,Erythroid early,0.12353076452726038
+stochastic,Plasmacytoid DC,B naive,0.09726719418454512
+stochastic,Dendritic cell,Monocyte non-classical,0.07780709215755734
+stochastic,Erythroid late,CD4 T naive,0.07327799969787326
+stochastic,Platelet,CD4 T naive,0.06578072550505273
+stochastic,Monocyte non-classical,CD4 T naive,0.06258098961987851
+stochastic,Pre-B large,Pre-B small,0.04768360010835089
+stochastic,Dendritic cell,Plasmacytoid DC,0.035227948274060596
+stochastic,HSPC,Pre-B large,0.026312469242294603
+stochastic,T proliferating,NK,0.012364877231925534
+dynamical,CD8 T memory,CD4 T memory,1.2101491737748966
+dynamical,NK,CD8 T cytotoxic,1.1037523476661235
+dynamical,T activated,CD4 T naive,0.45494820477163034
+dynamical,CD8 T memory,T activated,0.4034658770401033
+dynamical,Erythroid late,Erythroid early,0.3193624127198899
+dynamical,T proliferating,HSPC,0.2674796090071374
+dynamical,NK,CD8 T memory,0.23114946107528211
+dynamical,Pre-B small,B naive,0.200639275415824
+dynamical,T proliferating,Pre-B large,0.16787496771334529
+dynamical,Monocyte classical,Monocyte non-classical,0.14801373409447643
+dynamical,T proliferating,CD8 T memory,0.1104999506726275
+dynamical,Granulocyte precursor,Monocyte classical,0.09233049632211193
+dynamical,Dendritic cell,Granulocyte precursor,0.07311356975866837
+dynamical,Erythroid early,HSPC,0.0684454195058234
+dynamical,Dendritic cell,Plasmacytoid DC,0.03786181356557915
+dynamical,HSPC,Dendritic cell,0.025884387370986826
+dynamical,Platelet,T proliferating,0.01964242306021503
+dynamical,Pre-B large,Pre-B small,0.01931271258868692

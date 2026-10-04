@@ -25,7 +25,7 @@ SEED                 = 7
 N_NEIGHBORS          = 15
 DPI                  = 300
 FIGSIZE              = (15, 8)
-UMAP_LEGEND_FONTSIZE = 6
+UMAP_LEGEND_FONTSIZE = 8
 BACKGROUND           = "#12141a"
 FOREGROUND           = "#e6e6e6"
 
@@ -149,6 +149,16 @@ def select_root(adata: AnnData, method: str, embedding: str = MAIN_EMBEDDING) ->
     print(f"root cell by {method} on {embedding}: {barcode}")
     return barcode
 
+def find_result(name: str) -> Path:
+    """Saved result file by name: the results root first, then one level of
+    per-script subfolder."""
+    direct = RESULT_DIR / name
+    if direct.exists():
+        return direct
+    nested = sorted(RESULT_DIR.glob(f"*/{name}"))
+    if nested:
+        return nested[0]
+    raise FileNotFoundError(f"result not found under {RESULT_DIR}: {name}")
 def save_table(frame: pd.DataFrame, name: str, index: bool = True) -> Path:
     """Write a table as CSV to the trajectroy results directory."""
     path = RESULT_DIR / f"{name}.csv"

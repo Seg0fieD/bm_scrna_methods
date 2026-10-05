@@ -217,9 +217,9 @@ def plot_programs(usage: pd.DataFrame, loadings: pd.DataFrame) -> Figure:
     right = np.zeros((len(patterns), len(interactions)))
     for position, pattern in enumerate(patterns):
         share = loadings.loc[pattern, per_pattern[pattern]]
-        share = share / float(share.sum())
+        share = share / float(share.sum()) # type: ignore
         for name, value in share.items():
-            right[position, interactions.index(name)] = value * pattern_height[position]
+            right[position, interactions.index(name)] = value * pattern_height[position] # type: ignore
 
     cell_heights = left.sum(axis = 1)
     interaction_heights = right.sum(axis = 0)
@@ -363,3 +363,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    

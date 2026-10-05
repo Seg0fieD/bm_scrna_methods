@@ -5,8 +5,9 @@ import pandas as pd
 
 import pathway_utils as pu
 
-CONFIDENCE_LEVELS = ["A", "B", "C"]
+CONFIDENCE_LEVELS  = ["A", "B", "C"]
 TOP_FACTORS_SHOWN  = 5
+SCRIPT_NAME        = "act_dorothea"
 
 
 def load_dorothea():
@@ -47,8 +48,8 @@ def main():
         scores = score_cells(adata, net)
 
     summary = mean_by_cell_type(scores, adata.obs[pu.LABEL_KEY])
-    pu.save_cell_scores(scores, "act_dorothea")
-    pu.save_table(summary, "act_dorothea_by_celltype")
+    pu.save_cell_scores(scores, SCRIPT_NAME, "act_dorothea")
+    pu.save_table(summary, SCRIPT_NAME, "act_dorothea_by_celltype")
 
     print(top_factor(summary).to_string(index = False))
 

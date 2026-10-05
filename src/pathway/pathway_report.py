@@ -1,7 +1,5 @@
 """Figures and cross-method comparison tables for the pathway analysis."""
 
-# need to he write it ..
-
 import matplotlib.pyplot as plt
 import pandas as pd
 import scanpy as sc
@@ -9,6 +7,8 @@ import seaborn as sns
 
 import pathway_utils as pu
 
+
+SCRIPT_NAME          = "pathway_report"
 MIN_LEADING_EDGE     = 5
 TOP_FACTORS_PER_TYPE = 3
 MIN_RAW_RANGE        = 1.5
@@ -134,14 +134,14 @@ def main():
     with pu.step("pathway activity maps"):
         plot_progeny_umap(adata, progeny)
 
-    progeny_summary = pd.read_csv(pu.RESULTS / "act_progeny_by_celltype.csv", index_col = 0)
+    progeny_summary = pd.read_csv(pu.find_result("act_progeny_by_celltype.csv"), index_col = 0)
     plot_heatmap(
         scale_across_cell_types(drop_flat_features(progeny_summary)),
         "heatmap_progeny",
         "Signalling pathway activity, scaled within each pathway",
     )
 
-    dorothea_summary = pd.read_csv(pu.RESULTS / "act_dorothea_by_celltype.csv", index_col = 0)
+    dorothea_summary = pd.read_csv(pu.find_result("act_dorothea_by_celltype.csv"), index_col = 0)
     scaled_factors   = scale_across_cell_types(dorothea_summary)
     plot_heatmap(
         scaled_factors[select_top_factors(scaled_factors)],
@@ -149,13 +149,13 @@ def main():
         "Transcription factor activity, scaled within each factor",
     )
 
-    ora  = pd.read_csv(pu.RESULTS / "ora_markers_significant.csv")
-    gsea = leading_edge_size(pd.read_csv(pu.RESULTS / "gsea_ranked_significant.csv"))
-    pu.save_table(gsea, "gsea_ranked_with_leading_edge")
+    ora  = pd.read_csv(pu.find_result("ora_markers_significant.csv"))
+    gsea = leading_edge_size(pd.read_csv(pu.find_result("gsea_ranked_significant.csv")))
+    pu.save_table(gsea, SCRIPT_NAME, "gsea_ranked_with_leading_edge")
 
     strong  = gsea[(gsea["NES"] > 0) & (gsea["leading_edge_size"] >= MIN_LEADING_EDGE)]
     overlap = overlap_table(ora, strong)
-    pu.save_table(overlap, "ora_vs_gsea_overlap")
+    pu.save_table(overlap, SCRIPT_NAME, "ora_vs_gsea_overlap")
     plot_overlap(overlap)
 
     print(overlap.groupby(pu.LABEL_KEY, observed = True)[["both", "ora_only", "gsea_only"]].sum().to_string())

@@ -9,11 +9,12 @@ PERMUTATIONS  = 1000
 MIN_SET_SIZE  = 15
 MAX_SET_SIZE  = 500
 THREADS       = 4
+SCRIPT_NAME   = "gsea_ranked"
 
 def load_rankings():
     """Return the complete gene ranking per cell type, ordered by descending test statistic"""
     frame = pd.read_csv(
-        pu.RESULTS / "de_celltype_full.csv",
+        pu.find_result("de_celltype_full.csv"),
         usecols = [pu.LABEL_KEY, "gene", "scores"]
     )
     ranking = {}
@@ -41,7 +42,7 @@ def run_gsea(ranking, gene_sets):
 
 def results_for_library(key, rankings):
     """Return the enrichment table for one gene set collection, reusing a completed run if present"""
-    path = pu.RESULTS / f"gsea_ranked_{key}.csv"
+    path = pu.RESULTS / SCRIPT_NAME / f"gsea_ranked_{key}.csv"
     if path.exists():
         print(f"{key} : reusing {path.name}")
         return pd.read_csv(path)
@@ -55,7 +56,7 @@ def results_for_library(key, rankings):
             frame.insert(1, "library", key)
             collected.append(frame)
     results = pd.concat(collected, ignore_index = True)
-    pu.save_table(results, f"gsea_ranked_{key}")
+    pu.save_table(results, SCRIPT_NAME, f"gsea_ranked_{key}")
     return results
 
 
@@ -70,11 +71,11 @@ def main():
         collected.append(results_for_library(key, rankings))
 
     results = pd.concat(collected, ignore_index = True)
-    pu.save_table(results, "gsea_ranked_all")
+    pu.save_table(results, SCRIPT_NAME, "gsea_ranked_all")
 
     significant = results[results["FDR q-val"] < pu.FDR_CUTOFF]
     ordered     = significant.sort_values([pu.LABEL_KEY, "library", "FDR q-val"])
-    pu.save_table(ordered, "gsea_ranked_significant")
+    pu.save_table(ordered, SCRIPT_NAME, "gsea_ranked_significant")
 
     counts = significant.groupby([pu.LABEL_KEY, "library"], observed = True).size().unstack(fill_value = 0)
     print(counts.to_string())

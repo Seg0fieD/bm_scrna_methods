@@ -1,4 +1,3 @@
-# **********need to write 
 """Over-representation analysis of cNMF gene expression programs against GO, KEGG and Reactome."""
 
 import gseapy
@@ -6,8 +5,8 @@ import pandas as pd
 
 import pathway_utils as pu
 
-CNMF_OVERDISPERSED = pu.ROOT / "results" / "benchmark" / "cnmf" / "bm" / "bm.overdispersed_genes.txt"
-
+CNMF_OVERDISPERSED = pu.ROOT / "results" / "benchmark" / "emb_cnmf" / "cnmf" / "bm" / "bm.overdispersed_genes.txt"
+SCRIPT_NAME        = "ora_cnmf_programs"
 
 def load_programs():
     """Return the top genes of each cNMF program as a mapping of program label to gene list."""
@@ -53,11 +52,11 @@ def main():
                 collected.append(frame)
 
     results = pd.concat(collected, ignore_index = True)
-    pu.save_table(results, "ora_cnmf_all")
+    pu.save_table(results, SCRIPT_NAME, "ora_cnmf_all")
 
     significant = results[results["Adjusted P-value"] < pu.FDR_CUTOFF]
     ordered     = significant.sort_values(["program", "library", "Adjusted P-value"])
-    pu.save_table(ordered, "ora_cnmf_significant")
+    pu.save_table(ordered, SCRIPT_NAME, "ora_cnmf_significant")
 
     best = ordered[ordered["library"] == "Reactome"].groupby("program").head(1)
     print(best[["program", "Term", "Overlap", "Adjusted P-value"]].to_string(index = False))

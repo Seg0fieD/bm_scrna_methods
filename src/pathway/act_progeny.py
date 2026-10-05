@@ -5,6 +5,7 @@ import decoupler as dc
 import pathway_utils as pu
 
 TOP_TARGETS = 500
+SCRIPT_NAME = "act_progeny"
 
 def load_progeny():
     """Return the PROGENy regulon table, keeping the strongest footprint genes per pathway"""
@@ -32,10 +33,10 @@ def main():
     with pu.step("pathway activity per cell"):
         scores = score_cells(adata, net)
 
-    pu.save_cell_scores(scores, "act_progeny")
+    pu.save_cell_scores(scores, SCRIPT_NAME, "act_progeny")
 
     summary = mean_by_cell_type(scores, adata.obs[pu.LABEL_KEY])
-    pu.save_table(summary, "act_progeny_by_celltype")
+    pu.save_table(summary, SCRIPT_NAME, "act_progeny_by_celltype")
 
     print(summary.set_index(pu.LABEL_KEY).round(2).to_string())
 

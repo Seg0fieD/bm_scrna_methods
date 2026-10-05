@@ -4,6 +4,8 @@ import scanpy as sc
 
 import pathway_utils as pu
 
+SCRIPT_NAME = "de_celltype"
+
 def rank_genes(adata):
     """
         Perform a one-versus-rest Wilcoxon rank-sum test per cell type and 
@@ -43,10 +45,10 @@ def main():
     with pu.step("wilcoxon test per cell type"):
         full = rank_genes(adata)
 
-    pu.save_table(full, "de_celltype_full")
+    pu.save_table(full, SCRIPT_NAME, "de_celltype_full")
 
     top = top_genes(full)
-    pu.save_table(top, "de_celltype_top")
+    pu.save_table(top, SCRIPT_NAME, "de_celltype_top")
 
     print(top.groupby(pu.LABEL_KEY, observed = True).size().sort_values(ascending = False).to_string())
 

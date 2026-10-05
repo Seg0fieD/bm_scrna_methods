@@ -15,7 +15,7 @@ import gseapy
 ROOT = Path(__file__).resolve().parents[2]
 
 ANNOTATED      = ROOT / "data" / "processed" / "bm_annotated.h5ad"
-CNMF_TOP_GENES = ROOT / "results" / "benchmark" / "cnmf_top_genes.csv"
+CNMF_TOP_GENES = ROOT / "results" / "benchmark" / "emb_cnmf" / "cnmf_top_genes.csv"
 GENE_SET_DIR   = ROOT / "data" / "external" / "gene_sets"
 RESULTS        = ROOT / "results" / "pathway"
 FIGURES        = ROOT / "figures" / "pathway" 
@@ -43,6 +43,17 @@ GENE_SET_LIBRARIES = {
 }
 
 CONFOUNDING_PATTERNS = (r"^RP[SL]", r"^MT-", r"^HB[ABDEGMQZ][0-9]?$", r"^(FAU|UBA52|RACK1)$")
+
+def find_result(name):
+    """Saved result file by name: the pathway results root first, then one
+    level of per-script subfolder."""
+    direct = RESULTS / name
+    if direct.exists():
+        return direct
+    nested = sorted(RESULTS.glob(f"*/{name}"))
+    if nested:
+        return nested[0]
+    raise FileNotFoundError(f"result not found under {RESULTS}: {name}")
 
 def setup_plots():
     """Apply the project-wide figure size and resolution to matplotlib and scanpy"""
@@ -135,9 +146,11 @@ def check_libraries():
 
     print("all gene set library names are valid")
 
-def save_table(frame, name):
-    """write results table as CSV in the pathway results directory and log its path."""
-    path = RESULTS / f"{name}.csv"
+def save_table(frame, script_name, name):
+    """Results table written as CSV into the script's own results subfolder."""
+    folder = RESULTS / script_name
+    folder.mkdir(parents = True, exist_ok = True)
+    path = folder / f"{name}.csv"
     frame.to_csv(path, index = False)
     print(f"wrote {path.relative_to(ROOT)} ({len(frame):,} rows)")
 
@@ -148,23 +161,24 @@ def save_figure(figure, name):
     plt.close(figure)
     print(f"wrote {path.relative_to(ROOT)}")
 
-def save_cell_scores(frame, name):
+def save_cell_scores(frame, script_name, name):
     """
-        write a per-cell score matrix as a Numpy array plus as CSV of its column names.
-
-        Row order matches the annotated dataset, so scores can be reattached by position.
+        Per-cell score matrix written as a NumPy array plus a CSV of its column
+        names, in the script's own results subfolder. Row order matches the
+        annotated dataset, so scores reattach by position.
     """
-
-    np.save(RESULTS / f"{name}.npy", frame.to_numpy(dtype = np.float32))
-    pd.Series(frame.columns, name = "feature").to_csv(RESULTS / f"{name}_features.csv", 
-                                                      index = False)
+    folder = RESULTS / script_name
+    folder.mkdir(parents = True, exist_ok = True)
+    np.save(folder / f"{name}.npy", frame.to_numpy(dtype = np.float32))
+    pd.Series(frame.columns, name = "feature").to_csv(
+        folder / f"{name}_features.csv", index = False
+    )
     print(f"wrote {name}.npy ({frame.shape[0]:,} cells x {frame.shape[1]} features)")
-    
 
 def load_cell_scores(name, obs_names = None):
-    """Load a per-cell score matrix saved by save_cell_scores."""
-    values = np.load(RESULTS / f"{name}.npy")
-    features = pd.read_csv(RESULTS / f"{name}_features.csv")["feature"].tolist()
+    """Per-cell score matrix loaded by name from any script's results subfolder."""
+    values = np.load(find_result(f"{name}.npy"))
+    features = pd.read_csv(find_result(f"{name}_features.csv"))["feature"].tolist()
     return pd.DataFrame(values, index = obs_names, columns = features)
 
 @contextmanager

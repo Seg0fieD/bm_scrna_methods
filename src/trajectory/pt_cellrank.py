@@ -9,11 +9,11 @@ import scanpy as sc
 from anndata import AnnData
 
 from trajectory_utils import (
-    CELL_TYPE_KEY,  MAIN_EMBEDDING, MAIN_ROOT_METHODS, RESULT_DIR, SEED,
+    CELL_TYPE_KEY,  MAIN_EMBEDDING, MAIN_ROOT_METHODS, find_result, SEED,
     attach_embeddings, embedding_key, load_annotated, run_tag, save_figure,
     save_matrix, save_table, set_seed, style_bar, style_dark,
 )
-
+SCRIPT_NAME         = "pt_cellrank"
 BASE_EMBEDDING      = "pca"
 GRAPH_NEIGHBORS     = 30
 STATE_COUNTS        = (8, 5, 4)
@@ -29,7 +29,7 @@ HEATMAP_FIGSIZE     = (8, 9)
 def attach_pseudotime(adata: AnnData) -> str:
     """Attach the accepted Palantir pseudotime to ``obs`` and return its key."""
     tag = run_tag(MAIN_EMBEDDING, MAIN_ROOT_METHODS)
-    frame = pd.read_csv(RESULT_DIR / "pt_palantir_pseudotime.csv", index_col = 0)
+    frame = pd.read_csv(find_result("pt_palantir_pseudotime.csv"), index_col = 0)
     key = f"pseudotime_{tag}"
     adata.obs[key] = frame[tag].reindex(adata.obs_names).to_numpy()
     print(f"attached pseudotime from {tag}")
@@ -145,17 +145,19 @@ def main() -> None:
         estimator = fit_estimator(kernel, n_states)
 
         save_table(
-            composition(estimator.macrostates, labels), f"pt_cellrank_macrostates_{tag}"
+            composition(estimator.macrostates, labels), 
+            SCRIPT_NAME, f"pt_cellrank_macrostates_{tag}"
         )
         save_table(
             composition(estimator.terminal_states, labels),
-            f"pt_cellrank_terminal_states_{tag}",
+            SCRIPT_NAME, f"pt_cellrank_terminal_states_{tag}",
         )
 
         frame = fate_frame(estimator, adata.obs_names)
         means = frame.groupby(labels, observed=True).mean()
-        save_matrix(frame.to_numpy(), f"pt_cellrank_fate_{tag}", list(frame.columns))
-        save_table(means, f"pt_cellrank_fate_by_celltype_{tag}")
+        save_matrix(frame.to_numpy(), SCRIPT_NAME, f"pt_cellrank_fate_{tag}", 
+                    list(frame.columns))
+        save_table(means, SCRIPT_NAME, f"pt_cellrank_fate_by_celltype_{tag}")
 
         plot_fate_grid(adata, frame, tag)
         plot_fate_heatmap(means, tag)

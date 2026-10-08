@@ -69,10 +69,10 @@ def read_loom(lane: str) -> AnnData:
     if obs_names.has_duplicates:
         raise ValueError(f"{path.name}: repeated cell barcodes")
     print(f"{lane}: {len(obs_names):,} cells x {len(accessions):,} genes")
-    return AnnData(X=layers["spliced"].copy(), layers=layers,
-                   obs=pd.DataFrame(index=obs_names),
-                   var=pd.DataFrame({"gene_symbol": symbols},
-                                    index=accessions))
+    return AnnData(X = layers["spliced"].copy(), layers = layers,
+                   obs = pd.DataFrame(index = obs_names),
+                   var = pd.DataFrame({"gene_symbol": symbols},
+                                    index = accessions))
 
 
 def parse_log(lane: str) -> dict[str, str | float]:
@@ -94,9 +94,9 @@ def layer_totals(adata: AnnData) -> pd.DataFrame:
         of all counted molecules.
     """
     totals = pd.DataFrame(
-        {f"n_{name}": np.asarray(adata.layers[name].sum(axis=1)).ravel()
-         for name in LAYERS}, index=adata.obs_names)
-    total = totals.sum(axis=1)
+        {f"n_{name}": np.asarray(adata.layers[name].sum(axis = 1)).ravel()
+         for name in LAYERS}, index = adata.obs_names)
+    total = totals.sum(axis = 1)
     totals["unspliced_fraction"] = totals["n_unspliced"] / total.where(
         total > 0)
     return totals
@@ -109,8 +109,8 @@ def recovery(expected: pd.DataFrame, recovered: pd.DataFrame,
         fraction.
     """
     table = pd.DataFrame({
-        "expected": expected.groupby(keys, observed=True).size(),
-        "recovered": recovered.groupby(keys, observed=True).size(),
+        "expected": expected.groupby(keys, observed = True).size(),
+        "recovered": recovered.groupby(keys, observed = True).size(),
     }).fillna(0).astype(int)
     table["recovered_fraction"] = table["recovered"] / table["expected"]
     return table.reset_index()
@@ -122,18 +122,18 @@ def lane_summary(obs: pd.DataFrame,
         Per-lane median counts, unspliced fraction and its deviation from
         the across-lane median, dominant cell types, read accounting.
     """
-    grouped = obs.groupby(LANE_KEY, observed=True)
+    grouped = obs.groupby(LANE_KEY, observed = True)
     sums = grouped[[f"n_{name}" for name in LAYERS]].sum()
     summary = grouped[[f"n_{name}" for name in LAYERS]
                       + ["unspliced_fraction"]].median().add_prefix("median_")
     summary["pooled_unspliced_fraction"] = (
-        sums["n_unspliced"] / sums.sum(axis=1))
+        sums["n_unspliced"] / sums.sum(axis = 1))
     summary["deviation_from_lane_median"] = (
         summary["pooled_unspliced_fraction"]
         / summary["pooled_unspliced_fraction"].median() - 1)
     summary["flagged"] = (
         summary["deviation_from_lane_median"].abs() > FLAG_DEVIATION)
-    shares = pd.crosstab(obs[LANE_KEY], obs[CELL_TYPE_KEY], normalize="index")
+    shares = pd.crosstab(obs[LANE_KEY], obs[CELL_TYPE_KEY], normalize = "index")
     summary["dominant_cell_types"] = [
         "; ".join(f"{label} {share:.2f}" for label, share
                   in row.nlargest(TOP_CELL_TYPES).items())
@@ -153,39 +153,39 @@ def lane_figure(obs: pd.DataFrame, summary: pd.DataFrame) -> None:
     values = [obs.loc[obs[LANE_KEY] == lane, "unspliced_fraction"].dropna()
               for lane in lanes]
     line = {"color": FOREGROUND}
-    figure, axis = plt.subplots(figsize=FIGSIZE)
-    axis.boxplot(values, showfliers=False, boxprops=line, whiskerprops=line,
-                 capprops=line, medianprops={"color": MEDIAN_COLOR})
+    figure, axis = plt.subplots(figsize = FIGSIZE)
+    axis.boxplot(values, showfliers = False, boxprops = line, whiskerprops = line,
+                 capprops = line, medianprops={"color": MEDIAN_COLOR})
     axis.axhline(summary["median_unspliced_fraction"].median(),
-                 color=FOREGROUND, linestyle="--", linewidth=1,
-                 label="median of the\nlane medians")
+                 color = FOREGROUND, linestyle = "--", linewidth = 1,
+                 label = "median of the\nlane medians")
     axis.set_xticks(range(1, len(lanes) + 1),
                     [f"{lane}\nn = {len(value):,}"
                      for lane, value in zip(lanes, values)])
     axis.set_ylim(0, np.ceil(obs["unspliced_fraction"].quantile(0.995) * 20)
                   / 20)
     axis.set_ylabel("unspliced / all counted molecules per cell",
-                    color=FOREGROUND, fontsize=LABEL_FONTSIZE)
+                    color = FOREGROUND, fontsize = LABEL_FONTSIZE)
     axis.set_title("Unspliced fraction per cell, by sequencing lane",
-                   fontsize=TITLE_FONTSIZE)
-    axis.tick_params(labelsize=LABEL_FONTSIZE)
+                   fontsize = TITLE_FONTSIZE)
+    axis.tick_params(labelsize = LABEL_FONTSIZE)
     style_dark(figure, axis)
-    axis.legend(loc="upper left", bbox_to_anchor=(1.01, 1), frameon=False,
-                fontsize=LABEL_FONTSIZE, labelcolor=FOREGROUND,
-                facecolor=BACKGROUND)
+    axis.legend(loc = "upper left", bbox_to_anchor = (1.01, 1), frameon = False,
+                fontsize = LABEL_FONTSIZE, labelcolor = FOREGROUND,
+                facecolor = BACKGROUND)
     save_figure(figure, f"{SCRIPT_NAME}_lane_unspliced")
 
 
 def main() -> None:
     """Merged velocity object, recovery tables, lane summary and figure."""
-    annotated = ad.read_h5ad(ANNOTATED_H5AD, backed="r")
+    annotated = ad.read_h5ad(ANNOTATED_H5AD, backed = "r")
     expected = annotated.obs[[CELL_TYPE_KEY]].copy()
     embeddings = {key: np.asarray(annotated.obsm[key]) for key in EMBEDDINGS}
     annotated.file.close()
-    expected[LANE_KEY] = expected.index.str.rsplit("-", n=1).str[1]
+    expected[LANE_KEY] = expected.index.str.rsplit("-", n = 1).str[1]
 
     merged = ad.concat([read_loom(lane) for lane in LANES],
-                       join="inner", merge="same")
+                       join = "inner", merge = "same")
     present = expected.index.intersection(merged.obs_names, sort=False)
     velocity = merged[present].copy()
     del merged
@@ -197,13 +197,13 @@ def main() -> None:
     by_cell_type = recovery(expected, velocity.obs, CELL_TYPE_KEY)
     by_cell_type["median_unspliced_fraction"] = by_cell_type[
         CELL_TYPE_KEY].map(velocity.obs.groupby(
-            CELL_TYPE_KEY, observed=True)["unspliced_fraction"].median())
+            CELL_TYPE_KEY, observed = True)["unspliced_fraction"].median())
     by_lane_cell_type = recovery(expected, velocity.obs,
                                  [LANE_KEY, CELL_TYPE_KEY]).join(
-        velocity.obs.groupby([LANE_KEY, CELL_TYPE_KEY], observed=True)
+        velocity.obs.groupby([LANE_KEY, CELL_TYPE_KEY], observed = True)
         ["unspliced_fraction"].median()
         .rename("median_unspliced_fraction"),
-        on=[LANE_KEY, CELL_TYPE_KEY])
+        on = [LANE_KEY, CELL_TYPE_KEY])
     summary = lane_summary(velocity.obs, [parse_log(lane) for lane in LANES])
     tables = {
         "recovery_lane": recovery(expected, velocity.obs, LANE_KEY),
@@ -212,21 +212,21 @@ def main() -> None:
         "lane_summary": summary,
     }
     for name, table in tables.items():
-        save_table(table, f"{SCRIPT_NAME}_{name}", index=False)
+        save_table(table, SCRIPT_NAME, f"{SCRIPT_NAME}_{name}", index = False)
     lane_figure(velocity.obs, summary)
 
     pd.set_option("display.width", 250)
     print(f"\nrecovered {velocity.n_obs:,} of {len(expected):,} cells, "
           f"{velocity.n_vars:,} genes")
     for name in ("recovery_lane", "recovery_cell_type"):
-        print(tables[name].round(3).to_string(index=False))
-    print(summary.round(3).to_string(index=False))
+        print(tables[name].round(3).to_string(index = False))
+    print(summary.round(3).to_string(index = False))
     activated = velocity.obs.loc[
         velocity.obs[CELL_TYPE_KEY] == "T activated", LANE_KEY]
     print("\nT activated share by lane:\n"
-          + activated.value_counts(normalize=True).round(3).to_string())
+          + activated.value_counts(normalize = True).round(3).to_string())
 
-    velocity.write_h5ad(OUTPUT_H5AD, compression="gzip")
+    velocity.write_h5ad(OUTPUT_H5AD, compression = "gzip")
     print(f"wrote {OUTPUT_H5AD}")
 
 

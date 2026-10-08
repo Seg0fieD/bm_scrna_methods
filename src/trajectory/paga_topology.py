@@ -15,8 +15,9 @@ from anndata import AnnData
 from trajectory_utils import (
     CELL_TYPE_KEY, EMBEDDINGS, N_NEIGHBORS, FIGSIZE, SEED,
     attach_embeddings, embedding_key, load_annotated, save_figure, save_table, set_seed, style_dark,
-)
+) 
 
+SCRIPT_NAME     = "paga_topology"
 PLOT_THRESHOLD  = 0.10
 EDGE_CMAP       = "cividis"
 HEATMAP_CMAP    = "magma"
@@ -111,16 +112,16 @@ def main() -> None:
     adata = load_annotated()
     attach_embeddings(adata)
     ensure_categorical(adata)
-    save_table(cell_counts(adata), "paga_topology_cell_counts")
+    save_table(cell_counts(adata), SCRIPT_NAME,"paga_topology_cell_counts")
 
 
     for embedding in EMBEDDINGS:
         compute_paga(adata, embedding)
         full = connectivity_frame(adata, "connectivities")
         tree = connectivity_frame(adata, "connectivities_tree")
-        save_table(full, f"paga_topology_{embedding}_connectivities")
-        save_table(tree, f"paga_topology_{embedding}_tree")
-        save_table(edge_table(full), f"paga_topology_{embedding}_edges", index = False)
+        save_table(full, SCRIPT_NAME, f"paga_topology_{embedding}_connectivities")
+        save_table(tree, SCRIPT_NAME, f"paga_topology_{embedding}_tree")
+        save_table(edge_table(full), SCRIPT_NAME, f"paga_topology_{embedding}_edges", index = False)
         plot_graph(adata, embedding)
         plot_heatmap(full, embedding)
 

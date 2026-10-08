@@ -10,8 +10,9 @@ from anndata import AnnData
 
 
 from trajectory_utils import(
-    CELL_TYPE_KEY, MAIN_EMBEDDING, MAIN_ROOT_METHODS, RESULT_DIR, 
-    load_annotated, run_tag, save_figure, save_table, set_seed, style_bar, style_dark,
+    CELL_TYPE_KEY, MAIN_EMBEDDING, MAIN_ROOT_METHODS, find_result,
+    load_annotated, run_tag, save_figure, save_table, set_seed, style_bar, 
+    style_dark,
 )
 
 FATE_TAG         = "k8"
@@ -25,7 +26,8 @@ TREND_CMAP       = "RdBu_r"
 COMPOSITION_CMAP = "magma"
 FIGURE_SIZE      = (12, 11)
 
-## put in utils 
+SCRIPT_NAME      = "gene_trends"
+
 def slug(name: str) -> str: 
     """Return a file-safe form of a cell type name."""
     return name.lower().replace(" ", "_").replace("-","_")
@@ -33,20 +35,20 @@ def slug(name: str) -> str:
 def load_pseudotime(index: pd.Index) -> pd.Series:
     """Read the accepted Palantir pseudotime."""
     tag   = run_tag(MAIN_EMBEDDING, MAIN_ROOT_METHODS)
-    frame = pd.read_csv(RESULT_DIR/ "pt_palantir_pseudotime.csv", index_col = 0)
+    frame = pd.read_csv(find_result("pt_palantir_pseudotime.csv"), index_col = 0)
     print(f"Using pseudotime from {tag}")
     return frame[tag].reindex(index)
 
 def load_fates(index: pd.Index) -> pd.DataFrame:
     """Read the stored fate probablity matrix and its lineage names"""
-    matrix = np.load(RESULT_DIR / f"pt_cellrank_fate_{FATE_TAG}.npy")
-    names  = pd.read_csv(RESULT_DIR / f"pt_cellrank_fate_{FATE_TAG}_features.csv")["feature"]
+    matrix = np.load(find_result(f"pt_cellrank_fate_{FATE_TAG}.npy"))
+    names  = pd.read_csv(find_result(f"pt_cellrank_fate_{FATE_TAG}_features.csv"))["feature"]
     return pd.DataFrame(matrix, index = index, columns = list(names))
 
 
 def load_drivers() -> pd.DataFrame:
     """Read the ranked driver genes of every lineage."""
-    return pd.read_csv(RESULT_DIR / "fate_drivers_top.csv")
+    return pd.read_csv(find_result("fate_drivers_top.csv"))
 
 def lineage_expression(adata: AnnData, cells: pd.Index, genes: list[str]) -> pd.DataFrame:
     """Return the expression of the given genes in the given cells."""
@@ -133,9 +135,9 @@ def main() -> None:
         composition = bin_composition(labels, ordered) # type: ignore
         print(f"{lineage}: {len(committed)} cells, {trends.shape[1]} bins")
 
-        trend_blocks.append(trends.stack().rename("scaled").reset_index().assign(lineage = lineage))
+        trend_blocks.append(trends.stack().rename("scaled").reset_index().assign(lineage = lineage)) # type: ignore
         composition_blocks.append(
-            composition.stack().rename("fraction").reset_index().assign(lineage = lineage)
+            composition.stack().rename("fraction").reset_index().assign(lineage = lineage) # type: ignore
         )
 
         peaks.append(pd.DataFrame({
@@ -146,11 +148,12 @@ def main() -> None:
 
         plot_lineage(trends, composition, lineage)
 
-    save_table(pd.concat(trend_blocks, ignore_index = True), "gene_trends_binned", 
-                index = False)
-    save_table(pd.concat(composition_blocks, ignore_index = True),
+    save_table(pd.concat(trend_blocks, ignore_index = True), SCRIPT_NAME,
+                "gene_trends_binned", index = False)
+    save_table(pd.concat(composition_blocks, ignore_index = True), SCRIPT_NAME,
                 "gene_trends_composition", index = False)
-    save_table(pd.concat(peaks, ignore_index = True), "gene_trends_peak_order", index = False)
+    save_table(pd.concat(peaks, ignore_index = True), SCRIPT_NAME,
+                "gene_trends_peak_order", index = False)
 
 
 if __name__ == "__main__":

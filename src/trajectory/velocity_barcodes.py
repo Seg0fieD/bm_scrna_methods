@@ -15,16 +15,17 @@ from trajectory_utils import (
     save_figure, save_table, style_dark,
 )
 
+SCRIPT_NAME     = "velocity_barcodes"
 BARCODE_PATTERN = r"^(?P<barcode>[ACGTN]{16}-\d+)-(?P<lane>[^-]+)$"
 
-FIGURE_SIZE   = (15, 8)
-PLOT_RIGHT    = 0.74
-BAR_HEIGHT    = 0.72
-CATEGORY_CMAP = "tab20"
-TITLE_SIZE    = 17
-LABEL_SIZE    = 12
-TICK_SIZE     = 11
-LEGEND_SIZE   = 10
+FIGURE_SIZE     = (15, 8)
+PLOT_RIGHT      = 0.74
+BAR_HEIGHT      = 0.72
+CATEGORY_CMAP   = "tab20"
+TITLE_SIZE      = 17
+LABEL_SIZE      = 12
+TICK_SIZE       = 11
+LEGEND_SIZE     = 10
 
 
 def kept_cells() -> pd.DataFrame:
@@ -47,8 +48,10 @@ def write_barcode_lists(cells: pd.DataFrame) -> pd.DataFrame:
     """One headerless file per lane, one barcode per line, as read by
     ``velocyto run -b``; the per-lane summary with its dominant cell type."""
     rows = []
+    folder = RESULT_DIR / SCRIPT_NAME
+    folder.mkdir(parents = True, exist_ok = True)
     for lane, group in cells.groupby("lane"):
-        path = RESULT_DIR / f"velocity_barcodes_{lane}.tsv"
+        path = folder / f"velocity_barcodes_{lane}.tsv"
         group["barcode"].to_csv(path, index = False, header = False)
         shares = group[CELL_TYPE_KEY].value_counts(normalize = True)
         rows.append(
@@ -121,7 +124,7 @@ def main() -> None:
     figure."""
     cells = kept_cells()
     summary = write_barcode_lists(cells)
-    save_table(summary, "velocity_barcodes_summary", index = False)
+    save_table(summary, SCRIPT_NAME, "velocity_barcodes_summary", index = False)
     plot_composition(cells)
     print(summary.to_string(index = False))
 

@@ -17,6 +17,7 @@ from trajectory_utils import (
     style_bar, style_dark,
 )
 
+SCRIPT_NAME      = "pt_palantir"
 BASE_EMBEDDING   = {"diffmap_pca" : "pca", "diffmap_scvi" : "scvi"}
 N_DIFF_COMPS     = 10
 NUM_WAYPOINTS    = 1200
@@ -24,6 +25,7 @@ PALANTIR_KNN     = 30
 PSEUDOTIME_CMAP  = "plasma"
 GRID_FIGSIZE     = (16, 12)
 CELLTYPE_FIGSIZE = (9, 11)
+
 
 def multiscale_space(adata: AnnData, embedding: str) -> str:
     """ 
@@ -140,7 +142,7 @@ def main() -> None:
 
         fates = result.branch_probs.reindex(adata.obs_names)
         names = [f"{labels.loc[cell]} | {cell}" for cell in fates.columns]
-        save_matrix(fates.to_numpy(), f"pt_palantir_fate_{tag}", names)
+        save_matrix(fates.to_numpy(), SCRIPT_NAME, f"pt_palantir_fate_{tag}", names)
         terminals.extend(
             {"run": tag, "terminal": cell, "cell_type": labels.loc[cell]}
             for cell in fates.columns
@@ -149,12 +151,12 @@ def main() -> None:
     frame = pd.DataFrame(pseudotime)
     means = frame.groupby(labels, observed=True).mean() # type: ignore
 
-    save_table(frame, "pt_palantir_pseudotime")
-    save_table(pd.DataFrame(entropy), "pt_palantir_entropy")
-    save_table(pd.DataFrame(roots), "pt_palantir_roots", index=False)
-    save_table(pd.DataFrame(terminals), "pt_palantir_terminal_states", index=False)
-    save_table(means, "pt_palantir_pseudotime_by_celltype")
-    save_table(run_correlation(frame), "pt_palantir_run_correlation")
+    save_table(frame, SCRIPT_NAME, "pt_palantir_pseudotime")
+    save_table(pd.DataFrame(entropy), SCRIPT_NAME, "pt_palantir_entropy")
+    save_table(pd.DataFrame(roots), SCRIPT_NAME, "pt_palantir_roots", index=False)
+    save_table(pd.DataFrame(terminals), SCRIPT_NAME, "pt_palantir_terminal_states", index=False)
+    save_table(means, SCRIPT_NAME, "pt_palantir_pseudotime_by_celltype")
+    save_table(run_correlation(frame), SCRIPT_NAME, "pt_palantir_run_correlation")
 
     plot_umap_grid(adata, frame)
     plot_celltype_pseudotime(means)

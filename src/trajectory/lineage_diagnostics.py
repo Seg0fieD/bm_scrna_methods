@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from scipy import sparse
 
-from trajectory_utils import RESULT_DIR, load_annotated, save_table
+from trajectory_utils import find_result, load_annotated, save_table
 
 
 FATE_TAG          = "k8"
@@ -24,19 +24,20 @@ QC_CANDIDATES     = (
                   "doublet_score",
                   "scrublet_score",
                   "predicted_doublet",
-                  )
+                  ) 
 
+SCRIPT_NAME       = "lineage_diagnostics"
 
 def load_pseudotime():
     """Return the Palantir pseudotime that defines the gene trend axis."""
-    frame = pd.read_csv(RESULT_DIR / "pt_palantir_pseudotime.csv", index_col=0)
+    frame = pd.read_csv(find_result("pt_palantir_pseudotime.csv"))
     return frame[PSEUDOTIME_COLUMN]
 
 
 def load_fates(index, tag):
     """Return the CellRank fate probabilities as a frame of cells by terminal state."""
-    matrix = np.load(RESULT_DIR / f"pt_cellrank_fate_{tag}.npy")
-    features = pd.read_csv(RESULT_DIR / f"pt_cellrank_fate_{tag}_features.csv")
+    matrix = np.load(find_result(f"pt_cellrank_fate_{tag}.npy"))
+    features = pd.read_csv(find_result(f"pt_cellrank_fate_{tag}_features.csv"))
     return pd.DataFrame(matrix, index=index, columns=features.iloc[:, -1].astype(str))
 
 
@@ -152,8 +153,8 @@ def main():
 
     tail = tail_table(adata, bins, pseudotime, fates, labels)
     summary = comparison(adata, bins, pseudotime, fates, labels)
-    save_table(tail.reset_index(), "lineage_diagnostics_tail")
-    save_table(summary, "lineage_diagnostics_tail_summary")
+    save_table(tail.reset_index(), SCRIPT_NAME, "lineage_diagnostics_tail")
+    save_table(summary, SCRIPT_NAME, "lineage_diagnostics_tail_summary")
 
     print(f"{UNEXPECTED_LABEL} cells in bins {TAIL_BINS}: {len(tail)}")
     print(tail.to_string())
@@ -162,7 +163,7 @@ def main():
     print()
 
     genes = gene_summary(adata, CHECK_GENES)
-    save_table(genes, "lineage_diagnostics_genes")
+    save_table(genes, SCRIPT_NAME, "lineage_diagnostics_genes")
     print(genes[genes["pct_expressing"] > 0.01].to_string(index=False))
 
 

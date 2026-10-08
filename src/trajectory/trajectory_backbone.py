@@ -15,7 +15,7 @@ from trajectory_utils import (
     UMAP_LEGEND_FONTSIZE, attach_embeddings, find_result, load_annotated,
     run_tag, save_figure, save_table, set_seed, style_bar, style_dark,
 )
-
+SCRIPT_NAME     = "trajectory_backbone"
 RUN             = run_tag(MAIN_EMBEDDING, MAIN_ROOT_METHODS)
 UMAP_KEY        = "X_umap"
 
@@ -141,8 +141,8 @@ def draw_backbone(axis: Axes, edges: pd.DataFrame, labels: bool = True) -> None:
     widths = edge_widths(edges["connectivity"].to_numpy(dtype = float))
     for width, row in zip(widths, edges.itertuples(index = False)):
         axis.plot(
-            [row.source_x, row.target_x],
-            [row.source_y, row.target_y],
+            [row.source_x, row.target_x], # pyright: ignore[reportArgumentType]
+            [row.source_y, row.target_y], # pyright: ignore[reportArgumentType]
             color     = EDGE_COLOUR,
             linewidth = width,
             alpha     = 0.9,
@@ -484,8 +484,8 @@ def main() -> None:
 
     centroids = centroid_frame(adata, pseudotime, entropy)
     edges = tree_edges(load_tree(), centroids)
-    save_table(centroids, "trajectory_backbone_centroids")
-    save_table(edges, "trajectory_backbone_tree_edges", index = False)
+    save_table(centroids, SCRIPT_NAME, "trajectory_backbone_centroids")
+    save_table(edges, SCRIPT_NAME, "trajectory_backbone_tree_edges", index = False)
 
     plot_tree_cell_type(coords, labels, edges)
     plot_tree_pseudotime(coords, pseudotime, edges)

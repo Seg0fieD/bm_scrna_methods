@@ -8,11 +8,11 @@ import pandas as pd
 
 from trajectory_utils import (
     BACKGROUND, CELL_TYPE_KEY, FOREGROUND, MAIN_EMBEDDING, 
-    MAIN_ROOT_METHODS, RESULT_DIR, UMAP_LEGEND_FONTSIZE,
+    MAIN_ROOT_METHODS, find_result, UMAP_LEGEND_FONTSIZE,
     load_annotated, run_tag, save_figure, save_table, set_seed,
     style_bar, style_dark,
 )
-
+SCRIPT_NAME     = "trajectory_report"
 FATE_TAG        = "k8"
 UMAP_KEY        = "X_umap"
 RUN             = run_tag(MAIN_EMBEDDING, MAIN_ROOT_METHODS)
@@ -33,14 +33,14 @@ BOX_SIZE        = (12, 9)
 
 def load_pseudotime():
     """Return the Palantir pseudotime of the primary run."""
-    frame = pd.read_csv(RESULT_DIR / "pt_palantir_pseudotime.csv", index_col = 0)
+    frame = pd.read_csv(find_result("pt_palantir_pseudotime.csv"), index_col = 0)
     return frame[RUN]
 
 
 def load_matrix(name, index):
     """Return a saved per cell matrix as a frame labelled with its feature names."""
-    matrix   = np.load(RESULT_DIR / f"{name}.npy")
-    features = pd.read_csv(RESULT_DIR / f"{name}_features.csv")["feature"].astype(str)
+    matrix   = np.load(find_result(f"{name}.npy"))
+    features = pd.read_csv(find_result(f"{name}_features.csv"))["feature"].astype(str)
     return pd.DataFrame(matrix, index=index, columns=features.tolist())
 
 
@@ -247,7 +247,7 @@ def main():
     )
 
     matrix = fate_matrix(cellrank, labels)
-    save_table(matrix, "trajectory_report_fate_matrix")
+    save_table(matrix, SCRIPT_NAME, "trajectory_report_fate_matrix")
     save_figure(
         plot_heatmap(
             matrix,
@@ -260,7 +260,7 @@ def main():
     save_figure(plot_pseudotime(pseudotime, labels), "trajectory_report_pseudotime_by_celltype")
 
     correlation = agreement(palantir, cellrank)
-    save_table(correlation, "trajectory_report_method_agreement")
+    save_table(correlation, SCRIPT_NAME, "trajectory_report_method_agreement")
     save_figure(
         plot_heatmap(
             correlation,
@@ -271,7 +271,7 @@ def main():
     )
 
     summary = summary_table(pseudotime, cellrank, entropy, labels)
-    save_table(summary, "trajectory_report_summary")
+    save_table(summary, SCRIPT_NAME, "trajectory_report_summary")
     print(summary.to_string())
     print()
     print(correlation.round(2).to_string())

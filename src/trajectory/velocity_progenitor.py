@@ -165,7 +165,7 @@ def main() -> None:
         "direction_check": directions,
     }
     for name, table in tables.items():
-        save_table(table, f"{SCRIPT_NAME}_{name}", index=False)
+        save_table(table, SCRIPT_NAME, f"{SCRIPT_NAME}_{name}", index=False)
 
     print(directions.round(3).to_string(index=False))
     if kinetics is not None:

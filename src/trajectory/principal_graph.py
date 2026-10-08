@@ -18,21 +18,22 @@ from trajectory_utils import (
     save_table, select_root, set_seed, style_bar, style_dark,
 )
 
-RUN      = run_tag(MAIN_EMBEDDING, MAIN_ROOT_METHODS)
-UMAP_KEY = "X_umap"
-REP_KEY  = "X_principal_rep"
+SCRIPT_NAME     = "principal_graph"
+RUN             = run_tag(MAIN_EMBEDDING, MAIN_ROOT_METHODS)
+UMAP_KEY        = "X_umap"
+REP_KEY         = "X_principal_rep"
 
-NDIMS_REP  = 10
-N_NODES    = 50
-PPT_LAMBDA = 1000.0
-PPT_SIGMA  = 0.1
-PPT_NSTEPS = 200
-MAX_TIPS   = 14
+NDIMS_REP       = 10
+N_NODES         = 50
+PPT_LAMBDA      = 1000.0
+PPT_SIGMA       = 0.1
+PPT_NSTEPS      = 200
+MAX_TIPS        = 14
 
-EMBED_SIZE  = (14, 11)
-BOX_SIZE    = (12, 9)
-SQUARE_SIZE = (10, 9)
-PLOT_RIGHT  = 0.76
+EMBED_SIZE      = (14, 11)
+BOX_SIZE        = (12, 9)
+SQUARE_SIZE     = (10, 9)
+PLOT_RIGHT      = 0.76
 
 POINT_SIZE      = 1.5
 POINT_ALPHA     = 0.5
@@ -45,13 +46,13 @@ PSEUDOTIME_CMAP = "viridis"
 HEX_CMAP        = "magma"
 HEX_GRID        = 60
 
-TITLE_SIZE  = 17
-LABEL_SIZE  = 12
-TICK_SIZE   = 11
-LEGEND_SIZE = 11
-MARKER_SIZE = 9
+TITLE_SIZE      = 17
+LABEL_SIZE      = 12
+TICK_SIZE       = 11
+LEGEND_SIZE     = 11
+MARKER_SIZE     = 9
 
-GRAPH_MARKERS = (
+GRAPH_MARKERS   = (
     ("root", "*", ROOT_COLOUR, 320, MARKER_SIZE + 6, "root (stage root cell)"),
     ("tip", "^", TIP_COLOUR, 95, MARKER_SIZE + 2, "tip (lineage end)"),
     ("fork", "D", FORK_COLOUR, 130, MARKER_SIZE, "branch point"),
@@ -353,15 +354,16 @@ def main() -> None:
                 CELL_TYPE_KEY    : labels,
             }
         ),
+        SCRIPT_NAME,
         "principal_graph_pseudotime",
     )
-    save_table(nodes, "principal_graph_nodes")
+    save_table(nodes, SCRIPT_NAME,"principal_graph_nodes")
     save_table(
         segment_table(segments, labels, adata.uns["graph"]),
-        "principal_graph_segments",
+         SCRIPT_NAME, "principal_graph_segments",
     )
-    save_table(summary, "principal_graph_by_celltype")
-    save_table(agreement, "principal_graph_agreement", index = False)
+    save_table(summary,  SCRIPT_NAME, "principal_graph_by_celltype")
+    save_table(agreement,  SCRIPT_NAME, "principal_graph_agreement", index = False)
 
     branch = pd.Series(
         pd.Categorical(

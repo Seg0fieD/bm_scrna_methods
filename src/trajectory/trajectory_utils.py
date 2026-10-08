@@ -159,23 +159,31 @@ def find_result(name: str) -> Path:
     if nested:
         return nested[0]
     raise FileNotFoundError(f"result not found under {RESULT_DIR}: {name}")
-def save_table(frame: pd.DataFrame, name: str, index: bool = True) -> Path:
-    """Write a table as CSV to the trajectroy results directory."""
-    path = RESULT_DIR / f"{name}.csv"
+
+def save_table(frame: pd.DataFrame, script_name: str, name: str,
+               index: bool = True) -> Path:
+    """Table written as CSV into the script's own results subfolder."""
+    folder = RESULT_DIR / script_name
+    folder.mkdir(parents = True, exist_ok = True)
+    path = folder / f"{name}.csv"
     frame.to_csv(path, index = index)
     print(f"wrote {path} ({len(frame)} rows)")
     return path
 
-def save_matrix(matrix: np.ndarray, name:str, features: list[str]) -> Path:
-    """Write a per-cell matrix as ``.npy`` with its features names, in observation order."""
+def save_matrix(matrix: np.ndarray, script_name: str, name: str,
+                features: list[str]) -> Path:
+    """Per-cell matrix written as a NumPy array with a sidecar CSV of its
+    feature names, in observation order, in the script's results subfolder."""
     if matrix.shape[1] != len(features):
         raise ValueError(
             f"{matrix.shape[1]} columns against {len(features)} feature names"
         )
-    path = RESULT_DIR / f"{name}.npy"
+    folder = RESULT_DIR / script_name
+    folder.mkdir(parents = True, exist_ok = True)
+    path = folder / f"{name}.npy"
     np.save(path, matrix)
     pd.DataFrame({"feature": features}).to_csv(
-        RESULT_DIR / f"{name}_features.csv", index = False
+        folder / f"{name}_features.csv", index = False
     )
     print(f"wrote {path} {matrix.shape}")
     return path

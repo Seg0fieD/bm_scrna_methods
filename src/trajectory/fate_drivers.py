@@ -12,7 +12,7 @@ from scipy.stats import t
 t_distribution = t
 
 from trajectory_utils import (
-    RESULT_DIR, load_annotated, save_figure, save_table, set_seed,
+    find_result, load_annotated, save_figure, save_table, set_seed,
     style_bar , style_dark,
 )
 
@@ -28,10 +28,12 @@ HEATMAP_FIGSIZE = (12, 19)
 GRID_COLUMNS    = 3
 PANEL_SIZE      = (7, 6)
 
+SCRIPT_NAME     = "fate_drivers"
+
 def load_fates(index: pd.Index) -> pd.DataFrame:
     """Read the sorted fate probablity matrix and its lineage names"""
-    matrix = np.load(RESULT_DIR / f"pt_cellrank_fate_{FATE_TAG}.npy")
-    names = pd.read_csv(RESULT_DIR / f"pt_cellrank_fate_{FATE_TAG}_features.csv")["feature"]
+    matrix = np.load(find_result(f"pt_cellrank_fate_{FATE_TAG}.npy"))
+    names = pd.read_csv(find_result(f"pt_cellrank_fate_{FATE_TAG}_features.csv"))["feature"]
     print(f"loaded fate probablities {matrix.shape} for {FATE_TAG}")
     return pd.DataFrame(matrix, index = index, columns = list(names))
 
@@ -117,7 +119,7 @@ def plot_driver_umaps(adata: AnnData, top: pd.DataFrame) -> None:
 
     for axis in axes.flat[len(leading): ]:
         axis.set_visible(False)
-    save_figure(figure, "fate_drives_umap")
+    save_figure(figure, "fate_drivers_umap")
 
 
 def main() -> None:
@@ -138,8 +140,8 @@ def main() -> None:
     fraction     = pd.Series(detected[keep] / adata.n_obs, index = genes)
 
 
-    save_table(correlations, "fate_drivers_correlations")
-    save_table(top_drivers(correlations, pvalues, fraction), "fate_drivers_top", index = False)
+    save_table(correlations, SCRIPT_NAME, "fate_drivers_correlations")
+    save_table(top_drivers(correlations, pvalues, fraction), SCRIPT_NAME, "fate_drivers_top", index = False)
 
     plot_driver_heatmap(correlations)
     plot_driver_umaps(adata, top_drivers(correlations, pvalues, fraction))

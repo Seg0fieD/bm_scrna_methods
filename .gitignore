@@ -14,9 +14,7 @@ data/processed/*
 
 results/benchmark/emb_cnmf/cnmf/
 
-
 envs/*.tar.gz
-
 
 __pycache__/
 *.pyc
@@ -27,7 +25,6 @@ __pycache__/
 notebooks/dimensionality_reduction_benchmark.ipynb
 docs/*
 !docs/.gitkeep
-
 
 toddoss/*
 toddoss

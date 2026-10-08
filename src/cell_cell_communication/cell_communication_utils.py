@@ -35,7 +35,7 @@ SPECIFICITY_CUTOFF  = 0.05
 
 DPI                 = 300
 FIGSIZE             = (17, 10)
-LEGEND_FONTSIZE     = 6
+LEGEND_FONTSIZE     = 8
 DARK_BACKGROUND     = "#12141a"
 DARK_FOREGROUND     = "#e6e6e6"
 

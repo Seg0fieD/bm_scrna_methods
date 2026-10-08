@@ -34,7 +34,7 @@ TOP_N_MARKER    = 200
  
 DPI             = 300
 FIGSIZE         = (15, 8)
-LEGEND_FONTSIZE = 6
+LEGEND_FONTSIZE = 8
 
 GENE_SET_LIBRARIES = {
     "GO_BP"    : "GO_Biological_Process_2023",

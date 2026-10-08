@@ -3,6 +3,8 @@
 from pathlib import Path
 
 import celltypist
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 import scanpy as sc

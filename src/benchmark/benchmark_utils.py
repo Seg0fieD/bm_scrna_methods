@@ -32,7 +32,7 @@ LABEL_KEY       = "cell_type"
 
 DPI             = 300
 FIGSIZE         = (15, 8)
-LEGEND_FONTSIZE = 6
+LEGEND_FONTSIZE = 8
 
 def load_annotated_data() -> AnnData:
     """Annotated dataset, failing early if variable genes or raw counts are missing."""

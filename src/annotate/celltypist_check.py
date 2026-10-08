@@ -8,16 +8,19 @@ import pandas as pd
 import scanpy as sc
 from celltypist import models
 
-IN = Path("data/processed/bm_annotated.h5ad")
-OUT = Path("data/processed/bm_annotated.h5ad")
-FIG = Path("figures/annotate")
-TAB = Path("results/tables")
+ROOT = Path(__file__).resolve().parents[2]
+
+IN  = ROOT / "data" / "processed" / "bm_annotated.h5ad"
+OUT = ROOT / "data" / "processed" / "bm_annotated.h5ad"
+FIG = ROOT / "figures" / "annotate"
+TAB = ROOT / "results" / "annotate" / "celltypist_check"
 
 MODEL = "Immune_All_Low.pkl"
 GROUP = "leiden_1.0"
 
 
-def main():
+def main() -> None:
+    """Manual labels cross-checked against CellTypist predictions."""
     a = sc.read_h5ad(IN)
 
     models.download_models(model=[MODEL])
@@ -40,7 +43,7 @@ def main():
 
     FIG.mkdir(parents = True, exist_ok = True)
     sc.pl.umap(a, color = "celltypist", legend_loc = "on data",
-               legend_fontsize = 6, show = False)
+               legend_fontsize = 8, show = False)
     plt.gcf().savefig(FIG / "umap_celltypist.png", dpi=300,
                       bbox_inches = "tight")
     plt.close("all")

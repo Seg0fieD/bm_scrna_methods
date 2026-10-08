@@ -4,13 +4,15 @@ from pathlib import Path
 
 import scanpy as sc 
 
-IN = Path("data/interim/bm_scored.h5ad")
-OUT = Path("data/interim/bm_clean.h5ad")
+ROOT = Path(__file__).resolve().parents[2]
+IN   = ROOT / "data" / "interim" / "bm_scored.h5ad"
+OUT  = ROOT / "data" / "interim" / "bm_clean.h5ad"
 
 
 DOUBLET_RATE = 0.04
 
-def main():
+def main() -> None:
+    """Doublets called by per-donor score rank and removed, written to disk."""
     a       = sc.read_h5ad(IN)
     n_start = a.n_obs
 

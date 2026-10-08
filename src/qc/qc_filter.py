@@ -4,23 +4,26 @@ from pathlib import Path
 
 import numpy as np
 import scanpy as sc
+from anndata import AnnData
 
-IN = Path("data/interim/bm_qcmetrics.h5ad")
-OUT = Path("data/interim/bm_qcfiltered.h5ad")
+ROOT    = Path(__file__).resolve().parents[2]
+IN      = ROOT / "data" / "interim" / "bm_qcmetrics.h5ad"
+OUT     = ROOT / "data" / "interim" / "bm_qcfiltered.h5ad"
 
-MT_HARD_LIMIT = 8.0
+MT_HARD_LIMIT      = 8.0
 MIN_CELLS_PER_GENE = 3
 
 
-def mad_flags(a, metric, n_mads):
-    """Return low and high outlier masks for one metric."""
+def mad_flags(a: AnnData, metric: str, n_mads: float) -> tuple[np.ndarray, np.ndarray]:
+    """Low and high outlier masks for one metric."""
     x = a.obs[metric].to_numpy()
     med = np.median(x)
     mad = np.median(np.abs(x - med))
     return x < med - n_mads * mad, x > med + n_mads * mad
 
 
-def main():
+def main() -> None:
+    """Cells and genes filtered after the QC-metric review, written to disk."""
     a = sc.read_h5ad(IN)
     n_start = a.n_obs
 

@@ -1,21 +1,24 @@
 """Score doublets with Scrublet per donor and remove the predicted ones."""
 
 from pathlib import Path
-
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 import scanpy as sc
 
-IN = Path("data/interim/bm_qcfiltered.h5ad")
-OUT = Path("data/interim/bm_clean.h5ad")
-FIG = Path("figures/qc")
+ROOT = Path(__file__).resolve().parents[2]
+IN   = ROOT / "data" / "interim" / "bm_qcfiltered.h5ad"
+OUT  = ROOT / "data" / "interim" / "bm_clean.h5ad"
+FIG  = ROOT / "figures" / "qc"
 
 
-def main():
+def main() -> None:
+    """Doublets scored per donor with Scrublet and the predicted ones removed."""
     a = sc.read_h5ad(IN)
     n_start = a.n_obs
 
-    sc.pp.scrublet(a, batch_key="donor", random_state=0)
+    sc.pp.scrublet(a, batch_key = "donor", random_state = 0)
 
     print("\npredicted doublets per donor")
     print(pd.crosstab(a.obs["donor"], a.obs["predicted_doublet"]))
@@ -27,21 +30,21 @@ def main():
 
     FIG.mkdir(parents=True, exist_ok=True)
     ax = sc.pl.violin(
-        a, "doublet_score", groupby="donor", rotation=90,
-        stripplot=False, show=False,
+        a, "doublet_score", groupby = "donor", rotation = 90,
+        stripplot = False, show = False,
     )
     ax.figure.savefig(
-        FIG / "violin_doublet_score.png", dpi=150, bbox_inches="tight"
+        FIG / "violin_doublet_score.png", dpi = 300, bbox_inches = "tight"
     )
     plt.close("all")
 
     a = a[~a.obs["predicted_doublet"]].copy() # keeps the cells scrublet did not call doublets
-    sc.pp.filter_genes(a, min_cells=3)
+    sc.pp.filter_genes(a, min_cells = 3)
 
     print(f"\ncells {n_start} -> {a.n_obs}")
     print("genes left:", a.n_vars)
 
-    a.write_h5ad(OUT, compression="gzip")
+    a.write_h5ad(OUT, compression = "gzip")
     print("\nwrote", OUT)
 
 

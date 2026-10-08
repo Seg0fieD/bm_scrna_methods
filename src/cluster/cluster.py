@@ -1,28 +1,31 @@
 """Build the neighbour graph, run UMAP and cluster at three resolutions."""
 
 from pathlib import Path
-
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import scanpy as sc
+from anndata import AnnData
 
-IN = Path("data/interim/bm_pca.h5ad")
-OUT = Path("data/interim/bm_clustered.h5ad")
-FIG = Path("figures/cluster")
+ROOT = Path(__file__).resolve().parents[2]
+IN   = ROOT / "data" / "interim" / "bm_pca.h5ad"
+OUT  = ROOT / "data" / "interim" / "bm_clustered.h5ad"
+FIG  = ROOT / "figures" / "cluster"
 
-N_PCS = 30
+N_PCS       = 30
 N_NEIGHBORS = 15 
 RESOLUTIONS = [0.4, 0.6, 0.8, 1.0, 1.2, 1.5]
-QC_KEYS = ["donor", "doublet_score", "pct_counts_mt",
-           "n_genes_by_counts", "HBB", "MPO"]
+QC_KEYS     = ["donor", "doublet_score", "pct_counts_mt",
+                "n_genes_by_counts", "HBB", "MPO"]
 
-def save_umap(a, key, name, legend_loc=None):
-    """Create UMAP coloured by key and save it."""
-
+def save_umap(a: AnnData, key: str, name: str, legend_loc: str | None = None) -> None:
+    """UMAP coloured by ``key``, saved to the figures directory."""
     sc.pl.umap(a, color = key, legend_loc = legend_loc, show = False)
-    plt.gcf().savefig(FIG / f"{name}.png", dpi = 250, bbox_inches = "tight")
+    plt.gcf().savefig(FIG / f"{name}.png", dpi = 300, bbox_inches = "tight")
     plt.close("all")
 
-def main():
+def main() -> None:
+    """Neighbour graph, UMAP and Leiden clustering at several resolutions."""
     a = sc.read_h5ad(IN)
 
     sc.pp.neighbors(a, n_neighbors = N_NEIGHBORS, n_pcs = N_PCS)
@@ -47,7 +50,7 @@ def main():
         save_umap(a, key, f"umap_{key}")
 
     sc.pl.umap(a, color = keys, ncols = 3, legend_loc = "on data", show = False)
-    plt.gcf().savefig(FIG / "umap_leiden_grid.png", dpi = 250,
+    plt.gcf().savefig(FIG / "umap_leiden_grid.png", dpi = 300,
                       bbox_inches = "tight")
     plt.close("all")
 

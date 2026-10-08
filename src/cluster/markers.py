@@ -3,26 +3,30 @@
 import warnings
 from itertools import combinations
 from pathlib import Path
-
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import pandas as pd
 import scanpy as sc
+from anndata import AnnData
 from pandas.errors import PerformanceWarning
 
 warnings.filterwarnings("ignore", category=PerformanceWarning)
 
-IN = Path("data/interim/bm_clustered.h5ad")
-OUT = Path("data/interim/bm_markers.h5ad")
-FIG = Path("figures/annotate")
-TAB = Path("results/cluster/markers")
+ROOT = Path(__file__).resolve().parents[2]
+IN   = ROOT / "data" / "interim" / "bm_clustered.h5ad"
+OUT  = ROOT / "data" / "interim" / "bm_markers.h5ad"
+FIG  = ROOT / "figures" / "annotate"
+TAB  = ROOT / "results" / "cluster" / "markers"
 
-GROUP = "leiden_1.0"
-N_TOP = 25
-N_COMPARE = 20
+GROUP        = "leiden_1.0"
+N_TOP        = 25
+N_COMPARE    = 20
 SHARED_LIMIT = 10
-N_DOT = 3
+N_DOT        = 3
 
 
-def cluster_summary(a):
+def cluster_summary(a: AnnData) -> pd.DataFrame:
     """Size and mean QC values per cluster."""
     cols = ["doublet_score", "pct_counts_mt", "n_genes_by_counts",
             "pct_counts_hb", "pct_counts_ribo"]
@@ -31,15 +35,15 @@ def cluster_summary(a):
     return out
 
 
-def clean_markers(a):
+def clean_markers(a: AnnData) -> pd.DataFrame:
     """Marker table without ribosomal, mitochondrial and haemoglobin genes."""
     table = sc.get.rank_genes_groups_df(a, group=None)
     drop = a.var_names[a.var["ribo"] | a.var["mt"] | a.var["hb"]]
     return table[~table["names"].isin(drop)]
 
 
-def top_genes(table, n):
-    """Dict of cluster to its top n genes, in order."""
+def top_genes(table: pd.DataFrame, n: int) -> dict[str, list[str]]:
+    """Each cluster mapped to its top ``n`` genes, in order."""
     out = {}
     for cluster in sorted(table["group"].unique(), key=int):
         rows = table[table["group"] == cluster]
@@ -47,8 +51,8 @@ def top_genes(table, n):
     return out
 
 
-def find_similar(tops):
-    """Print cluster pairs that share many of their top genes."""
+def find_similar(tops: dict[str, list[str]]) -> None:
+    """Cluster pairs sharing many of their top genes, printed to stdout."""
     print(f"\ncluster pairs sharing >= {SHARED_LIMIT} of top {N_COMPARE}")
     found = False
     for one, two in combinations(tops, 2):
@@ -60,7 +64,8 @@ def find_similar(tops):
         print("  none")
 
 
-def main():
+def main() -> None:
+    """Marker genes per cluster, with look-alike clusters flagged."""
     a = sc.read_h5ad(IN)
     print("clusters:", a.obs[GROUP].nunique())
 

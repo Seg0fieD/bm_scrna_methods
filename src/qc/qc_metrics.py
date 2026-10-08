@@ -5,34 +5,38 @@ from pathlib import Path
 import numpy as np
 import pandas as pd 
 import scanpy as sc
+from anndata import AnnData
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 import warnings
 
 warnings.filterwarnings("ignore", message = "Variable names are not unique")
 
-IN = Path("data/interim/bm_merged.h5ad")
-OUT = Path("data/interim/bm_qcmetrics.h5ad")
-FIG = Path("figures/qc")
+ROOT = Path(__file__).resolve().parents[2]
+IN   = ROOT / "data" / "interim" / "bm_merged.h5ad"
+OUT  = ROOT / "data" / "interim" / "bm_qcmetrics.h5ad"
+FIG  = ROOT / "figures" / "qc"
 
 HB_PREFIXES = ("HBA", "HBB", "HBD", "HBG", "HBM", "HBQ", "HBZ")
 
-def flag_gene_groups(a):
-    """Mark mitochondrial, ribosomal and haemoglobin genes in var."""
+def flag_gene_groups(a: AnnData) -> None:
+    """Mitochondrial, ribosomal and haemoglobin genes flagged in ``var``."""
 
     a.var["mt"]   = a.var_names.str.startswith("MT-")
     a.var["ribo"] = a.var_names.str.startswith(("RPS", "RPL"))
     a.var["hb"]   = a.var_names.str.startswith(HB_PREFIXES)
 
-def mad_bounds(values, n_mads = 3):
-    """Return lower and upper cutoffs at n_mads median absolute deviations."""
+def mad_bounds(values: np.ndarray, n_mads: int = 3) -> tuple[float, float]:
+    """Lower and upper cutoffs at ``n_mads`` median absolute deviations."""
 
     med = np.median(values)
     mad = np.median(np.abs(values - med))
-    return med - n_mads * mad, med + n_mads * mad
+    return float(med - n_mads * mad), float(med + n_mads * mad)
 
-def report(a):
-    """Print per-donor medians and suggested MAD cutoffs."""
+def report(a: AnnData) -> None:
+    """Per-donor medians and whole-dataset MAD cutoffs printed to stdout."""
 
     cols = ["n_genes_by_counts", "total_counts", "pct_counts_mt",
             "pct_counts_ribo", "pct_counts_hb", "pct_counts_in_top_20_genes"]
@@ -50,8 +54,8 @@ def report(a):
                      "high": round(high, 2), "cells_outside": n_out})
     print(pd.DataFrame(rows).to_string(index = False))
 
-def plot(a):
-    """Save violin and scatter plots of the QC metrics."""
+def plot(a: AnnData) -> None:
+    """QC metric violin and scatter plots saved to the figures directory."""
 
     axes = sc.pl.violin(
                 a , 
@@ -60,7 +64,7 @@ def plot(a):
             )
     
     axes[0].figure.savefig(
-        FIG / "violin_by_donor.png", dpi = 150, bbox_inches = "tight"
+        FIG / "violin_by_donor.png", dpi = 300, bbox_inches = "tight"
     )
 
     ax = sc.pl.scatter(
@@ -74,10 +78,8 @@ def plot(a):
 
     plt.close("all")
 
-
-
-
-def main():
+def main() -> None:
+    """QC metrics computed on the merged data, then reported and plotted."""
     a = sc.read_h5ad(IN)
     flag_gene_groups(a)
     print("flagged genes:", a.var[["mt", "ribo", "hb"]].sum().to_dict())
@@ -91,8 +93,6 @@ def main():
     report(a)
 
     FIG.mkdir(parents = True, exist_ok = True)
-    # sc.settings.figdir = FIG
-    # sc.settings.autoshow = False
     plot(a)
 
     a.write_h5ad(OUT, compression = "gzip")

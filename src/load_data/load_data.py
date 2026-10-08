@@ -9,12 +9,13 @@ import warnings
 
 warnings.filterwarnings("ignore", message = "Variable names are not unique")
 
-RAW = Path("data/raw")
-OUT = Path("data/interim/bm_merged.h5ad")
+ROOT      = Path(__file__).resolve().parents[2]
+RAW       = ROOT / "data" / "raw"
+OUT       = ROOT / "data" / "interim" / "bm_merged.h5ad"
 MIN_GENES = 200
 
-def load_one(path):
-    """Read one 10x file and drop barcodes with too few genes. """
+def load_one(path: Path) -> ad.AnnData:
+    """One 10x matrix read into AnnData, with low-gene barcodes dropped."""
     a = sc.read_10x_h5(path)
     a.var_names_make_unique()
     sc.pp.filter_cells(a, min_genes = MIN_GENES)
@@ -22,7 +23,8 @@ def load_one(path):
     return a
 
 
-def main():
+def main() -> None:
+    """Eight donor matrices merged into one object written to disk."""
     files = sorted(RAW.glob("MantonBM[0-9]_HiSeq_1_raw_feature_bc_matrix.h5"))
     if len(files) != 8:
         raise SystemExit(f"expected 8 files in {RAW}, found {len(files)}")

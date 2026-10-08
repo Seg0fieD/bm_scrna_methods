@@ -4,12 +4,14 @@ from pathlib import Path
 
 import scanpy as sc
 
-IN  = Path("data/interim/bm_clean.h5ad") 
-OUT = Path("data/interim/bm_normalized_hvg.h5ad")
+ROOT = Path(__file__).resolve().parents[2]
+IN   = ROOT / "data" / "interim" / "bm_clean.h5ad"
+OUT  = ROOT / "data" / "interim" / "bm_normalized_hvg.h5ad"
 
 N_HVG = 2000
 
-def main():
+def main() -> None:
+    """Counts normalized and log-transformed, highly variable genes flagged."""
     a = sc.read_h5ad(IN)
     a.layers["counts"] = a.X.copy()
 

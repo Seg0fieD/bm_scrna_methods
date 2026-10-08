@@ -1,20 +1,23 @@
 """Plot doublet score distribution and checks, per donor. """
 
 from pathlib import Path
-
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import scanpy as sc
+from anndata import AnnData
 
-IN = Path("data/interim/bm_clean.h5ad")
-FIG = Path("figures/qc")
+ROOT = Path(__file__).resolve().parents[2]
+IN   = ROOT / "data" / "interim" / "bm_clean.h5ad"
+FIG  = ROOT / "figures" / "qc"
 
 DOUBLET_RATE = 0.04
 BINS         = np.linspace(0, 0.6, 61)
 
 
-def plot_distributions(a, batches):
-    """Observerd and simulated scores per donor, with both candidate cutoffs."""
+def plot_distributions(a: AnnData, batches: dict) -> None:
+    """Observed and simulated scores per donor, with both candidate cutoffs."""
     donors = sorted(batches)
     fig, axs = plt.subplots(2, 4, figsize = (37, 15), sharex = True, sharey = True)
 
@@ -40,11 +43,11 @@ def plot_distributions(a, batches):
     fig.supxlabel("doublet score")
     fig.supylabel("density (log)")
     fig.tight_layout()
-    fig.savefig(FIG / "doublet_score_distribution.png", dpi = 150, 
+    fig.savefig(FIG / "doublet_score_distribution.png", dpi = 300, 
                 bbox_inches = "tight")
 
-def plot_checks(a):
-    """Scatter of score vs gene count, and cumulative score curve, per donor."""
+def plot_checks(a: AnnData) -> None:
+    """Score vs gene count, and cumulative score curve, per donor."""
     donors = sorted(a.obs["donor"].unique())
     fig, axs = plt.subplots(1, 2, figsize = (14, 6))
 
@@ -70,11 +73,12 @@ def plot_checks(a):
     axs[1].legend(fontsize = 12)
 
     fig.tight_layout()
-    fig.savefig(FIG / "doublet_checks.png", dpi = 150, 
+    fig.savefig(FIG / "doublet_checks.png", dpi = 300, 
                 bbox_inches = "tight")
 
 
-def main():
+def main() -> None:
+    """Doublet-score distribution and diagnostic plots written to disk."""
     a = sc.read_h5ad(IN)
     batches = a.uns["scrublet"]["batches"]
     print("keys per batch: ", list(batches[sorted(batches)[0]]))

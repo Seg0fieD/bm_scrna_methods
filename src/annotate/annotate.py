@@ -1,15 +1,17 @@
 """Label clusters from marker genes and merge the ones that match."""
 
 from pathlib import Path
-
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import scanpy as sc
 
-IN = Path("data/interim/bm_markers.h5ad")
-OUT = Path("data/processed/bm_annotated.h5ad")
-FIG = Path("figures/annotate")
+ROOT   = Path(__file__).resolve().parents[2]
+IN     = ROOT / "data" / "interim" / "bm_markers.h5ad"
+OUT    = ROOT / "data" / "processed" / "bm_annotated.h5ad"
+FIG    = ROOT / "figures" / "annotate"
 
-GROUP = "leiden_1.0"
+GROUP  = "leiden_1.0"
 
 LABELS = {
     "0": "CD4 T naive",
@@ -35,7 +37,7 @@ LABELS = {
     "19": "T proliferating",
 }
 
-ORDER = [
+ORDER  = [
     "HSPC", "Granulocyte precursor", "Monocyte classical",
     "Monocyte non-classical", "Dendritic cell", "Plasmacytoid DC",
     "Erythroid early", "Erythroid late", "Platelet",
@@ -59,7 +61,8 @@ CANONICAL = {
 }
 
 
-def main():
+def main() -> None:
+    """Clusters labelled from marker genes, with matching clusters merged."""
     a = sc.read_h5ad(IN)
 
     a.obs["cell_type"] = (
@@ -73,14 +76,14 @@ def main():
     FIG.mkdir(parents = True, exist_ok=True)
 
     sc.pl.umap(a, color = "cell_type", legend_loc = "on data",
-               legend_fontsize = 6, show = False)
-    plt.gcf().savefig(FIG / "umap_cell_type.png", dpi = 350,
+               legend_fontsize = 8, show = False)
+    plt.gcf().savefig(FIG / "umap_cell_type.png", dpi = 300,
                       bbox_inches = "tight")
     plt.close("all")
 
     sc.pl.dotplot(a, CANONICAL, groupby = "cell_type",
                   standard_scale = "var", show = False)
-    plt.gcf().savefig(FIG / "dotplot_canonical.png", dpi = 350,
+    plt.gcf().savefig(FIG / "dotplot_canonical.png", dpi = 300,
                       bbox_inches = "tight")
     plt.close("all")
 

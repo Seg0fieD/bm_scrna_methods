@@ -1,14 +1,14 @@
-"""GLM-PCA embedding on a random subsample: Poisson factor model on raw conts, 30 Components"""
-
+"""GLM-PCA embedding: Poisson factor model on raw counts, 30 components"""
 import numpy as np
 from glmpca import glmpca
 from scipy.sparse import issparse
 
-from bench_common import  N_COMPS,  load_annotated_data, save_embedding # SEED, EMB_DIR,
+from benchmark_utils import N_COMPS,  load_annotated_data, save_embedding # SEED, EMB_DIR,
 
 # N_CELLS = 2000
 
-def main():
+def main() -> None:
+    """GLM-PCA embedding saved for the benchmark."""
     adata = load_annotated_data()
     adata = adata[:, adata.var["highly_variable"]].copy()
 

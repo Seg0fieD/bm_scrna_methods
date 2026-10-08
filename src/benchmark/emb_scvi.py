@@ -2,10 +2,11 @@
 
 import scvi 
 
-from bench_common import BATCH_KEY, N_COMPS, SEED, load_annotated_data, save_embedding
+from benchmark_utils import BATCH_KEY, N_COMPS, SEED, load_annotated_data, save_embedding
 
 
-def main():
+def main() -> None:
+    """scVI latent embedding saved for the benchmark."""
     scvi.settings.seed = SEED
 
     adata = load_annotated_data()

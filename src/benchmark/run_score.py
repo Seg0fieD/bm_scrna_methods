@@ -3,16 +3,17 @@
 import scanpy as sc 
 from scib_metrics.benchmark import BatchCorrection, Benchmarker, BioConservation
 
-from bench_common import BATCH_KEY, FIG_DIR, LABEL_KEY, TAB_DIR, list_embeddings, load_annotated_data
+from benchmark_utils import (BATCH_KEY, FIG_DIR, GRAPH_H5AD, LABEL_KEY, SCORE_DIR, 
+                          list_embeddings, load_annotated_data)
 
 
-IN     = TAB_DIR / "bm_benchmark_1.h5ad"
-OUT    = TAB_DIR / "scib_scores.csv"
+IN     = GRAPH_H5AD
+OUT    = SCORE_DIR / "scib_scores.csv"
 N_JOBS = 4
 
 
-def main():
-
+def main() -> None:
+    """Every embedding scored with scib-metrics, written to the results table."""
     graph = sc.read_h5ad(IN)
     source = load_annotated_data()
 
@@ -41,7 +42,7 @@ def main():
 
     results = bench.get_results(min_max_scale = False )
     results.to_csv(OUT)
-    bench.get_results(min_max_scale = True).to_csv(TAB_DIR / "scib_scores_scaled.csv")
+    bench.get_results(min_max_scale = True).to_csv(SCORE_DIR / "scib_scores_scaled.csv")
     print(results)
 
     bench.plot_results_table(min_max_scale = False, save_dir = str(FIG_DIR))

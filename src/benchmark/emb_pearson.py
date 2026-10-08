@@ -2,9 +2,10 @@
 
 import scanpy as sc 
 
-from bench_common import N_COMPS, SEED, load_annotated_data, save_embedding
+from benchmark_utils import N_COMPS, SEED, load_annotated_data, save_embedding
 
-def main():
+def main() -> None:
+    """Pearson-residual embedding saved for the benchmark."""
     adata = load_annotated_data()    
     adata = adata[:, adata.var ["highly_variable"]].copy()
     adata.X = adata.layers["counts"].copy()

@@ -1,16 +1,19 @@
-"""Build a neighbour graph, UMAP, and clustering for every saved embedding, using identical settings"""
+"""
+    Build a neighbour graph, UMAP, and clustering for every saved embedding, 
+    using identical settings
+"""
 
 import anndata as ad 
 import numpy as np
 import scanpy as sc
 
-from bench_common import ( BATCH_KEY, LABEL_KEY, N_NEIGHBORS, RESOLUTION, SEED, 
-                          TAB_DIR, list_embeddings, load_annotated_data, 
-                          load_embedding )
+from benchmark_utils import ( BATCH_KEY, GRAPH_H5AD, LABEL_KEY, N_NEIGHBORS, RESOLUTION, SEED,
+                          list_embeddings, load_annotated_data, load_embedding )
 
-OUT = TAB_DIR / "bm_benchmark_1.h5ad"
+OUT = GRAPH_H5AD
 
-def main():
+def main() -> None:
+    """Neighbour graph, UMAP and clustering built for every saved embedding."""
     source = load_annotated_data()
     adata = ad.AnnData(
         np.zeros((source.n_obs, 1), dtype = np.float32),

@@ -4,11 +4,12 @@ import anndata as ad
 import numpy as np
 import scanpy as sc 
 
-from bench_common import N_COMPS, N_NEIGHBORS, SEED, load_embedding, save_embedding
+from benchmark_utils import N_COMPS, N_NEIGHBORS, SEED, load_embedding, save_embedding
 
 BASES = ("pca", "scvi")
 
-def main():
+def main() -> None:
+    """Consensus NMF embedding and gene programs saved for the benchmark."""
     for base in BASES:
         X = load_embedding(base)
         adata = ad.AnnData(np.zeros((X.shape[0], 1), dtype = np.float32))

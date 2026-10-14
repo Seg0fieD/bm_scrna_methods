@@ -1,0 +1,7 @@
+,value
+device,cuda
+seeds,5
+checkpoints,"5000, 10000, 20000"
+training minutes,149.6
+"largest difference from scaden_torch_fit, buffer order at 5000 steps",2.9372405951910707e-08
+largest deviation of a row sum from 1,2.384185791015625e-07

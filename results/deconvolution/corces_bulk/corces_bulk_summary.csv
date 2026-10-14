@@ -1,0 +1,7 @@
+,value
+genes in the bulk file,25498
+genes shared with the single-cell data,15429
+shared genes with a RefSeq length,15123
+healthy sorted samples,49
+mixtures per set,250
+largest deviation of a true row sum from 1,3.3306690738754696e-16

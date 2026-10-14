@@ -1,0 +1,7 @@
+check,value,passed
+signature genes,17769.0,True
+sub-models reloaded,3.0,True
+largest deviation of a row sum from 1,1.0399999994525899e-07,True
+"RMSE, mean-fraction baseline",0.032532375129691156,True
+"RMSE, Scaden",0.0279244955349211,True
+"Pearson r, all fractions",0.5411314449172331,True

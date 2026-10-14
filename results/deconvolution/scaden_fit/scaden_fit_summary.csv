@@ -1,0 +1,7 @@
+,value
+training mixtures,8000
+test mixtures,1500
+genes,18366
+training steps per sub-model,5000
+training minutes,48.3
+largest deviation of a row sum from 1,1.7881393432617188e-07

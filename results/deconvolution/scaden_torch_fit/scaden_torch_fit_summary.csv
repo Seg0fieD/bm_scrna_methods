@@ -1,0 +1,18 @@
+,value
+device,cuda
+training mixtures,8000
+test mixtures,1500
+genes,18366
+seeds,5
+training steps per sub-model,5000
+training minutes,18.7
+"largest difference from Scaden with Scaden weights, m256",7.238669891385108e-06
+"largest difference from Scaden with Scaden weights, m512",1.7894920348870968e-06
+"largest difference from Scaden with Scaden weights, m1024",1.2001995086663442e-06
+largest deviation of a row sum from 1,2.384185791015625e-07
+"RMSE to the Scaden ensemble, seed 7",0.01446840662727101
+"RMSE to the Scaden ensemble, seed 8",0.011614652700929281
+"RMSE to the Scaden ensemble, seed 9",0.011180389403058266
+"RMSE to the Scaden ensemble, seed 10",0.012202760564443771
+"RMSE to the Scaden ensemble, seed 11",0.013646505333868582
+mean RMSE between seed ensembles,0.012525350507348775

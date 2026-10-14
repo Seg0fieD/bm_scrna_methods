@@ -1,0 +1,10 @@
+,value
+device,cuda
+genes,13190
+training mixtures,8000
+bulk samples,549
+seeds,5
+shuffle order,full
+checkpoints,"5000, 20000"
+training minutes,62.5
+largest deviation of a row sum from 1,1.7881393432617188e-07

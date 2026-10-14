@@ -1,0 +1,11 @@
+,value
+device,cuda
+bulk variant,length
+genes,13144
+training mixtures,8000
+bulk samples,549
+seeds,5
+shuffle order,full
+checkpoints,"5000, 20000"
+training minutes,62.4
+largest deviation of a row sum from 1,2.384185791015625e-07

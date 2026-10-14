@@ -36,7 +36,7 @@ reads only `data/processed/bm_annotated.h5ad`.
 | 3 | Pathway analysis (decoupler, gseapy) | `src/pathway` |
 | 4 | Trajectory: PAGA, Palantir, CellRank, driver genes, gene trends, principal tree, RNA velocity | `src/trajectory` |
 | 5 | Cell-cell communication (LIANA) | `src/cell_cell_communication` |
-| 6 | Deconvolution (Scaden) | next |
+| 6 | Deconvolution (Scaden) | `src/deconvolution` |
 
 ![Dimensionality-reduction benchmark](figures/benchmark/scib_results.png)
 

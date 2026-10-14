@@ -23,8 +23,7 @@ __pycache__/
 .DS_Store
 
 notebooks/dimensionality_reduction_benchmark.ipynb
-docs/*
-!docs/.gitkeep
+
 
 toddoss/*
 toddoss

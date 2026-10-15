@@ -55,13 +55,15 @@ as an external test for deconvolution.
 |---|---|---|
 | merged, ≥ 200 genes per cell | 44,307 | 33,538 |
 | after QC (5 MAD; mitochondrial cut only if also > 8%) | 40,103 | 20,568 |
-| after doublet removal (per-donor top 4% Scrublet score) | **38,430** | **20,455** |
+| after Scrublet's own doublet calls | 39,955 | 20,558 |
+| after per-donor top 4% doublet score | **38,430** | **20,455** |
 
 Thresholds were adaptive because the data is shallow (median about 700 genes
 per cell); a textbook `min_genes = 500` would have removed a third of it.
-Scrublet's automatic threshold failed on every lane (0.37% called) and was
-replaced by a per-donor rule. High-gene-count cells were kept and later turned
-out to be early erythroid cells.
+Scrublet's automatic threshold called only 148 cells (0.37%) against an
+expected 3–6%. Those 148 were removed, and then the top 4% doublet score per
+donor (1,525 cells). High-gene-count cells were kept and later turned out to
+be early erythroid cells.
 
 Leiden clustering (resolution 1.0, 21 clusters) was annotated into **19 cell
 types** from marker genes, from CD4 T naive (10,765 cells) to T proliferating

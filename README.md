@@ -424,24 +424,26 @@ All figures: [`figures/deconvolution/`](figures/deconvolution/) · tables: [`res
 src/        one folder per stage, each with a <stage>_utils.py helper
 results/    tables, one folder per stage and script
 figures/    figures, one folder per stage
-docs/       a detailed write-up per stage
 envs/       pip constraints and package snapshots
 data/       processed/bm_annotated.h5ad (Git LFS); raw data not included
 ```
 
-| stage | code | write-up |
-|---|---|---|
-| Load, QC, normalisation, clustering, annotation | `src/load_data`, `src/qc`, `src/preprocess`, `src/cluster`, `src/annotate` | — |
-| Dimensionality-reduction benchmark | `src/benchmark` | [docs](docs/dimensionality_reduction_benchmark.md) |
-| Pathway analysis | `src/pathway` | [docs](docs/pathway_analysis.md) |
-| Trajectory and RNA velocity | `src/trajectory` | [docs](docs/trajectory_analysis.md) |
-| Cell-cell communication | `src/cell_cell_communication` | [docs](docs/cell_cell_communication.md) |
-| Deconvolution | `src/deconvolution` | [docs](docs/deconvolution.md) |
+| stage | code |
+|---|---|
+| Load, QC, normalisation, clustering, annotation | `src/load_data`, `src/qc`, `src/preprocess`, `src/cluster`, `src/annotate` |
+| Dimensionality-reduction benchmark | `src/benchmark` |
+| Pathway analysis | `src/pathway` |
+| Trajectory and RNA velocity | `src/trajectory` |
+| Cell-cell communication | `src/cell_cell_communication` |
+| Deconvolution | `src/deconvolution` |
 
-**Environments.** Three conda environments: `sc_core` (Python 3.13; scanpy,
-scVI, scVelo, LIANA, decoupler, PyTorch), `sc_deconv` (Python 3.11; Scaden with
-`tf-keras` and `TF_USE_LEGACY_KERAS=1`) and `rna_velo` (Python 3.11; velocyto).
-Pins are in `envs/constraints.txt`; full snapshots in `envs/`.
+**Environments** (conda; pins in `envs/constraints.txt`, full package lists in
+`envs/`):
+
+- `sc_core` (Python 3.13) — the main stack: scanpy, scVI, scVelo, CellRank,
+  Palantir, LIANA, decoupler, gseapy, PyTorch.
+- `sc_deconv` (Python 3.11) — Scaden and TensorFlow, kept separate.
+- `rna_velo` (Python 3.11) — velocyto, for spliced and unspliced counts.
 
 **Running.** Every script runs as a plain file from the repository root, for
 example `python src/benchmark/emb_pca.py`. Later stages read only

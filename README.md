@@ -10,7 +10,7 @@ Every stage is scored against something it was not given: the fixed cell-type
 labels, held-out donors, a second resource or method, or an external dataset.
 Negative results are reported alongside positive ones.
 
-<a href="figures/annotate/umap_cell_type.png"><img src="figures/annotate/umap_cell_type.png" width="760" alt="38,430 cells from eight donors, annotated into 19 cell types"></a><br><sub>38,430 cells from eight donors, annotated into 19 cell types</sub>
+<a href="figures/annotate/annotate/umap_cell_type.png"><img src="figures/annotate/annotate/umap_cell_type.png" width="760" alt="38,430 cells from eight donors, annotated into 19 cell types"></a><br><sub>38,430 cells from eight donors, annotated into 19 cell types</sub>
 
 ## Summary of findings
 
@@ -70,11 +70,11 @@ granulocyte-precursor class and did not separate T activated. The labels were
 fixed at this point and never changed by any later stage.
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/qc/doublet_checks.png"><img src="figures/qc/doublet_checks.png" width="100%" alt="Doublet score against genes per cell, and the share of cells above each cutoff per donor"></a><br><sub>Doublet score against genes per cell, and the share of cells above each cutoff per donor</sub></td>
-<td width="50%" valign="top"><a href="figures/annotate/umap_celltypist.png"><img src="figures/annotate/umap_celltypist.png" width="100%" alt="Independent CellTypist labels on the same UMAP"></a><br><sub>Independent CellTypist labels on the same UMAP</sub></td>
+<td width="50%" valign="top"><a href="figures/qc/doublet_plot/doublet_checks.png"><img src="figures/qc/doublet_plot/doublet_checks.png" width="100%" alt="Doublet score against genes per cell, and the share of cells above each cutoff per donor"></a><br><sub>Doublet score against genes per cell, and the share of cells above each cutoff per donor</sub></td>
+<td width="50%" valign="top"><a href="figures/annotate/celltypist_check/umap_celltypist.png"><img src="figures/annotate/celltypist_check/umap_celltypist.png" width="100%" alt="Independent CellTypist labels on the same UMAP"></a><br><sub>Independent CellTypist labels on the same UMAP</sub></td>
 </tr></table>
 
-<a href="figures/annotate/dotplot_canonical.png"><img src="figures/annotate/dotplot_canonical.png" width="720" alt="Canonical markers across the 19 labels: each block lights up in its own row"></a><br><sub>Canonical markers across the 19 labels: each block lights up in its own row</sub>
+<a href="figures/annotate/annotate/dotplot_canonical.png"><img src="figures/annotate/annotate/dotplot_canonical.png" width="720" alt="Canonical markers across the 19 labels: each block lights up in its own row"></a><br><sub>Canonical markers across the 19 labels: each block lights up in its own row</sub>
 
 QC and clustering figures: [`figures/qc/`](figures/qc/), [`figures/pca/`](figures/pca/), [`figures/cluster/`](figures/cluster/), [`figures/annotate/`](figures/annotate/)
 
@@ -96,13 +96,13 @@ constant, scored with `scib-metrics`.
 | GLM-PCA | 0.683 | 0.596 | 0.648 |
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/benchmark/score_scatter.png"><img src="figures/benchmark/score_scatter.png" width="100%" alt="Biology against batch correction: one is bought with the other"></a><br><sub>Biology against batch correction: one is bought with the other</sub></td>
-<td width="50%" valign="top"><a href="figures/benchmark/scib_results.png"><img src="figures/benchmark/scib_results.png" width="100%" alt="Full scib-metrics table"></a><br><sub>Full scib-metrics table</sub></td>
+<td width="50%" valign="top"><a href="figures/benchmark/benchmark_report/score_scatter.png"><img src="figures/benchmark/benchmark_report/score_scatter.png" width="100%" alt="Biology against batch correction: one is bought with the other"></a><br><sub>Biology against batch correction: one is bought with the other</sub></td>
+<td width="50%" valign="top"><a href="figures/benchmark/run_score/scib_results.png"><img src="figures/benchmark/run_score/scib_results.png" width="100%" alt="Full scib-metrics table"></a><br><sub>Full scib-metrics table</sub></td>
 </tr></table>
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/benchmark/umap_grid_cell_type.png"><img src="figures/benchmark/umap_grid_cell_type.png" width="100%" alt="Each embedding coloured by cell type"></a><br><sub>Each embedding coloured by cell type</sub></td>
-<td width="50%" valign="top"><a href="figures/benchmark/umap_grid_donor.png"><img src="figures/benchmark/umap_grid_donor.png" width="100%" alt="Each embedding coloured by donor: donors mix everywhere"></a><br><sub>Each embedding coloured by donor: donors mix everywhere</sub></td>
+<td width="50%" valign="top"><a href="figures/benchmark/benchmark_report/umap_grid_cell_type.png"><img src="figures/benchmark/benchmark_report/umap_grid_cell_type.png" width="100%" alt="Each embedding coloured by cell type"></a><br><sub>Each embedding coloured by cell type</sub></td>
+<td width="50%" valign="top"><a href="figures/benchmark/benchmark_report/umap_grid_donor.png"><img src="figures/benchmark/benchmark_report/umap_grid_donor.png" width="100%" alt="Each embedding coloured by donor: donors mix everywhere"></a><br><sub>Each embedding coloured by donor: donors mix everywhere</sub></td>
 </tr></table>
 
 All figures: [`figures/benchmark/`](figures/benchmark/) · tables: [`results/benchmark/`](results/benchmark/)
@@ -129,14 +129,14 @@ Over-representation on the top 200 markers per cell type, pre-ranked GSEA on the
 full ranking (GO BP, KEGG, Reactome), and per-cell activity with decoupler
 (PROGENy pathways, DoRothEA regulons A–C).
 
-<a href="figures/pathway/heatmap_dorothea.png"><img src="figures/pathway/heatmap_dorothea.png" width="720" alt="Transcription-factor activity, scaled within each factor: one diagonal block per cell type"></a><br><sub>Transcription-factor activity, scaled within each factor: one diagonal block per cell type</sub>
+<a href="figures/pathway/pathway_report/heatmap_dorothea.png"><img src="figures/pathway/pathway_report/heatmap_dorothea.png" width="720" alt="Transcription-factor activity, scaled within each factor: one diagonal block per cell type"></a><br><sub>Transcription-factor activity, scaled within each factor: one diagonal block per cell type</sub>
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/pathway/heatmap_progeny.png"><img src="figures/pathway/heatmap_progeny.png" width="100%" alt="Signalling-pathway activity by cell type (flat pathways removed)"></a><br><sub>Signalling-pathway activity by cell type (flat pathways removed)</sub></td>
-<td width="50%" valign="top"><a href="figures/pathway/ora_vs_gsea_overlap.png"><img src="figures/pathway/ora_vs_gsea_overlap.png" width="100%" alt="Terms found by both gene-set methods and by each alone"></a><br><sub>Terms found by both gene-set methods and by each alone</sub></td>
+<td width="50%" valign="top"><a href="figures/pathway/pathway_report/heatmap_progeny.png"><img src="figures/pathway/pathway_report/heatmap_progeny.png" width="100%" alt="Signalling-pathway activity by cell type (flat pathways removed)"></a><br><sub>Signalling-pathway activity by cell type (flat pathways removed)</sub></td>
+<td width="50%" valign="top"><a href="figures/pathway/pathway_report/ora_vs_gsea_overlap.png"><img src="figures/pathway/pathway_report/ora_vs_gsea_overlap.png" width="100%" alt="Terms found by both gene-set methods and by each alone"></a><br><sub>Terms found by both gene-set methods and by each alone</sub></td>
 </tr></table>
 
-<a href="figures/pathway/umap_progeny.png"><img src="figures/pathway/umap_progeny.png" width="720" alt="Per-cell pathway activity: flat inside each cell type, changing between them"></a><br><sub>Per-cell pathway activity: flat inside each cell type, changing between them</sub>
+<a href="figures/pathway/pathway_report/umap_progeny.png"><img src="figures/pathway/pathway_report/umap_progeny.png" width="720" alt="Per-cell pathway activity: flat inside each cell type, changing between them"></a><br><sub>Per-cell pathway activity: flat inside each cell type, changing between them</sub>
 
 All figures: [`figures/pathway/`](figures/pathway/) · tables: [`results/pathway/`](results/pathway/)
 
@@ -170,13 +170,13 @@ NK, B and monocyte cells were deliberately kept in, to test whether the methods
 can tell collected cells from cells developing in the sample.
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/trajectory/paga_topology_diffmap_pca.png"><img src="figures/trajectory/paga_topology_diffmap_pca.png" width="100%" alt="PAGA connectivity between cell types"></a><br><sub>PAGA connectivity between cell types</sub></td>
-<td width="50%" valign="top"><a href="figures/trajectory/trajectory_backbone_tree_cell_type.png"><img src="figures/trajectory/trajectory_backbone_tree_cell_type.png" width="100%" alt="Spanning tree on the UMAP: the lymphoid block hangs on one invented edge"></a><br><sub>Spanning tree on the UMAP: the lymphoid block hangs on one invented edge</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/paga_topology/paga_topology_diffmap_pca.png"><img src="figures/trajectory/paga_topology/paga_topology_diffmap_pca.png" width="100%" alt="PAGA connectivity between cell types"></a><br><sub>PAGA connectivity between cell types</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/trajectory_backbone/trajectory_backbone_tree_cell_type.png"><img src="figures/trajectory/trajectory_backbone/trajectory_backbone_tree_cell_type.png" width="100%" alt="Spanning tree on the UMAP: the lymphoid block hangs on one invented edge"></a><br><sub>Spanning tree on the UMAP: the lymphoid block hangs on one invented edge</sub></td>
 </tr></table>
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/trajectory/trajectory_report_pseudotime_by_celltype.png"><img src="figures/trajectory/trajectory_report_pseudotime_by_celltype.png" width="100%" alt="Palantir pseudotime per cell type: HSPC first, mature lymphoid mid-axis"></a><br><sub>Palantir pseudotime per cell type: HSPC first, mature lymphoid mid-axis</sub></td>
-<td width="50%" valign="top"><a href="figures/trajectory/trajectory_report_fate_matrix.png"><img src="figures/trajectory/trajectory_report_fate_matrix.png" width="100%" alt="CellRank fate probability per cell type: seven mature labels go to one "NK" basin"></a><br><sub>CellRank fate probability per cell type: seven mature labels go to one "NK" basin</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/trajectory_report/trajectory_report_pseudotime_by_celltype.png"><img src="figures/trajectory/trajectory_report/trajectory_report_pseudotime_by_celltype.png" width="100%" alt="Palantir pseudotime per cell type: HSPC first, mature lymphoid mid-axis"></a><br><sub>Palantir pseudotime per cell type: HSPC first, mature lymphoid mid-axis</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/trajectory_report/trajectory_report_fate_matrix.png"><img src="figures/trajectory/trajectory_report/trajectory_report_fate_matrix.png" width="100%" alt="CellRank fate probability per cell type: seven mature labels go to one "NK" basin"></a><br><sub>CellRank fate probability per cell type: seven mature labels go to one "NK" basin</sub></td>
 </tr></table>
 
 **What works**
@@ -197,8 +197,8 @@ can tell collected cells from cells developing in the sample.
   the expression matrix (correlation 0.94–0.98).
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/trajectory/gene_trends_monocyte_classical.png"><img src="figures/trajectory/gene_trends_monocyte_classical.png" width="100%" alt="Monocyte lineage: genes in order, cell labels sorted along pseudotime"></a><br><sub>Monocyte lineage: genes in order, cell labels sorted along pseudotime</sub></td>
-<td width="50%" valign="top"><a href="figures/trajectory/gene_trends_erythroid_early.png"><img src="figures/trajectory/gene_trends_erythroid_early.png" width="100%" alt="Erythroid lineage: GATA1 and KLF1 before haem and globin genes"></a><br><sub>Erythroid lineage: GATA1 and KLF1 before haem and globin genes</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/gene_trends/gene_trends_monocyte_classical.png"><img src="figures/trajectory/gene_trends/gene_trends_monocyte_classical.png" width="100%" alt="Monocyte lineage: genes in order, cell labels sorted along pseudotime"></a><br><sub>Monocyte lineage: genes in order, cell labels sorted along pseudotime</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/gene_trends/gene_trends_erythroid_early.png"><img src="figures/trajectory/gene_trends/gene_trends_erythroid_early.png" width="100%" alt="Erythroid lineage: GATA1 and KLF1 before haem and globin genes"></a><br><sub>Erythroid lineage: GATA1 and KLF1 before haem and globin genes</sub></td>
 </tr></table>
 
 **What does not**
@@ -216,8 +216,8 @@ can tell collected cells from cells developing in the sample.
   end. It is used only as a topology check.
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/trajectory/gene_trends_nk.png"><img src="figures/trajectory/gene_trends_nk.png" width="100%" alt="The "NK" lineage: naive CD4 T → CD8 → NK, a cytotoxic gradient, not development"></a><br><sub>The "NK" lineage: naive CD4 T → CD8 → NK, a cytotoxic gradient, not development</sub></td>
-<td width="50%" valign="top"><a href="figures/trajectory/principal_graph_umap.png"><img src="figures/trajectory/principal_graph_umap.png" width="100%" alt="Principal tree: long edges across empty space"></a><br><sub>Principal tree: long edges across empty space</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/gene_trends/gene_trends_nk.png"><img src="figures/trajectory/gene_trends/gene_trends_nk.png" width="100%" alt="The "NK" lineage: naive CD4 T → CD8 → NK, a cytotoxic gradient, not development"></a><br><sub>The "NK" lineage: naive CD4 T → CD8 → NK, a cytotoxic gradient, not development</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/principal_graph/principal_graph_umap.png"><img src="figures/trajectory/principal_graph/principal_graph_umap.png" width="100%" alt="Principal tree: long edges across empty space"></a><br><sub>Principal tree: long edges across empty space</sub></td>
 </tr></table>
 
 **RNA velocity** (direction of eight known differentiation steps, two models ×
@@ -243,13 +243,13 @@ two fits):
   positions do not shift with the lane.
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/trajectory/velocity_progenitor_stream_dynamical.png"><img src="figures/trajectory/velocity_progenitor_stream_dynamical.png" width="100%" alt="Velocity streamlines, progenitor fit: monocyte flow correct, erythroid reversed"></a><br><sub>Velocity streamlines, progenitor fit: monocyte flow correct, erythroid reversed</sub></td>
-<td width="50%" valign="top"><a href="figures/trajectory/velocity_progenitor_paga_stochastic.png"><img src="figures/trajectory/velocity_progenitor_paga_stochastic.png" width="100%" alt="Velocity-directed PAGA: arrows point into HSPC"></a><br><sub>Velocity-directed PAGA: arrows point into HSPC</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/velocity_progenitor/velocity_progenitor_stream_dynamical.png"><img src="figures/trajectory/velocity_progenitor/velocity_progenitor_stream_dynamical.png" width="100%" alt="Velocity streamlines, progenitor fit: monocyte flow correct, erythroid reversed"></a><br><sub>Velocity streamlines, progenitor fit: monocyte flow correct, erythroid reversed</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/velocity_progenitor/velocity_progenitor_paga_stochastic.png"><img src="figures/trajectory/velocity_progenitor/velocity_progenitor_paga_stochastic.png" width="100%" alt="Velocity-directed PAGA: arrows point into HSPC"></a><br><sub>Velocity-directed PAGA: arrows point into HSPC</sub></td>
 </tr></table>
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/trajectory/velocity_scvelo_stream_dynamical.png"><img src="figures/trajectory/velocity_scvelo_stream_dynamical.png" width="100%" alt="Whole-sample velocity: strongest, and backwards, in the lymphoid block"></a><br><sub>Whole-sample velocity: strongest, and backwards, in the lymphoid block</sub></td>
-<td width="50%" valign="top"><a href="figures/trajectory/velocity_counts_lane_unspliced.png"><img src="figures/trajectory/velocity_counts_lane_unspliced.png" width="100%" alt="Unspliced fraction per lane"></a><br><sub>Unspliced fraction per lane</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/velocity_scvelo/velocity_scvelo_stream_dynamical.png"><img src="figures/trajectory/velocity_scvelo/velocity_scvelo_stream_dynamical.png" width="100%" alt="Whole-sample velocity: strongest, and backwards, in the lymphoid block"></a><br><sub>Whole-sample velocity: strongest, and backwards, in the lymphoid block</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/velocity_counts/velocity_counts_lane_unspliced.png"><img src="figures/trajectory/velocity_counts/velocity_counts_lane_unspliced.png" width="100%" alt="Unspliced fraction per lane"></a><br><sub>Unspliced fraction per lane</sub></td>
 </tr></table>
 
 All figures: [`figures/trajectory/`](figures/trajectory/) · tables: [`results/trajectory/`](results/trajectory/)
@@ -261,8 +261,8 @@ and `cellphonedb`, a method comparison, a per-donor rerun, pathway mapping and
 non-negative matrix factorisation of signalling programmes.
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report_circle.png"><img src="figures/cell_cell_communication/cell_communication_report_circle.png" width="100%" alt="Circle plot: significant interactions between cell types (edge width = count, colour = sender)"></a><br><sub>Circle plot: significant interactions between cell types (edge width = count, colour = sender)</sub></td>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report_chord.png"><img src="figures/cell_cell_communication/cell_communication_report_chord.png" width="100%" alt="Chord diagram of the same interaction flow"></a><br><sub>Chord diagram of the same interaction flow</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report/cell_communication_report_circle.png"><img src="figures/cell_cell_communication/cell_communication_report/cell_communication_report_circle.png" width="100%" alt="Circle plot: significant interactions between cell types (edge width = count, colour = sender)"></a><br><sub>Circle plot: significant interactions between cell types (edge width = count, colour = sender)</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report/cell_communication_report_chord.png"><img src="figures/cell_cell_communication/cell_communication_report/cell_communication_report_chord.png" width="100%" alt="Chord diagram of the same interaction flow"></a><br><sub>Chord diagram of the same interaction flow</sub></td>
 </tr></table>
 
 Edges in the circle, chord, heatmap and hierarchy figures are weighted by the
@@ -270,13 +270,13 @@ number of significant interactions, not by a communication probability (LIANA
 gives none). A thick edge means many annotated ligand-receptor pairs matched.
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report_heatmap.png"><img src="figures/cell_cell_communication/cell_communication_report_heatmap.png" width="100%" alt="Significant interactions per sender and receiver"></a><br><sub>Significant interactions per sender and receiver</sub></td>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report_dotplot.png"><img src="figures/cell_cell_communication/cell_communication_report_dotplot.png" width="100%" alt="Top interactions: the most frequent is the least specific"></a><br><sub>Top interactions: the most frequent is the least specific</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report/cell_communication_report_heatmap.png"><img src="figures/cell_cell_communication/cell_communication_report/cell_communication_report_heatmap.png" width="100%" alt="Significant interactions per sender and receiver"></a><br><sub>Significant interactions per sender and receiver</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report/cell_communication_report_dotplot.png"><img src="figures/cell_cell_communication/cell_communication_report/cell_communication_report_dotplot.png" width="100%" alt="Top interactions: the most frequent is the least specific"></a><br><sub>Top interactions: the most frequent is the least specific</sub></td>
 </tr></table>
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/lr_donors_reproducibility_consensus.png"><img src="figures/cell_cell_communication/lr_donors_reproducibility_consensus.png" width="100%" alt="Interactions by number of donors calling them"></a><br><sub>Interactions by number of donors calling them</sub></td>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/lr_methods_agreement_consensus.png"><img src="figures/cell_cell_communication/lr_methods_agreement_consensus.png" width="100%" alt="Agreement between the seven scoring methods"></a><br><sub>Agreement between the seven scoring methods</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/lr_donors/lr_donors_reproducibility_consensus.png"><img src="figures/cell_cell_communication/lr_donors/lr_donors_reproducibility_consensus.png" width="100%" alt="Interactions by number of donors calling them"></a><br><sub>Interactions by number of donors calling them</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/lr_methods/lr_methods_agreement_consensus.png"><img src="figures/cell_cell_communication/lr_methods/lr_methods_agreement_consensus.png" width="100%" alt="Agreement between the seven scoring methods"></a><br><sub>Agreement between the seven scoring methods</sub></td>
 </tr></table>
 
 - 195 interactions are significant with `consensus`, 20 with `cellphonedb`;
@@ -302,16 +302,16 @@ gives none). A thick edge means many annotated ligand-receptor pairs matched.
   while receiving none. HSPC sends nothing and receives one interaction.
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report_sources_targets.png"><img src="figures/cell_cell_communication/cell_communication_report_sources_targets.png" width="100%" alt="Interactions sent and received per cell type, ordered by the difference"></a><br><sub>Interactions sent and received per cell type, ordered by the difference</sub></td>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report_resource_overlap.png"><img src="figures/cell_cell_communication/cell_communication_report_resource_overlap.png" width="100%" alt="consensus against cellphonedb: 14 shared, 181 and 6 unique"></a><br><sub>consensus against cellphonedb: 14 shared, 181 and 6 unique</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report/cell_communication_report_sources_targets.png"><img src="figures/cell_cell_communication/cell_communication_report/cell_communication_report_sources_targets.png" width="100%" alt="Interactions sent and received per cell type, ordered by the difference"></a><br><sub>Interactions sent and received per cell type, ordered by the difference</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report/cell_communication_report_resource_overlap.png"><img src="figures/cell_cell_communication/cell_communication_report/cell_communication_report_resource_overlap.png" width="100%" alt="consensus against cellphonedb: 14 shared, 181 and 6 unique"></a><br><sub>consensus against cellphonedb: 14 shared, 181 and 6 unique</sub></td>
 </tr></table>
 
 - The developing compartment receives 17 of 195 interactions, through two
   channels only: S100 alarmins into erythroid CD36, and APP → CD74.
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report_hierarchy.png"><img src="figures/cell_cell_communication/cell_communication_report_hierarchy.png" width="100%" alt="Signalling into the developing (left) and finished (right) compartments"></a><br><sub>Signalling into the developing (left) and finished (right) compartments</sub></td>
-<td width="50%" valign="top"><a href="figures/cell_cell_communication/lr_patterns_programs.png"><img src="figures/cell_cell_communication/lr_patterns_programs.png" width="100%" alt="Shared sending programmes from matrix factorisation"></a><br><sub>Shared sending programmes from matrix factorisation</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report/cell_communication_report_hierarchy.png"><img src="figures/cell_cell_communication/cell_communication_report/cell_communication_report_hierarchy.png" width="100%" alt="Signalling into the developing (left) and finished (right) compartments"></a><br><sub>Signalling into the developing (left) and finished (right) compartments</sub></td>
+<td width="50%" valign="top"><a href="figures/cell_cell_communication/lr_patterns/lr_patterns_programs.png"><img src="figures/cell_cell_communication/lr_patterns/lr_patterns_programs.png" width="100%" alt="Shared sending programmes from matrix factorisation"></a><br><sub>Shared sending programmes from matrix factorisation</sub></td>
 </tr></table>
 
 All figures: [`figures/cell_cell_communication/`](figures/cell_cell_communication/) · tables: [`results/cell_cell_communication/`](results/cell_cell_communication/)

@@ -40,7 +40,7 @@ def load_pseudotime(index: pd.Index) -> pd.Series:
     return frame[tag].reindex(index)
 
 def load_fates(index: pd.Index) -> pd.DataFrame:
-    """Read the stored fate probablity matrix and its lineage names"""
+    """Read the stored fate probability matrix and its lineage names"""
     matrix = np.load(find_result(f"pt_cellrank_fate_{FATE_TAG}.npy"))
     names  = pd.read_csv(find_result(f"pt_cellrank_fate_{FATE_TAG}_features.csv"))["feature"]
     return pd.DataFrame(matrix, index = index, columns = list(names))

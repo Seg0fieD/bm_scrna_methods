@@ -1,18 +1,22 @@
-"""Build the comparison figure and ranked score table for the dimensionality-reduction benchmark"""
+"""Comparison figures and summary tables for the dimensionality-reduction benchmark"""
 
-import matplotlib.pyplot as plt 
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 import scanpy as sc
 from anndata import AnnData
 
-from benchmark_utils import ( BATCH_KEY, FIG_DIR, GRAPH_H5AD, LABEL_KEY, SCORE_DIR, LEGEND_FONTSIZE,
-                          list_embeddings, save_figure )
+from benchmark_utils import ( BATCH_KEY, FIG_DIR, GRAPH_H5AD, LABEL_KEY, SCORE_DIR, TAB_DIR,
+                          LEGEND_FONTSIZE, list_embeddings, load_embedding, save_figure )
 
 
-IN     = GRAPH_H5AD
-SCORES = SCORE_DIR / "scib_scores.csv"
-NCOLS  = 4
-FIG    = FIG_DIR / "benchmark_report"
+IN      = GRAPH_H5AD
+SCORES  = SCORE_DIR / "scib_scores.csv"
+NCOLS   = 4
+FIG     = FIG_DIR / "benchmark_report"
+RESULTS = TAB_DIR / "benchmark_report"
 
 def umap_grid(adata: AnnData, names: list[str], color: str, filename: str) -> None:
     """One UMAP panel per embedding, all coloured by the same column."""
@@ -20,17 +24,16 @@ def umap_grid(adata: AnnData, names: list[str], color: str, filename: str) -> No
     fig, axes = plt.subplots(nrows = nrows, ncols = NCOLS, figsize = (22, 5 * nrows))
     axes = axes.ravel()
 
-
     for idx, name in enumerate(names):
         last = idx == len(names) - 1
         adata.obsm["X_umap"] = adata.obsm[f"X_umap_{name}"]
         sc.pl.umap(
             adata, color = color,
-            ax = axes[idx], show = False, 
+            ax = axes[idx], show = False,
             title = name,  frameon = False,
             size = 3, legend_loc = "right margin" if last else None,
             legend_fontsize = LEGEND_FONTSIZE,
-        ) 
+        )
     for ax in axes[len(names):]:
         ax.axis("off")
 
@@ -65,27 +68,46 @@ def score_scatter(scores: pd.DataFrame) -> None:
     ax.grid(alpha = 0.4)
     save_figure(FIG / "score_scatter.png", fig)
 
+def embedding_summary(adata: AnnData, names: list[str]) -> None:
+    """Dimensions and Leiden cluster count per embedding at the shared resolution, as CSV."""
+    summary = pd.DataFrame(
+        {
+            "dimensions": [load_embedding(name).shape[1] for name in names],
+            "clusters": [adata.obs[f"leiden_{name}"].nunique() for name in names],
+        },
+        index = pd.Index(names, name = "embedding"),
+    ).sort_values("clusters")
+    summary.to_csv(RESULTS / "benchmark_report_embeddings.csv")
+    print(summary)
+
+def cnmf_usage() -> None:
+    """Per-program cNMF usage as CSV: mean and peak share of cell usage, cells led."""
+    usage = load_embedding("cnmf")
+    usage = usage / usage.sum(axis = 1, keepdims = True)
+    table = pd.DataFrame(
+        {
+            "mean_share": usage.mean(axis = 0),
+            "peak_share": usage.max(axis = 0),
+            "cells_led": np.bincount(usage.argmax(axis = 1), minlength = usage.shape[1]),
+        },
+        index = pd.RangeIndex(1, usage.shape[1] + 1, name = "program"),
+    )
+    table.to_csv(RESULTS / "benchmark_report_cnmf_usage.csv")
+    print(table.round(3))
+
 def main() -> None:
-    """Benchmark comparison figures and the ranked score table written out."""
+    """Benchmark comparison figures, the ranked score table and the summary tables written out."""
     adata = sc.read_h5ad(IN)
     names = list_embeddings()
-
+    RESULTS.mkdir(parents = True, exist_ok = True)
 
     umap_grid(adata, names, LABEL_KEY, "umap_grid_cell_type.png")
     umap_grid(adata, names, BATCH_KEY, "umap_grid_donor.png")
 
     score_scatter(ranked_scores())
+    embedding_summary(adata, names)
+    cnmf_usage()
 
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-

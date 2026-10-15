@@ -31,10 +31,10 @@ PANEL_SIZE      = (7, 6)
 SCRIPT_NAME     = "fate_drivers"
 
 def load_fates(index: pd.Index) -> pd.DataFrame:
-    """Read the sorted fate probablity matrix and its lineage names"""
+    """Read the sorted fate probability matrix and its lineage names"""
     matrix = np.load(find_result(f"pt_cellrank_fate_{FATE_TAG}.npy"))
     names = pd.read_csv(find_result(f"pt_cellrank_fate_{FATE_TAG}_features.csv"))["feature"]
-    print(f"loaded fate probablities {matrix.shape} for {FATE_TAG}")
+    print(f"loaded fate probabilities {matrix.shape} for {FATE_TAG}")
     return pd.DataFrame(matrix, index = index, columns = list(names))
 
 def expression_matrix(adata: AnnData) -> sp.csc_matrix:
@@ -92,7 +92,7 @@ def plot_driver_heatmap(correlations: pd.DataFrame) -> None:
     axis.set_xticks(range(frame.shape[1]), frame.columns,
                           rotation = 45, ha = "right", fontsize = 6)
     axis.set_yticks(range(frame.shape[0]), frame.index, fontsize = 6)     
-    axis.set_title("Fate probablity correlatoin of the leading driver genes")
+    axis.set_title("Fate probability correlation of the leading driver genes")
     bar = figure.colorbar(image, ax = axis, shrink = 0.5, label = "Pearson correlation")
     style_bar(bar)
     style_dark(figure, axis)
@@ -123,7 +123,7 @@ def plot_driver_umaps(adata: AnnData, top: pd.DataFrame) -> None:
 
 
 def main() -> None:
-    """Correlate gene expression with fate probablity and stor the driver tabels and features"""
+    """Correlate gene expression with fate probability and store the driver tables and features"""
     set_seed()
     adata = load_annotated()
     fates = load_fates(adata.obs_names)

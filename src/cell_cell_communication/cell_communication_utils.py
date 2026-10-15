@@ -166,10 +166,11 @@ def style_dark(fig : Figure) -> None:
                 text.set_color(DARK_FOREGROUND)
 
 
-def save_figure(fig: Figure, name: str) -> Path:
-    """Write a figure as PNG to figure directory at the fixed resolution."""
-    FIGURES_DIR.mkdir(parents=True, exist_ok = True)
-    path = FIGURES_DIR / f"{name}.png"
+def save_figure(fig: Figure, script: str, name: str) -> Path:
+    """Figure as PNG at the project resolution in the script's figure
+    directory; closes the figure and logs the output path."""
+    path = FIGURES_DIR / script / f"{name}.png"
+    path.parent.mkdir(parents = True, exist_ok = True)
     fig.savefig(path, dpi = DPI, bbox_inches = "tight", facecolor = fig.get_facecolor())
     plt.close(fig)
     print(f"wrote {path}")

@@ -222,7 +222,7 @@ def plot_tree_cell_type(
     for text in legend.get_texts():
         text.set_color(FOREGROUND)
     figure.tight_layout()
-    save_figure(figure, "trajectory_backbone_tree_cell_type")
+    save_figure(figure, SCRIPT_NAME, "trajectory_backbone_tree_cell_type")
 
 
 def plot_tree_pseudotime(
@@ -251,7 +251,7 @@ def plot_tree_pseudotime(
     bar.set_label("Palantir pseudotime", color = FOREGROUND)
     style_bar(bar)
     figure.tight_layout()
-    save_figure(figure, "trajectory_backbone_tree_pseudotime")
+    save_figure(figure, SCRIPT_NAME, "trajectory_backbone_tree_pseudotime")
 
 
 def plot_tree_nodes(
@@ -306,7 +306,7 @@ def plot_tree_nodes(
     bar.set_label("median pseudotime", color = FOREGROUND)
     style_bar(bar)
     figure.tight_layout()
-    save_figure(figure, "trajectory_backbone_tree_nodes")
+    save_figure(figure, SCRIPT_NAME, "trajectory_backbone_tree_nodes")
 
 
 def plot_entropy(entropy: pd.Series, labels: pd.Series) -> None:
@@ -345,7 +345,7 @@ def plot_entropy(entropy: pd.Series, labels: pd.Series) -> None:
     for text in axis.get_yticklabels():
         text.set_color(FOREGROUND)
     figure.tight_layout()
-    save_figure(figure, "trajectory_backbone_entropy")
+    save_figure(figure, SCRIPT_NAME, "trajectory_backbone_entropy")
 
 
 def project_transitions(matrix, coords: np.ndarray) -> np.ndarray:
@@ -467,7 +467,7 @@ def plot_arrows(
         wrap     = True,
     )
     figure.tight_layout(rect = (0.0, 0.05, 1.0, 1.0))
-    save_figure(figure, "trajectory_backbone_arrows")
+    save_figure(figure, SCRIPT_NAME, "trajectory_backbone_arrows")
 
 
 def main() -> None:

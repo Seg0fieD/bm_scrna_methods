@@ -154,9 +154,11 @@ def save_table(frame, script_name, name):
     frame.to_csv(path, index = False)
     print(f"wrote {path.relative_to(ROOT)} ({len(frame):,} rows)")
 
-def save_figure(figure, name):
-    """Save figure at the project resolution and close it"""
-    path = FIGURES / f"{name}.png"
+def save_figure(figure: plt.Figure, script: str, name: str) -> None:
+    """Figure as PNG at the project resolution in the script's figure
+    directory; closes the figure and logs the output path."""
+    path = FIGURES / script / f"{name}.png"
+    path.parent.mkdir(parents = True, exist_ok = True)
     figure.savefig(path, dpi = DPI, bbox_inches = "tight")
     plt.close(figure)
     print(f"wrote {path.relative_to(ROOT)}")

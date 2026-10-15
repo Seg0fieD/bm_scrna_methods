@@ -102,7 +102,7 @@ def plot_fate_grid(adata: AnnData, frame: pd.DataFrame, tag: str) -> None:
         axis.set_visible(False)
     bar = figure.colorbar(points, ax = axes, shrink = 0.6, label = "fate probability")
     style_bar(bar)
-    save_figure(figure, f"pt_cellrank_fate_umap_{tag}")
+    save_figure(figure, SCRIPT_NAME, f"pt_cellrank_fate_umap_{tag}")
 
 
 def plot_fate_heatmap(means: pd.DataFrame, tag: str) -> None:
@@ -129,7 +129,7 @@ def plot_fate_heatmap(means: pd.DataFrame, tag: str) -> None:
     bar = figure.colorbar(image, ax = axis, shrink = 0.8, label = "fate probability")
     style_bar(bar)
     style_dark(figure, axis)
-    save_figure(figure, f"pt_cellrank_fate_by_celltype_{tag}")
+    save_figure(figure, SCRIPT_NAME, f"pt_cellrank_fate_by_celltype_{tag}")
 
 
 def main() -> None:

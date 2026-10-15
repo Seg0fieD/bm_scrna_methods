@@ -79,7 +79,7 @@ def plot_progeny_umap(adata, scores):
             axes.set_title(title.replace("progeny_", ""))
 
     figure.set_size_inches(20, 16)
-    pu.save_figure(figure, "umap_progeny")
+    pu.save_figure(figure, SCRIPT_NAME, "umap_progeny")
 
 
 def plot_heatmap(frame, name, title):
@@ -93,7 +93,7 @@ def plot_heatmap(frame, name, title):
     axes.set_title(title)
     axes.set_xlabel("")
     axes.set_ylabel("")
-    pu.save_figure(figure, name)
+    pu.save_figure(figure, SCRIPT_NAME, name)
 
 
 def overlap_table(ora, gsea):
@@ -123,7 +123,7 @@ def plot_overlap(overlap):
     axes.set_xlabel("significant terms")
     axes.set_ylabel("")
     axes.legend(title = "")
-    pu.save_figure(figure, "ora_vs_gsea_overlap")
+    pu.save_figure(figure, SCRIPT_NAME, "ora_vs_gsea_overlap")
 
 
 def main():

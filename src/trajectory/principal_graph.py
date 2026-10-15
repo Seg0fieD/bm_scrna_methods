@@ -222,7 +222,7 @@ def tree_figure(
     axis.set_title(title, color = FOREGROUND, fontsize = TITLE_SIZE, pad = 14)
     style_dark(figure, axis)
     axis.set_axis_off()
-    save_figure(figure, name)
+    save_figure(figure, SCRIPT_NAME, name)
 
 
 def plot_celltype_pseudotime(graph_time: pd.Series, labels: pd.Series) -> None:
@@ -250,7 +250,7 @@ def plot_celltype_pseudotime(graph_time: pd.Series, labels: pd.Series) -> None:
     style_dark(figure, axis)
     axis.xaxis.label.set_color(FOREGROUND)
     figure.tight_layout()
-    save_figure(figure, "principal_graph_pseudotime_by_celltype")
+    save_figure(figure, SCRIPT_NAME, "principal_graph_pseudotime_by_celltype")
 
 
 def plot_agreement(
@@ -277,7 +277,7 @@ def plot_agreement(
     bar.set_label("cells", color = FOREGROUND, fontsize = LABEL_SIZE)
     style_bar(bar)
     figure.tight_layout()
-    save_figure(figure, "principal_graph_agreement")
+    save_figure(figure, SCRIPT_NAME, "principal_graph_agreement")
 
 
 def segment_table(

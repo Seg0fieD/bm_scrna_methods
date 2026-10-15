@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore", message = "Variable names are not unique")
 ROOT = Path(__file__).resolve().parents[2]
 IN   = ROOT / "data" / "interim" / "bm_merged.h5ad"
 OUT  = ROOT / "data" / "interim" / "bm_qcmetrics.h5ad"
-FIG  = ROOT / "figures" / "qc"
+FIG  = ROOT / "figures" / "qc" / Path(__file__).stem
 
 HB_PREFIXES = ("HBA", "HBB", "HBD", "HBG", "HBM", "HBQ", "HBZ")
 

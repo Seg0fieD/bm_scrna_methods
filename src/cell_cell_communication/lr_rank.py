@@ -50,7 +50,7 @@ def plot_dotplot(significant: pd.DataFrame, resource_name: str) -> None:
     bar.set_label("specificity, -log10 rank")
 
     ccu.style_dark(fig)
-    ccu.save_figure(fig, f"lr_rank_dotplot_{resource_name}")
+    ccu.save_figure(fig, SCRIPT_NAME, f"lr_rank_dotplot_{resource_name}")
 
 def plot_counts_heatmap(counts: pd.DataFrame, resource_name: str, vmax: int) -> None:
     """Heatmap of sender-by-receiver interaction counts, on a color scale shared across resources."""
@@ -67,7 +67,7 @@ def plot_counts_heatmap(counts: pd.DataFrame, resource_name: str, vmax: int) -> 
     bar.set_label("interactions")
     
     ccu.style_dark(fig)
-    ccu.save_figure(fig, f"lr_rank_heatmap_{resource_name}")
+    ccu.save_figure(fig, SCRIPT_NAME, f"lr_rank_heatmap_{resource_name}")
     
 
 

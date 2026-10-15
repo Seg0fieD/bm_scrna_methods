@@ -243,7 +243,7 @@ def main():
 
     save_figure(
         plot_overview(coords, labels, pseudotime, cellrank, entropy),
-        "trajectory_report_overview",
+        SCRIPT_NAME, "trajectory_report_overview",
     )
 
     matrix = fate_matrix(cellrank, labels)
@@ -254,10 +254,10 @@ def main():
             f"Mean CellRank fate probability by cell type ({FATE_TAG})",
             FATE_CMAP, "mean probability", 0.0, 1.0,
         ),
-        "trajectory_report_fate_matrix",
+        SCRIPT_NAME, "trajectory_report_fate_matrix",
     )
 
-    save_figure(plot_pseudotime(pseudotime, labels), "trajectory_report_pseudotime_by_celltype")
+    save_figure(plot_pseudotime(pseudotime, labels), SCRIPT_NAME, "trajectory_report_pseudotime_by_celltype")
 
     correlation = agreement(palantir, cellrank)
     save_table(correlation, SCRIPT_NAME, "trajectory_report_method_agreement")
@@ -267,7 +267,7 @@ def main():
             "Palantir branch probability against CellRank fate probability",
             AGREEMENT_CMAP, "Pearson correlation", -AGREEMENT_VLIM, AGREEMENT_VLIM,
         ),
-        "trajectory_report_method_agreement",
+        SCRIPT_NAME, "trajectory_report_method_agreement",
     )
 
     summary = summary_table(pseudotime, cellrank, entropy, labels)

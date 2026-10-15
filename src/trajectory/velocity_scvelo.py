@@ -247,7 +247,7 @@ def stream_figure(adata: AnnData, model: str, prefix: str) -> None:
                    fontsize = TITLE_FONTSIZE, pad = TITLE_PAD)
     style_dark(figure, axis)
     dark_legend(axis)
-    save_figure(figure, f"{prefix}_stream_{model}")
+    save_figure(figure, prefix, f"{prefix}_stream_{model}")
 
 
 def paga_figure(adata: AnnData, edges: pd.DataFrame, model: str,
@@ -287,7 +287,7 @@ def paga_figure(adata: AnnData, edges: pd.DataFrame, model: str,
     axis.legend(handles = handles, loc = "upper left", bbox_to_anchor = (1.01, 1),
                 frameon = False, fontsize = LABEL_FONTSIZE - 1,
                 labelcolor = FOREGROUND)
-    save_figure(figure, f"{prefix}_paga_{model}")
+    save_figure(figure, prefix, f"{prefix}_paga_{model}")
 
 
 def time_panels(adata: AnnData, cells: pd.DataFrame, prefix: str) -> None:
@@ -320,7 +320,7 @@ def time_panels(adata: AnnData, cells: pd.DataFrame, prefix: str) -> None:
     figure.suptitle("Palantir pseudotime against the three velocity "
                     "orderings", color = FOREGROUND,
                     fontsize = TITLE_FONTSIZE + 2)
-    save_figure(figure, f"{prefix}_orderings_umap")
+    save_figure(figure, prefix, f"{prefix}_orderings_umap")
 
 def celltype_figure(cells: pd.DataFrame, prefix: str) -> None:
     """
@@ -349,7 +349,7 @@ def celltype_figure(cells: pd.DataFrame, prefix: str) -> None:
                for marker, colour, label in MARKERS.values()]
     axis.legend(handles = handles, loc = "upper left", bbox_to_anchor = (1.01, 1),
                 frameon = False, fontsize = LABEL_FONTSIZE, labelcolor = FOREGROUND)
-    save_figure(figure, f"{prefix}_celltype_orderings")
+    save_figure(figure, prefix, f"{prefix}_celltype_orderings")
 
 
 def lane_figure(lanes: pd.DataFrame, metric: str, prefix: str) -> None:
@@ -373,7 +373,7 @@ def lane_figure(lanes: pd.DataFrame, metric: str, prefix: str) -> None:
     bar.set_label("lane median minus cell-type median",
                   fontsize = LABEL_FONTSIZE)
     style_bar(bar)
-    save_figure(figure, f"{prefix}_lane_{metric}")
+    save_figure(figure, prefix, f"{prefix}_lane_{metric}")
 
 
 def report_outputs(adata: AnnData, cells: pd.DataFrame, prefix: str,

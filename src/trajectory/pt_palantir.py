@@ -90,7 +90,7 @@ def plot_umap_grid(adata: AnnData, frame: pd.DataFrame) -> None:
         style_dark(figure, axis)
     bar = figure.colorbar(points, ax = axes, shrink = 0.6, label = "pseudotime")
     style_bar(bar)
-    save_figure(figure, "pt_palantir_umap_grid")
+    save_figure(figure, SCRIPT_NAME, "pt_palantir_umap_grid")
 
 def plot_celltype_pseudotime(means: pd.DataFrame) -> None:
     """Draw the mean pseudotime of each cell type per run, ordered by the primary run."""
@@ -116,7 +116,7 @@ def plot_celltype_pseudotime(means: pd.DataFrame) -> None:
     bar = figure.colorbar(image, ax=axis, shrink=0.8, label="pseudotime")
     style_bar(bar)
     style_dark(figure, axis)
-    save_figure(figure, "pt_palantir_pseudotime_by_celltype")
+    save_figure(figure, SCRIPT_NAME, "pt_palantir_pseudotime_by_celltype")
 
 def main() -> None:
     """Run Palantir over every embedding and root pair, then store the tables and figures."""

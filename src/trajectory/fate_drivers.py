@@ -96,7 +96,7 @@ def plot_driver_heatmap(correlations: pd.DataFrame) -> None:
     bar = figure.colorbar(image, ax = axis, shrink = 0.5, label = "Pearson correlation")
     style_bar(bar)
     style_dark(figure, axis)
-    save_figure(figure, "fate_drivers_heatmap")
+    save_figure(figure, SCRIPT_NAME, "fate_drivers_heatmap")
 
 def plot_driver_umaps(adata: AnnData, top: pd.DataFrame) -> None: 
     """Draw the expression of the leading driver gene of every lineage on the UMAP"""
@@ -119,7 +119,7 @@ def plot_driver_umaps(adata: AnnData, top: pd.DataFrame) -> None:
 
     for axis in axes.flat[len(leading): ]:
         axis.set_visible(False)
-    save_figure(figure, "fate_drivers_umap")
+    save_figure(figure, SCRIPT_NAME, "fate_drivers_umap")
 
 
 def main() -> None:

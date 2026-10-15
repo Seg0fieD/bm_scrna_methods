@@ -12,6 +12,7 @@ from benchmark_utils import ( BATCH_KEY, FIG_DIR, GRAPH_H5AD, LABEL_KEY, SCORE_D
 IN     = GRAPH_H5AD
 SCORES = SCORE_DIR / "scib_scores.csv"
 NCOLS  = 4
+FIG    = FIG_DIR / "benchmark_report"
 
 def umap_grid(adata: AnnData, names: list[str], color: str, filename: str) -> None:
     """One UMAP panel per embedding, all coloured by the same column."""
@@ -34,7 +35,7 @@ def umap_grid(adata: AnnData, names: list[str], color: str, filename: str) -> No
         ax.axis("off")
 
     del adata.obsm["X_umap"]
-    save_figure(FIG_DIR / filename, fig)
+    save_figure(FIG / filename, fig)
 
 def ranked_scores() -> pd.DataFrame:
     """Score table ranked by total score, the metric-type row dropped."""
@@ -62,7 +63,7 @@ def score_scatter(scores: pd.DataFrame) -> None:
     ax.set_ylabel("Bio conservation")
     ax.set_title("Bio conservation vs Batch correction")
     ax.grid(alpha = 0.4)
-    save_figure(FIG_DIR / "score_scatter.png", fig)
+    save_figure(FIG / "score_scatter.png", fig)
 
 def main() -> None:
     """Benchmark comparison figures and the ranked score table written out."""

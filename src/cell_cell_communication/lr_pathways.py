@@ -288,7 +288,7 @@ def main() -> None:
     print(f"{FIGURE_RESOURCE}: {len(pathways)} pathways kept for the figure")
 
     matrix = sender_pathway_matrix(assignments, labels, pathways)
-    ccu.save_figure(plot_sender_pathways(matrix), f"{SCRIPT_NAME}_heatmap")
+    ccu.save_figure(plot_sender_pathways(matrix), SCRIPT_NAME, f"{SCRIPT_NAME}_heatmap")
 
 
 if __name__ == "__main__":

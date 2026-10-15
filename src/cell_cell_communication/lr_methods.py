@@ -108,7 +108,7 @@ def plot_correlation(matrix: pd.DataFrame, resource_name: str) -> None:
     bar.set_label("Spearman correlation")
 
     ccu.style_dark(fig)
-    ccu.save_figure(fig, f"lr_methods_agreement_{resource_name}")
+    ccu.save_figure(fig, SCRIPT_NAME, f"lr_methods_agreement_{resource_name}")
 
 def main() -> None:
     """Method comparison per resources: correlations, top_list, agreement with the merged rank, figure."""

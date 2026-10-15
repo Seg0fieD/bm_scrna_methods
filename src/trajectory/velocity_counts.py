@@ -173,7 +173,7 @@ def lane_figure(obs: pd.DataFrame, summary: pd.DataFrame) -> None:
     axis.legend(loc = "upper left", bbox_to_anchor = (1.01, 1), frameon = False,
                 fontsize = LABEL_FONTSIZE, labelcolor = FOREGROUND,
                 facecolor = BACKGROUND)
-    save_figure(figure, f"{SCRIPT_NAME}_lane_unspliced")
+    save_figure(figure, SCRIPT_NAME, f"{SCRIPT_NAME}_lane_unspliced")
 
 
 def main() -> None:

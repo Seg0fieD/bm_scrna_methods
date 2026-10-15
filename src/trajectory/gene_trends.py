@@ -108,7 +108,7 @@ def plot_lineage(trends: pd.DataFrame, composition: pd.DataFrame, lineage: str) 
 
     for axis in axes:
         style_dark(figure, axis)
-    save_figure(figure, f"gene_trends_{slug(lineage)}")
+    save_figure(figure, SCRIPT_NAME, f"gene_trends_{slug(lineage)}")
 
 
 def main() -> None:

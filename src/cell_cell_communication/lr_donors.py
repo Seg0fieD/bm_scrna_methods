@@ -83,7 +83,7 @@ def plot_reproducibility(table: pd.DataFrame, resource_name: str) -> None:
     ax.legend(fontsize = ccu.LEGEND_FONTSIZE)
 
     ccu.style_dark(fig)
-    ccu.save_figure(fig, f"lr_donors_reproducibility_{resource_name}")
+    ccu.save_figure(fig, SCRIPT_NAME, f"lr_donors_reproducibility_{resource_name}")
 
 def main() -> None:
     """Per-lane ranking: a table per donor, the label coverage, the reproducibility table and a figure per resources."""

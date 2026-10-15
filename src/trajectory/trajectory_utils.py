@@ -188,9 +188,11 @@ def save_matrix(matrix: np.ndarray, script_name: str, name: str,
     print(f"wrote {path} {matrix.shape}")
     return path
 
-def save_figure(figure: Figure, name: str) -> Path:
-    """Generate figure for trajectory  as PNG and store under figure  dir."""
-    path = FIGURE_DIR / f"{name}.png"
+def save_figure(figure: Figure, script: str, name: str) -> Path:
+    """Figure as PNG at the project resolution in the script's figure
+    directory; closes the figure and logs the output path."""
+    path = FIGURE_DIR / script / f"{name}.png"
+    path.parent.mkdir(parents = True, exist_ok = True)
     figure.savefig(path, dpi = DPI, bbox_inches = "tight")
     plt.close(figure)
     print(f"wrote {path}")

@@ -93,7 +93,7 @@ def plot_graph(adata: AnnData, embedding: str) -> None:
     recolor_edges(axis)
     axis.set_title(f"PAGA topology on {embedding}")
     style_dark(figure, axis)
-    save_figure(figure, f"paga_topology_{embedding}")
+    save_figure(figure, SCRIPT_NAME, f"paga_topology_{embedding}")
 
 def plot_heatmap(frame: pd.DataFrame, embedding: str) -> None: 
     """Draw the connectivity matrix as a heatmap on a fixed zero to one scale."""
@@ -104,7 +104,7 @@ def plot_heatmap(frame: pd.DataFrame, embedding: str) -> None:
     axis.set_yticks(range(len(labels)), labels, fontsize = 8)        
     axis.set_title(f"PAGA connectivity on {embedding}")
     figure.colorbar(image, ax = axis, shrink = 0.8, label = "connectivity")
-    save_figure(figure, f"paga_topology_{embedding}_heatmap")
+    save_figure(figure, SCRIPT_NAME, f"paga_topology_{embedding}_heatmap")
 
 def main() -> None:
     """Compute and store the PAGA topology for every embedding under comparison."""

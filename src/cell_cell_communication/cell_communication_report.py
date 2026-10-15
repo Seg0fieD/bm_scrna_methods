@@ -661,13 +661,13 @@ def main() -> None:
         f"{len(overlap)} in either"
     )
 
-    ccu.save_figure(plot_circle(counts), f"{SCRIPT_NAME}_circle")
-    ccu.save_figure(plot_chord(counts), f"{SCRIPT_NAME}_chord")
-    ccu.save_figure(plot_heatmap(counts), f"{SCRIPT_NAME}_heatmap")
-    ccu.save_figure(plot_hierarchy(counts), f"{SCRIPT_NAME}_hierarchy")
-    ccu.save_figure(plot_dotplot(significant[MAIN_RESOURCE]), f"{SCRIPT_NAME}_dotplot")
-    ccu.save_figure(plot_sources_targets(counts), f"{SCRIPT_NAME}_sources_targets")
-    ccu.save_figure(plot_resource_overlap(overlap), f"{SCRIPT_NAME}_resource_overlap")
+    ccu.save_figure(plot_circle(counts), SCRIPT_NAME, f"{SCRIPT_NAME}_circle")
+    ccu.save_figure(plot_chord(counts), SCRIPT_NAME, f"{SCRIPT_NAME}_chord")
+    ccu.save_figure(plot_heatmap(counts), SCRIPT_NAME, f"{SCRIPT_NAME}_heatmap")
+    ccu.save_figure(plot_hierarchy(counts), SCRIPT_NAME, f"{SCRIPT_NAME}_hierarchy")
+    ccu.save_figure(plot_dotplot(significant[MAIN_RESOURCE]), SCRIPT_NAME, f"{SCRIPT_NAME}_dotplot")
+    ccu.save_figure(plot_sources_targets(counts), SCRIPT_NAME, f"{SCRIPT_NAME}_sources_targets")
+    ccu.save_figure(plot_resource_overlap(overlap), SCRIPT_NAME, f"{SCRIPT_NAME}_resource_overlap")
 
 
 if __name__ == "__main__":

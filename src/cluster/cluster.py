@@ -10,7 +10,7 @@ from anndata import AnnData
 ROOT = Path(__file__).resolve().parents[2]
 IN   = ROOT / "data" / "interim" / "bm_pca.h5ad"
 OUT  = ROOT / "data" / "interim" / "bm_clustered.h5ad"
-FIG  = ROOT / "figures" / "cluster"
+FIG  = ROOT / "figures" / "cluster" / Path(__file__).stem
 
 N_PCS       = 30
 N_NEIGHBORS = 15 

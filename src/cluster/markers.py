@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore", category=PerformanceWarning)
 ROOT = Path(__file__).resolve().parents[2]
 IN   = ROOT / "data" / "interim" / "bm_clustered.h5ad"
 OUT  = ROOT / "data" / "interim" / "bm_markers.h5ad"
-FIG  = ROOT / "figures" / "annotate"
+FIG  = ROOT / "figures" / "cluster" / Path(__file__).stem
 TAB  = ROOT / "results" / "cluster" / "markers"
 
 GROUP        = "leiden_1.0"

@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 IN  = ROOT / "data" / "processed" / "bm_annotated.h5ad"
 OUT = ROOT / "data" / "processed" / "bm_annotated.h5ad"
-FIG = ROOT / "figures" / "annotate"
+FIG = ROOT / "figures" / "annotate" / Path(__file__).stem
 TAB = ROOT / "results" / "annotate" / "celltypist_check"
 
 MODEL = "Immune_All_Low.pkl"

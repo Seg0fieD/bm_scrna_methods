@@ -10,7 +10,7 @@ from anndata import AnnData
 
 ROOT = Path(__file__).resolve().parents[2]
 IN   = ROOT / "data" / "interim" / "bm_clean.h5ad"
-FIG  = ROOT / "figures" / "qc"
+FIG  = ROOT / "figures" / "qc" / Path(__file__).stem
 
 DOUBLET_RATE = 0.04
 BINS         = np.linspace(0, 0.6, 61)

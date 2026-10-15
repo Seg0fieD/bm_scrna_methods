@@ -116,7 +116,7 @@ def plot_composition(cells: pd.DataFrame) -> None:
     legend.get_title().set_color(FOREGROUND)
     for text in legend.get_texts():
         text.set_color(FOREGROUND)
-    save_figure(figure, "velocity_barcodes_composition")
+    save_figure(figure, SCRIPT_NAME, "velocity_barcodes_composition")
 
 
 def main() -> None:

@@ -358,7 +358,7 @@ def main() -> None:
         pd.concat(rank_parts, ignore_index = True), SCRIPT_NAME, f"{SCRIPT_NAME}_rank"
     )
 
-    ccu.save_figure(plot_programs(figure_usage, figure_loadings), f"{SCRIPT_NAME}_programs")
+    ccu.save_figure(plot_programs(figure_usage, figure_loadings), SCRIPT_NAME, f"{SCRIPT_NAME}_programs")
 
 
 if __name__ == "__main__":

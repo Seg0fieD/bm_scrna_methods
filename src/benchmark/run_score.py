@@ -10,6 +10,7 @@ from benchmark_utils import (BATCH_KEY, FIG_DIR, GRAPH_H5AD, LABEL_KEY, SCORE_DI
 IN     = GRAPH_H5AD
 OUT    = SCORE_DIR / "scib_scores.csv"
 N_JOBS = 4
+FIG    = FIG_DIR / "run_score"
 
 
 def main() -> None:
@@ -45,7 +46,8 @@ def main() -> None:
     bench.get_results(min_max_scale = True).to_csv(SCORE_DIR / "scib_scores_scaled.csv")
     print(results)
 
-    bench.plot_results_table(min_max_scale = False, save_dir = str(FIG_DIR))
+    FIG.mkdir(parents = True, exist_ok = True)
+    bench.plot_results_table(min_max_scale = False, save_dir = str(FIG))
     print(f"wrote {OUT}")
 
 

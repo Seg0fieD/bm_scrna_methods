@@ -9,7 +9,7 @@ import scanpy as sc
 ROOT = Path(__file__).resolve().parents[2]
 IN   = ROOT / "data" / "interim" / "bm_normalized_hvg.h5ad"
 OUT  = ROOT / "data" / "interim" / "bm_pca.h5ad"
-FIG  = ROOT / "figures" / "pca"
+FIG  = ROOT / "figures" / "pca" / Path(__file__).stem
 
 N_COMPS = 50
 

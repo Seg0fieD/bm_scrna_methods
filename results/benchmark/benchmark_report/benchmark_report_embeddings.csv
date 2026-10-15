@@ -1,0 +1,8 @@
+embedding,dimensions,clusters
+scvi,30,19
+glmpca,30,20
+pca,30,21
+cnmf,30,31
+pearson,30,33
+diffmap_scvi,30,46
+diffmap_pca,30,51

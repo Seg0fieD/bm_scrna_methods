@@ -1,0 +1,6 @@
+step,cells,genes
+merged,44307,33538
+qc_filtered,40103,20568
+scrublet_removed,39955,20558
+top4_removed,38430,20455
+annotated,38430,20455

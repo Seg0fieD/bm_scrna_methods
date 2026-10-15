@@ -1,0 +1,6 @@
+rule,metric,n_mads,side,floor,removes,bound,cells_flagged
+low counts,log1p_total_counts,5,low,-inf,True,5.854714393615723,160
+low genes,log1p_n_genes_by_counts,5,low,-inf,True,5.3624497480904845,286
+high top-20 share,pct_counts_in_top_20_genes,5,high,-inf,True,46.113728242749836,1373
+high mitochondrial,pct_counts_mt,3,high,8.0,True,6.907132148742676,3386
+high complexity,log1p_n_genes_by_counts,5,high,-inf,False,7.731121073430564,1986

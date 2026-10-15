@@ -9,7 +9,7 @@ import scanpy as sc
 
 ROOT = Path(__file__).resolve().parents[2]
 IN   = ROOT / "data" / "interim" / "bm_qcfiltered.h5ad"
-OUT  = ROOT / "data" / "interim" / "bm_clean.h5ad"
+OUT  = ROOT / "data" / "interim" / "bm_scored.h5ad"
 FIG  = ROOT / "figures" / "qc" / Path(__file__).stem
 
 

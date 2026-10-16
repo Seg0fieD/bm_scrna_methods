@@ -582,10 +582,13 @@ def plot_sources_targets(counts: pd.DataFrame) -> Figure:
         f"names coloured by compartment",
         color = ccu.DARK_FOREGROUND, fontsize = TITLE_FONTSIZE, pad = 14,
     )
-    ax.legend(fontsize = LEGEND_FONTSIZE, loc = "lower right", framealpha = 0.15)
+    ax.legend(
+        fontsize = LEGEND_FONTSIZE, loc = "upper left", bbox_to_anchor = (1.01, 1.0),
+        borderaxespad = 0, framealpha = 0.15,
+    )
 
     ccu.style_dark(fig)
-    fig.subplots_adjust(left = 0.16, right = 0.97, top = 0.92, bottom = 0.08)
+    fig.subplots_adjust(left = 0.16, right = 0.89, top = 0.92, bottom = 0.08)
     return fig
 
 

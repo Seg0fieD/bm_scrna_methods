@@ -11,7 +11,7 @@ TOP_N_DOTPLOT = 25
 RANK_FLOOR    = 1e-6
 
 def rank_score(values: pd.Series) -> np.ndarray:
-    """Aggregate rank as a positive score: negative log10, floored at `RANK_FLOOR` so zero remain finite"""
+    """Aggregate rank as a positive score: negative log10, floored at `RANK_FLOOR` so zeros remain finite"""
     return -np.log10(np.clip(values.to_numpy(dtype = float), RANK_FLOOR, 1.0))
 
 def plot_dotplot(significant: pd.DataFrame, resource_name: str) -> None:
@@ -43,9 +43,9 @@ def plot_dotplot(significant: pd.DataFrame, resource_name: str) -> None:
     ax.set_xticklabels(cell_pairs, rotation = 70)
     ax.set_yticks(range(len(lr_pairs)))
     ax.set_yticklabels(lr_pairs)
-    ax.set_xlabel("sender to reciver")
+    ax.set_xlabel("sender to receiver")
     ax.set_ylabel("ligand to receptor")
-    ax.set_title(f" Top {TOP_N_DOTPLOT} interactions, {resource_name}")
+    ax.set_title(f"Top {TOP_N_DOTPLOT} interactions, {resource_name}")
     bar = fig.colorbar(dots, ax = ax)
     bar.set_label("specificity, -log10 rank")
 
@@ -72,7 +72,7 @@ def plot_counts_heatmap(counts: pd.DataFrame, resource_name: str, vmax: int) -> 
 
 
 def main() -> None:
-    """Rankig per resource: full table, significant subser, interaction counts, figures"""
+    """Ranking per resource: full table, significant subset, interaction counts, figures"""
     ccu.set_seed()
     adata = ccu.load_annotated()
     labels = ccu.cell_type_labels(adata)

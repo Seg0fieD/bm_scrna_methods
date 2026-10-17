@@ -8,7 +8,9 @@ import numpy as np
 import pandas as pd
 import scFates as scf
 from anndata import AnnData
+from matplotlib.axes import Axes
 from matplotlib.collections import LineCollection
+from matplotlib.figure import Figure
 from matplotlib.lines import Line2D
 from scipy.stats import pearsonr, spearmanr
 
@@ -119,7 +121,7 @@ def graph_layout(adata: AnnData) -> tuple[pd.DataFrame, np.ndarray]:
     return nodes, np.argwhere(np.triu(graph["B"], k = 1))
 
 
-def draw_tree(axis, nodes: pd.DataFrame, edges: np.ndarray) -> None:
+def draw_tree(axis: Axes, nodes: pd.DataFrame, edges: np.ndarray) -> None:
     """Principal tree over an embedding panel: edges, principal points, and
     the root, tips and branch points marked."""
     xy = nodes[["umap_1", "umap_2"]].to_numpy()
@@ -138,7 +140,7 @@ def draw_tree(axis, nodes: pd.DataFrame, edges: np.ndarray) -> None:
         )
 
 
-def legend_column(figure, handles: list[Line2D], title: str, top: bool) -> None:
+def legend_column(figure: Figure, handles: list[Line2D], title: str, top: bool) -> None:
     """Legend in the right-hand margin, anchored to its top or bottom edge."""
     legend = figure.legend(
         handles        = handles,

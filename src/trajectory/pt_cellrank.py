@@ -41,7 +41,7 @@ def attach_pseudotime(adata: AnnData) -> str:
     return key
 
 
-def build_kernel(adata: AnnData, time_key: str):
+def build_kernel(adata: AnnData, time_key: str) -> KernelExpression:
     """Return a transition matrix combining pseudotime direction with graph connectivity."""
     sc.pp.neighbors(
         adata,

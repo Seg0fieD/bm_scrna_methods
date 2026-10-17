@@ -1,0 +1,16 @@
+name: sc_deconv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - scaden==1.1.2
+      - tensorflow==2.21.0
+      - tf_keras==2.21.0
+      - numpy==2.4.6
+      - pandas==2.3.3
+      - anndata==0.12.19
+      - setuptools==81.0.0
+variables:
+  TF_USE_LEGACY_KERAS: "1"

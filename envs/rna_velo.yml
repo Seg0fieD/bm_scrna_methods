@@ -1,0 +1,12 @@
+name: rna_velo
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - pip
+  - samtools>=1.21
+  - pip:
+      - numpy==1.26.4
+      - cython==3.3.0
+      - pysam==0.24.1

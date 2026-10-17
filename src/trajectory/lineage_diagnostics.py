@@ -45,7 +45,7 @@ def committed_bins(pseudotime: pd.Series, probability: pd.Series) -> pd.Series:
     ordered = pseudotime.loc[probability.index[probability >= FATE_THRESHOLD]]
     return pd.Series(pd.qcut(ordered, N_BINS, labels = False), index=ordered.index, name = "bin")
 
-def available_qc(adata: ad.AnnData) -> list[str]
+def available_qc(adata: ad.AnnData) -> list[str]:
     """Return the quality control columns present in the object."""
     return [column for column in QC_CANDIDATES if column in adata.obs.columns]
 

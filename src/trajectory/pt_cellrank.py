@@ -1,6 +1,7 @@
 """CellRank cross-check of the trajectory: macrostates, terminal states and fate probabilities"""
 
 from __future__ import annotations
+from typing import TYPE_CHECKING
 
 import cellrank as cr
 import matplotlib.pyplot as plt
@@ -8,6 +9,9 @@ import numpy as np
 import pandas as pd
 import scanpy as sc
 from anndata import AnnData
+
+if TYPE_CHECKING:
+    from cellrank.kernels._base_kernel import KernelExpression
 
 from trajectory_utils import (
     CELL_TYPE_KEY,  MAIN_EMBEDDING, MAIN_ROOT_METHODS, find_result, SEED,
@@ -52,7 +56,7 @@ def build_kernel(adata: AnnData, time_key: str):
     return PSEUDOTIME_WEIGHT * directed + (1 - PSEUDOTIME_WEIGHT) * undirected
 
 
-def fit_estimator(kernel, n_states: int):
+def fit_estimator(kernel: KernelExpression, n_states: int) -> cr.estimators.GPCCA:
     """Fit the estimator at the given macrostate resolution and compute fate probabilities."""
     estimator = cr.estimators.GPCCA(kernel)
     estimator.compute_schur(n_components=n_states + 2, method=SCHUR_METHOD) # type: ignore
@@ -68,7 +72,7 @@ def composition(states: pd.Series, labels: pd.Series) -> pd.DataFrame:
     return pd.crosstab(joined["state"], joined["cell_type"])
 
 
-def fate_frame(estimator, index: pd.Index) -> pd.DataFrame:
+def fate_frame(estimator: cr.estimators.GPCCA, index: pd.Index) -> pd.DataFrame:
     """Return the fate probabilities as a frame labelled by lineage."""
     fates = estimator.fate_probabilities
     return pd.DataFrame(np.asarray(fates), index = index, columns = list(fates.names))

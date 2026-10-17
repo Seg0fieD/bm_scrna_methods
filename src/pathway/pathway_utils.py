@@ -46,7 +46,7 @@ GENE_SET_LIBRARIES = {
 
 CONFOUNDING_PATTERNS = (r"^RP[SL]", r"^MT-", r"^HB[ABDEGMQZ][0-9]?$", r"^(FAU|UBA52|RACK1)$")
 
-def find_result(name) -> Path:
+def find_result(name: str) -> Path:
     """Saved result file by name: the pathway results root first, then one
     level of per-script subfolder."""
     direct = RESULTS / name
@@ -87,7 +87,7 @@ def load_annotated() -> ad.AnnData:
           f"{adata.obs[LABEL_KEY].nunique()} labels")
     return adata
 
-def drop_confounding_genes(genes) -> list[str]:
+def drop_confounding_genes(genes: list[str]) -> list[str]:
     """
         Remove ribosomal, mitochondrial and haemoglobin genes from the 
         list of gene names.
@@ -99,13 +99,13 @@ def drop_confounding_genes(genes) -> list[str]:
     print(f"dropped {len(genes) - len(kept)} ribosomal/mitochondrial/haemoglobin genes")
     return kept
 
-def write_gmt(gene_sets, path) -> None:
+def write_gmt(gene_sets: dict[str, list[str]], path: Path) -> None:
     """Save gene sets to a GMT file: set name, a "na" description field, then genes, tab-seperated"""
     with open(path, "w") as f:
         for name, genes in gene_sets.items():
             f.write("\t".join([name, "na"] + list(genes)) + "\n")
 
-def read_gmt(path) -> dict[str, list[str]]:
+def read_gmt(path: Path) -> dict[str, list[str]]:
     """Load gene sets from a GMT file as set name to gene list, ignoring the description field"""
     gene_sets = {}
     with open(path) as f:
@@ -115,7 +115,7 @@ def read_gmt(path) -> dict[str, list[str]]:
                 gene_sets[fields[0]] = fields[2:]
     return gene_sets
 
-def load_gene_sets(key) -> dict[str, list[str]]:
+def load_gene_sets(key: str) -> dict[str, list[str]]:
     """
         Return one gene set collection, downloading and caching it on first use.
         `key` is one of the short names in GENE_SET_LIBRARIES.
@@ -148,7 +148,7 @@ def check_libraries() -> None:
 
     print("all gene set library names are valid")
 
-def save_table(frame, script_name, name) -> None:
+def save_table(frame: pd.DataFrame, script_name: str, name: str) -> None:
     """Results table written as CSV into the script's own results subfolder."""
     folder = RESULTS / script_name
     folder.mkdir(parents = True, exist_ok = True)
@@ -165,7 +165,7 @@ def save_figure(figure: plt.Figure, script: str, name: str) -> None:
     plt.close(figure)
     print(f"wrote {path.relative_to(ROOT)}")
 
-def save_cell_scores(frame, script_name, name) -> None:
+def save_cell_scores(frame: pd.DataFrame, script_name: str, name: str) -> None:
     """
         Per-cell score matrix written as a NumPy array plus a CSV of its column
         names, in the script's own results subfolder. Row order matches the
@@ -186,7 +186,7 @@ def load_cell_scores(name: str, obs_names: pd.Index | None = None) -> pd.DataFra
     return pd.DataFrame(values, index = obs_names, columns = features)
 
 @contextmanager
-def step(label) -> Iterator[None]:
+def step(label: str) -> Iterator[None]:
     """Log the start and the runtime of a named block of work"""
     print(f"---{label}")
     started = time.perf_counter()

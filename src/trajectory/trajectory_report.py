@@ -38,24 +38,24 @@ def load_pseudotime() -> pd.Series:
     frame = pd.read_csv(find_result("pt_palantir_pseudotime.csv"), index_col = 0)
     return frame[RUN]
 
-def load_matrix(name, index) -> pd.DataFrame:
+def load_matrix(name: str, index: pd.Index) -> pd.DataFrame:
     """Return a saved per cell matrix as a frame labelled with its feature names."""
     matrix   = np.load(find_result(f"{name}.npy"))
     features = pd.read_csv(find_result(f"{name}_features.csv"))["feature"].astype(str)
     return pd.DataFrame(matrix, index=index, columns=features.tolist())
 
-def terminal_labels(columns, labels) -> list[str]:
+def terminal_labels(columns: pd.Index, labels: pd.Series) -> list[str]:
     """Return display names for terminal columns, resolving barcodes to their cell type."""
     return [labels[column] if column in labels.index else column for column in columns]
 
-def normalised_entropy(frame) -> pd.Series:
+def normalised_entropy(frame: pd.DataFrame) -> pd.Series:
     """Return the fate entropy of every cell scaled to the interval zero to one."""
     values = np.clip(frame.to_numpy(dtype = float), 1e-12, None)
     values = values / values.sum(axis = 1, keepdims = True)
     raw    = -(values * np.log(values)).sum(axis = 1)
     return pd.Series(raw / np.log(values.shape[1]), index = frame.index)
 
-def standardise(values) -> np.ndarray:
+def standardise(values: np.ndarray) -> np.ndarray:
     """Return the columns of a matrix centred and scaled to unit variance."""
     centred = values - values.mean(axis = 0)
     scale   = centred.std(axis = 0)
@@ -125,7 +125,7 @@ def plot_overview(
     figure.tight_layout()
     return figure
 
-def fate_matrix(fates, labels) -> pd.DataFrame:
+def fate_matrix(fates: pd.DataFrame, labels: pd.Series) -> pd.DataFrame:
     """Return the mean fate probability of every cell type for every terminal state."""
     frame = fates.copy()
     frame[CELL_TYPE_KEY] = labels
@@ -139,7 +139,7 @@ def fate_matrix(fates, labels) -> pd.DataFrame:
     )
     return means.loc[key.sort_values(["terminal", "value"]).index]
 
-def agreement(palantir, cellrank) -> pd.DataFrame:
+def agreement(palantir: pd.DataFrame, cellrank: pd.DataFrame) -> pd.DataFrame:
     """Return the correlation of every Palantir branch probability with every CellRank fate."""
     left  = standardise(palantir.to_numpy(dtype = float))
     right = standardise(cellrank.to_numpy(dtype = float))
@@ -173,7 +173,7 @@ def plot_heatmap(
     figure.tight_layout()
     return figure
 
-def plot_pseudotime(pseudotime, labels) -> Figure:
+def plot_pseudotime(pseudotime: pd.Series, labels: pd.Series) -> Figure:
     """Draw the pseudotime distribution of every cell type ordered by median."""
     frame  = pd.DataFrame({"pseudotime": pseudotime.to_numpy(), CELL_TYPE_KEY: labels.to_numpy()})
     order  = frame.groupby(CELL_TYPE_KEY, observed=True)["pseudotime"].median().sort_values()
@@ -199,7 +199,7 @@ def plot_pseudotime(pseudotime, labels) -> Figure:
     figure.tight_layout()
     return figure
 
-def most_common(values) -> str:
+def most_common(values: pd.Series) -> str:
     """Return the most frequent value of a series."""
     return values.value_counts().idxmax()
 

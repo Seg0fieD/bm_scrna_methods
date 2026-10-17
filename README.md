@@ -232,6 +232,9 @@ two fits):
 | Monocyte classical → non-classical | 3 | 0 | 1 |
 | Pre-B small → B naive | 3 | 0 | 1 |
 | Erythroid early → Erythroid late | 0 | **4** | 0 |
+| HSPC → Pre-B large | 1 | 2 | 1 |
+| HSPC → Erythroid early | 0 | 1 | 3 |
+| HSPC → Granulocyte precursor | 0 | 1 | 3 |
 
 - The erythroid reversal grows sevenfold when lymphoid cells are removed. Its
   defining genes (KLF1, GYPA, ALAS2, HBA1) cannot be fitted by the kinetic
@@ -350,7 +353,8 @@ concordance correlation, CCC):
 - Training length is the main lever; Scaden's default stops while the loss is
   still falling. Fourteen of 19 labels gain at least 0.1.
 - Four labels do not gain with training — T activated, T proliferating,
-  Platelet, Erythroid late — and are limited by their data.
+  Platelet, Erythroid late — and are limited by their data; CD8 T cytotoxic
+  gains only 0.04.
 - One held-out donor fails in a specific way: its T cells carry the strongest
   immediate-early stress signature of all eight donors and are read as
   "T activated". Ambient haemoglobin was tested and ruled out.
@@ -370,7 +374,7 @@ five-seed ensemble):
 | lineage | random mixtures CCC | marrow-like mixtures CCC |
 |---|---|---|
 | B lineage | 0.89 | 0.59 |
-| Myeloid | 0.88 | 0.77 |
+| Myeloid | 0.88 | 0.76 |
 | NK | 0.86 | 0.76 |
 | T cells | 0.74 | 0.42 |
 | HSPC | 0.68 | 0.49 |

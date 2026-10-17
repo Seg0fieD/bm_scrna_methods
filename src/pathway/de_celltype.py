@@ -1,12 +1,14 @@
 """One-versus-rest differential expression per cell type, ranked across all genes."""
 
+import anndata as ad
+import pandas as pd
 import scanpy as sc
 
 import pathway_utils as pu
 
 SCRIPT_NAME = "de_celltype"
 
-def rank_genes(adata):
+def rank_genes(adata: ad.AnnData) -> pd.DataFrame:
     """
         Perform a one-versus-rest Wilcoxon rank-sum test per cell type and 
         return the results as a single long-format table.
@@ -23,7 +25,7 @@ def rank_genes(adata):
     return frame.rename(columns = {"group" : pu.LABEL_KEY, "names" : "gene"})
 
 
-def top_genes(frame):
+def top_genes(frame: pd.DataFrame) -> pd.DataFrame:
     """
         Select the highest-scoring significantly up-regulated genes per cell type for 
         over-representation analysis. 
@@ -33,7 +35,8 @@ def top_genes(frame):
     return ordered.groupby(pu.LABEL_KEY, observed = True).head(pu.TOP_N_MARKER)
 
 
-def main():
+def main() -> None:
+    """One-versus-rest Wilcoxon ranking per cell type, saved in full and as the top markers."""
     pu.setup_plots()
     adata = pu.load_annotated()
 

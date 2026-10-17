@@ -3,6 +3,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 from matplotlib.patches import FancyArrowPatch, PathPatch, Wedge
 from matplotlib.path import Path
@@ -56,7 +57,6 @@ FINISHED = (
 
 COMPARTMENT_COLOURS = {"developing": "#f2b134", "finished": "#5ab1bb"}
 
-
 def load_all(resource: str) -> pd.DataFrame:
     """
         Full interaction table for one resource: every tested ligand-receptor
@@ -65,7 +65,6 @@ def load_all(resource: str) -> pd.DataFrame:
     path = ccu.RESULTS_DIR / "lr_rank" / f"lr_rank_{resource}_all.csv"
     return pd.read_csv(path)
 
-
 def load_significant(resource: str) -> pd.DataFrame:
     """
         Significant interactions for one resource: sender, receiver and the
@@ -73,7 +72,6 @@ def load_significant(resource: str) -> pd.DataFrame:
     """
     path = ccu.RESULTS_DIR / "lr_rank" / f"lr_rank_{resource}_significant.csv"
     return pd.read_csv(path)
-
 
 def ordered_labels(frame: pd.DataFrame) -> list[str]:
     """
@@ -85,13 +83,11 @@ def ordered_labels(frame: pd.DataFrame) -> list[str]:
     ordered += sorted(observed.difference(ordered))
     return ordered
 
-
 def compartment(label: str) -> str:
     """Developmental compartment a cell type belongs to."""
     if label in DEVELOPING:
         return "developing"
     return "finished"
-
 
 def counts_matrix(significant: pd.DataFrame, labels: list[str]) -> pd.DataFrame:
     """
@@ -101,19 +97,16 @@ def counts_matrix(significant: pd.DataFrame, labels: list[str]) -> pd.DataFrame:
     counts = pd.crosstab(significant["source"], significant["target"])
     return counts.reindex(index = labels, columns = labels, fill_value = 0)
 
-
 def interaction_pairs(frame: pd.DataFrame) -> pd.Series:
     """Ligand-receptor pair of every row as one label."""
     return frame["ligand_complex"] + " -> " + frame["receptor_complex"]
 
-
-def rank_score(values) -> np.ndarray:
+def rank_score(values: pd.Series) -> np.ndarray:
     """
         Aggregate rank as a positive score: negative log10, floored so zero
         stays finite.
     """
     return -np.log10(np.clip(np.asarray(values, dtype = float), RANK_FLOOR, 1.0))
-
 
 def scale_between(values: np.ndarray, low: float, high: float) -> np.ndarray:
     """Values rescaled onto a fixed range, flat input mapped to the midpoint."""
@@ -122,20 +115,17 @@ def scale_between(values: np.ndarray, low: float, high: float) -> np.ndarray:
         return np.full(len(values), (low + high) / 2)
     return low + (values - float(values.min())) * (high - low) / span
 
-
 def edge_width(value: float, low: float, high: float) -> float:
     """Line width of one edge, scaled between the fixed bounds by count."""
     if high <= low:
         return (EDGE_WIDTH[0] + EDGE_WIDTH[1]) / 2
     return EDGE_WIDTH[0] + (value - low) * (EDGE_WIDTH[1] - EDGE_WIDTH[0]) / (high - low)
 
-
-def label_colour(position: int):
+def label_colour(position: int) -> tuple[float, float, float, float]:
     """Colour for one cell type, taken from the qualitative palette by position."""
     return plt.get_cmap("tab20")(position % 20)
 
-
-def outward_text(ax, radius: float, angle: float, name: str) -> None:
+def outward_text(ax: Axes, radius: float, angle: float, name: str) -> None:
     """Label placed outside the circle, reading outward from its node."""
     facing_right = np.cos(angle) >= 0
     ax.text(
@@ -147,15 +137,13 @@ def outward_text(ax, radius: float, angle: float, name: str) -> None:
         fontsize = LABEL_FONTSIZE, color = ccu.DARK_FOREGROUND,
     )
 
-
-def circle_title(ax, text: str) -> None:
+def circle_title(ax: Axes, text: str) -> None:
     """Figure title placed in the blank band reserved above the circle."""
     ax.text(
         0.0, TITLE_Y, text,
         ha = "center", va = "center",
         fontsize = TITLE_FONTSIZE, color = ccu.DARK_FOREGROUND,
     )
-
 
 def summary_table(counts: pd.DataFrame) -> pd.DataFrame:
     """
@@ -181,7 +169,6 @@ def summary_table(counts: pd.DataFrame) -> pd.DataFrame:
     frame = pd.DataFrame(records)
     return frame.sort_values("sent", ascending = False, ignore_index = True)
 
-
 def overlap_table(significant: dict[str, pd.DataFrame]) -> pd.DataFrame:
     """
         Interaction-level resource comparison: one row per sender, receiver and
@@ -205,7 +192,6 @@ def overlap_table(significant: dict[str, pd.DataFrame]) -> pd.DataFrame:
     merged["membership"] = memberships
     return merged.sort_values(["membership", "source", "target"], ignore_index = True)
 
-
 def node_layout(weights: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     """
         Start and end angle of every node on the circle, sized by weight and
@@ -221,12 +207,10 @@ def node_layout(weights: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
         cursor += span + NODE_GAP
     return starts, starts + spans
 
-
 def arc_points(radius: float, start: float, end: float, steps: int = 24) -> np.ndarray:
     """Points along a circular arc between two angles."""
     angles = np.linspace(start, end, steps)
     return np.column_stack([radius * np.cos(angles), radius * np.sin(angles)])
-
 
 def chord_path(radius: float, first: tuple[float, float], second: tuple[float, float]) -> Path:
     """Closed ribbon path joining two arc spans through the centre of the circle."""
@@ -248,7 +232,6 @@ def chord_path(radius: float, first: tuple[float, float], second: tuple[float, f
     vertices.append(tuple(start[0]))
     codes.append(Path.CLOSEPOLY)
     return Path(vertices, codes)
-
 
 def plot_circle(counts: pd.DataFrame) -> Figure:
     """
@@ -296,7 +279,6 @@ def plot_circle(counts: pd.DataFrame) -> Figure:
     circle_title(ax, f"Significant interactions between cell types ({MAIN_RESOURCE})")
     ccu.style_dark(fig)
     return fig
-
 
 def plot_chord(counts: pd.DataFrame) -> Figure:
     """
@@ -362,7 +344,6 @@ def plot_chord(counts: pd.DataFrame) -> Figure:
     ccu.style_dark(fig)
     return fig
 
-
 def plot_heatmap(counts: pd.DataFrame) -> Figure:
     """
         Sender-by-receiver heatmap of interaction counts with marginal bars for
@@ -413,7 +394,6 @@ def plot_heatmap(counts: pd.DataFrame) -> Figure:
     )
     ccu.style_dark(fig)
     return fig
-
 
 def plot_hierarchy(counts: pd.DataFrame) -> Figure:
     """
@@ -480,7 +460,6 @@ def plot_hierarchy(counts: pd.DataFrame) -> Figure:
     ccu.style_dark(fig)
     return fig
 
-
 def plot_dotplot(significant: pd.DataFrame) -> Figure:
     """
         Dotplot of the top interactions: cell type pair against ligand-receptor
@@ -523,7 +502,6 @@ def plot_dotplot(significant: pd.DataFrame) -> Figure:
     ccu.style_dark(fig)
     fig.subplots_adjust(left = 0.13, right = 0.88, top = 0.93, bottom = 0.30)
     return fig
-
 
 def plot_sources_targets(counts: pd.DataFrame) -> Figure:
     """
@@ -591,7 +569,6 @@ def plot_sources_targets(counts: pd.DataFrame) -> Figure:
     fig.subplots_adjust(left = 0.16, right = 0.89, top = 0.92, bottom = 0.08)
     return fig
 
-
 def plot_resource_overlap(overlap: pd.DataFrame) -> Figure:
     """
         Ligand-receptor pairs significant in either resource, with the count
@@ -633,7 +610,6 @@ def plot_resource_overlap(overlap: pd.DataFrame) -> Figure:
     ccu.style_dark(fig)
     fig.subplots_adjust(left = 0.16, right = 0.97, top = 0.93, bottom = 0.08)
     return fig
-
 
 def main() -> None:
     """

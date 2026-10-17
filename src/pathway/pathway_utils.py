@@ -179,7 +179,7 @@ def save_cell_scores(frame, script_name, name) -> None:
     )
     print(f"wrote {name}.npy ({frame.shape[0]:,} cells x {frame.shape[1]} features)")
 
-def load_cell_scores(name, obs_names = None) -> pd.DataFrame:
+def load_cell_scores(name: str, obs_names: pd.Index | None = None) -> pd.DataFrame:
     """Per-cell score matrix loaded by name from any script's results subfolder."""
     values = np.load(find_result(f"{name}.npy"))
     features = pd.read_csv(find_result(f"{name}_features.csv"))["feature"].tolist()

@@ -1,4 +1,4 @@
-"""Diffusion map embeddings build on top of the PCA and scVI embeddings"""
+"""Diffusion map embeddings built on top of the PCA and scVI embeddings."""
 
 import anndata as ad
 import numpy as np
@@ -9,7 +9,7 @@ from benchmark_utils import N_COMPS, N_NEIGHBORS, SEED, load_embedding, save_emb
 BASES = ("pca", "scvi")
 
 def main() -> None:
-    """Consensus NMF embedding and gene programs saved for the benchmark."""
+    """Diffusion map embeddings saved for the benchmark."""
     for base in BASES:
         X = load_embedding(base)
         adata = ad.AnnData(np.zeros((X.shape[0], 1), dtype = np.float32))

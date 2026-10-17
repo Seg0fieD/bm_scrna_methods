@@ -7,8 +7,8 @@ from benchmark_utils import N_COMPS, SEED, CNMF_DIR, load_annotated_data, save_e
 N_ITER = 20 
 DENSITY_THRESHOLD = 2.00
 
-
-def main():
+def main() -> None:
+    """Consensus NMF embedding and gene programs saved for the benchmark."""
     adata = load_annotated_data()
     adata = adata[:, adata.var["highly_variable"]].copy()
     adata.X = adata.layers["counts"].copy()

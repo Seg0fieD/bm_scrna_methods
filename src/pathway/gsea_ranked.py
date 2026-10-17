@@ -11,7 +11,7 @@ MAX_SET_SIZE  = 500
 THREADS       = 4
 SCRIPT_NAME   = "gsea_ranked"
 
-def load_rankings():
+def load_rankings() -> dict[str, pd.DataFrame]:
     """Return the complete gene ranking per cell type, ordered by descending test statistic"""
     frame = pd.read_csv(
         pu.find_result("de_celltype_full.csv"),
@@ -23,7 +23,7 @@ def load_rankings():
         ranking[label] = ordered[["gene", "scores"]].reset_index(drop = True)
     return ranking
 
-def run_gsea(ranking, gene_sets):
+def run_gsea(ranking: pd.DataFrame, gene_sets: dict[str, list[str]]) -> pd.DataFrame:
     """Run pre-ranked enrichment on one ranking and return the results table"""
     result = gseapy.prerank(
         rnk             = ranking,
@@ -40,7 +40,7 @@ def run_gsea(ranking, gene_sets):
 
     return result.res2d.drop(columns = ["Name"], errors = "ignore")
 
-def results_for_library(key, rankings):
+def results_for_library(key: str, rankings: dict[str, pd.DataFrame]) -> pd.DataFrame:
     """Return the enrichment table for one gene set collection, reusing a completed run if present"""
     path = pu.RESULTS / SCRIPT_NAME / f"gsea_ranked_{key}.csv"
     if path.exists():
@@ -60,7 +60,8 @@ def results_for_library(key, rankings):
     return results
 
 
-def main():
+def main() -> None:
+    """Pre-ranked enrichment of every cell type against each gene set library, saved in full and filtered."""
     pu.setup_plots()
 
     rankings = load_rankings()

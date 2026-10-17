@@ -1,10 +1,12 @@
 """Shared paths, settings and helper functions for pathway modules"""
 
+from collections.abc import Iterator
 from contextlib import contextmanager
 from pathlib import Path
 import re
 import time 
 
+import anndata as ad
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np 
@@ -44,7 +46,7 @@ GENE_SET_LIBRARIES = {
 
 CONFOUNDING_PATTERNS = (r"^RP[SL]", r"^MT-", r"^HB[ABDEGMQZ][0-9]?$", r"^(FAU|UBA52|RACK1)$")
 
-def find_result(name):
+def find_result(name) -> Path:
     """Saved result file by name: the pathway results root first, then one
     level of per-script subfolder."""
     direct = RESULTS / name
@@ -55,7 +57,7 @@ def find_result(name):
         return nested[0]
     raise FileNotFoundError(f"result not found under {RESULTS}: {name}")
 
-def setup_plots():
+def setup_plots() -> None:
     """Apply the project-wide figure size and resolution to matplotlib and scanpy"""
 
     mpl.rcParams["figure.figsize"] = FIGSIZE
@@ -66,7 +68,7 @@ def setup_plots():
     np.random.seed(SEED)
 
 
-def load_annotated():
+def load_annotated() -> ad.AnnData:
     """Load the annotated dataset, fail early when no labels, raw counts or PCA not found"""
     if not ANNOTATED.exists():
         raise FileNotFoundError(f"annotated dataset not found: {ANNOTATED}")
@@ -85,7 +87,7 @@ def load_annotated():
           f"{adata.obs[LABEL_KEY].nunique()} labels")
     return adata
 
-def drop_confounding_genes(genes):
+def drop_confounding_genes(genes) -> list[str]:
     """
         Remove ribosomal, mitochondrial and haemoglobin genes from the 
         list of gene names.
@@ -97,13 +99,13 @@ def drop_confounding_genes(genes):
     print(f"dropped {len(genes) - len(kept)} ribosomal/mitochondrial/haemoglobin genes")
     return kept
 
-def write_gmt(gene_sets, path):
+def write_gmt(gene_sets, path) -> None:
     """Save gene sets to a GMT file: set name, a "na" description field, then genes, tab-seperated"""
     with open(path, "w") as f:
         for name, genes in gene_sets.items():
             f.write("\t".join([name, "na"] + list(genes)) + "\n")
 
-def read_gmt(path):
+def read_gmt(path) -> dict[str, list[str]]:
     """Load gene sets from a GMT file as set name to gene list, ignoring the description field"""
     gene_sets = {}
     with open(path) as f:
@@ -113,7 +115,7 @@ def read_gmt(path):
                 gene_sets[fields[0]] = fields[2:]
     return gene_sets
 
-def load_gene_sets(key):
+def load_gene_sets(key) -> dict[str, list[str]]:
     """
         Return one gene set collection, downloading and caching it on first use.
         `key` is one of the short names in GENE_SET_LIBRARIES.
@@ -132,7 +134,7 @@ def load_gene_sets(key):
     print(f"{key} : {len(gene_sets)} sets downloaded and cached to {cached.name}")
     return gene_sets
 
-def check_libraries():
+def check_libraries() -> None:
     """Check the configured gene set library names still exist on the Enrichr server"""
 
     available = set(gseapy.get_library_name(organism = "Human"))
@@ -146,7 +148,7 @@ def check_libraries():
 
     print("all gene set library names are valid")
 
-def save_table(frame, script_name, name):
+def save_table(frame, script_name, name) -> None:
     """Results table written as CSV into the script's own results subfolder."""
     folder = RESULTS / script_name
     folder.mkdir(parents = True, exist_ok = True)
@@ -163,7 +165,7 @@ def save_figure(figure: plt.Figure, script: str, name: str) -> None:
     plt.close(figure)
     print(f"wrote {path.relative_to(ROOT)}")
 
-def save_cell_scores(frame, script_name, name):
+def save_cell_scores(frame, script_name, name) -> None:
     """
         Per-cell score matrix written as a NumPy array plus a CSV of its column
         names, in the script's own results subfolder. Row order matches the
@@ -177,14 +179,14 @@ def save_cell_scores(frame, script_name, name):
     )
     print(f"wrote {name}.npy ({frame.shape[0]:,} cells x {frame.shape[1]} features)")
 
-def load_cell_scores(name, obs_names = None):
+def load_cell_scores(name, obs_names = None) -> pd.DataFrame:
     """Per-cell score matrix loaded by name from any script's results subfolder."""
     values = np.load(find_result(f"{name}.npy"))
     features = pd.read_csv(find_result(f"{name}_features.csv"))["feature"].tolist()
     return pd.DataFrame(values, index = obs_names, columns = features)
 
 @contextmanager
-def step(label):
+def step(label) -> Iterator[None]:
     """Log the start and the runtime of a named block of work"""
     print(f"---{label}")
     started = time.perf_counter()

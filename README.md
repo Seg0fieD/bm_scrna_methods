@@ -1,5 +1,10 @@
 # Single-cell methods on human bone marrow
 
+[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
+[![Scanpy](https://img.shields.io/badge/scanpy-1.12-orange.svg)](https://scanpy.readthedocs.io/)
+[![License: Apache 2.0](https://img.shields.io/github/license/Seg0fieD/bm_scrna_methods)](LICENSE)
+[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23440304.svg)](https://doi.org/10.5281/zenodo.23440304)
+
 An end-to-end single-cell RNA-seq analysis of healthy human bone marrow
 mononuclear cells: quality control and annotation, a benchmark of seven
 dimensionality-reduction methods, pathway and transcription-factor activity,

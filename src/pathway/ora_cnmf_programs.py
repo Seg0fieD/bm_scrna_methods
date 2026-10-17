@@ -8,7 +8,7 @@ import pathway_utils as pu
 CNMF_OVERDISPERSED = pu.ROOT / "results" / "benchmark" / "emb_cnmf" / "cnmf" / "bm" / "bm.overdispersed_genes.txt"
 SCRIPT_NAME        = "ora_cnmf_programs"
 
-def load_programs():
+def load_programs() -> dict[str, list[str]]:
     """Return the top genes of each cNMF program as a mapping of program label to gene list."""
     frame = pd.read_csv(pu.CNMF_TOP_GENES, index_col = 0)
     programs = {}
@@ -17,13 +17,13 @@ def load_programs():
     return programs
 
 
-def load_background():
+def load_background() -> list[str]:
     """Return the overdispersed genes the programs were fitted on, used as the statistical universe."""
     genes = pd.read_csv(CNMF_OVERDISPERSED, header = None)[0].to_list()
     return genes
 
 
-def run_ora(gene_list, gene_sets, background):
+def run_ora(gene_list: list[str], gene_sets: dict[str, list[str]], background: list[str]) -> pd.DataFrame:
     """Test one gene list against one gene set collection and return the enrichment table."""
     result = gseapy.enrich(
         gene_list  = gene_list,
@@ -34,7 +34,8 @@ def run_ora(gene_list, gene_sets, background):
     return result.results.drop(columns = ["Gene_set"], errors = "ignore")
 
 
-def main():
+def main() -> None:
+    """Over-representation of each cNMF program's top genes against every gene set library, saved in full and filtered."""
     pu.setup_plots()
 
     programs   = load_programs()

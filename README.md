@@ -482,8 +482,8 @@ The annotated dataset that every stage after the core pipeline reads
 
 ```bash
 mkdir -p data/processed
-curl -L -o data/processed/bm_annotated.h5ad "https://zenodo.org/records/<RECORD_ID>/files/bm_annotated.h5ad?download=1"
-md5sum data/processed/bm_annotated.h5ad   # <MD5>
+curl -L -o data/processed/bm_annotated.h5ad "https://zenodo.org/records/23440304/files/bm_annotated.h5ad?download=1"
+md5sum data/processed/bm_annotated.h5ad   # b3a938163f20ecb10dcfc2f419c16cf9
 ```
 
 Raw count matrices: the eight `MantonBM<1-8>_HiSeq_1_raw_feature_bc_matrix.h5`

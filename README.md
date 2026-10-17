@@ -78,7 +78,7 @@ fixed at this point and never changed by any later stage.
 
 <a href="figures/annotate/annotate/dotplot_canonical.png"><img src="figures/annotate/annotate/dotplot_canonical.png" width="720" alt="Canonical markers across the 19 labels: each block lights up in its own row"></a><br><sub>Canonical markers across the 19 labels: each block lights up in its own row</sub>
 
-QC and clustering figures: [`figures/qc/`](figures/qc/), [`figures/pca/`](figures/pca/), [`figures/cluster/`](figures/cluster/), [`figures/annotate/`](figures/annotate/)
+QC and clustering figures: [`figures/qc/`](figures/qc/), [`figures/preprocess/`](figures/preprocess/), [`figures/cluster/`](figures/cluster/), [`figures/annotate/`](figures/annotate/)
 
 ## Results
 
@@ -423,21 +423,22 @@ All figures: [`figures/deconvolution/`](figures/deconvolution/) · tables: [`res
 ## Repository
 
 ```
-src/        one folder per stage, each with a <stage>_utils.py helper
-results/    tables, one folder per stage and script
-figures/    figures, one folder per stage
-envs/       pip constraints and package snapshots
-data/       processed/bm_annotated.h5ad (Git LFS); raw data not included
+src/        the code, one folder per stage, each with its own helper module
+notebooks/  a walk-through of each stage's results, with figures and notes
+results/    every table the scripts write, sorted by stage and script
+figures/    every figure the scripts draw, sorted by stage and script
+envs/       the package pins and full package lists to rebuild each env
+data/       the annotated dataset (Git LFS); raw data not included
 ```
 
-| stage | code |
-|---|---|
-| Load, QC, normalisation, clustering, annotation | `src/load_data`, `src/qc`, `src/preprocess`, `src/cluster`, `src/annotate` |
-| Dimensionality-reduction benchmark | `src/benchmark` |
-| Pathway analysis | `src/pathway` |
-| Trajectory and RNA velocity | `src/trajectory` |
-| Cell-cell communication | `src/cell_cell_communication` |
-| Deconvolution | `src/deconvolution` |
+| stage | code | notebook |
+|---|---|---|
+| Load, QC, normalisation, clustering, annotation | `src/load_data`, `src/qc`, `src/preprocess`, `src/cluster`, `src/annotate` | [`scrna_bm_core_pipeline.ipynb`](notebooks/scrna_bm_core_pipeline.ipynb) |
+| Dimensionality-reduction benchmark | `src/benchmark` | [`scrna_bm_dimensionality_reduction_benchmark.ipynb`](notebooks/scrna_bm_dimensionality_reduction_benchmark.ipynb) |
+| Pathway analysis | `src/pathway` | [`scrna_bm_pathway_analysis.ipynb`](notebooks/scrna_bm_pathway_analysis.ipynb) |
+| Trajectory and RNA velocity | `src/trajectory` | [`scrna_bm_trajectory_analysis.ipynb`](notebooks/scrna_bm_trajectory_analysis.ipynb) |
+| Cell-cell communication | `src/cell_cell_communication` | [`scrna_bm_cell_cell_communication.ipynb`](notebooks/scrna_bm_cell_cell_communication.ipynb) |
+| Deconvolution | `src/deconvolution` | [`scrna_bm_deconvolution.ipynb`](notebooks/scrna_bm_deconvolution.ipynb) |
 
 **Environments** (conda; pins in `envs/constraints.txt`, full package lists in
 `envs/`):

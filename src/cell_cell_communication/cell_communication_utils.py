@@ -55,6 +55,7 @@ SCORE_COLUMNS       = {
 
 
 def set_seed(seed: int = SEED) -> None:
+    """Seeding of the Python and NumPy global random number generators."""
     random.seed(seed)
     np.random.seed(seed)
 
@@ -121,7 +122,7 @@ def filter_significant(frame: pd.DataFrame) -> pd.DataFrame:
 def interaction_counts(frame: pd.DataFrame, labels: list[str] | None = None) -> pd.DataFrame:    
     """    
         Return a sender-by-receiver matrix of interaction counts per cell type pair
-        reindexed to `labels` so runs share theri axes.
+        reindexed to `labels` so runs share their axes.
     """
     counts = pd.crosstab(frame["source"], frame["target"])
     if labels is None:

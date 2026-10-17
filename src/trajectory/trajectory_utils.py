@@ -199,7 +199,7 @@ def save_figure(figure: Figure, script: str, name: str) -> Path:
     return path
 
 def style_dark(figure: Figure, axis: Axes) -> None:
-    """Apply a dark canvas with ligt text, ticks and spines"""
+    """Apply a dark canvas with light text, ticks and spines."""
     figure.patch.set_facecolor(BACKGROUND)
     axis.set_facecolor(BACKGROUND)
     axis.title.set_color(FOREGROUND)

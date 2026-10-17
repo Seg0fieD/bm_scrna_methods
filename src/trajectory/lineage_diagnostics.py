@@ -1,5 +1,6 @@
 """Diagnostics on the B naive pseudotime tail and on raw count support for selected driver genes."""
 
+import anndata as ad
 import numpy as np
 import pandas as pd
 from scipy import sparse
@@ -28,37 +29,35 @@ QC_CANDIDATES     = (
 
 SCRIPT_NAME       = "lineage_diagnostics"
 
-def load_pseudotime():
+def load_pseudotime() -> pd.Series:
     """Return the Palantir pseudotime that defines the gene trend axis."""
-    frame = pd.read_csv(find_result("pt_palantir_pseudotime.csv"))
+    frame = pd.read_csv(find_result("pt_palantir_pseudotime.csv"), index_col = 0)
     return frame[PSEUDOTIME_COLUMN]
 
-
-def load_fates(index, tag):
+def load_fates(index: pd.Index, tag: str) -> pd.DataFrame:
     """Return the CellRank fate probabilities as a frame of cells by terminal state."""
     matrix = np.load(find_result(f"pt_cellrank_fate_{tag}.npy"))
     features = pd.read_csv(find_result(f"pt_cellrank_fate_{tag}_features.csv"))
     return pd.DataFrame(matrix, index=index, columns=features.iloc[:, -1].astype(str))
 
-
-def committed_bins(pseudotime, probability):
+def committed_bins(pseudotime: pd.Series, probability: pd.Series) -> pd.Series:
     """Bin the cells committed to the lineage into pseudotime bins of equal cell count."""
     ordered = pseudotime.loc[probability.index[probability >= FATE_THRESHOLD]]
     return pd.Series(pd.qcut(ordered, N_BINS, labels = False), index=ordered.index, name = "bin")
 
-
-def available_qc(adata):
+def available_qc(adata: ad.AnnData) -> list[str]
     """Return the quality control columns present in the object."""
     return [column for column in QC_CANDIDATES if column in adata.obs.columns]
 
-
-def tail_cells(bins, labels, label):
+def tail_cells(bins: pd.Series, labels: pd.Series, label: str) -> pd.Index:
     """Return the cells carrying the given label within the final pseudotime bins."""
     tail = bins.index[bins.isin(TAIL_BINS)]
     return tail[labels.loc[tail] == label]
 
-
-def tail_table(adata, bins, pseudotime, fates, labels):
+def tail_table(
+    adata: ad.AnnData, bins: pd.Series, pseudotime: pd.Series,
+    fates: pd.DataFrame, labels: pd.Series,
+) -> pd.DataFrame:
     """Assemble per cell diagnostics for the unexpected label in the final pseudotime bins."""
     cells = tail_cells(bins, labels, UNEXPECTED_LABEL)
     frame = pd.DataFrame(index=cells)
@@ -72,8 +71,10 @@ def tail_table(adata, bins, pseudotime, fates, labels):
         frame[column] = adata.obs.loc[cells, column].values
     return frame.sort_values("pseudotime")
 
-
-def comparison(adata, bins, pseudotime, fates, labels):
+def comparison(
+    adata: ad.AnnData, bins: pd.Series, pseudotime: pd.Series,
+    fates: pd.DataFrame, labels: pd.Series,
+) -> pd.DataFrame:
     """Compare the tail cells against their own label and against the whole lineage."""
     groups = {
         f"{UNEXPECTED_LABEL} in tail bins": tail_cells(bins, labels, UNEXPECTED_LABEL),
@@ -96,8 +97,7 @@ def comparison(adata, bins, pseudotime, fates, labels):
         records.append(record)
     return pd.DataFrame.from_records(records)
 
-
-def raw_counts(adata):
+def raw_counts(adata: ad.AnnData) -> tuple[np.ndarray | sparse.spmatrix, pd.Index, str]:
     """Return the raw count matrix, its gene names, and the object slot it came from."""
     if "counts" in adata.layers:
         return adata.layers["counts"], pd.Index(adata.var_names), "layers['counts']"
@@ -105,19 +105,16 @@ def raw_counts(adata):
         return adata.raw.X, pd.Index(adata.raw.var_names), "raw.X"
     return adata.X, pd.Index(adata.var_names), "X (not raw counts)"
 
-
-def n_expressing(values):
+def n_expressing(values: pd.Series) -> int:
     """Return the number of cells with a non-zero count."""
     return int((values > 0).sum())
 
-
-def mean_expressing(values):
+def mean_expressing(values: pd.Series) -> float:
     """Return the mean count across the cells that express the gene."""
     positive = values[values > 0]
     return float(positive.mean()) if positive.size else 0.0
 
-
-def gene_summary(adata, genes):
+def gene_summary(adata: ad.AnnData, genes: tuple[str, ...]) -> pd.DataFrame:
     """Summarise detection rate and count level of the requested genes in each cell type."""
     matrix, names, source = raw_counts(adata)
     print(f"count source: {source}")
@@ -143,7 +140,7 @@ def gene_summary(adata, genes):
     return summary.sort_values(["gene", "pct_expressing"], ascending = [True, False])
 
 
-def main():
+def main() -> None:
     """Run both diagnostics and write their tables."""
     adata = load_annotated()
     labels = adata.obs["cell_type"].astype(str)

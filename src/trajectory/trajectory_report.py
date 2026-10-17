@@ -1,8 +1,10 @@
-"""Summary figures and the Palantir agains CellRank comparison for the trajectory stage."""
+"""Summary figures and the Palantir against CellRank comparison for the trajectory stage."""
 
 from __future__ import annotations
 
 import matplotlib.pyplot as plt
+from matplotlib.axes import Axes
+from matplotlib.figure import Figure
 import numpy as np
 import pandas as pd
 
@@ -31,41 +33,39 @@ HEATMAP_SIZE    = (12, 9)
 BOX_SIZE        = (12, 9)
 
 
-def load_pseudotime():
+def load_pseudotime() -> pd.Series:
     """Return the Palantir pseudotime of the primary run."""
     frame = pd.read_csv(find_result("pt_palantir_pseudotime.csv"), index_col = 0)
     return frame[RUN]
 
-
-def load_matrix(name, index):
+def load_matrix(name, index) -> pd.DataFrame:
     """Return a saved per cell matrix as a frame labelled with its feature names."""
     matrix   = np.load(find_result(f"{name}.npy"))
     features = pd.read_csv(find_result(f"{name}_features.csv"))["feature"].astype(str)
     return pd.DataFrame(matrix, index=index, columns=features.tolist())
 
-
-def terminal_labels(columns, labels):
+def terminal_labels(columns, labels) -> list[str]:
     """Return display names for terminal columns, resolving barcodes to their cell type."""
     return [labels[column] if column in labels.index else column for column in columns]
 
-
-def normalised_entropy(frame):
+def normalised_entropy(frame) -> pd.Series:
     """Return the fate entropy of every cell scaled to the interval zero to one."""
     values = np.clip(frame.to_numpy(dtype = float), 1e-12, None)
     values = values / values.sum(axis = 1, keepdims = True)
     raw    = -(values * np.log(values)).sum(axis = 1)
     return pd.Series(raw / np.log(values.shape[1]), index = frame.index)
 
-
-def standardise(values):
+def standardise(values) -> np.ndarray:
     """Return the columns of a matrix centred and scaled to unit variance."""
     centred = values - values.mean(axis = 0)
     scale   = centred.std(axis = 0)
     scale[scale == 0] = 1.0
     return centred / scale
 
-
-def scatter_continuous(figure, axis, coords, values, cmap, title, label):
+def scatter_continuous(
+    figure: Figure, axis: Axes, coords: np.ndarray, values: np.ndarray,
+    cmap: str, title: str, label: str,
+) -> None:
     """Draw one embedding panel coloured by a continuous value."""
     points = axis.scatter(
         coords[:, 0], coords[:, 1], c = values, s = POINT_SIZE, cmap = cmap,
@@ -79,8 +79,9 @@ def scatter_continuous(figure, axis, coords, values, cmap, title, label):
     bar.set_label(label)
     style_bar(bar)
 
-
-def scatter_categorical(figure, axis, coords, labels, title):
+def scatter_categorical(
+    figure: Figure, axis: Axes, coords: np.ndarray, labels: np.ndarray, title: str,
+) -> None:
     """Draw one embedding panel coloured by a categorical label."""
     categories = sorted(pd.unique(labels))
     colours    = plt.get_cmap(CATEGORY_CMAP)(np.linspace(0.0, 1.0, len(categories)))
@@ -101,8 +102,10 @@ def scatter_categorical(figure, axis, coords, labels, title):
     for text in legend.get_texts():
         text.set_color(FOREGROUND)
 
-
-def plot_overview(coords, labels, pseudotime, fates, entropy):
+def plot_overview(
+    coords: np.ndarray, labels: pd.Series, pseudotime: pd.Series,
+    fates: pd.DataFrame, entropy: pd.Series,
+) -> Figure:
     """Draw the embedding panels for cell type, pseudotime, assigned fate and fate certainty."""
     figure, axes = plt.subplots(2, 2, figsize = OVERVIEW_SIZE)
     figure.patch.set_facecolor(BACKGROUND)
@@ -122,8 +125,7 @@ def plot_overview(coords, labels, pseudotime, fates, entropy):
     figure.tight_layout()
     return figure
 
-
-def fate_matrix(fates, labels):
+def fate_matrix(fates, labels) -> pd.DataFrame:
     """Return the mean fate probability of every cell type for every terminal state."""
     frame = fates.copy()
     frame[CELL_TYPE_KEY] = labels
@@ -137,8 +139,7 @@ def fate_matrix(fates, labels):
     )
     return means.loc[key.sort_values(["terminal", "value"]).index]
 
-
-def agreement(palantir, cellrank):
+def agreement(palantir, cellrank) -> pd.DataFrame:
     """Return the correlation of every Palantir branch probability with every CellRank fate."""
     left  = standardise(palantir.to_numpy(dtype = float))
     right = standardise(cellrank.to_numpy(dtype = float))
@@ -146,8 +147,9 @@ def agreement(palantir, cellrank):
         left.T @ right / left.shape[0], index = palantir.columns, columns = cellrank.columns
     )
 
-
-def plot_heatmap(matrix, title, cmap, label, vmin, vmax):
+def plot_heatmap(
+    matrix: pd.DataFrame, title: str, cmap: str, label: str, vmin: float, vmax: float,
+) -> Figure:
     """Draw an annotated heatmap of a cell type or method comparison matrix."""
     figure, axis = plt.subplots(figsize = HEATMAP_SIZE)
     image = axis.imshow(matrix.to_numpy(), cmap = cmap, vmin = vmin, vmax = vmax, aspect = "auto")
@@ -171,8 +173,7 @@ def plot_heatmap(matrix, title, cmap, label, vmin, vmax):
     figure.tight_layout()
     return figure
 
-
-def plot_pseudotime(pseudotime, labels):
+def plot_pseudotime(pseudotime, labels) -> Figure:
     """Draw the pseudotime distribution of every cell type ordered by median."""
     frame  = pd.DataFrame({"pseudotime": pseudotime.to_numpy(), CELL_TYPE_KEY: labels.to_numpy()})
     order  = frame.groupby(CELL_TYPE_KEY, observed=True)["pseudotime"].median().sort_values()
@@ -198,13 +199,13 @@ def plot_pseudotime(pseudotime, labels):
     figure.tight_layout()
     return figure
 
-
-def most_common(values):
+def most_common(values) -> str:
     """Return the most frequent value of a series."""
     return values.value_counts().idxmax()
 
-
-def summary_table(pseudotime, fates, entropy, labels):
+def summary_table(
+    pseudotime: pd.Series, fates: pd.DataFrame, entropy: pd.Series, labels: pd.Series,
+) -> pd.DataFrame:
     """Return per cell type pseudotime, dominant terminal state and fate certainty."""
     frame = pd.DataFrame(
         {
@@ -228,7 +229,7 @@ def summary_table(pseudotime, fates, entropy, labels):
     return table.sort_values("median_pseudotime")
 
 
-def main():
+def main() -> None:
     """Build the summary figures and tables for the trajectory stage."""
     set_seed()
     adata  = load_annotated()

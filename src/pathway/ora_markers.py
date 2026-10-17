@@ -7,7 +7,7 @@ import pathway_utils as pu
 
 SCRIPT_NAME = "ora_markers"
 
-def load_marker_lists():
+def load_marker_lists() -> dict[str, list[str]]:
     """ 
         Return the top marker genes per cell type as a mapping of 
         cell type label to gene list.
@@ -19,7 +19,7 @@ def load_marker_lists():
     return lists
 
 
-def load_background():
+def load_background() -> list[str]:
     """ 
         Return every gene tested in the differential expression step, 
         used as the statistical universe.
@@ -27,7 +27,7 @@ def load_background():
     frame = pd.read_csv(pu.find_result("de_celltype_full.csv"), usecols = ["gene"])
     return frame["gene"].unique().tolist()
 
-def run_ora(gene_list, gene_sets, background):
+def run_ora(gene_list: list[str], gene_sets: dict[str, list[str]], background: list[str]) -> pd.DataFrame:
     """
         Test one gene list against one gene set collection and return the enrichment table.
     """
@@ -39,7 +39,8 @@ def run_ora(gene_list, gene_sets, background):
     )
     return result.results.drop(columns = ["Gene_set"], errors = "ignore")
 
-def main():
+def main() -> None:
+    """Over-representation of each cell type's top markers against every gene set library, saved in full and filtered."""
     pu.setup_plots()
 
     markers    = load_marker_lists()

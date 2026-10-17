@@ -1,5 +1,5 @@
 """Figures and cross-method comparison tables for the pathway analysis."""
-
+import anndata as ad
 import matplotlib.pyplot as plt
 import pandas as pd
 import scanpy as sc
@@ -13,13 +13,11 @@ MIN_LEADING_EDGE     = 5
 TOP_FACTORS_PER_TYPE = 3
 MIN_RAW_RANGE        = 1.5
 
-
-def scale_across_cell_types(frame):
+def scale_across_cell_types(frame: pd.DataFrame) -> pd.DataFrame:
     """Standardise each feature across cell types."""
     return (frame - frame.mean()) / frame.std()
 
-
-def drop_flat_features(frame, min_range = MIN_RAW_RANGE):
+def drop_flat_features(frame: pd.DataFrame, min_range: float = MIN_RAW_RANGE) -> pd.DataFrame:
     """Drop features whose raw range across cell types falls below `min_range`.
 
     Standardisation would otherwise amplify negligible variation to full scale.
@@ -31,15 +29,13 @@ def drop_flat_features(frame, min_range = MIN_RAW_RANGE):
         print(f"dropped {len(dropped)} flat features: {', '.join(dropped)}")
     return frame[keep]
 
-
-def leading_edge_size(frame):
+def leading_edge_size(frame: pd.DataFrame) -> pd.DataFrame:
     """Add a column giving the number of genes in each leading edge."""
     frame = frame.copy()
     frame["leading_edge_size"] = frame["Lead_genes"].fillna("").str.split(";").str.len()
     return frame
 
-
-def select_top_factors(scaled):
+def select_top_factors(scaled: pd.DataFrame) -> list[str]:
     """Return the union of each cell type's highest-scoring transcription factors."""
     selected = []
     for label in scaled.index:
@@ -47,8 +43,7 @@ def select_top_factors(scaled):
         selected.extend(top.index)
     return list(dict.fromkeys(selected))
 
-
-def plot_progeny_umap(adata, scores):
+def plot_progeny_umap(adata: ad.AnnData, scores: pd.DataFrame) -> None:
     """Draw one UMAP panel per signalling pathway, coloured by per-cell activity.
 
     Colour limits are clipped to the 1st and 99th percentile so that extreme cells do not
@@ -81,8 +76,7 @@ def plot_progeny_umap(adata, scores):
     figure.set_size_inches(20, 16)
     pu.save_figure(figure, SCRIPT_NAME, "umap_progeny")
 
-
-def plot_heatmap(frame, name, title):
+def plot_heatmap(frame: pd.DataFrame, name: str, title: str) -> None:
     """Draw a cell type by feature heatmap, sized to the table, and write it to the figures directory."""
     height = max(6, 0.40 * len(frame))
     width  = max(8, 0.45 * frame.shape[1])
@@ -95,8 +89,7 @@ def plot_heatmap(frame, name, title):
     axes.set_ylabel("")
     pu.save_figure(figure, SCRIPT_NAME, name)
 
-
-def overlap_table(ora, gsea):
+def overlap_table(ora: pd.DataFrame, gsea: pd.DataFrame) -> pd.DataFrame:
     """Count terms shared by both gene set methods and unique to each, per cell type and library."""
     rows = []
     for (label, library), ora_group in ora.groupby([pu.LABEL_KEY, "library"], observed = True):
@@ -113,7 +106,7 @@ def overlap_table(ora, gsea):
     return pd.DataFrame(rows)
 
 
-def plot_overlap(overlap):
+def plot_overlap(overlap: pd.DataFrame) -> None:
     """Draw the counts from `overlap_table` as stacked bars per cell type, summed over libraries."""
     totals = overlap.groupby(pu.LABEL_KEY, observed = True)[["both", "ora_only", "gsea_only"]].sum()
 
@@ -125,8 +118,8 @@ def plot_overlap(overlap):
     axes.legend(title = "")
     pu.save_figure(figure, SCRIPT_NAME, "ora_vs_gsea_overlap")
 
-
-def main():
+def main() -> None:
+    """Pathway activity maps and heatmaps, and the over-representation against GSEA term overlap."""
     pu.setup_plots()
     adata = pu.load_annotated()
 

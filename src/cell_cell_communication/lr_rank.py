@@ -1,8 +1,8 @@
 """Ligand-receptor ranking between cell types, computed once per resource."""
 
-import matplotlib.pyplot as plt 
 import numpy as np
 import pandas as pd 
+import matplotlib.pyplot as plt 
 
 import cell_communication_utils as ccu
 

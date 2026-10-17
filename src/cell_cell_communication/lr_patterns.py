@@ -1,8 +1,9 @@
 """Signalling programs from factorisation of the interaction matrix."""
 
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 from matplotlib.patches import PathPatch, Rectangle
 from matplotlib.path import Path
@@ -31,7 +32,6 @@ def load_significant(resource: str) -> pd.DataFrame:
     path = ccu.RESULTS_DIR / "lr_rank" / f"lr_rank_{resource}_significant.csv"
     return pd.read_csv(path)
 
-
 def interaction_matrix(frame: pd.DataFrame, direction: str) -> pd.DataFrame:
     """
         Cell-type-by-pair matrix of significant interaction counts, taken over
@@ -41,7 +41,6 @@ def interaction_matrix(frame: pd.DataFrame, direction: str) -> pd.DataFrame:
     pair = frame["ligand_complex"] + " -> " + frame["receptor_complex"]
     return pd.crosstab(frame[key], pair)
 
-
 def scaled_matrix(counts: pd.DataFrame) -> pd.DataFrame:
     """
         Interaction matrix with every pair divided by its own maximum, so no
@@ -49,12 +48,10 @@ def scaled_matrix(counts: pd.DataFrame) -> pd.DataFrame:
     """
     return counts / counts.max(axis = 0)
 
-
 def normalise_rows(frame: pd.DataFrame) -> pd.DataFrame:
     """Matrix with every row rescaled to sum to one."""
     totals = frame.sum(axis = 1).replace(0, 1)
     return frame.div(totals, axis = 0)
-
 
 def rank_scan(matrix: pd.DataFrame) -> pd.DataFrame:
     """
@@ -79,7 +76,6 @@ def rank_scan(matrix: pd.DataFrame) -> pd.DataFrame:
         )
     return pd.DataFrame(records)
 
-
 def factorise(matrix: pd.DataFrame, n_patterns: int) -> tuple[pd.DataFrame, pd.DataFrame]:
     """
         Cell-type-by-pattern usage and pattern-by-pair loading matrices from one
@@ -102,7 +98,6 @@ def factorise(matrix: pd.DataFrame, n_patterns: int) -> tuple[pd.DataFrame, pd.D
 
     return usage, loadings
 
-
 def usage_table(usage: pd.DataFrame, totals: pd.Series, direction: str) -> pd.DataFrame:
     """
         Long-form usage: one row per cell type and pattern, with that pattern's
@@ -116,7 +111,6 @@ def usage_table(usage: pd.DataFrame, totals: pd.Series, direction: str) -> pd.Da
     tidy.insert(0, "direction", direction)
     return tidy
 
-
 def loading_table(loadings: pd.DataFrame, direction: str) -> pd.DataFrame:
     """
         Long-form loadings: one row per pattern and ligand-receptor pair,
@@ -128,11 +122,9 @@ def loading_table(loadings: pd.DataFrame, direction: str) -> pd.DataFrame:
     tidy.insert(0, "direction", direction)
     return tidy
 
-
-def pattern_colour(position: int):
+def pattern_colour(position: int) -> tuple[float, float, float, float]:
     """Colour for one pattern, taken from the qualitative palette by position."""
     return plt.get_cmap("tab10")(position % 10)
-
 
 def column_scale(columns: list[np.ndarray], gap: float) -> float:
     """Shared vertical scale making the tallest stacked column fill the frame."""
@@ -141,7 +133,6 @@ def column_scale(columns: list[np.ndarray], gap: float) -> float:
         usable = 1.0 - gap * max(len(heights) - 1, 0)
         scales.append(usable / float(heights.sum()))
     return min(scales)
-
 
 def stacked_positions(
     heights: np.ndarray, gap: float, scale: float
@@ -158,8 +149,10 @@ def stacked_positions(
         cursor += height + gap
     return tops, drawn
 
-
-def ribbon(ax, span: tuple[float, float], tops: tuple[float, float], height: float, colour) -> None:
+def ribbon(
+    ax: Axes, span: tuple[float, float], tops: tuple[float, float], height: float,
+    colour: tuple[float, float, float, float],
+) -> None:
     """Curved band joining two stacked nodes, drawn as one filled path."""
     left, right = span
     top_left, top_right = tops
@@ -186,7 +179,6 @@ def ribbon(ax, span: tuple[float, float], tops: tuple[float, float], height: flo
         PathPatch(Path(vertices, codes), facecolor = colour, edgecolor = "none", alpha = 0.55)
     )
 
-
 def leading_interactions(loadings: pd.DataFrame) -> tuple[list[str], dict[str, list[str]]]:
     """
         Highest-loading pairs of every pattern: the pooled ordered list, and the
@@ -202,7 +194,6 @@ def leading_interactions(loadings: pd.DataFrame) -> tuple[list[str], dict[str, l
             if name not in pooled:
                 pooled.append(name)
     return pooled, per_pattern
-
 
 def plot_programs(usage: pd.DataFrame, loadings: pd.DataFrame) -> Figure:
     """
@@ -307,7 +298,6 @@ def plot_programs(usage: pd.DataFrame, loadings: pd.DataFrame) -> Figure:
     ccu.style_dark(fig)
     fig.tight_layout()
     return fig
-
 
 def main() -> None:
     """

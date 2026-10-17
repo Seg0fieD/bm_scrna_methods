@@ -1,4 +1,5 @@
-"""Cell-Rank cross-check of the trajectory: marostates, terminal states and fate probablities"""
+"""CellRank cross-check of the trajectory: macrostates, terminal states and fate probabilities"""
+
 from __future__ import annotations
 
 import cellrank as cr

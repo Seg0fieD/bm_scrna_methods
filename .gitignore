@@ -8,8 +8,6 @@ data/*
 *.pt
 *.npy
 
-
-
 results/benchmark/emb_cnmf/cnmf/
 results/cluster/markers/markers_leiden_1.0_all.csv
 results/deconvolution/scaden_torch_variants/scaden_torch_variants_predictions.csv

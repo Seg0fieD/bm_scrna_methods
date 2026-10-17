@@ -1,4 +1,4 @@
-"""Palantir pseudotime and fate probablities across the embedding and root grid."""
+"""Palantir pseudotime and fate probabilities across the embedding and root grid."""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ import palantir
 import pandas as pd
 from typing import Any
 from anndata import AnnData
+from palantir.presults import PResults
 from scipy.stats import spearmanr
 
 from trajectory_utils import (
@@ -51,8 +52,10 @@ def multiscale_space(adata: AnnData, embedding: str) -> str:
     print(f"diffusion map built for {embedding}")
     return out_key
 
-def run_palantir_once(adata: AnnData, embedding: str, root_method: str, space_key: str):
-    """Run Palantir for one embedding and root selection, returing its result object and root barcode. """
+def run_palantir_once(
+    adata: AnnData, embedding: str, root_method: str, space_key: str,
+) -> tuple[PResults, str]:
+    """Run Palantir for one embedding and root selection, returning its result object and root barcode."""
     root = select_root(adata, root_method, embedding)
     tag  = run_tag(embedding, root_method)
     result: Any = palantir.core.run_palantir(

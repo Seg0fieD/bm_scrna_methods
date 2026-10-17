@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 from anndata import AnnData
 from matplotlib.axes import Axes
+from scipy.sparse import csr_matrix
 
 from pt_cellrank import BASE_EMBEDDING, build_kernel
 from trajectory_utils import (
@@ -15,6 +16,7 @@ from trajectory_utils import (
     UMAP_LEGEND_FONTSIZE, attach_embeddings, find_result, load_annotated,
     run_tag, save_figure, save_table, set_seed, style_bar, style_dark,
 )
+
 SCRIPT_NAME     = "trajectory_backbone"
 RUN             = run_tag(MAIN_EMBEDDING, MAIN_ROOT_METHODS)
 UMAP_KEY        = "X_umap"
@@ -348,7 +350,7 @@ def plot_entropy(entropy: pd.Series, labels: pd.Series) -> None:
     save_figure(figure, SCRIPT_NAME, "trajectory_backbone_entropy")
 
 
-def project_transitions(matrix, coords: np.ndarray) -> np.ndarray:
+def project_transitions(matrix: csr_matrix, coords: np.ndarray) -> np.ndarray:
     """Per-cell displacement in embedding space: transition probabilities over
     unit neighbour directions, less the isotropic expectation of that
     neighbourhood."""

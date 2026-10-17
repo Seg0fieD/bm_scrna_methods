@@ -441,7 +441,7 @@ notebooks/  a walk-through of each stage's results, with figures and notes
 results/    every table the scripts write, sorted by stage and script
 figures/    every figure the scripts draw, sorted by stage and script
 envs/       the package pins and full package lists to rebuild each env
-data/       the annotated dataset (Git LFS); raw data not included
+data/       download manifests only; see "Reproducing the analysis"
 ```
 
 | stage | code | notebook |

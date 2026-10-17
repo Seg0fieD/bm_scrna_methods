@@ -1,0 +1,3 @@
+pandas<3
+setuptools<82
+tf-keras==2.21.0

@@ -2,6 +2,12 @@
 
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
 [![Scanpy](https://img.shields.io/badge/scanpy-1.12-orange.svg)](https://scanpy.readthedocs.io/)
+[![scvi-tools](https://img.shields.io/badge/scvi--tools-1.5-blueviolet.svg)](https://scvi-tools.org/)
+[![scVelo](https://img.shields.io/badge/scVelo-0.3.4-blueviolet.svg)](https://scvelo.readthedocs.io/)
+[![CellRank](https://img.shields.io/badge/CellRank-2.3-blueviolet.svg)](https://cellrank.readthedocs.io/)
+[![Palantir](https://img.shields.io/badge/Palantir-1.4-blueviolet.svg)](https://github.com/dpeerlab/Palantir)
+[![LIANA](https://img.shields.io/badge/LIANA-1.10-blueviolet.svg)](https://liana-py.readthedocs.io/)
+[![decoupler](https://img.shields.io/badge/decoupler-2.2-blueviolet.svg)](https://decoupler.readthedocs.io/)
 [![License: Apache 2.0](https://img.shields.io/github/license/Seg0fieD/bm_scrna_methods)](LICENSE)
 [![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23440304.svg)](https://doi.org/10.5281/zenodo.23440304)
 

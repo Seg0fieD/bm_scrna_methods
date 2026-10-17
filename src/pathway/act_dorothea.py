@@ -1,5 +1,6 @@
 """Per-cell transcription factor activity inferred from DoRothEA regulons"""
 
+import anndata as ad
 import decoupler as dc 
 import pandas as pd
 
@@ -9,12 +10,11 @@ CONFIDENCE_LEVELS  = ["A", "B", "C"]
 TOP_FACTORS_SHOWN  = 5
 SCRIPT_NAME        = "act_dorothea"
 
-
-def load_dorothea():
+def load_dorothea() -> pd.DataFrame:
     """Return the DoRothEA regulon table restricted to the high-confidence levels."""
     return dc.op.dorothea(organism = "human", levels = CONFIDENCE_LEVELS)
 
-def score_cells(adata, net):
+def score_cells(adata: ad.AnnData, net: pd.DataFrame) -> pd.DataFrame:
     """
         Estimate per-cell transcription factor activity with a univariate linear model
         and return the score matrix
@@ -22,14 +22,14 @@ def score_cells(adata, net):
     dc.mt.ulm(data = adata, net = net, verbose = True)
     return adata.obsm["score_ulm"]
 
-def mean_by_cell_type(scores, labels):
+def mean_by_cell_type(scores: pd.DataFrame, labels: pd.Series) -> pd.DataFrame:
     """Return the mean activity of every transcription factor within each cell type"""
     frame = scores.copy()
     frame[pu.LABEL_KEY] = labels.values
     summary = frame.groupby(pu.LABEL_KEY, observed = True).mean()
     return summary.reset_index()
 
-def top_factor(summary):
+def top_factor(summary: pd.DataFrame) -> pd.DataFrame:
     """Return the highest-scoring transcription factors per cell type as a readable table"""
     rows = []
     for label, row in summary.set_index(pu.LABEL_KEY).iterrows():
@@ -37,7 +37,8 @@ def top_factor(summary):
         rows.append({pu.LABEL_KEY: label, "top_factors": ", ".join(ordered.index)})
     return pd.DataFrame(rows)
 
-def main():
+def main() -> None:
+    """Per-cell DoRothEA activity, its cell-type means, and the leading factors of each cell type."""
     pu.setup_plots()
     adata = pu.load_annotated()
 

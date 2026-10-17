@@ -15,10 +15,10 @@ Negative results are reported alongside positive ones.
 ## Summary of findings
 
 - **The donor batch effect is weak, and correcting it costs biology.** Seven
-  embeddings score within 0.648–0.716 overall. scVI mixes donors best and
+  embeddings score within 0.648-0.716 overall. scVI mixes donors best and
   preserves cell types worst; PCA was kept as the working representation.
 - **The 19 cell-type labels are confirmed three times by methods that never saw
-  them** — curated gene sets, signalling footprints and transcription-factor
+  them** - curated gene sets, signalling footprints and transcription-factor
   regulons (GATA1/KLF1 in erythroid cells, PAX5/SPIB in B cells, CEBPE in
   granulocyte precursors, STAT5A/B in NK cells).
 - **One label is probably not a cell type.** "T activated" is 532 of 583 cells
@@ -29,7 +29,7 @@ Negative results are reported alongside positive ones.
   (fate entropy 0.80, no fate above 0.34); the monocyte lineage is recovered
   end to end in order, genes and velocity direction. Mature T and NK cells,
   which did not develop from these stem cells, are still given a confident but
-  meaningless ordering — shown six independent ways.
+  meaningless ordering - shown six independent ways.
 - **RNA velocity is reliable in one lineage only.** Myeloid direction is
   correct in all four model fits; the erythroid direction is reversed in all
   four, and velocity confidence is highest exactly where the direction is
@@ -39,14 +39,14 @@ Negative results are reported alongside positive ones.
   and S100A8/A9/A12). Only 74 reproduce in all eight donors; a single donor
   produces 307 interactions that no other donor finds.
 - **A deconvolution model trained on these cells transfers to real bulk
-  RNA-seq at the lineage level.** Sorted samples receive 0.77–0.98 of their own
+  RNA-seq at the lineage level.** Sorted samples receive 0.77-0.98 of their own
   lineage; random mixtures of real profiles are estimated with concordance
-  0.86–0.89 for myeloid, B and NK cells. Erythroid shares fail in mixtures.
+  0.86-0.89 for myeloid, B and NK cells. Erythroid shares fail in mixtures.
 
 ## Data
 
 Human Cell Atlas *Census of Immune Cells* bone marrow (Hay et al., 2018): eight
-donors, one 10x Chromium lane each (MantonBM1–8). Spliced and unspliced counts
+donors, one 10x Chromium lane each (MantonBM1-8). Spliced and unspliced counts
 for RNA velocity were recomputed from the HCA BAM files. Sorted bulk RNA-seq of
 13 healthy haematopoietic populations (GSE74246, Corces et al., 2016) was used
 as an external test for deconvolution.
@@ -61,7 +61,7 @@ as an external test for deconvolution.
 Thresholds were adaptive because the data is shallow (median about 700 genes
 per cell); a textbook `min_genes = 500` would have removed a third of it.
 Scrublet's automatic threshold called only 148 cells (0.37%) against an
-expected 3–6%. Those 148 were removed, and then the top 4% doublet score per
+expected 3-6%. Those 148 were removed, and then the top 4% doublet score per
 donor (1,525 cells). High-gene-count cells were kept and later turned out to
 be early erythroid cells.
 
@@ -113,15 +113,15 @@ All figures: [`figures/benchmark/`](figures/benchmark/) · tables: [`results/ben
   batch mixing (BRAS 0.90) and the lowest cell-type agreement (ARI 0.46); on a
   dataset with little batch effect it removes biology.
 - The diffusion maps top the table but are built on PCA and scVI, not
-  alternatives to them, and fragment into 46–51 clusters at the shared
+  alternatives to them, and fragment into 46-51 clusters at the shared
   resolution. They were used for trajectories instead.
 - PCA's biology score is partly circular, since the labels came from PCA
   clusters; Pearson residuals and GLM-PCA land within 0.03 of it without that
   advantage. PCA is read as "no worse", not "better".
 - Consensus NMF found what clustering cannot: five activity programmes
   (DNA replication, mitosis, histones, heat shock, inflammation) and three rare
-  cell types absent from the labels — plasma cells, mast cells/basophils and
-  macrophages (15–36 cells each).
+  cell types absent from the labels - plasma cells, mast cells/basophils and
+  macrophages (15-36 cells each).
 - GLM-PCA diverges at its default penalty on this data; `penalty = 10` was
   needed.
 
@@ -129,7 +129,7 @@ All figures: [`figures/benchmark/`](figures/benchmark/) · tables: [`results/ben
 
 Over-representation on the top 200 markers per cell type, pre-ranked GSEA on the
 full ranking (GO BP, KEGG, Reactome), and per-cell activity with decoupler
-(PROGENy pathways, DoRothEA regulons A–C).
+(PROGENy pathways, DoRothEA regulons A-C).
 
 <a href="figures/pathway/pathway_report/heatmap_dorothea.png"><img src="figures/pathway/pathway_report/heatmap_dorothea.png" width="720" alt="Transcription-factor activity, scaled within each factor: one diagonal block per cell type"></a><br><sub>Transcription-factor activity, scaled within each factor: one diagonal block per cell type</sub>
 
@@ -144,7 +144,7 @@ All figures: [`figures/pathway/`](figures/pathway/) · tables: [`results/pathway
 
 - Transcription-factor activity, scaled within each factor, gives a clean
   diagonal: each cell type owns its textbook regulators. Unscaled, MYC ranks
-  first in all 19 cell types — activity scores must be compared within a
+  first in all 19 cell types - activity scores must be compared within a
   feature, never across features.
 - p53 activity is lowest in exactly the four dividing populations, without the
   method being told which cells divide.
@@ -186,17 +186,17 @@ can tell collected cells from cells developing in the sample.
 - The root is unambiguous: HSPC median pseudotime 0.13, the next population
   0.40. Two different HSPC root cells give identical orderings (Spearman 1.00).
 - Three maturation series come out in order without labels: granulocyte
-  precursor → classical → non-classical monocyte; Pre-B large → Pre-B small →
-  B naive; erythroid early → late.
+  precursor -> classical -> non-classical monocyte; Pre-B large -> Pre-B small ->
+  B naive; erythroid early -> late.
 - HSPC multipotency is measured: fate entropy 0.80, top fate only 0.34, spread
   over six lineages. Entropy ranks every population by developmental potential.
-- The monocyte lineage passes every test: bin composition (precursor →
-  classical → non-classical), gene order (LYZ → S100A8/9 → CD14/FCN1 → mature
+- The monocyte lineage passes every test: bin composition (precursor ->
+  classical -> non-classical), gene order (LYZ -> S100A8/9 -> CD14/FCN1 -> mature
   markers) and velocity direction.
 - Erythroid gene order is causal: GATA1 and KLF1 peak before the haem enzymes,
   membrane proteins and globins they control.
 - Four terminal states are confirmed by Palantir and CellRank, which share only
-  the expression matrix (correlation 0.94–0.98).
+  the expression matrix (correlation 0.94-0.98).
 
 <table><tr>
 <td width="50%" valign="top"><a href="figures/trajectory/gene_trends/gene_trends_monocyte_classical.png"><img src="figures/trajectory/gene_trends/gene_trends_monocyte_classical.png" width="100%" alt="Monocyte lineage: genes in order, cell labels sorted along pseudotime"></a><br><sub>Monocyte lineage: genes in order, cell labels sorted along pseudotime</sub></td>
@@ -206,7 +206,7 @@ can tell collected cells from cells developing in the sample.
 **What does not**
 
 - The seven mature lymphoid labels (56% of cells) sit mid-axis and are all
-  assigned 0.86–0.99 to a single terminal named "NK". Its drivers are T-cell
+  assigned 0.86-0.99 to a single terminal named "NK". Its drivers are T-cell
   genes (IL32, CD3D/E); its "trajectory" is a gradient of cytotoxic programme
   strength. The same negative appears in PAGA topology, pseudotime, fate
   probabilities, the spanning tree (one invented bridge), the principal tree
@@ -218,7 +218,7 @@ can tell collected cells from cells developing in the sample.
   end. It is used only as a topology check.
 
 <table><tr>
-<td width="50%" valign="top"><a href="figures/trajectory/gene_trends/gene_trends_nk.png"><img src="figures/trajectory/gene_trends/gene_trends_nk.png" width="100%" alt="The "NK" lineage: naive CD4 T → CD8 → NK, a cytotoxic gradient, not development"></a><br><sub>The "NK" lineage: naive CD4 T → CD8 → NK, a cytotoxic gradient, not development</sub></td>
+<td width="50%" valign="top"><a href="figures/trajectory/gene_trends/gene_trends_nk.png"><img src="figures/trajectory/gene_trends/gene_trends_nk.png" width="100%" alt="The "NK" lineage: naive CD4 T -> CD8 -> NK, a cytotoxic gradient, not development"></a><br><sub>The "NK" lineage: naive CD4 T -> CD8 -> NK, a cytotoxic gradient, not development</sub></td>
 <td width="50%" valign="top"><a href="figures/trajectory/principal_graph/principal_graph_umap.png"><img src="figures/trajectory/principal_graph/principal_graph_umap.png" width="100%" alt="Principal tree: long edges across empty space"></a><br><sub>Principal tree: long edges across empty space</sub></td>
 </tr></table>
 
@@ -227,19 +227,19 @@ two fits):
 
 | step | correct | reversed | absent |
 |---|---|---|---|
-| Granulocyte precursor → Monocyte classical | 4 | 0 | 0 |
-| Pre-B large → Pre-B small | 4 | 0 | 0 |
-| Monocyte classical → non-classical | 3 | 0 | 1 |
-| Pre-B small → B naive | 3 | 0 | 1 |
-| Erythroid early → Erythroid late | 0 | **4** | 0 |
-| HSPC → Pre-B large | 1 | 2 | 1 |
-| HSPC → Erythroid early | 0 | 1 | 3 |
-| HSPC → Granulocyte precursor | 0 | 1 | 3 |
+| Granulocyte precursor -> Monocyte classical | 4 | 0 | 0 |
+| Pre-B large -> Pre-B small | 4 | 0 | 0 |
+| Monocyte classical -> non-classical | 3 | 0 | 1 |
+| Pre-B small -> B naive | 3 | 0 | 1 |
+| Erythroid early -> Erythroid late | 0 | **4** | 0 |
+| HSPC -> Pre-B large | 1 | 2 | 1 |
+| HSPC -> Erythroid early | 0 | 1 | 3 |
+| HSPC -> Granulocyte precursor | 0 | 1 | 3 |
 
 - The erythroid reversal grows sevenfold when lymphoid cells are removed. Its
   defining genes (KLF1, GYPA, ALAS2, HBA1) cannot be fitted by the kinetic
   model, and late erythroid cells sit at the unspliced level of anucleate
-  platelets — there is no signal to read.
+  platelets - there is no signal to read.
 - In the progenitor-only fit velocity points into HSPC from four lineages.
 - Velocity confidence is highest in the reversed erythroid island (0.99). It
   measures agreement between neighbours, not correctness.
@@ -285,8 +285,8 @@ gives none). A thick edge means many annotated ligand-receptor pairs matched.
 </tr></table>
 
 - 195 interactions are significant with `consensus`, 20 with `cellphonedb`;
-  14 are shared. The shared core is APP → CD74 from plasmacytoid DCs,
-  TNFSF13B (BAFF) → HLA-DPB1 into dendritic cells, and PF4 → CXCR3 from
+  14 are shared. The shared core is APP -> CD74 from plasmacytoid DCs,
+  TNFSF13B (BAFF) -> HLA-DPB1 into dendritic cells, and PF4 -> CXCR3 from
   platelets.
 - Two ligand families carry 80% of the result: HLA class I/B2M into
   NK-restricted receptors (true, but every cell expresses the ligand) and
@@ -312,7 +312,7 @@ gives none). A thick edge means many annotated ligand-receptor pairs matched.
 </tr></table>
 
 - The developing compartment receives 17 of 195 interactions, through two
-  channels only: S100 alarmins into erythroid CD36, and APP → CD74.
+  channels only: S100 alarmins into erythroid CD36, and APP -> CD74.
 
 <table><tr>
 <td width="50%" valign="top"><a href="figures/cell_cell_communication/cell_communication_report/cell_communication_report_hierarchy.png"><img src="figures/cell_cell_communication/cell_communication_report/cell_communication_report_hierarchy.png" width="100%" alt="Signalling into the developing (left) and finished (right) compartments"></a><br><sub>Signalling into the developing (left) and finished (right) compartments</sub></td>
@@ -352,15 +352,15 @@ concordance correlation, CCC):
   fall below about 2%.
 - Training length is the main lever; Scaden's default stops while the loss is
   still falling. Fourteen of 19 labels gain at least 0.1.
-- Four labels do not gain with training — T activated, T proliferating,
-  Platelet, Erythroid late — and are limited by their data; CD8 T cytotoxic
+- Four labels do not gain with training - T activated, T proliferating,
+  Platelet, Erythroid late - and are limited by their data; CD8 T cytotoxic
   gains only 0.04.
 - One held-out donor fails in a specific way: its T cells carry the strongest
   immediate-early stress signature of all eight donors and are read as
   "T activated". Ambient haemoglobin was tested and ruled out.
 
 <a href="figures/deconvolution/donor_diagnostics/donor_diagnostics_activation.png"><img src="figures/deconvolution/donor_diagnostics/donor_diagnostics_activation.png" width="560" alt="Immediate-early genes in T cells per donor: MantonBM8 highest"></a><br><sub>Immediate-early genes in T cells per donor: MantonBM8 highest</sub>
-- Single training runs differ enough (0.1–0.2 CCC per label) that variants were
+- Single training runs differ enough (0.1-0.2 CCC per label) that variants were
   compared only as five-seed medians.
 
 **Real bulk** (GSE74246; 49 sorted samples and 500 mixtures of their profiles,
@@ -380,7 +380,7 @@ five-seed ensemble):
 | HSPC | 0.68 | 0.49 |
 | Erythroid | 0.25 | 0.09 |
 
-- Pure sorted samples receive 0.77–0.98 of their own lineage (median 0.92)
+- Pure sorted samples receive 0.77-0.98 of their own lineage (median 0.92)
   despite a different library method and a third fewer shared genes.
   Intermediate progenitors (GMP, MEP, CLP) are split between the lineages they
   sit between.
@@ -419,7 +419,7 @@ All figures: [`figures/deconvolution/`](figures/deconvolution/) · tables: [`res
   the 19 labels; the labels were fixed early by design.
 - No real marrow bulk with measured composition was found; the real-bulk test
   uses sorted populations and in-silico mixtures (RNA shares, not cell shares).
-- Velocity fit quality is low (median likelihood 0.05–0.08); the defining
+- Velocity fit quality is low (median likelihood 0.05-0.08); the defining
   genes of the progenitor lineages do not fit the kinetic model.
 - Settings outside the documented choices (learning rate, network size, number
   of signalling programmes) were not swept.
@@ -447,10 +447,10 @@ data/       the annotated dataset (Git LFS); raw data not included
 **Environments** (conda; pins in `envs/constraints.txt`, full package lists in
 `envs/`):
 
-- `sc_core` (Python 3.13) — the main stack: scanpy, scVI, scVelo, CellRank,
+- `sc_core` (Python 3.13) - the main stack: scanpy, scVI, scVelo, CellRank,
   Palantir, LIANA, decoupler, gseapy, PyTorch.
-- `sc_deconv` (Python 3.11) — Scaden and TensorFlow, kept separate.
-- `rna_velo` (Python 3.11) — velocyto, for spliced and unspliced counts.
+- `sc_deconv` (Python 3.11) - Scaden and TensorFlow, kept separate.
+- `rna_velo` (Python 3.11) - velocyto, for spliced and unspliced counts.
 
 **Running.** Every script runs as a plain file from the repository root, for
 example `python src/benchmark/emb_pca.py`. Later stages read only

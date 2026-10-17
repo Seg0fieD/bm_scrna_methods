@@ -1,0 +1,17 @@
+donor,resource,tested,significant
+MantonBM1,consensus,14398,442
+MantonBM1,cellphonedb,2970,58
+MantonBM2,consensus,13972,395
+MantonBM2,cellphonedb,3032,54
+MantonBM3,consensus,10897,232
+MantonBM3,cellphonedb,2075,21
+MantonBM4,consensus,12909,443
+MantonBM4,cellphonedb,2792,48
+MantonBM5,consensus,10803,309
+MantonBM5,cellphonedb,2127,32
+MantonBM6,consensus,15749,423
+MantonBM6,cellphonedb,3327,56
+MantonBM7,consensus,12525,337
+MantonBM7,cellphonedb,2561,49
+MantonBM8,consensus,15046,409
+MantonBM8,cellphonedb,3018,38

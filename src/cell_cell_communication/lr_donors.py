@@ -1,4 +1,4 @@
-"""Per-donor ligand-receptor ranking and reproducibility of  the full-dataset results."""
+"""Per-donor ligand-receptor ranking and reproducibility of the full-dataset results."""
 
 import anndata as ad
 import matplotlib.pyplot as plt
@@ -27,18 +27,20 @@ def label_coverage(subset: ad.AnnData, donor: str, labels: list[str]) -> pd.Data
     return frame        
 
 
-def rank_one_donor(subset: ad.AnnData, donor: str) -> pd.DataFrame:
-    """Significant interactions in one lane, one block per resource."""
+def rank_one_donor(subset: ad.AnnData, donor: str) -> tuple[pd.DataFrame, list[dict]]:
+    """Significant interactions in one lane, one block per resource, and the tested and significant counts."""
     blocks = []
+    totals = []
     for resource_name in ccu.RESOURCES:
         frame       = ccu.rank_interactions(subset, resource_name)
         significant = ccu.filter_significant(frame)
         significant.insert(0, "donor", donor)
         significant.insert(1, "resource", resource_name)
         blocks.append(significant)
+        totals.append({"donor": donor, "resource": resource_name,
+                       "tested": len(frame), "significant": len(significant)})
         print(f"{donor} {resource_name}: {len(significant)} of {len(frame)} significant")
-    return pd.concat(blocks, ignore_index = True)
-
+    return pd.concat(blocks, ignore_index = True), totals
 
 def load_full_significant(resource_name: str) -> pd.DataFrame:
     """Significant interactions from the full-dataset run for one resource."""
@@ -86,7 +88,7 @@ def plot_reproducibility(table: pd.DataFrame, resource_name: str) -> None:
     ccu.save_figure(fig, SCRIPT_NAME, f"lr_donors_reproducibility_{resource_name}")
 
 def main() -> None:
-    """Per-lane ranking: a table per donor, the label coverage, the reproducibility table and a figure per resources."""
+    """Per-lane ranking: a table per donor, the label coverage, the lane totals, the reproducibility table and a figure per resource."""
     ccu.set_seed()
     adata  = ccu.load_annotated()
     labels = ccu.cell_type_labels(adata)
@@ -95,17 +97,20 @@ def main() -> None:
 
     coverage_blocks = []
     donor_blocks    = []
+    lane_totals     = []
 
     for donor  in donors:
         subset = donor_subset(adata, donor)
         print(f"{donor}: {subset.n_obs} cells")
         coverage_blocks.append(label_coverage(subset, donor, labels))
 
-        per_donor = rank_one_donor(subset, donor)
+        per_donor, totals = rank_one_donor(subset, donor)
+        lane_totals.extend(totals)
         ccu.save_table(per_donor, SCRIPT_NAME, f"lr_donors_{donor}")
         donor_blocks.append(per_donor)
 
-    ccu.save_table(pd.concat(coverage_blocks, ignore_index = True), SCRIPT_NAME, "lr_donors_coverage") 
+    ccu.save_table(pd.concat(coverage_blocks, ignore_index = True), SCRIPT_NAME, "lr_donors_coverage")
+    ccu.save_table(pd.DataFrame(lane_totals), SCRIPT_NAME, "lr_donors_summary")
 
     per_donor_all = pd.concat(donor_blocks, ignore_index = True)
     reproducible_blocks = []

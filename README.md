@@ -50,7 +50,7 @@ from eight donors.
 
 ## Data
 
-Human Cell Atlas *Census of Immune Cells* bone marrow (Hay et al., 2018): eight
+Human Cell Atlas Census of Immune Cells bone marrow (Hay et al., 2018): eight
 donors, one 10x Chromium lane each (MantonBM1-8). Spliced and unspliced counts
 for RNA velocity were recomputed from the HCA BAM files. Sorted bulk RNA-seq of
 13 healthy haematopoietic populations (GSE74246, Corces et al., 2016) was used

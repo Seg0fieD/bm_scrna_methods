@@ -10,6 +10,11 @@ Every stage is scored against something it was not given: the fixed cell-type
 labels, held-out donors, a second resource or method, or an external dataset.
 Negative results are reported alongside positive ones.
 
+**Methods:** Scanpy, Scrublet, CellTypist, scVI, GLM-PCA, cNMF, scib-metrics,
+decoupler (PROGENy, DoRothEA), gseapy, PAGA, Palantir, CellRank, scFates,
+velocyto, scVelo, LIANA, Scaden and a PyTorch reimplementation, on 38,430 cells
+from eight donors.
+
 <a href="figures/annotate/annotate/umap_cell_type.png"><img src="figures/annotate/annotate/umap_cell_type.png" width="760" alt="38,430 cells from eight donors, annotated into 19 cell types"></a><br><sub>38,430 cells from eight donors, annotated into 19 cell types</sub>
 
 ## Summary of findings
@@ -421,6 +426,10 @@ All figures: [`figures/deconvolution/`](figures/deconvolution/) · tables: [`res
   uses sorted populations and in-silico mixtures (RNA shares, not cell shares).
 - Velocity fit quality is low (median likelihood 0.05-0.08); the defining
   genes of the progenitor lineages do not fit the kinetic model.
+- No ambient RNA correction was applied; ambient haemoglobin is visible in
+  some donors and may inflate erythroid signal in other cell types.
+- Cell-cycle effects were not scored or regressed out; proliferation drives
+  one terminal state in the trajectory analysis.
 - Settings outside the documented choices (learning rate, network size, number
   of signalling programmes) were not swept.
 
@@ -444,21 +453,99 @@ data/       the annotated dataset (Git LFS); raw data not included
 | Cell-cell communication | `src/cell_cell_communication` | [`scrna_bm_cell_cell_communication.ipynb`](notebooks/scrna_bm_cell_cell_communication.ipynb) |
 | Deconvolution | `src/deconvolution` | [`scrna_bm_deconvolution.ipynb`](notebooks/scrna_bm_deconvolution.ipynb) |
 
-**Environments** (conda; pins in `envs/constraints.txt`, full package lists in
-`envs/`):
+**Environments.** Three conda environments, one file each in `envs/`:
 
-- `sc_core` (Python 3.13) - the main stack: scanpy, scVI, scVelo, CellRank,
-  Palantir, LIANA, decoupler, gseapy, PyTorch.
-- `sc_deconv` (Python 3.11) - Scaden and TensorFlow, kept separate.
-- `rna_velo` (Python 3.11) - velocyto, for spliced and unspliced counts.
-
-**Running.** Every script runs as a plain file from the repository root, for
-example `python src/benchmark/emb_pca.py`. Later stages read only
-`data/processed/bm_annotated.h5ad`:
+| environment | Python | used for | file |
+|---|---|---|---|
+| `sc_core` | 3.13 | every script except the three below; scanpy, scVI, scVelo, CellRank, Palantir, LIANA, decoupler, gseapy, PyTorch | `envs/sc_core.yml` |
+| `sc_deconv` | 3.11 | Scaden (TensorFlow): `scaden_check`, `scaden_fit`, `scaden_weights` | `envs/sc_deconv.yml` |
+| `rna_velo` | 3.11 | velocyto, for spliced and unspliced counts | `envs/rna_velo.yml` |
 
 ```bash
-git lfs install && git lfs pull
+conda env create -f envs/sc_core.yml
+conda env create -f envs/sc_deconv.yml
+conda env create -f envs/rna_velo.yml
+conda run -n rna_velo python -m pip install velocyto==0.17.17 --no-build-isolation
 ```
+
+`sc_core.yml` installs PyTorch for CUDA 12.6; on a machine without an NVIDIA
+GPU, change `torch==2.14.0+cu126` to `torch==2.14.0` and remove the
+`--extra-index-url` line. scVI and the PyTorch Scaden model run on the GPU.
+Full package lists of the working environments are in `envs/*.txt`.
+
+## Reproducing the analysis
+
+### Data
+
+The annotated dataset that every stage after the core pipeline reads
+(`data/processed/bm_annotated.h5ad`, 207 MB) is on Zenodo:
+
+```bash
+mkdir -p data/processed
+curl -L -o data/processed/bm_annotated.h5ad "https://zenodo.org/records/<RECORD_ID>/files/bm_annotated.h5ad?download=1"
+md5sum data/processed/bm_annotated.h5ad   # <MD5>
+```
+
+Raw count matrices: the eight `MantonBM<1-8>_HiSeq_1_raw_feature_bc_matrix.h5`
+files of the [HCA Census of Immune Cells](https://data.humancellatlas.org/explore/projects/cc95ff89-2e68-4a08-a234-480eca21ce79)
+project, listed with download links in `data/raw/hca_manifest.tsv`:
+
+```bash
+while read -r name url; do curl -L -o "data/raw/$name" "$url"; done < data/raw/hca_manifest.tsv
+```
+
+External files for deconvolution and RNA velocity:
+
+```bash
+mkdir -p data/external/deconvolution data/external/velocity_reference
+curl -L -o data/external/deconvolution/GSE74246_RNAseq_All_Counts.txt.gz \
+    https://ftp.ncbi.nlm.nih.gov/geo/series/GSE74nnn/GSE74246/suppl/GSE74246_RNAseq_All_Counts.txt.gz
+curl -L -o data/external/deconvolution/refGene_hg19.txt.gz \
+    https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz
+curl -L https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_27/gencode.v27.primary_assembly.annotation.gtf.gz \
+    | gunzip > data/external/velocity_reference/gencode.v27.primary_assembly.annotation.gtf
+curl -L https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/rmsk.txt.gz | gunzip \
+    | awk 'BEGIN{OFS="\t"} {print $6, "rmsk", "exon", $7 + 1, $8, ".", $10, ".", "gene_id \"" $11 "\"; transcript_id \"" $11 "\";"}' \
+    > data/external/velocity_reference/hg38_rmsk.gtf
+```
+
+RNA velocity also needs the eight HCA BAM files (about 74 GB in total). Their
+download links and checksums are listed in
+`data/raw/velocity_bam/bam_manifest.tsv`. Gene set libraries and
+ligand-receptor resources are downloaded and cached on first use.
+
+### Run order
+
+Every script runs as a plain file from the repository root, for example
+`python src/qc/qc_metrics.py`, in the order below. All run in `sc_core`
+except where marked.
+
+| stage | scripts, in order |
+|---|---|
+| Core pipeline | `load_data/load_data` -> `qc/qc_metrics` -> `qc/qc_filter` -> `qc/doublets` -> `qc/doublet_plot` -> `qc/doublet_filter` -> `preprocess/preprocess` -> `preprocess/pca` -> `cluster/cluster` -> `cluster/markers` -> `annotate/annotate` -> `annotate/celltypist_check` -> `annotate/core_pipeline_report` |
+| Benchmark | `emb_pca`, `emb_pearson`, `emb_glmpca`, `emb_scvi`, `emb_cnmf` (any order) -> `emb_diffmap` -> `run_graph` -> `run_score` -> `benchmark_report` |
+| Pathway | `de_celltype` -> `ora_markers`, `gsea_ranked`, `act_progeny`, `act_dorothea`, `ora_cnmf_programs` (any order) -> `pathway_report` |
+| Trajectory | `paga_topology` -> `pt_palantir` -> `pt_cellrank` -> `fate_drivers` -> `gene_trends` -> `lineage_diagnostics` -> `trajectory_report` -> `trajectory_backbone` -> `principal_graph` |
+| RNA velocity | `velocity_barcodes` -> `velocyto run` per lane (`rna_velo`) -> `velocity_counts` -> `velocity_scvelo` -> `velocity_progenitor` |
+| Cell-cell communication | `lr_rank` -> `lr_methods`, `lr_donors`, `lr_pathways`, `lr_patterns` (any order) -> `cell_communication_report` |
+| Deconvolution | `scaden_check` (`sc_deconv`) -> `pseudobulk_train` -> `pseudobulk_test` -> `scaden_fit` (`sc_deconv`) -> `scaden_weights` (`sc_deconv`) -> `scaden_torch_fit` -> `pseudobulk_score` -> `donor_diagnostics` -> `scaden_torch_loss` -> `scaden_torch_variants` -> `variant_score` -> `corces_bulk` -> `scaden_torch_bulk counts` -> `scaden_torch_bulk length` -> `bulk_score` |
+
+`annotate.py` and `celltypist_check.py` overwrite `bm_annotated.h5ad`; skip
+the core pipeline when starting from the Zenodo file. `emb_cnmf` must run
+before `ora_cnmf_programs`. velocyto is run once per lane:
+
+```bash
+for lane in MantonBM1 MantonBM2 MantonBM3 MantonBM4 MantonBM5 MantonBM6 MantonBM7 MantonBM8; do
+    velocyto run -b results/trajectory/velocity_barcodes/velocity_barcodes_${lane}.tsv \
+        -o data/interim/velocity_loom -e ${lane} \
+        -m data/external/velocity_reference/hg38_rmsk.gtf \
+        data/raw/velocity_bam/${lane}.bam \
+        data/external/velocity_reference/gencode.v27.primary_assembly.annotation.gtf
+done
+```
+
+The notebooks read the saved tables and figures only; run them in `sc_core`
+with `python -m nbconvert --to notebook --execute --inplace notebooks/<name>.ipynb`.
 
 ## References
 
